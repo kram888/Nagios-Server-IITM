@@ -1,0 +1,321 @@
+[1686249000] LOG ROTATION: DAILY
+[1686249000] LOG VERSION: 2.0
+[1686249000] CURRENT HOST STATE: AP_Main_Bldg;DOWN;HARD;10;CRITICAL - Host Unreachable (10.3.1.25)
+[1686249000] CURRENT HOST STATE: Director_Bldg;DOWN;HARD;10;CRITICAL - Host Unreachable (10.3.1.10)
+[1686249000] CURRENT HOST STATE: Director_Resident;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.35 ms
+[1686249000] CURRENT HOST STATE: Switch_29;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.80 ms
+[1686249000] CURRENT HOST STATE: Switch_30;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 5.28 ms
+[1686249000] CURRENT HOST STATE: Switch_31;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1686249000] CURRENT HOST STATE: Switch_32;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.78 ms
+[1686249000] CURRENT HOST STATE: Switch_33;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.77 ms
+[1686249000] CURRENT HOST STATE: Switch_34;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 2.18 ms
+[1686249000] CURRENT HOST STATE: esxi01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.36 ms
+[1686249000] CURRENT HOST STATE: esxi02;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1686249000] CURRENT HOST STATE: esxi03;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.45 ms
+[1686249000] CURRENT HOST STATE: esxi04;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1686249000] CURRENT HOST STATE: esxi05;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.31 ms
+[1686249000] CURRENT HOST STATE: esxi06;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.45 ms
+[1686249000] CURRENT HOST STATE: esxi07;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1686249000] CURRENT HOST STATE: esxi08;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.34 ms
+[1686249000] CURRENT HOST STATE: esxi09;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1686249000] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+[1686249000] CURRENT HOST STATE: vmware10gswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.44 ms
+[1686249000] CURRENT HOST STATE: vmwaremgmtswitch;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.39)
+[1686249000] CURRENT SERVICE STATE: AP_Main_Bldg;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.3.1.25)
+[1686249000] CURRENT SERVICE STATE: Director_Bldg;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.3.1.10)
+[1686249000] CURRENT SERVICE STATE: Director_Resident;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.31 ms
+[1686249000] CURRENT SERVICE STATE: Switch_29;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.85 ms
+[1686249000] CURRENT SERVICE STATE: Switch_30;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.57 ms
+[1686249000] CURRENT SERVICE STATE: Switch_31;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.35 ms
+[1686249000] CURRENT SERVICE STATE: Switch_32;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.08 ms
+[1686249000] CURRENT SERVICE STATE: Switch_33;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 2.74 ms
+[1686249000] CURRENT SERVICE STATE: Switch_34;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.78 ms
+[1686249000] CURRENT SERVICE STATE: esxi01;ESXi Hardware Check;CRITICAL;HARD;3;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686249000] CURRENT SERVICE STATE: esxi01;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1686249000] CURRENT SERVICE STATE: esxi02;ESXi Hardware Check;CRITICAL;HARD;3;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686249000] CURRENT SERVICE STATE: esxi02;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.39 ms
+[1686249000] CURRENT SERVICE STATE: esxi03;ESXi Hardware Check;CRITICAL;HARD;3;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686249000] CURRENT SERVICE STATE: esxi03;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1686249000] CURRENT SERVICE STATE: esxi04;ESXi Hardware Check;CRITICAL;HARD;3;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH20177WVC Chassis S/N: FCH2018V06M  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686249000] CURRENT SERVICE STATE: esxi04;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1686249000] CURRENT SERVICE STATE: esxi05;ESXi Hardware Check;CRITICAL;HARD;3;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686249000] CURRENT SERVICE STATE: esxi05;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1686249000] CURRENT SERVICE STATE: esxi06;ESXi Haradware Check;CRITICAL;HARD;3;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686249000] CURRENT SERVICE STATE: esxi06;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.52 ms
+[1686249000] CURRENT SERVICE STATE: esxi07;ESXi Hardware Check;CRITICAL;HARD;3;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686249000] CURRENT SERVICE STATE: esxi07;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.54 ms
+[1686249000] CURRENT SERVICE STATE: esxi08;ESXi Hardware Check;CRITICAL;HARD;3;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686249000] CURRENT SERVICE STATE: esxi08;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1686249000] CURRENT SERVICE STATE: esxi09;ESXi Hardware Check;CRITICAL;HARD;3;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686249000] CURRENT SERVICE STATE: esxi09;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1686249000] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.08, 0.03, 0.01
+[1686249000] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1686249000] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+[1686249000] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 40356 MB (78.85% inode=99%):
+[1686249000] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1686249000] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1686249000] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 109 processes with STATE = RSZDT
+[1686249000] CURRENT SERVICE STATE: vmware10gswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.35 ms
+[1686249000] CURRENT SERVICE STATE: vmwaremgmtswitch;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.39)
+[1686249017] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686249301] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686249301] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH20177WVC Chassis S/N: FCH2018V06M  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686249302] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686249303] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686249305] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686249306] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686249307] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686249311] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686249365] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686250551] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686251165] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686252023] Auto-save of retention data completed successfully.
+[1686252351] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686252617] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686252901] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH20177WVC Chassis S/N: FCH2018V06M  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686252902] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686252903] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686252906] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686252907] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686252912] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686252965] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686253500] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686253504] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686254151] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686254765] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686255321] HOST ALERT: Director_Resident;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.26)
+[1686255350] SERVICE ALERT: Director_Resident;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.26)
+[1686255384] HOST ALERT: Director_Resident;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.26)
+[1686255447] HOST ALERT: Director_Resident;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.26)
+[1686255510] HOST ALERT: Director_Resident;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.26)
+[1686255573] HOST ALERT: Director_Resident;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.26)
+[1686255623] Auto-save of retention data completed successfully.
+[1686255636] HOST ALERT: Director_Resident;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.26)
+[1686255699] HOST ALERT: Director_Resident;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.26)
+[1686255762] HOST ALERT: Director_Resident;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.26)
+[1686255825] HOST ALERT: Director_Resident;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.26)
+[1686255888] HOST NOTIFICATION: nagiosadmin;Director_Resident;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.26)
+[1686255888] HOST ALERT: Director_Resident;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.26)
+[1686255951] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686256217] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686256501] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH20177WVC Chassis S/N: FCH2018V06M  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686256503] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686256507] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686256507] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686256565] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686257100] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686257104] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686257104] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686257111] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686257691] HOST NOTIFICATION: nagiosadmin;Director_Resident;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.26)
+[1686257751] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686258365] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686259192] HOST NOTIFICATION: nagiosadmin;Director_Resident;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.34 ms
+[1686259192] HOST ALERT: Director_Resident;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.34 ms
+[1686259223] Auto-save of retention data completed successfully.
+[1686259551] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686259551] SERVICE ALERT: Director_Resident;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1686259817] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686260102] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH20177WVC Chassis S/N: FCH2018V06M  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686260103] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686260108] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686260165] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686260700] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686260704] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686260707] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686260727] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686261302] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686261351] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686261965] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686262823] Auto-save of retention data completed successfully.
+[1686263152] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686263418] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686263702] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH20177WVC Chassis S/N: FCH2018V06M  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686263703] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686263708] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686263765] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686264302] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686264305] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686264902] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686264907] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686264911] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686265243] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686265565] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686266423] Auto-save of retention data completed successfully.
+[1686267043] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686267302] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH20177WVC Chassis S/N: FCH2018V06M  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686267303] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686267365] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686267617] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686267905] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686267908] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686268500] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686268502] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686268507] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686268511] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686268843] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686269165] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686270023] Auto-save of retention data completed successfully.
+[1686270643] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686270902] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH20177WVC Chassis S/N: FCH2018V06M  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686270903] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686270965] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686271217] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686271508] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686272100] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686272103] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686272105] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686272107] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686272111] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686272443] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686272765] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686273623] Auto-save of retention data completed successfully.
+[1686274243] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686274503] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686274565] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686274818] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686275101] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH20177WVC Chassis S/N: FCH2018V06M  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686275108] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686275700] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686275705] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686275707] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686275711] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686276043] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686276302] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686276365] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686277191] HOST ALERT: Director_Resident;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.26)
+[1686277223] Auto-save of retention data completed successfully.
+[1686277254] HOST ALERT: Director_Resident;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.26)
+[1686277317] HOST ALERT: Director_Resident;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.26)
+[1686277381] HOST ALERT: Director_Resident;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.29 ms
+[1686277843] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686278103] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686278165] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686278702] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH20177WVC Chassis S/N: FCH2018V06M  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686278708] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686279018] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686279301] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686279305] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686279312] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686279643] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686279902] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686279907] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686279965] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686280823] Auto-save of retention data completed successfully.
+[1686281443] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686281704] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686281765] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686282618] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686282902] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH20177WVC Chassis S/N: FCH2018V06M  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686282908] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686282912] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686283243] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686283500] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686283502] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686283505] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686283565] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686284107] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686284423] Auto-save of retention data completed successfully.
+[1686285043] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686285365] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1686285903] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686286502] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH20177WVC Chassis S/N: FCH2018V06M  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686286508] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686286817] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686286843] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686287101] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686287102] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686287105] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686287111] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686287166] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 2.23 ms
+[1686287166] HOST ALERT: vmwaremgmtswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 2.23 ms
+[1686287440] SERVICE ALERT: vmwaremgmtswitch;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.78 ms
+[1686287707] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;CRITICAL;notify-service-by-email;WARNING : Power Module (DC-to-DC) 0 PS_RDNDNT_MODE  CRITICAL : Power Supply 1 PSU1_STATUS: Power Supply AC lost  - Server:  Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686287880] HOST ALERT: Director_Resident;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.26)
+[1686287943] HOST ALERT: Director_Resident;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.26)
+[1686288006] HOST ALERT: Director_Resident;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.26)
+[1686288023] Auto-save of retention data completed successfully.
+[1686288069] HOST ALERT: Director_Resident;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.26)
+[1686288132] HOST ALERT: Director_Resident;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.26)
+[1686288195] HOST ALERT: Director_Resident;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.26)
+[1686288259] HOST ALERT: Director_Resident;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.26)
+[1686288322] HOST ALERT: Director_Resident;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.26)
+[1686288350] SERVICE ALERT: Director_Resident;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.26)
+[1686288385] HOST ALERT: Director_Resident;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.26)
+[1686288448] HOST NOTIFICATION: nagiosadmin;Director_Resident;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.26)
+[1686288448] HOST ALERT: Director_Resident;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.26)
+[1686288643] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686289217] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;OK;notify-service-by-email;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686289217] SERVICE ALERT: esxi01;ESXi Hardware Check;OK;HARD;3;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686289267] SERVICE ALERT: vmwaremgmtswitch;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1686289292] wproc: Core Worker 1324: job 159954 (pid=22386) timed out. Killing it
+[1686289292] wproc: CHECK job 159954 from worker Core Worker 1324 timed out after 30.03s
+[1686289292] wproc:   host=vmwaremgmtswitch; service=(null);
+[1686289292] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1686289292] Warning: Check of host 'vmwaremgmtswitch' timed out after 30.03 seconds
+[1686289292] HOST ALERT: vmwaremgmtswitch;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1686289293] wproc: Core Worker 1324: job 159954 (pid=22386): Dormant child reaped
+[1686289355] HOST ALERT: vmwaremgmtswitch;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.39)
+[1686289390] SERVICE ALERT: vmwaremgmtswitch;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.1.1.39)
+[1686289419] HOST ALERT: vmwaremgmtswitch;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.39)
+[1686289482] HOST ALERT: vmwaremgmtswitch;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.39)
+[1686289500] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;OK;notify-service-by-email;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686289500] SERVICE ALERT: esxi02;ESXi Hardware Check;OK;HARD;3;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686289501] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;OK;notify-service-by-email;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH20177WVC Chassis S/N: FCH2018V06M  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686289501] SERVICE ALERT: esxi04;ESXi Hardware Check;OK;HARD;3;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH20177WVC Chassis S/N: FCH2018V06M  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686289502] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;OK;notify-service-by-email;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686289502] SERVICE ALERT: esxi08;ESXi Hardware Check;OK;HARD;3;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686289503] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;OK;notify-service-by-email;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686289503] SERVICE ALERT: esxi09;ESXi Hardware Check;OK;HARD;3;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686289504] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;OK;notify-service-by-email;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686289504] SERVICE ALERT: esxi03;ESXi Hardware Check;OK;HARD;3;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686289507] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;OK;notify-service-by-email;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686289507] SERVICE ALERT: esxi07;ESXi Hardware Check;OK;HARD;3;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686289508] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;OK;notify-service-by-email;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686289508] SERVICE ALERT: esxi06;ESXi Haradware Check;OK;HARD;3;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686289511] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;OK;notify-service-by-email;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686289511] SERVICE ALERT: esxi05;ESXi Hardware Check;OK;HARD;3;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1686289546] HOST ALERT: vmwaremgmtswitch;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 2.98 ms
+[1686289991] SERVICE ALERT: vmwaremgmtswitch;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 2.03 ms
+[1686290251] HOST NOTIFICATION: nagiosadmin;Director_Resident;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.26)
+[1686290443] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686290751] SERVICE ALERT: Director_Resident;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.30 ms
+[1686290755] HOST NOTIFICATION: nagiosadmin;Director_Resident;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.28 ms
+[1686290755] HOST ALERT: Director_Resident;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.28 ms
+[1686291623] Auto-save of retention data completed successfully.
+[1686292243] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686294043] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686295223] Auto-save of retention data completed successfully.
+[1686295844] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686297651] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686298823] Auto-save of retention data completed successfully.
+[1686299451] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686301251] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686302423] Auto-save of retention data completed successfully.
+[1686303051] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686304851] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686306023] Auto-save of retention data completed successfully.
+[1686306651] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686308451] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686309623] Auto-save of retention data completed successfully.
+[1686310251] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686312051] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686313223] Auto-save of retention data completed successfully.
+[1686313851] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686315651] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686316823] Auto-save of retention data completed successfully.
+[1686317452] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686319551] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686320423] Auto-save of retention data completed successfully.
+[1686321351] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686323151] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686324023] Auto-save of retention data completed successfully.
+[1686324951] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686326751] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686327623] Auto-save of retention data completed successfully.
+[1686328551] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686330351] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686331223] Auto-save of retention data completed successfully.
+[1686332151] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686333951] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1686334823] Auto-save of retention data completed successfully.

@@ -1,0 +1,293 @@
+[1745605800] LOG ROTATION: DAILY
+[1745605800] LOG VERSION: 2.0
+[1745605800] CURRENT HOST STATE: AP_Main_Bldg;DOWN;HARD;10;CRITICAL - Host Unreachable (10.3.1.25)
+[1745605800] CURRENT HOST STATE: Director_Bldg;DOWN;HARD;10;CRITICAL - Host Unreachable (10.3.1.10)
+[1745605800] CURRENT HOST STATE: Director_Resident;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.33 ms
+[1745605800] CURRENT HOST STATE: Switch_29;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1745605800] CURRENT HOST STATE: Switch_30;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.30)
+[1745605800] CURRENT HOST STATE: Switch_31;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1745605800] CURRENT HOST STATE: Switch_32;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.35 ms
+[1745605800] CURRENT HOST STATE: Switch_33;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.81 ms
+[1745605800] CURRENT HOST STATE: Switch_34;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.19 ms
+[1745605800] CURRENT HOST STATE: esxi01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.42 ms
+[1745605800] CURRENT HOST STATE: esxi02;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.55 ms
+[1745605800] CURRENT HOST STATE: esxi03;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.72 ms
+[1745605800] CURRENT HOST STATE: esxi04;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1745605800] CURRENT HOST STATE: esxi05;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.48 ms
+[1745605800] CURRENT HOST STATE: esxi06;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.41 ms
+[1745605800] CURRENT HOST STATE: esxi07;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.48 ms
+[1745605800] CURRENT HOST STATE: esxi08;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1745605800] CURRENT HOST STATE: esxi09;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.76 ms
+[1745605800] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.07 ms
+[1745605800] CURRENT HOST STATE: vmware10gswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.44 ms
+[1745605800] CURRENT HOST STATE: vmwaremgmtswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.14 ms
+[1745605800] CURRENT SERVICE STATE: AP_Main_Bldg;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.3.1.25)
+[1745605800] CURRENT SERVICE STATE: Director_Bldg;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.3.1.10)
+[1745605800] CURRENT SERVICE STATE: Director_Resident;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 4.55 ms
+[1745605800] CURRENT SERVICE STATE: Switch_29;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.39 ms
+[1745605800] CURRENT SERVICE STATE: Switch_30;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.30)
+[1745605800] CURRENT SERVICE STATE: Switch_31;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 2.51 ms
+[1745605800] CURRENT SERVICE STATE: Switch_32;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.42 ms
+[1745605800] CURRENT SERVICE STATE: Switch_33;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 5.90 ms
+[1745605800] CURRENT SERVICE STATE: Switch_34;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 3.91 ms
+[1745605800] CURRENT SERVICE STATE: esxi01;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1745605800] CURRENT SERVICE STATE: esxi01;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.42 ms
+[1745605800] CURRENT SERVICE STATE: esxi02;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1745605800] CURRENT SERVICE STATE: esxi02;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.32 ms
+[1745605800] CURRENT SERVICE STATE: esxi03;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1745605800] CURRENT SERVICE STATE: esxi03;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.71 ms
+[1745605800] CURRENT SERVICE STATE: esxi04;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745605800] CURRENT SERVICE STATE: esxi04;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.55 ms
+[1745605800] CURRENT SERVICE STATE: esxi05;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745605800] CURRENT SERVICE STATE: esxi05;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1745605800] CURRENT SERVICE STATE: esxi06;ESXi Haradware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745605800] CURRENT SERVICE STATE: esxi06;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.25 ms
+[1745605800] CURRENT SERVICE STATE: esxi07;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745605800] CURRENT SERVICE STATE: esxi07;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.70 ms
+[1745605800] CURRENT SERVICE STATE: esxi08;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1745605800] CURRENT SERVICE STATE: esxi08;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1745605800] CURRENT SERVICE STATE: esxi09;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1745605800] CURRENT SERVICE STATE: esxi09;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.50 ms
+[1745605800] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.00, 0.00
+[1745605800] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1745605800] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1745605800] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 39877 MB (77.92% inode=99%):
+[1745605800] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1745605800] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1745605800] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 101 processes with STATE = RSZDT
+[1745605800] CURRENT SERVICE STATE: vmware10gswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 11.92 ms
+[1745605800] CURRENT SERVICE STATE: vmwaremgmtswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 4.05 ms
+[1745606042] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745607395] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745607531] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745607659] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745607843] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745608732] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745609195] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745609331] Auto-save of retention data completed successfully.
+[1745609331] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745609942] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745610995] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745611131] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745611259] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745611742] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745612332] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745612795] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745612931] Auto-save of retention data completed successfully.
+[1745612931] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745613542] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745614595] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745614731] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745614859] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745615342] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745615932] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745616395] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745616531] Auto-save of retention data completed successfully.
+[1745616532] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745617142] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745618195] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745618331] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745618459] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745618942] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745619532] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745619995] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745620131] Auto-save of retention data completed successfully.
+[1745620132] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745620742] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745621795] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745621932] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745621973] wproc: Core Worker 1346: job 6564 (pid=30293) timed out. Killing it
+[1745621973] wproc: Core Worker 1346: job 16521168 with pid 30293 reaped at timeout. timeouts=2; started=6565
+[1745622059] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745622542] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745623132] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745623595] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745623731] Auto-save of retention data completed successfully.
+[1745623732] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745624342] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745625395] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745625659] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745626131] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745626142] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745626733] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745627195] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745627331] Auto-save of retention data completed successfully.
+[1745627333] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745627942] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745628995] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745629259] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745629731] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745629742] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745630795] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745630931] Auto-save of retention data completed successfully.
+[1745630932] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745631532] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745631542] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745632595] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745632859] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745633331] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745633342] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745634396] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745634531] Auto-save of retention data completed successfully.
+[1745634532] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745635132] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745635142] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745636342] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745636459] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745636931] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745636942] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745638131] Auto-save of retention data completed successfully.
+[1745638132] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745638142] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745638732] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745638742] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745639970] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745640059] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745640531] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745640542] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745641731] Auto-save of retention data completed successfully.
+[1745641732] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745641770] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745642332] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745642342] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745643570] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745643659] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745644131] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745644142] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745645331] Auto-save of retention data completed successfully.
+[1745645332] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745645495] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745645932] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745645942] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745647012] SERVICE ALERT: esxi04;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1745647035] wproc: Core Worker 1349: job 7535 (pid=21580) timed out. Killing it
+[1745647035] wproc: CHECK job 7535 from worker Core Worker 1349 timed out after 30.03s
+[1745647035] wproc:   host=esxi04; service=(null);
+[1745647035] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745647035] Warning: Check of host 'esxi04' timed out after 30.03 seconds
+[1745647035] HOST ALERT: esxi04;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1745647035] wproc: Core Worker 1349: job 7535 (pid=21580): Dormant child reaped
+[1745647083] SERVICE ALERT: esxi04;PING;CRITICAL;HARD;4;CRITICAL - Plugin timed out
+[1745647125] wproc: Core Worker 1349: job 7536 (pid=21604) timed out. Killing it
+[1745647125] wproc: CHECK job 7536 from worker Core Worker 1349 timed out after 30.02s
+[1745647125] wproc:   host=esxi04; service=(null);
+[1745647125] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745647125] Warning: Check of host 'esxi04' timed out after 30.02 seconds
+[1745647125] HOST ALERT: esxi04;DOWN;SOFT;2;(Host check timed out after 30.02 seconds)
+[1745647125] wproc: Core Worker 1349: job 7536 (pid=21604): Dormant child reaped
+[1745647189] HOST ALERT: esxi04;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1745647259] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745647295] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745647376] SERVICE ALERT: esxi04;PING;OK;HARD;4;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1745647731] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745647742] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745648931] Auto-save of retention data completed successfully.
+[1745648932] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745649095] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745649533] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745649542] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745650859] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745650895] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745651331] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745651342] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745652531] Auto-save of retention data completed successfully.
+[1745652532] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745652695] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745653142] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745653732] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745654459] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745654495] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745654931] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745654942] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745656131] Auto-save of retention data completed successfully.
+[1745656132] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745656295] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745656742] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745657332] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745658059] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745658095] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745658531] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745658542] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745659731] Auto-save of retention data completed successfully.
+[1745659732] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745659895] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745660342] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745660933] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745661659] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745661695] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745662131] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745662142] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745663331] Auto-save of retention data completed successfully.
+[1745663332] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745663495] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745663942] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745665132] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745665259] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745665295] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745665731] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745665742] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745666931] Auto-save of retention data completed successfully.
+[1745666932] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745667095] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745667542] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745668732] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745668860] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745668895] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745669331] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745669342] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745670531] Auto-save of retention data completed successfully.
+[1745670532] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745670695] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745671142] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745672332] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745672495] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745672931] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745672942] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745673059] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745674131] Auto-save of retention data completed successfully.
+[1745674132] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745674295] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745674742] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745675932] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745676095] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745676531] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745676542] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745676659] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745677731] Auto-save of retention data completed successfully.
+[1745677732] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745677895] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745678342] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745679532] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745679695] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745680132] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745680142] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745680260] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745681331] Auto-save of retention data completed successfully.
+[1745681332] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745681495] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745681942] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745683295] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745683731] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745683742] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745684331] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745684459] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745684931] Auto-save of retention data completed successfully.
+[1745684932] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745685095] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745685542] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745686895] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745687332] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745687342] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745687931] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745688059] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745688531] Auto-save of retention data completed successfully.
+[1745688532] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745688695] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745689142] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745690495] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745690942] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745691531] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745691531] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745691659] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745692131] Auto-save of retention data completed successfully.
+[1745692132] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')

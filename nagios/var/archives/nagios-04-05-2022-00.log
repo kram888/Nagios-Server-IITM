@@ -1,0 +1,547 @@
+[1649010600] LOG ROTATION: DAILY
+[1649010600] LOG VERSION: 2.0
+[1649010600] CURRENT HOST STATE: AP_Main_Bldg;DOWN;HARD;10;CRITICAL - Host Unreachable (10.3.1.25)
+[1649010600] CURRENT HOST STATE: Director_Bldg;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.50 ms
+[1649010600] CURRENT HOST STATE: Director_Resident;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 3.49 ms
+[1649010600] CURRENT HOST STATE: Switch_29;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.83 ms
+[1649010600] CURRENT HOST STATE: Switch_30;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 3.46 ms
+[1649010600] CURRENT HOST STATE: Switch_31;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.29 ms
+[1649010600] CURRENT HOST STATE: Switch_32;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.39 ms
+[1649010600] CURRENT HOST STATE: Switch_33;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.76 ms
+[1649010600] CURRENT HOST STATE: Switch_34;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 3.94 ms
+[1649010600] CURRENT HOST STATE: esxi01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1649010600] CURRENT HOST STATE: esxi02;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1649010600] CURRENT HOST STATE: esxi03;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1649010600] CURRENT HOST STATE: esxi04;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.42 ms
+[1649010600] CURRENT HOST STATE: esxi05;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1649010600] CURRENT HOST STATE: esxi06;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.31 ms
+[1649010600] CURRENT HOST STATE: esxi07;DOWN;HARD;10;(Host check timed out after 30.03 seconds)
+[1649010600] CURRENT HOST STATE: esxi08;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.82 ms
+[1649010600] CURRENT HOST STATE: esxi09;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.72 ms
+[1649010600] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+[1649010600] CURRENT HOST STATE: vmware10gswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.11 ms
+[1649010600] CURRENT HOST STATE: vmwaremgmtswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 3.91 ms
+[1649010600] CURRENT SERVICE STATE: AP_Main_Bldg;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.3.1.25)
+[1649010600] CURRENT SERVICE STATE: Director_Bldg;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.56 ms
+[1649010600] CURRENT SERVICE STATE: Director_Resident;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.29 ms
+[1649010600] CURRENT SERVICE STATE: Switch_29;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.83 ms
+[1649010600] CURRENT SERVICE STATE: Switch_30;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 2.38 ms
+[1649010600] CURRENT SERVICE STATE: Switch_31;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.29 ms
+[1649010600] CURRENT SERVICE STATE: Switch_32;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.31 ms
+[1649010600] CURRENT SERVICE STATE: Switch_33;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.71 ms
+[1649010600] CURRENT SERVICE STATE: Switch_34;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.37 ms
+[1649010600] CURRENT SERVICE STATE: esxi01;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649010600] CURRENT SERVICE STATE: esxi01;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1649010600] CURRENT SERVICE STATE: esxi02;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649010600] CURRENT SERVICE STATE: esxi02;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.42 ms
+[1649010600] CURRENT SERVICE STATE: esxi03;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649010600] CURRENT SERVICE STATE: esxi03;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1649010600] CURRENT SERVICE STATE: esxi04;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QKB Chassis S/N: FCH2216V0YZ  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649010600] CURRENT SERVICE STATE: esxi04;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1649010600] CURRENT SERVICE STATE: esxi05;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649010600] CURRENT SERVICE STATE: esxi05;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1649010600] CURRENT SERVICE STATE: esxi06;ESXi Haradware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649010600] CURRENT SERVICE STATE: esxi06;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.27 ms
+[1649010600] CURRENT SERVICE STATE: esxi07;ESXi Hardware Check;CRITICAL;HARD;3;(Service check timed out after 60.01 seconds)
+[1649010600] CURRENT SERVICE STATE: esxi07;PING;CRITICAL;HARD;4;CRITICAL - Plugin timed out
+[1649010600] CURRENT SERVICE STATE: esxi08;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649010600] CURRENT SERVICE STATE: esxi08;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.10 ms
+[1649010600] CURRENT SERVICE STATE: esxi09;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649010600] CURRENT SERVICE STATE: esxi09;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1649010600] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.06, 0.06, 0.02
+[1649010600] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1649010600] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+[1649010600] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 42446 MB (82.94% inode=99%):
+[1649010600] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1649010600] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1649010600] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 113 processes with STATE = RSZDT
+[1649010600] CURRENT SERVICE STATE: vmware10gswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.27 ms
+[1649010600] CURRENT SERVICE STATE: vmwaremgmtswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 3.93 ms
+[1649010779] wproc: Core Worker 1355: job 151 (pid=5217) timed out. Killing it
+[1649010779] wproc: CHECK job 151 from worker Core Worker 1355 timed out after 30.03s
+[1649010779] wproc:   host=esxi07; service=(null);
+[1649010779] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649010779] Warning: Check of host 'esxi07' timed out after 30.03 seconds
+[1649010779] wproc: Core Worker 1355: job 151 (pid=5217): Dormant child reaped
+[1649010904] Auto-save of retention data completed successfully.
+[1649010909] SERVICE ALERT: esxi08;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.74 ms
+[1649010964] wproc: Core Worker 1355: job 157 (pid=5297) timed out. Killing it
+[1649010964] wproc: CHECK job 157 from worker Core Worker 1355 timed out after 60.02s
+[1649010964] wproc:   host=esxi07; service=ESXi Hardware Check;
+[1649010964] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649010964] Warning: Check of service 'ESXi Hardware Check' on host 'esxi07' timed out after 60.017s!
+[1649010964] wproc: Core Worker 1355: job 157 (pid=5297): Dormant child reaped
+[1649010973] SERVICE ALERT: esxi08;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 2.02 ms
+[1649011079] wproc: Core Worker 1353: job 166 (pid=5506) timed out. Killing it
+[1649011079] wproc: CHECK job 166 from worker Core Worker 1353 timed out after 30.02s
+[1649011079] wproc:   host=esxi07; service=(null);
+[1649011079] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649011079] Warning: Check of host 'esxi07' timed out after 30.02 seconds
+[1649011079] wproc: Core Worker 1353: job 166 (pid=5506): Dormant child reaped
+[1649011379] wproc: Core Worker 1353: job 175 (pid=5766) timed out. Killing it
+[1649011379] wproc: CHECK job 175 from worker Core Worker 1353 timed out after 30.03s
+[1649011379] wproc:   host=esxi07; service=(null);
+[1649011379] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649011379] Warning: Check of host 'esxi07' timed out after 30.03 seconds
+[1649011379] wproc: Core Worker 1353: job 175 (pid=5766): Dormant child reaped
+[1649011564] wproc: Core Worker 1356: job 180 (pid=5843) timed out. Killing it
+[1649011564] wproc: CHECK job 180 from worker Core Worker 1356 timed out after 60.01s
+[1649011564] wproc:   host=esxi07; service=ESXi Hardware Check;
+[1649011564] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649011564] Warning: Check of service 'ESXi Hardware Check' on host 'esxi07' timed out after 60.009s!
+[1649011564] wproc: Core Worker 1356: job 180 (pid=5843): Dormant child reaped
+[1649011679] wproc: Core Worker 1353: job 189 (pid=6051) timed out. Killing it
+[1649011679] wproc: CHECK job 189 from worker Core Worker 1353 timed out after 30.02s
+[1649011679] wproc:   host=esxi07; service=(null);
+[1649011679] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649011679] Warning: Check of host 'esxi07' timed out after 30.02 seconds
+[1649011679] wproc: Core Worker 1353: job 189 (pid=6051): Dormant child reaped
+[1649012117] SERVICE FLAPPING ALERT: esxi07;ESXi Hardware Check;STARTED; Service appears to have started flapping (21.8% change >= 20.0% threshold)
+[1649012117] SERVICE ALERT: esxi07;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 113] No route to host')
+[1649012184] SERVICE ALERT: esxi01;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.47 ms
+[1649012190] SERVICE ALERT: esxi04;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.39 ms
+[1649012248] SERVICE ALERT: esxi01;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1649012254] SERVICE ALERT: esxi04;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1649012879] wproc: Core Worker 1354: job 235 (pid=7147) timed out. Killing it
+[1649012879] wproc: CHECK job 235 from worker Core Worker 1354 timed out after 30.03s
+[1649012879] wproc:   host=esxi07; service=(null);
+[1649012879] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649012879] Warning: Check of host 'esxi07' timed out after 30.03 seconds
+[1649012880] wproc: Core Worker 1354: job 235 (pid=7147): Dormant child reaped
+[1649014504] Auto-save of retention data completed successfully.
+[1649014979] wproc: Core Worker 1354: job 313 (pid=9086) timed out. Killing it
+[1649014979] wproc: CHECK job 313 from worker Core Worker 1354 timed out after 30.03s
+[1649014979] wproc:   host=esxi07; service=(null);
+[1649014979] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649014979] Warning: Check of host 'esxi07' timed out after 30.03 seconds
+[1649014980] wproc: Core Worker 1354: job 313 (pid=9086): Dormant child reaped
+[1649015580] wproc: Core Worker 1354: job 336 (pid=9632) timed out. Killing it
+[1649015580] wproc: CHECK job 336 from worker Core Worker 1354 timed out after 30.03s
+[1649015580] wproc:   host=esxi07; service=(null);
+[1649015580] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649015580] Warning: Check of host 'esxi07' timed out after 30.03 seconds
+[1649015580] wproc: Core Worker 1354: job 336 (pid=9632): Dormant child reaped
+[1649017509] SERVICE ALERT: esxi06;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.27 ms
+[1649017573] SERVICE ALERT: esxi06;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.29 ms
+[1649018104] Auto-save of retention data completed successfully.
+[1649019325] SERVICE FLAPPING ALERT: esxi03;ESXi Hardware Check;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)
+[1649019325] SERVICE FLAPPING ALERT: esxi05;ESXi Hardware Check;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)
+[1649019348] SERVICE FLAPPING ALERT: esxi01;ESXi Hardware Check;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)
+[1649019351] SERVICE FLAPPING ALERT: esxi02;ESXi Hardware Check;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)
+[1649019352] SERVICE FLAPPING ALERT: esxi04;ESXi Hardware Check;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)
+[1649021704] Auto-save of retention data completed successfully.
+[1649021710] SERVICE FLAPPING ALERT: esxi07;ESXi Hardware Check;STOPPED; Service appears to have stopped flapping (4.1% change < 5.0% threshold)
+[1649023980] wproc: Core Worker 1356: job 659 (pid=17418) timed out. Killing it
+[1649023980] wproc: CHECK job 659 from worker Core Worker 1356 timed out after 30.03s
+[1649023980] wproc:   host=esxi07; service=(null);
+[1649023980] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649023980] Warning: Check of host 'esxi07' timed out after 30.03 seconds
+[1649023980] wproc: Core Worker 1356: job 659 (pid=17418): Dormant child reaped
+[1649024914] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.37 ms
+[1649024978] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1649025304] Auto-save of retention data completed successfully.
+[1649026079] wproc: Core Worker 1353: job 743 (pid=19379) timed out. Killing it
+[1649026079] wproc: CHECK job 743 from worker Core Worker 1353 timed out after 30.03s
+[1649026079] wproc:   host=esxi07; service=(null);
+[1649026079] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649026079] Warning: Check of host 'esxi07' timed out after 30.03 seconds
+[1649026079] wproc: Core Worker 1353: job 743 (pid=19379): Dormant child reaped
+[1649028904] Auto-save of retention data completed successfully.
+[1649032504] Auto-save of retention data completed successfully.
+[1649036104] Auto-save of retention data completed successfully.
+[1649037343] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.99 ms
+[1649037407] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.32 ms
+[1649038080] wproc: Core Worker 1356: job 1203 (pid=30449) timed out. Killing it
+[1649038080] wproc: CHECK job 1203 from worker Core Worker 1356 timed out after 30.03s
+[1649038080] wproc:   host=esxi07; service=(null);
+[1649038080] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649038080] Warning: Check of host 'esxi07' timed out after 30.03 seconds
+[1649038080] wproc: Core Worker 1356: job 1203 (pid=30449): Dormant child reaped
+[1649038672] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.33 ms
+[1649038736] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1649039704] Auto-save of retention data completed successfully.
+[1649040179] wproc: Core Worker 1353: job 1282 (pid=32377) timed out. Killing it
+[1649040179] wproc: CHECK job 1282 from worker Core Worker 1353 timed out after 30.03s
+[1649040179] wproc:   host=esxi07; service=(null);
+[1649040179] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649040179] Warning: Check of host 'esxi07' timed out after 30.03 seconds
+[1649040179] wproc: Core Worker 1353: job 1282 (pid=32377): Dormant child reaped
+[1649042279] wproc: Core Worker 1353: job 1365 (pid=2156) timed out. Killing it
+[1649042279] wproc: CHECK job 1365 from worker Core Worker 1353 timed out after 30.02s
+[1649042279] wproc:   host=esxi07; service=(null);
+[1649042279] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649042279] Warning: Check of host 'esxi07' timed out after 30.02 seconds
+[1649042279] wproc: Core Worker 1353: job 1365 (pid=2156): Dormant child reaped
+[1649043076] HOST NOTIFICATION: nagiosadmin;esxi07;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.5.5.57)
+[1649043304] Auto-save of retention data completed successfully.
+[1649044979] wproc: Core Worker 1355: job 1466 (pid=4638) timed out. Killing it
+[1649044979] wproc: CHECK job 1466 from worker Core Worker 1355 timed out after 30.03s
+[1649044979] wproc:   host=esxi07; service=(null);
+[1649044979] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649044979] Warning: Check of host 'esxi07' timed out after 30.03 seconds
+[1649044979] wproc: Core Worker 1355: job 1466 (pid=4638): Dormant child reaped
+[1649046904] Auto-save of retention data completed successfully.
+[1649049179] wproc: Core Worker 1355: job 1627 (pid=8500) timed out. Killing it
+[1649049179] wproc: CHECK job 1627 from worker Core Worker 1355 timed out after 30.02s
+[1649049179] wproc:   host=esxi07; service=(null);
+[1649049179] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649049179] Warning: Check of host 'esxi07' timed out after 30.02 seconds
+[1649049179] wproc: Core Worker 1355: job 1627 (pid=8500): Dormant child reaped
+[1649049779] wproc: Core Worker 1355: job 1650 (pid=9043) timed out. Killing it
+[1649049779] wproc: CHECK job 1650 from worker Core Worker 1355 timed out after 30.03s
+[1649049779] wproc:   host=esxi07; service=(null);
+[1649049779] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649049779] Warning: Check of host 'esxi07' timed out after 30.03 seconds
+[1649049779] wproc: Core Worker 1355: job 1650 (pid=9043): Dormant child reaped
+[1649050201] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.38 ms
+[1649050266] SERVICE ALERT: esxi03;PING;WARNING;SOFT;2;PING WARNING - Packet loss = 20%, RTA = 0.38 ms
+[1649050277] HOST NOTIFICATION: nagiosadmin;esxi07;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.5.5.57)
+[1649050330] SERVICE ALERT: esxi03;PING;OK;SOFT;3;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1649050504] Auto-save of retention data completed successfully.
+[1649050879] SERVICE ALERT: esxi07;PING;OK;HARD;4;PING OK - Packet loss = 0%, RTA = 0.48 ms
+[1649050883] HOST NOTIFICATION: nagiosadmin;esxi07;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1649050883] HOST ALERT: esxi07;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1649051115] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;OK;notify-service-by-email;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649051115] SERVICE ALERT: esxi07;ESXi Hardware Check;OK;HARD;3;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649052086] SERVICE ALERT: esxi07;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1649052109] wproc: Core Worker 1355: job 1742 (pid=11271) timed out. Killing it
+[1649052109] wproc: CHECK job 1742 from worker Core Worker 1355 timed out after 30.00s
+[1649052109] wproc:   host=esxi07; service=(null);
+[1649052109] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649052109] Warning: Check of host 'esxi07' timed out after 30.00 seconds
+[1649052109] HOST ALERT: esxi07;DOWN;SOFT;1;(Host check timed out after 30.00 seconds)
+[1649052110] wproc: Core Worker 1355: job 1742 (pid=11271): Dormant child reaped
+[1649052150] SERVICE ALERT: esxi07;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.39 ms
+[1649052154] HOST ALERT: esxi07;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.39 ms
+[1649053695] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.43 ms
+[1649053760] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1649053825] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.38 ms
+[1649053889] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.33 ms
+[1649054104] Auto-save of retention data completed successfully.
+[1649054315] SERVICE ALERT: esxi07;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.51 ms
+[1649054379] SERVICE ALERT: esxi07;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1649055454] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.43 ms
+[1649055518] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.39 ms
+[1649055525] SERVICE ALERT: esxi04;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1649055555] wproc: Core Worker 1353: job 1877 (pid=14429) timed out. Killing it
+[1649055555] wproc: CHECK job 1877 from worker Core Worker 1353 timed out after 30.03s
+[1649055555] wproc:   host=esxi04; service=(null);
+[1649055555] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649055555] Warning: Check of host 'esxi04' timed out after 30.03 seconds
+[1649055555] HOST ALERT: esxi04;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1649055556] wproc: Core Worker 1353: job 1877 (pid=14429): Dormant child reaped
+[1649055596] SERVICE ALERT: esxi04;PING;CRITICAL;HARD;4;CRITICAL - Plugin timed out
+[1649055645] wproc: Core Worker 1356: job 1881 (pid=14634) timed out. Killing it
+[1649055645] wproc: CHECK job 1881 from worker Core Worker 1356 timed out after 30.01s
+[1649055645] wproc:   host=esxi04; service=(null);
+[1649055645] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649055645] Warning: Check of host 'esxi04' timed out after 30.01 seconds
+[1649055645] HOST ALERT: esxi04;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1649055646] wproc: Core Worker 1356: job 1881 (pid=14634): Dormant child reaped
+[1649055709] HOST ALERT: esxi04;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.42 ms
+[1649055889] SERVICE ALERT: esxi04;PING;OK;HARD;4;PING OK - Packet loss = 0%, RTA = 0.58 ms
+[1649056119] SERVICE ALERT: esxi01;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1649056149] wproc: Core Worker 1356: job 1900 (pid=14988) timed out. Killing it
+[1649056149] wproc: CHECK job 1900 from worker Core Worker 1356 timed out after 30.03s
+[1649056149] wproc:   host=esxi01; service=(null);
+[1649056149] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649056149] Warning: Check of host 'esxi01' timed out after 30.03 seconds
+[1649056149] HOST ALERT: esxi01;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1649056150] wproc: Core Worker 1356: job 1900 (pid=14988): Dormant child reaped
+[1649056190] SERVICE ALERT: esxi01;PING;CRITICAL;HARD;4;CRITICAL - Plugin timed out
+[1649056239] wproc: Core Worker 1355: job 1905 (pid=15050) timed out. Killing it
+[1649056239] wproc: CHECK job 1905 from worker Core Worker 1355 timed out after 30.03s
+[1649056239] wproc:   host=esxi01; service=(null);
+[1649056239] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649056239] Warning: Check of host 'esxi01' timed out after 30.03 seconds
+[1649056239] HOST ALERT: esxi01;DOWN;SOFT;2;(Host check timed out after 30.03 seconds)
+[1649056240] wproc: Core Worker 1355: job 1905 (pid=15050): Dormant child reaped
+[1649056330] wproc: Core Worker 1354: job 1907 (pid=15221) timed out. Killing it
+[1649056330] wproc: CHECK job 1907 from worker Core Worker 1354 timed out after 30.03s
+[1649056330] wproc:   host=esxi01; service=(null);
+[1649056330] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649056330] Warning: Check of host 'esxi01' timed out after 30.03 seconds
+[1649056330] HOST ALERT: esxi01;DOWN;SOFT;3;(Host check timed out after 30.03 seconds)
+[1649056330] wproc: Core Worker 1354: job 1907 (pid=15221): Dormant child reaped
+[1649056394] HOST ALERT: esxi01;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1649056483] SERVICE ALERT: esxi01;PING;OK;HARD;4;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1649056890] SERVICE ALERT: esxi02;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1649056921] wproc: Core Worker 1354: job 1930 (pid=15780) timed out. Killing it
+[1649056921] wproc: CHECK job 1930 from worker Core Worker 1354 timed out after 30.01s
+[1649056921] wproc:   host=esxi02; service=(null);
+[1649056921] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649056921] Warning: Check of host 'esxi02' timed out after 30.01 seconds
+[1649056921] HOST ALERT: esxi02;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1649056921] wproc: Core Worker 1354: job 1930 (pid=15780): Dormant child reaped
+[1649056962] SERVICE ALERT: esxi02;PING;CRITICAL;HARD;4;CRITICAL - Plugin timed out
+[1649057011] wproc: Core Worker 1354: job 1932 (pid=15805) timed out. Killing it
+[1649057011] wproc: CHECK job 1932 from worker Core Worker 1354 timed out after 30.01s
+[1649057011] wproc:   host=esxi02; service=(null);
+[1649057011] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649057011] Warning: Check of host 'esxi02' timed out after 30.01 seconds
+[1649057011] HOST ALERT: esxi02;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1649057011] wproc: Core Worker 1354: job 1932 (pid=15805): Dormant child reaped
+[1649057075] HOST ALERT: esxi02;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.50 ms
+[1649057255] SERVICE ALERT: esxi02;PING;OK;HARD;4;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1649057704] Auto-save of retention data completed successfully.
+[1649058376] wproc: Core Worker 1353: job 1988 (pid=17184) timed out. Killing it
+[1649058376] wproc: CHECK job 1988 from worker Core Worker 1353 timed out after 60.02s
+[1649058376] wproc:   host=esxi05; service=ESXi Hardware Check;
+[1649058376] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649058376] Warning: Check of service 'ESXi Hardware Check' on host 'esxi05' timed out after 60.015s!
+[1649058376] SERVICE ALERT: esxi05;ESXi Hardware Check;CRITICAL;SOFT;1;(Service check timed out after 60.02 seconds)
+[1649058376] wproc: Core Worker 1353: job 1988 (pid=17184): Dormant child reaped
+[1649058383] SERVICE ALERT: esxi05;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1649058406] wproc: Core Worker 1353: job 1991 (pid=17210) timed out. Killing it
+[1649058406] wproc: CHECK job 1991 from worker Core Worker 1353 timed out after 30.03s
+[1649058406] wproc:   host=esxi05; service=(null);
+[1649058406] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649058406] Warning: Check of host 'esxi05' timed out after 30.03 seconds
+[1649058406] HOST ALERT: esxi05;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1649058407] wproc: Core Worker 1353: job 1991 (pid=17210): Dormant child reaped
+[1649058454] SERVICE ALERT: esxi05;PING;CRITICAL;HARD;4;CRITICAL - Plugin timed out
+[1649058496] wproc: Core Worker 1356: job 1993 (pid=17239) timed out. Killing it
+[1649058496] wproc: CHECK job 1993 from worker Core Worker 1356 timed out after 30.03s
+[1649058496] wproc:   host=esxi05; service=(null);
+[1649058496] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649058496] Warning: Check of host 'esxi05' timed out after 30.03 seconds
+[1649058496] HOST ALERT: esxi05;DOWN;SOFT;2;(Host check timed out after 30.03 seconds)
+[1649058497] wproc: Core Worker 1356: job 1993 (pid=17239): Dormant child reaped
+[1649058556] wproc: Core Worker 1353: job 1994 (pid=17252) timed out. Killing it
+[1649058556] wproc: CHECK job 1994 from worker Core Worker 1353 timed out after 60.02s
+[1649058556] wproc:   host=esxi05; service=ESXi Hardware Check;
+[1649058556] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649058556] Warning: Check of service 'ESXi Hardware Check' on host 'esxi05' timed out after 60.022s!
+[1649058556] SERVICE ALERT: esxi05;ESXi Hardware Check;CRITICAL;HARD;3;(Service check timed out after 60.02 seconds)
+[1649058556] wproc: Core Worker 1353: job 1994 (pid=17252): Dormant child reaped
+[1649058560] HOST ALERT: esxi05;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.39 ms
+[1649058747] SERVICE ALERT: esxi05;PING;OK;HARD;4;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1649058910] HOST ALERT: esxi06;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.5.5.56)
+[1649058925] SERVICE ALERT: esxi06;ESXi Haradware Check;UNKNOWN;HARD;1;UNKNOWN: (0, 'Socket error: [Errno 113] No route to host')
+[1649058971] HOST ALERT: esxi06;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.5.5.56)
+[1649059032] HOST ALERT: esxi06;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.5.5.56)
+[1649059035] SERVICE ALERT: esxi06;PING;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.5.5.56)
+[1649059093] HOST ALERT: esxi06;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.5.5.56)
+[1649059107] SERVICE ALERT: esxi05;ESXi Hardware Check;OK;HARD;3;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649059154] HOST ALERT: esxi06;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.5.5.56)
+[1649059218] HOST ALERT: esxi06;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1649059337] SERVICE ALERT: esxi06;PING;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1649059483] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.40 ms
+[1649059530] SERVICE ALERT: esxi06;ESXi Haradware Check;OK;SOFT;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649059547] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.49 ms
+[1649059813] wproc: Core Worker 1355: job 2043 (pid=18393) timed out. Killing it
+[1649059813] wproc: CHECK job 2043 from worker Core Worker 1355 timed out after 30.01s
+[1649059813] wproc:   host=esxi03; service=(null);
+[1649059813] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649059813] Warning: Check of host 'esxi03' timed out after 30.01 seconds
+[1649059813] HOST ALERT: esxi03;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1649059813] wproc: Core Worker 1355: job 2043 (pid=18393): Dormant child reaped
+[1649059903] wproc: Core Worker 1355: job 2048 (pid=18594) timed out. Killing it
+[1649059903] wproc: CHECK job 2048 from worker Core Worker 1355 timed out after 30.03s
+[1649059903] wproc:   host=esxi03; service=(null);
+[1649059903] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649059903] Warning: Check of host 'esxi03' timed out after 30.03 seconds
+[1649059903] HOST ALERT: esxi03;DOWN;SOFT;2;(Host check timed out after 30.03 seconds)
+[1649059903] wproc: Core Worker 1355: job 2048 (pid=18594): Dormant child reaped
+[1649059918] SERVICE ALERT: esxi03;PING;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1649059993] wproc: Core Worker 1354: job 2050 (pid=18631) timed out. Killing it
+[1649059993] wproc: CHECK job 2050 from worker Core Worker 1354 timed out after 30.03s
+[1649059993] wproc:   host=esxi03; service=(null);
+[1649059993] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649059993] Warning: Check of host 'esxi03' timed out after 30.03 seconds
+[1649059993] HOST ALERT: esxi03;DOWN;SOFT;3;(Host check timed out after 30.03 seconds)
+[1649059993] wproc: Core Worker 1354: job 2050 (pid=18631): Dormant child reaped
+[1649060055] HOST ALERT: esxi03;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.5.5.53)
+[1649060120] HOST ALERT: esxi03;UP;SOFT;1;PING OK - Packet loss = 20%, RTA = 0.57 ms
+[1649060175] wproc: Core Worker 1355: job 2059 (pid=18867) timed out. Killing it
+[1649060175] wproc: CHECK job 2059 from worker Core Worker 1355 timed out after 60.03s
+[1649060175] wproc:   host=esxi03; service=ESXi Hardware Check;
+[1649060175] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649060175] Warning: Check of service 'ESXi Hardware Check' on host 'esxi03' timed out after 60.026s!
+[1649060175] SERVICE ALERT: esxi03;ESXi Hardware Check;CRITICAL;SOFT;1;(Service check timed out after 60.03 seconds)
+[1649060175] wproc: Core Worker 1355: job 2059 (pid=18867): Dormant child reaped
+[1649060211] SERVICE ALERT: esxi03;PING;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.64 ms
+[1649060306] SERVICE ALERT: esxi03;ESXi Hardware Check;OK;SOFT;2;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649061304] Auto-save of retention data completed successfully.
+[1649063544] SERVICE ALERT: esxi08;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1649063574] wproc: Core Worker 1356: job 2189 (pid=21987) timed out. Killing it
+[1649063574] wproc: CHECK job 2189 from worker Core Worker 1356 timed out after 30.03s
+[1649063574] wproc:   host=esxi08; service=(null);
+[1649063574] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649063574] Warning: Check of host 'esxi08' timed out after 30.03 seconds
+[1649063574] HOST ALERT: esxi08;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1649063574] wproc: Core Worker 1356: job 2189 (pid=21987): Dormant child reaped
+[1649063615] SERVICE ALERT: esxi08;PING;CRITICAL;HARD;4;CRITICAL - Plugin timed out
+[1649063664] wproc: Core Worker 1353: job 2191 (pid=22008) timed out. Killing it
+[1649063664] wproc: CHECK job 2191 from worker Core Worker 1353 timed out after 30.03s
+[1649063664] wproc:   host=esxi08; service=(null);
+[1649063664] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649063664] Warning: Check of host 'esxi08' timed out after 30.03 seconds
+[1649063664] HOST ALERT: esxi08;DOWN;SOFT;2;(Host check timed out after 30.03 seconds)
+[1649063665] wproc: Core Worker 1353: job 2191 (pid=22008): Dormant child reaped
+[1649063674] wproc: Core Worker 1355: job 2191 (pid=22011) timed out. Killing it
+[1649063674] wproc: CHECK job 2191 from worker Core Worker 1355 timed out after 30.01s
+[1649063674] wproc:   host=esxi09; service=(null);
+[1649063674] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649063674] Warning: Check of host 'esxi09' timed out after 30.01 seconds
+[1649063674] HOST ALERT: esxi09;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1649063674] wproc: Core Worker 1355: job 2191 (pid=22011): Dormant child reaped
+[1649063715] SERVICE ALERT: esxi09;PING;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1649063719] SERVICE ALERT: esxi08;ESXi Hardware Check;UNKNOWN;HARD;1;UNKNOWN: (0, 'Socket error: [Errno 113] No route to host')
+[1649063725] HOST ALERT: esxi08;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.5.5.58)
+[1649063764] wproc: Core Worker 1353: job 2200 (pid=22237) timed out. Killing it
+[1649063764] wproc: CHECK job 2200 from worker Core Worker 1353 timed out after 30.01s
+[1649063764] wproc:   host=esxi09; service=(null);
+[1649063764] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649063764] Warning: Check of host 'esxi09' timed out after 30.01 seconds
+[1649063764] HOST ALERT: esxi09;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1649063764] wproc: Core Worker 1353: job 2200 (pid=22237): Dormant child reaped
+[1649063777] wproc: Core Worker 1353: job 2199 (pid=22230) timed out. Killing it
+[1649063777] wproc: CHECK job 2199 from worker Core Worker 1353 timed out after 60.01s
+[1649063777] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649063777] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649063777] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.006s!
+[1649063777] SERVICE ALERT: esxi09;ESXi Hardware Check;CRITICAL;HARD;1;(Service check timed out after 60.01 seconds)
+[1649063777] wproc: Core Worker 1353: job 2199 (pid=22230): Dormant child reaped
+[1649063786] HOST ALERT: esxi08;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.5.5.58)
+[1649063847] HOST ALERT: esxi08;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.5.5.58)
+[1649063852] SERVICE ALERT: esxi05;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 40%, RTA = 0.39 ms
+[1649063854] wproc: Core Worker 1354: job 2203 (pid=22274) timed out. Killing it
+[1649063854] wproc: CHECK job 2203 from worker Core Worker 1354 timed out after 30.01s
+[1649063854] wproc:   host=esxi09; service=(null);
+[1649063854] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649063854] Warning: Check of host 'esxi09' timed out after 30.01 seconds
+[1649063854] HOST ALERT: esxi09;DOWN;SOFT;3;(Host check timed out after 30.01 seconds)
+[1649063854] wproc: Core Worker 1354: job 2203 (pid=22274): Dormant child reaped
+[1649063908] SERVICE ALERT: esxi08;PING;OK;HARD;4;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1649063911] HOST ALERT: esxi08;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.70 ms
+[1649063916] SERVICE ALERT: esxi05;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1649063917] HOST ALERT: esxi09;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.5.5.59)
+[1649063979] HOST ALERT: esxi09;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.5.5.59)
+[1649064040] HOST ALERT: esxi09;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.5.5.59)
+[1649064101] HOST ALERT: esxi09;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.5.5.59)
+[1649064165] HOST ALERT: esxi09;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1649064308] SERVICE ALERT: esxi09;PING;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.32 ms
+[1649064326] SERVICE ALERT: esxi08;ESXi Hardware Check;OK;SOFT;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649064328] SERVICE ALERT: esxi09;ESXi Hardware Check;OK;SOFT;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649064904] Auto-save of retention data completed successfully.
+[1649065861] SERVICE ALERT: esxi03;ESXi Hardware Check;UNKNOWN;SOFT;1;UNKNOWN: (0, 'Socket error: [Errno 113] No route to host')
+[1649065864] HOST ALERT: esxi03;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.5.5.53)
+[1649065907] SERVICE ALERT: esxi03;PING;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.5.5.53)
+[1649065925] HOST ALERT: esxi03;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.5.5.53)
+[1649065986] HOST ALERT: esxi03;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.5.5.53)
+[1649065986] SERVICE ALERT: esxi03;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 113] No route to host')
+[1649066047] HOST ALERT: esxi03;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.5.5.53)
+[1649066107] HOST ALERT: esxi03;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.5.5.53)
+[1649066168] HOST ALERT: esxi03;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.5.5.53)
+[1649066229] HOST ALERT: esxi03;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.5.5.53)
+[1649066293] HOST ALERT: esxi03;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 142.17 ms
+[1649066511] SERVICE ALERT: esxi03;PING;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1649066592] SERVICE ALERT: esxi03;ESXi Hardware Check;OK;HARD;3;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649067909] SERVICE ALERT: esxi09;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.34 ms
+[1649067973] SERVICE ALERT: esxi09;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1649068013] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.40 ms
+[1649068077] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.49 ms
+[1649068504] Auto-save of retention data completed successfully.
+[1649069081] SERVICE ALERT: esxi05;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.45 ms
+[1649069145] SERVICE ALERT: esxi05;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1649071142] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.46 ms
+[1649071207] SERVICE ALERT: esxi03;PING;WARNING;SOFT;2;PING WARNING - Packet loss = 20%, RTA = 0.45 ms
+[1649071271] SERVICE ALERT: esxi03;PING;OK;SOFT;3;PING OK - Packet loss = 0%, RTA = 0.50 ms
+[1649072104] Auto-save of retention data completed successfully.
+[1649073007] HOST ALERT: Director_Bldg;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.3.1.10)
+[1649073023] HOST ALERT: Director_Resident;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.26)
+[1649073070] HOST ALERT: Director_Bldg;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.3.1.10)
+[1649073086] HOST ALERT: Director_Resident;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.26)
+[1649073133] HOST ALERT: Director_Bldg;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.3.1.10)
+[1649073149] HOST ALERT: Director_Resident;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.26)
+[1649073160] SERVICE ALERT: esxi02;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.42 ms
+[1649073196] HOST ALERT: Director_Bldg;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.3.1.10)
+[1649073212] HOST ALERT: Director_Resident;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.26)
+[1649073224] SERVICE ALERT: esxi02;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1649073259] HOST ALERT: Director_Bldg;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.3.1.10)
+[1649073275] HOST ALERT: Director_Resident;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.26)
+[1649073307] SERVICE ALERT: Director_Resident;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.26)
+[1649073307] SERVICE ALERT: Director_Bldg;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.3.1.10)
+[1649073322] HOST ALERT: Director_Bldg;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.3.1.10)
+[1649073338] HOST ALERT: Director_Resident;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.26)
+[1649073385] HOST ALERT: Director_Bldg;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.3.1.10)
+[1649073401] HOST ALERT: Director_Resident;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.26)
+[1649073448] HOST ALERT: Director_Bldg;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.3.1.10)
+[1649073464] HOST ALERT: Director_Resident;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.26)
+[1649073511] HOST ALERT: Director_Bldg;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.3.1.10)
+[1649073527] HOST ALERT: Director_Resident;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.26)
+[1649073574] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1649073574] HOST ALERT: Director_Bldg;DOWN;HARD;10;CRITICAL - Host Unreachable (10.3.1.10)
+[1649073591] HOST ALERT: Director_Resident;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.29 ms
+[1649073878] HOST NOTIFICATION: nagiosadmin;Director_Bldg;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.54 ms
+[1649073878] HOST ALERT: Director_Bldg;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.54 ms
+[1649073908] SERVICE ALERT: Director_Resident;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.31 ms
+[1649073909] SERVICE ALERT: Director_Bldg;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 20%, RTA = 0.47 ms
+[1649075704] Auto-save of retention data completed successfully.
+[1649076736] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.50 ms
+[1649076801] SERVICE ALERT: esxi03;PING;WARNING;SOFT;2;PING WARNING - Packet loss = 20%, RTA = 0.32 ms
+[1649076826] SERVICE ALERT: esxi03;ESXi Hardware Check;UNKNOWN;SOFT;1;UNKNOWN:
+[1649076865] SERVICE ALERT: esxi03;PING;OK;SOFT;3;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1649076950] SERVICE ALERT: esxi06;ESXi Haradware Check;UNKNOWN;SOFT;1;UNKNOWN:
+[1649076971] SERVICE ALERT: esxi01;ESXi Hardware Check;UNKNOWN;SOFT;1;UNKNOWN:
+[1649076972] SERVICE ALERT: esxi04;ESXi Hardware Check;UNKNOWN;SOFT;1;UNKNOWN:
+[1649076972] SERVICE ALERT: esxi02;ESXi Hardware Check;UNKNOWN;SOFT;1;UNKNOWN:
+[1649076978] SERVICE ALERT: esxi03;ESXi Hardware Check;UNKNOWN;SOFT;2;UNKNOWN:
+[1649077101] SERVICE ALERT: esxi06;ESXi Haradware Check;UNKNOWN;SOFT;2;UNKNOWN:
+[1649077121] SERVICE ALERT: esxi01;ESXi Hardware Check;UNKNOWN;SOFT;2;UNKNOWN:
+[1649077122] SERVICE ALERT: esxi04;ESXi Hardware Check;UNKNOWN;SOFT;2;UNKNOWN:
+[1649077124] SERVICE ALERT: esxi02;ESXi Hardware Check;UNKNOWN;SOFT;2;UNKNOWN:
+[1649077130] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649077130] SERVICE ALERT: esxi03;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN:
+[1649077138] SERVICE ALERT: esxi05;ESXi Hardware Check;UNKNOWN;SOFT;1;UNKNOWN:
+[1649077252] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649077252] SERVICE ALERT: esxi06;ESXi Haradware Check;UNKNOWN;HARD;3;UNKNOWN:
+[1649077272] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649077272] SERVICE ALERT: esxi01;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN:
+[1649077274] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649077274] SERVICE ALERT: esxi04;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN:
+[1649077275] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649077275] SERVICE ALERT: esxi02;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN:
+[1649077288] SERVICE ALERT: esxi05;ESXi Hardware Check;UNKNOWN;SOFT;2;UNKNOWN:
+[1649077440] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649077440] SERVICE ALERT: esxi05;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN:
+[1649079304] Auto-save of retention data completed successfully.
+[1649080762] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649080883] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649080903] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649080904] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649080907] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649081071] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649082330] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.47 ms
+[1649082394] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.45 ms
+[1649082904] Auto-save of retention data completed successfully.
+[1649084362] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649084485] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649084503] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649084505] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649084671] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649084989] SERVICE ALERT: esxi02;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.41 ms
+[1649085053] SERVICE ALERT: esxi02;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1649085106] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649086504] Auto-save of retention data completed successfully.
+[1649088271] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649088561] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649088685] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649088704] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649088706] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649088707] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649090104] Auto-save of retention data completed successfully.
+[1649091871] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649092162] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649092304] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649092883] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649092905] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649092906] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649093704] Auto-save of retention data completed successfully.
+[1649095471] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649095762] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649096485] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649096503] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649096505] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649096506] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:

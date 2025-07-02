@@ -1,0 +1,515 @@
+[1539801000] LOG ROTATION: DAILY
+[1539801000] LOG VERSION: 2.0
+[1539801000] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1539801000] CURRENT HOST STATE: localhost.localdomain;DOWN;HARD;10;CRITICAL - Host Unreachable (10.5.5.15)
+[1539801000] CURRENT HOST STATE: router1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.86 ms
+[1539801000] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1539801000] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1539801000] CURRENT SERVICE STATE: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1539801000] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1539801000] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 46876 MB (91.59% inode=99%):
+[1539801000] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1539801000] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1539801000] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 80 processes with STATE = RSZDT
+[1539801000] CURRENT SERVICE STATE: localhost.localdomain;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1539801000] CURRENT SERVICE STATE: localhost.localdomain;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1539801000] CURRENT SERVICE STATE: localhost.localdomain;HTTP;CRITICAL;HARD;4;connect to address 10.5.5.15 and port 80: No route to host
+[1539801000] CURRENT SERVICE STATE: localhost.localdomain;PING;CRITICAL;HARD;4;CRITICAL - Host Unreachable (10.5.5.15)
+[1539801000] CURRENT SERVICE STATE: localhost.localdomain;Root Partition;OK;HARD;1;DISK OK - free space: / 46876 MB (91.59% inode=99%):
+[1539801000] CURRENT SERVICE STATE: localhost.localdomain;SSH;CRITICAL;HARD;4;connect to address 10.5.5.15 and port 22: No route to host
+[1539801000] CURRENT SERVICE STATE: localhost.localdomain;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1539801000] CURRENT SERVICE STATE: localhost.localdomain;Total Processes;OK;HARD;1;PROCS OK: 80 processes with STATE = RSZDT
+[1539801000] CURRENT SERVICE STATE: router1;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.92 ms
+[1539801000] CURRENT SERVICE STATE: router1;Port 1 Bandwidth Usage;UNKNOWN;HARD;3;check_mrtgtraf: Unable to open MRTG log file
+[1539801000] CURRENT SERVICE STATE: router1;Port 1 Link Status;CRITICAL;HARD;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539801000] CURRENT SERVICE STATE: router1;Uptime;CRITICAL;HARD;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539801207] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1539801207] wproc: NOTIFY job 1048 from worker Core Worker 19282 is a non-check helper but exited with return code 2
+[1539801207] wproc:   host=router1; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1539801207] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539801207] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539801207] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539801207] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539801260] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Link Status;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539801260] wproc: NOTIFY job 1050 from worker Core Worker 19284 is a non-check helper but exited with return code 2
+[1539801260] wproc:   host=router1; service=Port 1 Link Status; contact=nagiosadmin
+[1539801260] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539801260] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539801260] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539801260] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539801311] SERVICE NOTIFICATION: nagiosadmin;router1;Uptime;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539801311] wproc: NOTIFY job 1051 from worker Core Worker 19284 is a non-check helper but exited with return code 2
+[1539801311] wproc:   host=router1; service=Uptime; contact=nagiosadmin
+[1539801311] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539801311] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539801311] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539801311] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539802766] Auto-save of retention data completed successfully.
+[1539804807] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1539804807] wproc: NOTIFY job 1126 from worker Core Worker 19284 is a non-check helper but exited with return code 2
+[1539804807] wproc:   host=router1; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1539804807] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539804807] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539804807] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539804807] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539804860] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Link Status;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539804860] wproc: NOTIFY job 1127 from worker Core Worker 19283 is a non-check helper but exited with return code 2
+[1539804860] wproc:   host=router1; service=Port 1 Link Status; contact=nagiosadmin
+[1539804860] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539804860] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539804860] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539804860] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539804911] SERVICE NOTIFICATION: nagiosadmin;router1;Uptime;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539804911] wproc: NOTIFY job 1128 from worker Core Worker 19283 is a non-check helper but exited with return code 2
+[1539804911] wproc:   host=router1; service=Uptime; contact=nagiosadmin
+[1539804911] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539804911] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539804911] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539804911] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539806366] Auto-save of retention data completed successfully.
+[1539808407] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1539808407] wproc: NOTIFY job 1203 from worker Core Worker 19283 is a non-check helper but exited with return code 2
+[1539808407] wproc:   host=router1; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1539808407] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539808407] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539808407] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539808407] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539808460] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Link Status;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539808460] wproc: NOTIFY job 1204 from worker Core Worker 19285 is a non-check helper but exited with return code 2
+[1539808460] wproc:   host=router1; service=Port 1 Link Status; contact=nagiosadmin
+[1539808460] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539808460] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539808460] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539808460] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539808511] SERVICE NOTIFICATION: nagiosadmin;router1;Uptime;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539808511] wproc: NOTIFY job 1205 from worker Core Worker 19285 is a non-check helper but exited with return code 2
+[1539808511] wproc:   host=router1; service=Uptime; contact=nagiosadmin
+[1539808511] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539808511] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539808511] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539808511] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539809966] Auto-save of retention data completed successfully.
+[1539812007] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1539812007] wproc: NOTIFY job 1280 from worker Core Worker 19285 is a non-check helper but exited with return code 2
+[1539812007] wproc:   host=router1; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1539812007] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539812007] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539812007] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539812007] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539812060] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Link Status;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539812060] wproc: NOTIFY job 1281 from worker Core Worker 19282 is a non-check helper but exited with return code 2
+[1539812060] wproc:   host=router1; service=Port 1 Link Status; contact=nagiosadmin
+[1539812060] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539812060] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539812060] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539812060] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539812111] SERVICE NOTIFICATION: nagiosadmin;router1;Uptime;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539812111] wproc: NOTIFY job 1282 from worker Core Worker 19282 is a non-check helper but exited with return code 2
+[1539812111] wproc:   host=router1; service=Uptime; contact=nagiosadmin
+[1539812111] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539812111] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539812111] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539812111] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539813566] Auto-save of retention data completed successfully.
+[1539815607] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1539815607] wproc: NOTIFY job 1357 from worker Core Worker 19282 is a non-check helper but exited with return code 2
+[1539815607] wproc:   host=router1; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1539815607] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539815607] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539815607] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539815607] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539815660] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Link Status;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539815660] wproc: NOTIFY job 1359 from worker Core Worker 19284 is a non-check helper but exited with return code 2
+[1539815660] wproc:   host=router1; service=Port 1 Link Status; contact=nagiosadmin
+[1539815660] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539815660] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539815660] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539815660] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539815711] SERVICE NOTIFICATION: nagiosadmin;router1;Uptime;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539815711] wproc: NOTIFY job 1360 from worker Core Worker 19284 is a non-check helper but exited with return code 2
+[1539815711] wproc:   host=router1; service=Uptime; contact=nagiosadmin
+[1539815711] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539815711] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539815711] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539815711] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539817166] Auto-save of retention data completed successfully.
+[1539819207] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1539819207] wproc: NOTIFY job 1435 from worker Core Worker 19284 is a non-check helper but exited with return code 2
+[1539819207] wproc:   host=router1; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1539819207] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539819207] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539819207] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539819207] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539819260] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Link Status;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539819260] wproc: NOTIFY job 1436 from worker Core Worker 19283 is a non-check helper but exited with return code 2
+[1539819260] wproc:   host=router1; service=Port 1 Link Status; contact=nagiosadmin
+[1539819260] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539819260] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539819260] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539819260] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539819311] SERVICE NOTIFICATION: nagiosadmin;router1;Uptime;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539819311] wproc: NOTIFY job 1437 from worker Core Worker 19283 is a non-check helper but exited with return code 2
+[1539819311] wproc:   host=router1; service=Uptime; contact=nagiosadmin
+[1539819311] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539819311] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539819311] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539819311] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539820766] Auto-save of retention data completed successfully.
+[1539822807] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1539822807] wproc: NOTIFY job 1512 from worker Core Worker 19283 is a non-check helper but exited with return code 2
+[1539822807] wproc:   host=router1; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1539822807] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539822807] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539822807] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539822807] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539822860] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Link Status;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539822860] wproc: NOTIFY job 1513 from worker Core Worker 19285 is a non-check helper but exited with return code 2
+[1539822860] wproc:   host=router1; service=Port 1 Link Status; contact=nagiosadmin
+[1539822860] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539822860] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539822860] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539822860] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539822911] SERVICE NOTIFICATION: nagiosadmin;router1;Uptime;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539822911] wproc: NOTIFY job 1514 from worker Core Worker 19285 is a non-check helper but exited with return code 2
+[1539822911] wproc:   host=router1; service=Uptime; contact=nagiosadmin
+[1539822911] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539822911] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539822911] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539822911] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539824366] Auto-save of retention data completed successfully.
+[1539826407] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1539826407] wproc: NOTIFY job 1589 from worker Core Worker 19285 is a non-check helper but exited with return code 2
+[1539826407] wproc:   host=router1; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1539826407] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539826407] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539826407] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539826407] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539826460] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Link Status;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539826460] wproc: NOTIFY job 1590 from worker Core Worker 19282 is a non-check helper but exited with return code 2
+[1539826460] wproc:   host=router1; service=Port 1 Link Status; contact=nagiosadmin
+[1539826460] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539826460] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539826460] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539826460] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539826511] SERVICE NOTIFICATION: nagiosadmin;router1;Uptime;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539826511] wproc: NOTIFY job 1591 from worker Core Worker 19282 is a non-check helper but exited with return code 2
+[1539826511] wproc:   host=router1; service=Uptime; contact=nagiosadmin
+[1539826511] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539826511] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539826511] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539826511] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539827966] Auto-save of retention data completed successfully.
+[1539830007] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1539830007] wproc: NOTIFY job 1666 from worker Core Worker 19282 is a non-check helper but exited with return code 2
+[1539830007] wproc:   host=router1; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1539830007] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539830007] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539830007] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539830007] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539830060] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Link Status;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539830060] wproc: NOTIFY job 1668 from worker Core Worker 19284 is a non-check helper but exited with return code 2
+[1539830060] wproc:   host=router1; service=Port 1 Link Status; contact=nagiosadmin
+[1539830060] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539830060] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539830060] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539830060] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539830111] SERVICE NOTIFICATION: nagiosadmin;router1;Uptime;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539830111] wproc: NOTIFY job 1669 from worker Core Worker 19284 is a non-check helper but exited with return code 2
+[1539830111] wproc:   host=router1; service=Uptime; contact=nagiosadmin
+[1539830111] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539830111] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539830111] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539830111] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539831566] Auto-save of retention data completed successfully.
+[1539833455] HOST NOTIFICATION: nagiosadmin;localhost.localdomain;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.5.5.15)
+[1539833455] wproc: NOTIFY job 1740 from worker Core Worker 19283 is a non-check helper but exited with return code 2
+[1539833455] wproc:   host=localhost.localdomain; service=(none); contact=nagiosadmin
+[1539833455] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539833455] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539833455] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539833455] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539833607] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1539833607] wproc: NOTIFY job 1744 from worker Core Worker 19283 is a non-check helper but exited with return code 2
+[1539833607] wproc:   host=router1; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1539833607] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539833607] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539833607] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539833607] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539833660] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Link Status;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539833660] wproc: NOTIFY job 1745 from worker Core Worker 19285 is a non-check helper but exited with return code 2
+[1539833660] wproc:   host=router1; service=Port 1 Link Status; contact=nagiosadmin
+[1539833660] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539833660] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539833660] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539833660] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539833711] SERVICE NOTIFICATION: nagiosadmin;router1;Uptime;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539833711] wproc: NOTIFY job 1746 from worker Core Worker 19285 is a non-check helper but exited with return code 2
+[1539833711] wproc:   host=router1; service=Uptime; contact=nagiosadmin
+[1539833711] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539833711] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539833711] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539833711] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539835166] Auto-save of retention data completed successfully.
+[1539837207] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1539837207] wproc: NOTIFY job 1821 from worker Core Worker 19285 is a non-check helper but exited with return code 2
+[1539837207] wproc:   host=router1; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1539837207] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539837207] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539837207] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539837207] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539837260] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Link Status;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539837260] wproc: NOTIFY job 1822 from worker Core Worker 19282 is a non-check helper but exited with return code 2
+[1539837260] wproc:   host=router1; service=Port 1 Link Status; contact=nagiosadmin
+[1539837260] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539837260] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539837260] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539837260] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539837311] SERVICE NOTIFICATION: nagiosadmin;router1;Uptime;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539837311] wproc: NOTIFY job 1823 from worker Core Worker 19282 is a non-check helper but exited with return code 2
+[1539837311] wproc:   host=router1; service=Uptime; contact=nagiosadmin
+[1539837311] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539837311] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539837311] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539837311] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539837656] HOST NOTIFICATION: nagiosadmin;localhost.localdomain;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.56 ms
+[1539837656] HOST ALERT: localhost.localdomain;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.56 ms
+[1539837656] wproc: NOTIFY job 1831 from worker Core Worker 19283 is a non-check helper but exited with return code 2
+[1539837656] wproc:   host=localhost.localdomain; service=(none); contact=nagiosadmin
+[1539837656] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539837656] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539837656] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539837656] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539837790] SERVICE ALERT: localhost.localdomain;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 285 bytes in 0.019 second response time
+[1539837846] SERVICE NOTIFICATION: nagiosadmin;localhost.localdomain;PING;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.61 ms
+[1539837846] SERVICE ALERT: localhost.localdomain;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.61 ms
+[1539837846] wproc: NOTIFY job 1834 from worker Core Worker 19282 is a non-check helper but exited with return code 2
+[1539837846] wproc:   host=localhost.localdomain; service=PING; contact=nagiosadmin
+[1539837846] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539837846] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539837846] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539837846] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539837851] SERVICE ALERT: localhost.localdomain;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1539838766] Auto-save of retention data completed successfully.
+[1539840572] Caught SIGTERM, shutting down...
+[1539840572] Successfully shutdown... (PID=19281)
+[1539840586] Nagios 4.4.2 starting... (PID=1153)
+[1539840586] Local time is Thu Oct 18 10:59:46 IST 2018
+[1539840586] LOG VERSION: 2.0
+[1539840586] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1539840586] qh: core query handler registered
+[1539840586] qh: echo service query handler registered
+[1539840586] qh: help for the query handler registered
+[1539840586] wproc: Successfully registered manager as @wproc with query handler
+[1539840586] wproc: Registry request: name=Core Worker 1158;pid=1158
+[1539840586] wproc: Registry request: name=Core Worker 1157;pid=1157
+[1539840586] wproc: Registry request: name=Core Worker 1156;pid=1156
+[1539840586] wproc: Registry request: name=Core Worker 1155;pid=1155
+[1539840587] Successfully launched command file worker with pid 1614
+[1539840807] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1539840807] wproc: NOTIFY job 4 from worker Core Worker 1157 is a non-check helper but exited with return code 2
+[1539840807] wproc:   host=router1; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1539840807] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539840807] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539840807] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539840807] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539840860] SERVICE NOTIFICATION: nagiosadmin;router1;Port 1 Link Status;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539840860] wproc: NOTIFY job 5 from worker Core Worker 1156 is a non-check helper but exited with return code 2
+[1539840860] wproc:   host=router1; service=Port 1 Link Status; contact=nagiosadmin
+[1539840860] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539840860] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539840860] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539840860] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539840911] SERVICE NOTIFICATION: nagiosadmin;router1;Uptime;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1539840911] wproc: NOTIFY job 6 from worker Core Worker 1156 is a non-check helper but exited with return code 2
+[1539840911] wproc:   host=router1; service=Uptime; contact=nagiosadmin
+[1539840911] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1539840911] wproc:   stderr line 01: pratik.sharad@@locuz.com contains invalid @@ sequence
+[1539840911] wproc:   stderr line 02: Send options without primary recipient specified.
+[1539840911] wproc:   stderr line 03: Usage: mail -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1539842036] Caught SIGTERM, shutting down...
+[1539842036] Successfully shutdown... (PID=1153)
+[1539842049] Nagios 4.4.2 starting... (PID=1119)
+[1539842049] Local time is Thu Oct 18 11:24:09 IST 2018
+[1539842049] LOG VERSION: 2.0
+[1539842049] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1539842049] qh: core query handler registered
+[1539842049] qh: echo service query handler registered
+[1539842049] qh: help for the query handler registered
+[1539842049] wproc: Successfully registered manager as @wproc with query handler
+[1539842049] wproc: Registry request: name=Core Worker 1128;pid=1128
+[1539842049] wproc: Registry request: name=Core Worker 1129;pid=1129
+[1539842049] wproc: Registry request: name=Core Worker 1127;pid=1127
+[1539842049] wproc: Registry request: name=Core Worker 1126;pid=1126
+[1539842049] Successfully launched command file worker with pid 1136
+[1539842598] Caught SIGTERM, shutting down...
+[1539842598] Successfully shutdown... (PID=1119)
+[1539842598] Nagios 4.4.2 starting... (PID=2222)
+[1539842598] Local time is Thu Oct 18 11:33:18 IST 2018
+[1539842598] LOG VERSION: 2.0
+[1539842598] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1539842598] qh: core query handler registered
+[1539842598] qh: echo service query handler registered
+[1539842598] qh: help for the query handler registered
+[1539842598] wproc: Successfully registered manager as @wproc with query handler
+[1539842598] wproc: Registry request: name=Core Worker 2226;pid=2226
+[1539842598] wproc: Registry request: name=Core Worker 2223;pid=2223
+[1539842598] wproc: Registry request: name=Core Worker 2225;pid=2225
+[1539842598] wproc: Registry request: name=Core Worker 2224;pid=2224
+[1539842598] Successfully launched command file worker with pid 2229
+[1539842768] Caught SIGTERM, shutting down...
+[1539842768] Successfully shutdown... (PID=2222)
+[1539842902] Nagios 4.4.2 starting... (PID=2565)
+[1539842902] Local time is Thu Oct 18 11:38:22 IST 2018
+[1539842902] LOG VERSION: 2.0
+[1539842902] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1539842902] qh: core query handler registered
+[1539842902] qh: echo service query handler registered
+[1539842902] qh: help for the query handler registered
+[1539842902] wproc: Successfully registered manager as @wproc with query handler
+[1539842902] wproc: Registry request: name=Core Worker 2566;pid=2566
+[1539842902] wproc: Registry request: name=Core Worker 2567;pid=2567
+[1539842902] wproc: Registry request: name=Core Worker 2568;pid=2568
+[1539842902] wproc: Registry request: name=Core Worker 2569;pid=2569
+[1539842902] Warning: Duplicate definition found for hostgroup 'switches' (config file '/usr/local/nagios/etc/objects/switch2.cfg', starting on line 39)
+[1539842902] Error: Could not add object property in file '/usr/local/nagios/etc/objects/switch2.cfg' on line 41.
+[1539842902] Error: Invalid max_check_attempts value for host 'localhost'
+[1539842902] Error: Could not register host (config file '/usr/local/nagios/etc/objects/localhost.cfg', starting on line 21)
+[1539842902] Bailing out due to one or more errors encountered in the configuration files. Run Nagios from the command line with the -v option to verify your config before restarting. (PID=2565)
+[1539843938] Nagios 4.4.2 starting... (PID=2238)
+[1539843938] Local time is Thu Oct 18 11:55:38 IST 2018
+[1539843938] LOG VERSION: 2.0
+[1539843938] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1539843938] qh: core query handler registered
+[1539843938] qh: echo service query handler registered
+[1539843938] qh: help for the query handler registered
+[1539843938] wproc: Successfully registered manager as @wproc with query handler
+[1539843938] wproc: Registry request: name=Core Worker 2239;pid=2239
+[1539843938] wproc: Registry request: name=Core Worker 2241;pid=2241
+[1539843938] wproc: Registry request: name=Core Worker 2240;pid=2240
+[1539843938] wproc: Registry request: name=Core Worker 2242;pid=2242
+[1539843938] Error: Cannot open config file '/usr/local/nagios/etc/objects/switch2.cfg' for reading: No such file or directory
+[1539843938] Error: Invalid max_check_attempts value for host 'localhost'
+[1539843938] Error: Could not register host (config file '/usr/local/nagios/etc/objects/localhost.cfg', starting on line 21)
+[1539843938] Bailing out due to one or more errors encountered in the configuration files. Run Nagios from the command line with the -v option to verify your config before restarting. (PID=2238)
+[1539845181] Nagios 4.4.2 starting... (PID=2736)
+[1539845181] Local time is Thu Oct 18 12:16:21 IST 2018
+[1539845181] LOG VERSION: 2.0
+[1539845181] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1539845181] qh: core query handler registered
+[1539845181] qh: echo service query handler registered
+[1539845181] qh: help for the query handler registered
+[1539845181] wproc: Successfully registered manager as @wproc with query handler
+[1539845181] wproc: Registry request: name=Core Worker 2737;pid=2737
+[1539845181] wproc: Registry request: name=Core Worker 2738;pid=2738
+[1539845181] wproc: Registry request: name=Core Worker 2739;pid=2739
+[1539845181] wproc: Registry request: name=Core Worker 2740;pid=2740
+[1539845181] Successfully launched command file worker with pid 2743
+[1539845186] Caught SIGTERM, shutting down...
+[1539845186] Caught SIGTERM, shutting down...
+[1539845186] Caught SIGTERM, shutting down...
+[1539845186] Successfully shutdown... (PID=2736)
+[1539845186] Nagios 4.4.2 starting... (PID=2762)
+[1539845186] Local time is Thu Oct 18 12:16:26 IST 2018
+[1539845186] LOG VERSION: 2.0
+[1539845186] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1539845186] qh: core query handler registered
+[1539845186] qh: echo service query handler registered
+[1539845186] qh: help for the query handler registered
+[1539845186] wproc: Successfully registered manager as @wproc with query handler
+[1539845186] wproc: Registry request: name=Core Worker 2763;pid=2763
+[1539845186] wproc: Registry request: name=Core Worker 2765;pid=2765
+[1539845186] wproc: Registry request: name=Core Worker 2764;pid=2764
+[1539845186] wproc: Registry request: name=Core Worker 2766;pid=2766
+[1539845186] Successfully launched command file worker with pid 2769
+[1539845918] Caught SIGTERM, shutting down...
+[1539845918] Caught SIGTERM, shutting down...
+[1539845918] Caught SIGTERM, shutting down...
+[1539845918] Successfully shutdown... (PID=2762)
+[1539847237] Nagios 4.4.2 starting... (PID=4422)
+[1539847237] Local time is Thu Oct 18 12:50:37 IST 2018
+[1539847237] LOG VERSION: 2.0
+[1539847237] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1539847237] qh: core query handler registered
+[1539847237] qh: echo service query handler registered
+[1539847237] qh: help for the query handler registered
+[1539847237] wproc: Successfully registered manager as @wproc with query handler
+[1539847237] wproc: Registry request: name=Core Worker 4426;pid=4426
+[1539847237] wproc: Registry request: name=Core Worker 4424;pid=4424
+[1539847237] wproc: Registry request: name=Core Worker 4423;pid=4423
+[1539847237] wproc: Registry request: name=Core Worker 4425;pid=4425
+[1539847237] Successfully launched command file worker with pid 4427
+[1539847413] Caught SIGTERM, shutting down...
+[1539847413] Caught SIGTERM, shutting down...
+[1539847413] Caught SIGTERM, shutting down...
+[1539847413] Successfully shutdown... (PID=4422)
+[1539847788] Nagios 4.4.2 starting... (PID=4668)
+[1539847788] Local time is Thu Oct 18 12:59:48 IST 2018
+[1539847788] LOG VERSION: 2.0
+[1539847788] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1539847788] qh: core query handler registered
+[1539847788] qh: echo service query handler registered
+[1539847788] qh: help for the query handler registered
+[1539847788] wproc: Successfully registered manager as @wproc with query handler
+[1539847788] wproc: Registry request: name=Core Worker 4672;pid=4672
+[1539847788] wproc: Registry request: name=Core Worker 4669;pid=4669
+[1539847788] wproc: Registry request: name=Core Worker 4671;pid=4671
+[1539847788] wproc: Registry request: name=Core Worker 4670;pid=4670
+[1539847789] Successfully launched command file worker with pid 4673
+[1539848242] Caught SIGTERM, shutting down...
+[1539848242] Caught SIGTERM, shutting down...
+[1539848242] Caught SIGTERM, shutting down...
+[1539848242] Successfully shutdown... (PID=4668)
+[1539848242] Nagios 4.4.2 starting... (PID=4928)
+[1539848242] Local time is Thu Oct 18 13:07:22 IST 2018
+[1539848242] LOG VERSION: 2.0
+[1539848242] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1539848242] qh: core query handler registered
+[1539848242] qh: echo service query handler registered
+[1539848242] qh: help for the query handler registered
+[1539848242] wproc: Successfully registered manager as @wproc with query handler
+[1539848242] wproc: Registry request: name=Core Worker 4930;pid=4930
+[1539848242] wproc: Registry request: name=Core Worker 4929;pid=4929
+[1539848242] wproc: Registry request: name=Core Worker 4932;pid=4932
+[1539848242] wproc: Registry request: name=Core Worker 4931;pid=4931
+[1539848242] Successfully launched command file worker with pid 4933
+[1539848252] Caught SIGTERM, shutting down...
+[1539848252] Caught SIGTERM, shutting down...
+[1539848252] Caught SIGTERM, shutting down...
+[1539848252] Successfully shutdown... (PID=4928)
+[1539848252] Nagios 4.4.2 starting... (PID=4966)
+[1539848252] Local time is Thu Oct 18 13:07:32 IST 2018
+[1539848252] LOG VERSION: 2.0
+[1539848252] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1539848252] qh: core query handler registered
+[1539848252] qh: echo service query handler registered
+[1539848252] qh: help for the query handler registered
+[1539848252] wproc: Successfully registered manager as @wproc with query handler
+[1539848252] wproc: Registry request: name=Core Worker 4968;pid=4968
+[1539848252] wproc: Registry request: name=Core Worker 4969;pid=4969
+[1539848252] wproc: Registry request: name=Core Worker 4967;pid=4967
+[1539848252] wproc: Registry request: name=Core Worker 4970;pid=4970
+[1539848252] Successfully launched command file worker with pid 4971
+[1539849566] EXTERNAL COMMAND: SEND_CUSTOM_HOST_NOTIFICATION;localhost;0;Nagios Admin;test
+[1539849566] HOST NOTIFICATION: nagiosadmin;localhost;CUSTOM (UP);notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.03 ms;Nagios Admin;test
+[1539849645] EXTERNAL COMMAND: ENABLE_SVC_NOTIFICATIONS;localhost;HTTP
+[1539849811] SERVICE NOTIFICATION: nagiosadmin;localhost;HTTP;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1539851852] Auto-save of retention data completed successfully.
+[1539853411] SERVICE NOTIFICATION: nagiosadmin;localhost;HTTP;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1539855452] Auto-save of retention data completed successfully.
+[1539857011] SERVICE NOTIFICATION: nagiosadmin;localhost;HTTP;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1539859052] Auto-save of retention data completed successfully.
+[1539860611] SERVICE NOTIFICATION: nagiosadmin;localhost;HTTP;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.002 second response time
+[1539862652] Auto-save of retention data completed successfully.
+[1539864211] SERVICE NOTIFICATION: nagiosadmin;localhost;HTTP;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1539866252] Auto-save of retention data completed successfully.
+[1539867811] SERVICE NOTIFICATION: nagiosadmin;localhost;HTTP;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1539869852] Auto-save of retention data completed successfully.
+[1539871411] SERVICE NOTIFICATION: nagiosadmin;localhost;HTTP;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1539873452] Auto-save of retention data completed successfully.
+[1539875011] SERVICE NOTIFICATION: nagiosadmin;localhost;HTTP;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1539877052] Auto-save of retention data completed successfully.
+[1539878611] SERVICE NOTIFICATION: nagiosadmin;localhost;HTTP;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1539880652] Auto-save of retention data completed successfully.
+[1539882211] SERVICE NOTIFICATION: nagiosadmin;localhost;HTTP;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.002 second response time
+[1539884252] Auto-save of retention data completed successfully.
+[1539885811] SERVICE NOTIFICATION: nagiosadmin;localhost;HTTP;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time

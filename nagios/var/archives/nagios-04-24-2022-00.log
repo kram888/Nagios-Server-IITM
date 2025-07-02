@@ -1,0 +1,106 @@
+[1650652200] LOG ROTATION: DAILY
+[1650652200] LOG VERSION: 2.0
+[1650652200] CURRENT HOST STATE: AP_Main_Bldg;DOWN;HARD;10;CRITICAL - Host Unreachable (10.3.1.25)
+[1650652200] CURRENT HOST STATE: Director_Bldg;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.59 ms
+[1650652200] CURRENT HOST STATE: Director_Resident;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1650652200] CURRENT HOST STATE: Switch_29;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.83 ms
+[1650652200] CURRENT HOST STATE: Switch_30;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.86 ms
+[1650652200] CURRENT HOST STATE: Switch_31;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.31 ms
+[1650652200] CURRENT HOST STATE: Switch_32;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.31 ms
+[1650652200] CURRENT HOST STATE: Switch_33;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.86 ms
+[1650652200] CURRENT HOST STATE: Switch_34;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.91 ms
+[1650652200] CURRENT HOST STATE: esxi01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1650652200] CURRENT HOST STATE: esxi02;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1650652200] CURRENT HOST STATE: esxi03;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1650652200] CURRENT HOST STATE: esxi04;DOWN;HARD;10;CRITICAL - Host Unreachable (10.5.5.54)
+[1650652200] CURRENT HOST STATE: esxi05;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.48 ms
+[1650652200] CURRENT HOST STATE: esxi06;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.45 ms
+[1650652200] CURRENT HOST STATE: esxi07;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.50 ms
+[1650652200] CURRENT HOST STATE: esxi08;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.48 ms
+[1650652200] CURRENT HOST STATE: esxi09;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1650652200] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+[1650652200] CURRENT HOST STATE: vmware10gswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.33 ms
+[1650652200] CURRENT HOST STATE: vmwaremgmtswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.16 ms
+[1650652200] CURRENT SERVICE STATE: AP_Main_Bldg;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.3.1.25)
+[1650652200] CURRENT SERVICE STATE: Director_Bldg;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.82 ms
+[1650652200] CURRENT SERVICE STATE: Director_Resident;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1650652200] CURRENT SERVICE STATE: Switch_29;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 2.98 ms
+[1650652200] CURRENT SERVICE STATE: Switch_30;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.07 ms
+[1650652200] CURRENT SERVICE STATE: Switch_31;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.27 ms
+[1650652200] CURRENT SERVICE STATE: Switch_32;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 6.43 ms
+[1650652200] CURRENT SERVICE STATE: Switch_33;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.86 ms
+[1650652200] CURRENT SERVICE STATE: Switch_34;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.87 ms
+[1650652200] CURRENT SERVICE STATE: esxi01;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1650652200] CURRENT SERVICE STATE: esxi01;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.50 ms
+[1650652200] CURRENT SERVICE STATE: esxi02;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1650652200] CURRENT SERVICE STATE: esxi02;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.50 ms
+[1650652200] CURRENT SERVICE STATE: esxi03;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650652200] CURRENT SERVICE STATE: esxi03;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.55 ms
+[1650652200] CURRENT SERVICE STATE: esxi04;ESXi Hardware Check;UNKNOWN;HARD;1;UNKNOWN: (0, 'Socket error: [Errno 113] No route to host')
+[1650652200] CURRENT SERVICE STATE: esxi04;PING;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.5.5.54)
+[1650652200] CURRENT SERVICE STATE: esxi05;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1650652200] CURRENT SERVICE STATE: esxi05;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.52 ms
+[1650652200] CURRENT SERVICE STATE: esxi06;ESXi Haradware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1650652200] CURRENT SERVICE STATE: esxi06;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1650652200] CURRENT SERVICE STATE: esxi07;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1650652200] CURRENT SERVICE STATE: esxi07;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.53 ms
+[1650652200] CURRENT SERVICE STATE: esxi08;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1650652200] CURRENT SERVICE STATE: esxi08;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.58 ms
+[1650652200] CURRENT SERVICE STATE: esxi09;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1650652200] CURRENT SERVICE STATE: esxi09;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.53 ms
+[1650652200] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.00, 0.00
+[1650652200] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1650652200] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
+[1650652200] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 42451 MB (82.95% inode=99%):
+[1650652200] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1650652200] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1650652200] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 110 processes with STATE = RSZDT
+[1650652200] CURRENT SERVICE STATE: vmware10gswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.36 ms
+[1650652200] CURRENT SERVICE STATE: vmwaremgmtswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 3.58 ms
+[1650655497] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650655724] Auto-save of retention data completed successfully.
+[1650659097] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650659324] Auto-save of retention data completed successfully.
+[1650662698] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650662924] Auto-save of retention data completed successfully.
+[1650666524] Auto-save of retention data completed successfully.
+[1650666897] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650670124] Auto-save of retention data completed successfully.
+[1650670497] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650673724] Auto-save of retention data completed successfully.
+[1650674097] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650677324] Auto-save of retention data completed successfully.
+[1650677698] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650680924] Auto-save of retention data completed successfully.
+[1650681897] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650684524] Auto-save of retention data completed successfully.
+[1650685497] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650688124] Auto-save of retention data completed successfully.
+[1650689097] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650691724] Auto-save of retention data completed successfully.
+[1650692698] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650695324] Auto-save of retention data completed successfully.
+[1650696897] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650698924] Auto-save of retention data completed successfully.
+[1650700497] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650702524] Auto-save of retention data completed successfully.
+[1650704097] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650706124] Auto-save of retention data completed successfully.
+[1650707698] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650709724] Auto-save of retention data completed successfully.
+[1650711897] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650713324] Auto-save of retention data completed successfully.
+[1650715497] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650716924] Auto-save of retention data completed successfully.
+[1650719097] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650720524] Auto-save of retention data completed successfully.
+[1650722698] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650724124] Auto-save of retention data completed successfully.
+[1650726897] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650727724] Auto-save of retention data completed successfully.
+[1650730497] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650731324] Auto-save of retention data completed successfully.
+[1650734097] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650734924] Auto-save of retention data completed successfully.
+[1650737698] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1650738524] Auto-save of retention data completed successfully.

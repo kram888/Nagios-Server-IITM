@@ -1,0 +1,61 @@
+[1540146600] LOG ROTATION: DAILY
+[1540146600] LOG VERSION: 2.0
+[1540146600] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1540146600] CURRENT HOST STATE: localhost.localdomain;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1540146600] CURRENT HOST STATE: router1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.62 ms
+[1540146600] CURRENT HOST STATE: router2;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.81 ms
+[1540146600] CURRENT HOST STATE: router3;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.61 ms
+[1540146600] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1540146600] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 3 users currently logged in
+[1540146600] CURRENT SERVICE STATE: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1540146600] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1540146600] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 46803 MB (91.45% inode=99%):
+[1540146600] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1540146600] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1540146600] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 82 processes with STATE = RSZDT
+[1540146600] CURRENT SERVICE STATE: localhost.localdomain;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1540146600] CURRENT SERVICE STATE: localhost.localdomain;Current Users;OK;HARD;1;USERS OK - 3 users currently logged in
+[1540146600] CURRENT SERVICE STATE: localhost.localdomain;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 285 bytes in 0.002 second response time
+[1540146600] CURRENT SERVICE STATE: localhost.localdomain;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.52 ms
+[1540146600] CURRENT SERVICE STATE: localhost.localdomain;Root Partition;OK;HARD;1;DISK OK - free space: / 46803 MB (91.45% inode=99%):
+[1540146600] CURRENT SERVICE STATE: localhost.localdomain;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1540146600] CURRENT SERVICE STATE: localhost.localdomain;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1540146600] CURRENT SERVICE STATE: localhost.localdomain;Total Processes;OK;HARD;1;PROCS OK: 82 processes with STATE = RSZDT
+[1540146600] CURRENT SERVICE STATE: router1;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.72 ms
+[1540146600] CURRENT SERVICE STATE: router2;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.74 ms
+[1540146600] CURRENT SERVICE STATE: router3;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.63 ms
+[1540147052] Auto-save of retention data completed successfully.
+[1540150652] Auto-save of retention data completed successfully.
+[1540154252] Auto-save of retention data completed successfully.
+[1540157852] Auto-save of retention data completed successfully.
+[1540161452] Auto-save of retention data completed successfully.
+[1540165052] Auto-save of retention data completed successfully.
+[1540168652] Auto-save of retention data completed successfully.
+[1540172252] Auto-save of retention data completed successfully.
+[1540175852] Auto-save of retention data completed successfully.
+[1540179452] Auto-save of retention data completed successfully.
+[1540183052] Auto-save of retention data completed successfully.
+[1540186652] Auto-save of retention data completed successfully.
+[1540190252] Auto-save of retention data completed successfully.
+[1540193852] Auto-save of retention data completed successfully.
+[1540197452] Auto-save of retention data completed successfully.
+[1540201052] Auto-save of retention data completed successfully.
+[1540201301] SERVICE ALERT: localhost.localdomain;HTTP;CRITICAL;SOFT;1;connect to address 10.5.5.15 and port 80: Connection refused
+[1540201361] SERVICE ALERT: localhost.localdomain;HTTP;CRITICAL;SOFT;2;connect to address 10.5.5.15 and port 80: Connection refused
+[1540201421] SERVICE ALERT: localhost.localdomain;HTTP;CRITICAL;SOFT;3;connect to address 10.5.5.15 and port 80: Connection refused
+[1540201481] SERVICE ALERT: localhost.localdomain;HTTP;CRITICAL;HARD;4;connect to address 10.5.5.15 and port 80: Connection refused
+[1540202495] SERVICE ALERT: localhost.localdomain;SSH;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1540202498] HOST ALERT: localhost.localdomain;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.5.5.15)
+[1540202558] SERVICE ALERT: localhost.localdomain;SSH;CRITICAL;HARD;1;connect to address 10.5.5.15 and port 22: No route to host
+[1540202576] SERVICE ALERT: localhost.localdomain;PING;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.5.5.15)
+[1540202639] SERVICE NOTIFICATION: nagiosadmin;localhost.localdomain;PING;CRITICAL;notify-service-by-email;CRITICAL - Host Unreachable (10.5.5.15)
+[1540202948] HOST NOTIFICATION: nagiosadmin;localhost.localdomain;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.5.5.15)
+[1540202948] HOST ALERT: localhost.localdomain;DOWN;HARD;10;CRITICAL - Host Unreachable (10.5.5.15)
+[1540204652] Auto-save of retention data completed successfully.
+[1540208252] Auto-save of retention data completed successfully.
+[1540211852] Auto-save of retention data completed successfully.
+[1540215452] Auto-save of retention data completed successfully.
+[1540219052] Auto-save of retention data completed successfully.
+[1540222652] Auto-save of retention data completed successfully.
+[1540226252] Auto-save of retention data completed successfully.
+[1540229852] Auto-save of retention data completed successfully.

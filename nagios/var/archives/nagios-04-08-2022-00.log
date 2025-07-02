@@ -1,0 +1,2177 @@
+[1649269800] LOG ROTATION: DAILY
+[1649269800] LOG VERSION: 2.0
+[1649269800] CURRENT HOST STATE: AP_Main_Bldg;DOWN;HARD;10;CRITICAL - Host Unreachable (10.3.1.25)
+[1649269800] CURRENT HOST STATE: Director_Bldg;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.58 ms
+[1649269800] CURRENT HOST STATE: Director_Resident;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.30 ms
+[1649269800] CURRENT HOST STATE: Switch_29;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 2.50 ms
+[1649269800] CURRENT HOST STATE: Switch_30;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 2.28 ms
+[1649269800] CURRENT HOST STATE: Switch_31;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.76 ms
+[1649269800] CURRENT HOST STATE: Switch_32;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 5.99 ms
+[1649269800] CURRENT HOST STATE: Switch_33;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.74 ms
+[1649269800] CURRENT HOST STATE: Switch_34;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 3.93 ms
+[1649269800] CURRENT HOST STATE: esxi01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.49 ms
+[1649269800] CURRENT HOST STATE: esxi02;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.62 ms
+[1649269800] CURRENT HOST STATE: esxi03;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1649269800] CURRENT HOST STATE: esxi04;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1649269800] CURRENT HOST STATE: esxi05;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.33 ms
+[1649269800] CURRENT HOST STATE: esxi06;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.39 ms
+[1649269800] CURRENT HOST STATE: esxi07;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.32 ms
+[1649269800] CURRENT HOST STATE: esxi08;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.48 ms
+[1649269800] CURRENT HOST STATE: esxi09;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1649269800] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+[1649269800] CURRENT HOST STATE: vmware10gswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.18 ms
+[1649269800] CURRENT HOST STATE: vmwaremgmtswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 3.28 ms
+[1649269800] CURRENT SERVICE STATE: AP_Main_Bldg;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.3.1.25)
+[1649269800] CURRENT SERVICE STATE: Director_Bldg;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1649269800] CURRENT SERVICE STATE: Director_Resident;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.23 ms
+[1649269800] CURRENT SERVICE STATE: Switch_29;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.74 ms
+[1649269800] CURRENT SERVICE STATE: Switch_30;check-host-alive;OK;HARD;1;PING OK - Packet loss = 20%, RTA = 2.09 ms
+[1649269800] CURRENT SERVICE STATE: Switch_31;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.14 ms
+[1649269800] CURRENT SERVICE STATE: Switch_32;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.45 ms
+[1649269800] CURRENT SERVICE STATE: Switch_33;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 3.73 ms
+[1649269800] CURRENT SERVICE STATE: Switch_34;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 2.52 ms
+[1649269800] CURRENT SERVICE STATE: esxi01;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN:
+[1649269800] CURRENT SERVICE STATE: esxi01;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1649269800] CURRENT SERVICE STATE: esxi02;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN:
+[1649269800] CURRENT SERVICE STATE: esxi02;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.45 ms
+[1649269800] CURRENT SERVICE STATE: esxi03;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN:
+[1649269800] CURRENT SERVICE STATE: esxi03;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1649269800] CURRENT SERVICE STATE: esxi04;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN:
+[1649269800] CURRENT SERVICE STATE: esxi04;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.48 ms
+[1649269800] CURRENT SERVICE STATE: esxi05;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN:
+[1649269800] CURRENT SERVICE STATE: esxi05;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.28 ms
+[1649269800] CURRENT SERVICE STATE: esxi06;ESXi Haradware Check;UNKNOWN;HARD;3;UNKNOWN:
+[1649269800] CURRENT SERVICE STATE: esxi06;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1649269800] CURRENT SERVICE STATE: esxi07;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649269800] CURRENT SERVICE STATE: esxi07;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.34 ms
+[1649269800] CURRENT SERVICE STATE: esxi08;ESXi Hardware Check;CRITICAL;HARD;3;(Service check timed out after 60.02 seconds)
+[1649269800] CURRENT SERVICE STATE: esxi08;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1649269800] CURRENT SERVICE STATE: esxi09;ESXi Hardware Check;CRITICAL;HARD;3;(Service check timed out after 60.06 seconds)
+[1649269800] CURRENT SERVICE STATE: esxi09;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1649269800] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.08, 0.02, 0.01
+[1649269800] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1649269800] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1649269800] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 42465 MB (82.98% inode=99%):
+[1649269800] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1649269800] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1649269800] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 117 processes with STATE = RSZDT
+[1649269800] CURRENT SERVICE STATE: vmware10gswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.82 ms
+[1649269800] CURRENT SERVICE STATE: vmwaremgmtswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.78 ms
+[1649269906] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649269996] wproc: Core Worker 1354: job 10240 (pid=22182) timed out. Killing it
+[1649269996] wproc: CHECK job 10240 from worker Core Worker 1354 timed out after 60.01s
+[1649269996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649269996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649269996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.013s!
+[1649269996] wproc: Core Worker 1354: job 10240 (pid=22182): Dormant child reaped
+[1649269997] wproc: Core Worker 1353: job 10241 (pid=22183) timed out. Killing it
+[1649269997] wproc: CHECK job 10241 from worker Core Worker 1353 timed out after 60.02s
+[1649269997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649269997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649269997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.017s!
+[1649269997] wproc: Core Worker 1353: job 10241 (pid=22183): Dormant child reaped
+[1649270104] Auto-save of retention data completed successfully.
+[1649270227] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.39 ms
+[1649270291] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1649270596] wproc: Core Worker 1355: job 10264 (pid=22731) timed out. Killing it
+[1649270596] wproc: CHECK job 10264 from worker Core Worker 1355 timed out after 60.05s
+[1649270596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649270596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649270596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.047s!
+[1649270596] wproc: Core Worker 1355: job 10264 (pid=22731): Dormant child reaped
+[1649270597] wproc: Core Worker 1356: job 10264 (pid=22732) timed out. Killing it
+[1649270597] wproc: CHECK job 10264 from worker Core Worker 1356 timed out after 60.03s
+[1649270597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649270597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649270597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.031s!
+[1649270597] wproc: Core Worker 1356: job 10264 (pid=22732): Dormant child reaped
+[1649270962] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649271196] wproc: Core Worker 1356: job 10287 (pid=23287) timed out. Killing it
+[1649271196] wproc: CHECK job 10287 from worker Core Worker 1356 timed out after 60.01s
+[1649271196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649271196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649271196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.012s!
+[1649271196] wproc: Core Worker 1356: job 10287 (pid=23287): Dormant child reaped
+[1649271197] wproc: Core Worker 1354: job 10287 (pid=23288) timed out. Killing it
+[1649271197] wproc: CHECK job 10287 from worker Core Worker 1354 timed out after 60.04s
+[1649271197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649271197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649271197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.045s!
+[1649271197] wproc: Core Worker 1354: job 10287 (pid=23288): Dormant child reaped
+[1649271704] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649271796] wproc: Core Worker 1354: job 10310 (pid=23838) timed out. Killing it
+[1649271796] wproc: CHECK job 10310 from worker Core Worker 1354 timed out after 60.01s
+[1649271796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649271796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649271796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.014s!
+[1649271796] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.01 seconds)
+[1649271796] wproc: Core Worker 1354: job 10310 (pid=23838): Dormant child reaped
+[1649271797] wproc: Core Worker 1353: job 10311 (pid=23839) timed out. Killing it
+[1649271797] wproc: CHECK job 10311 from worker Core Worker 1353 timed out after 60.05s
+[1649271797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649271797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649271797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.055s!
+[1649271797] wproc: Core Worker 1353: job 10311 (pid=23839): Dormant child reaped
+[1649272396] wproc: Core Worker 1353: job 10334 (pid=24389) timed out. Killing it
+[1649272396] wproc: CHECK job 10334 from worker Core Worker 1353 timed out after 60.06s
+[1649272396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649272396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649272396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.057s!
+[1649272397] wproc: Core Worker 1353: job 10334 (pid=24389): Dormant child reaped
+[1649272397] wproc: Core Worker 1355: job 10334 (pid=24390) timed out. Killing it
+[1649272397] wproc: CHECK job 10334 from worker Core Worker 1355 timed out after 60.06s
+[1649272397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649272397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649272397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.057s!
+[1649272397] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.06 seconds)
+[1649272397] wproc: Core Worker 1355: job 10334 (pid=24390): Dormant child reaped
+[1649272884] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649272905] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649272996] wproc: Core Worker 1354: job 10357 (pid=24953) timed out. Killing it
+[1649272996] wproc: CHECK job 10357 from worker Core Worker 1354 timed out after 60.06s
+[1649272996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649272996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649272996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.064s!
+[1649272997] wproc: Core Worker 1354: job 10357 (pid=24953): Dormant child reaped
+[1649272997] wproc: Core Worker 1353: job 10358 (pid=24954) timed out. Killing it
+[1649272997] wproc: CHECK job 10358 from worker Core Worker 1353 timed out after 60.04s
+[1649272997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649272997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649272997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.039s!
+[1649272997] wproc: Core Worker 1353: job 10358 (pid=24954): Dormant child reaped
+[1649273072] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649273356] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.38 ms
+[1649273420] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.29 ms
+[1649273596] wproc: Core Worker 1356: job 10381 (pid=25543) timed out. Killing it
+[1649273596] wproc: CHECK job 10381 from worker Core Worker 1356 timed out after 60.05s
+[1649273596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649273596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649273596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.045s!
+[1649273597] wproc: Core Worker 1356: job 10381 (pid=25543): Dormant child reaped
+[1649273597] wproc: Core Worker 1354: job 10381 (pid=25544) timed out. Killing it
+[1649273597] wproc: CHECK job 10381 from worker Core Worker 1354 timed out after 60.01s
+[1649273597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649273597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649273597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.014s!
+[1649273597] wproc: Core Worker 1354: job 10381 (pid=25544): Dormant child reaped
+[1649273704] Auto-save of retention data completed successfully.
+[1649274106] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649274196] wproc: Core Worker 1354: job 10404 (pid=26102) timed out. Killing it
+[1649274196] wproc: CHECK job 10404 from worker Core Worker 1354 timed out after 60.06s
+[1649274196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649274196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649274196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.064s!
+[1649274197] wproc: Core Worker 1354: job 10404 (pid=26102): Dormant child reaped
+[1649274197] wproc: Core Worker 1353: job 10405 (pid=26103) timed out. Killing it
+[1649274197] wproc: CHECK job 10405 from worker Core Worker 1353 timed out after 60.05s
+[1649274197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649274197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649274197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.048s!
+[1649274197] wproc: Core Worker 1353: job 10405 (pid=26103): Dormant child reaped
+[1649274797] wproc: Core Worker 1354: job 10427 (pid=26649) timed out. Killing it
+[1649274797] wproc: CHECK job 10427 from worker Core Worker 1354 timed out after 60.05s
+[1649274797] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649274797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649274797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.055s!
+[1649274797] wproc: Core Worker 1354: job 10427 (pid=26649): Dormant child reaped
+[1649274797] wproc: Core Worker 1353: job 10428 (pid=26650) timed out. Killing it
+[1649274797] wproc: CHECK job 10428 from worker Core Worker 1353 timed out after 60.01s
+[1649274797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649274797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649274797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.012s!
+[1649274797] wproc: Core Worker 1353: job 10428 (pid=26650): Dormant child reaped
+[1649275161] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649275304] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649275396] wproc: Core Worker 1355: job 10451 (pid=27208) timed out. Killing it
+[1649275396] wproc: CHECK job 10451 from worker Core Worker 1355 timed out after 60.04s
+[1649275396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649275396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649275396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.035s!
+[1649275396] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.04 seconds)
+[1649275396] wproc: Core Worker 1355: job 10451 (pid=27208): Dormant child reaped
+[1649275397] wproc: Core Worker 1356: job 10451 (pid=27209) timed out. Killing it
+[1649275397] wproc: CHECK job 10451 from worker Core Worker 1356 timed out after 60.06s
+[1649275397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649275397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649275397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.063s!
+[1649275397] wproc: Core Worker 1356: job 10451 (pid=27209): Dormant child reaped
+[1649275586] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.46 ms
+[1649275650] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.45 ms
+[1649275996] wproc: Core Worker 1353: job 10475 (pid=27764) timed out. Killing it
+[1649275996] wproc: CHECK job 10475 from worker Core Worker 1353 timed out after 60.03s
+[1649275996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649275996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649275996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.031s!
+[1649275996] wproc: Core Worker 1353: job 10475 (pid=27764): Dormant child reaped
+[1649275997] wproc: Core Worker 1355: job 10475 (pid=27765) timed out. Killing it
+[1649275997] wproc: CHECK job 10475 from worker Core Worker 1355 timed out after 60.03s
+[1649275997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649275997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649275997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.034s!
+[1649275997] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.03 seconds)
+[1649275997] wproc: Core Worker 1355: job 10475 (pid=27765): Dormant child reaped
+[1649276485] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649276506] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649276596] wproc: Core Worker 1354: job 10498 (pid=28328) timed out. Killing it
+[1649276596] wproc: CHECK job 10498 from worker Core Worker 1354 timed out after 60.06s
+[1649276596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649276596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649276596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.060s!
+[1649276596] wproc: Core Worker 1354: job 10498 (pid=28328): Dormant child reaped
+[1649276597] wproc: Core Worker 1353: job 10499 (pid=28329) timed out. Killing it
+[1649276597] wproc: CHECK job 10499 from worker Core Worker 1353 timed out after 60.01s
+[1649276597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649276597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649276597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.008s!
+[1649276597] wproc: Core Worker 1353: job 10499 (pid=28329): Dormant child reaped
+[1649277045] SERVICE ALERT: esxi07;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.48 ms
+[1649277109] SERVICE ALERT: esxi07;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1649277196] wproc: Core Worker 1355: job 10522 (pid=28910) timed out. Killing it
+[1649277196] wproc: CHECK job 10522 from worker Core Worker 1355 timed out after 60.05s
+[1649277196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649277196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649277196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.049s!
+[1649277196] wproc: Core Worker 1355: job 10522 (pid=28910): Dormant child reaped
+[1649277197] wproc: Core Worker 1356: job 10522 (pid=28911) timed out. Killing it
+[1649277197] wproc: CHECK job 10522 from worker Core Worker 1356 timed out after 60.03s
+[1649277197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649277197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649277197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.030s!
+[1649277197] wproc: Core Worker 1356: job 10522 (pid=28911): Dormant child reaped
+[1649277271] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649277304] Auto-save of retention data completed successfully.
+[1649277706] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649277796] wproc: Core Worker 1354: job 10545 (pid=29471) timed out. Killing it
+[1649277796] wproc: CHECK job 10545 from worker Core Worker 1354 timed out after 60.06s
+[1649277796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649277796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649277796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.064s!
+[1649277796] wproc: Core Worker 1354: job 10545 (pid=29471): Dormant child reaped
+[1649277797] wproc: Core Worker 1353: job 10546 (pid=29472) timed out. Killing it
+[1649277797] wproc: CHECK job 10546 from worker Core Worker 1353 timed out after 60.04s
+[1649277797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649277797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649277797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.044s!
+[1649277797] wproc: Core Worker 1353: job 10546 (pid=29472): Dormant child reaped
+[1649277815] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.40 ms
+[1649277880] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.45 ms
+[1649278396] wproc: Core Worker 1355: job 10569 (pid=30025) timed out. Killing it
+[1649278396] wproc: CHECK job 10569 from worker Core Worker 1355 timed out after 60.06s
+[1649278396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649278396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649278396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.064s!
+[1649278396] wproc: Core Worker 1355: job 10569 (pid=30025): Dormant child reaped
+[1649278397] wproc: Core Worker 1356: job 10569 (pid=30026) timed out. Killing it
+[1649278397] wproc: CHECK job 10569 from worker Core Worker 1356 timed out after 60.06s
+[1649278397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649278397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649278397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649278397] wproc: Core Worker 1356: job 10569 (pid=30026): Dormant child reaped
+[1649278761] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649278996] wproc: Core Worker 1356: job 10592 (pid=30580) timed out. Killing it
+[1649278996] wproc: CHECK job 10592 from worker Core Worker 1356 timed out after 60.04s
+[1649278996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649278996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649278996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.037s!
+[1649278996] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.04 seconds)
+[1649278996] wproc: Core Worker 1356: job 10592 (pid=30580): Dormant child reaped
+[1649278997] wproc: Core Worker 1354: job 10592 (pid=30581) timed out. Killing it
+[1649278997] wproc: CHECK job 10592 from worker Core Worker 1354 timed out after 60.05s
+[1649278997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649278997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649278997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.046s!
+[1649278997] wproc: Core Worker 1354: job 10592 (pid=30581): Dormant child reaped
+[1649279503] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649279596] wproc: Core Worker 1353: job 10616 (pid=31145) timed out. Killing it
+[1649279596] wproc: CHECK job 10616 from worker Core Worker 1353 timed out after 60.06s
+[1649279596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649279596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649279596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.055s!
+[1649279596] wproc: Core Worker 1353: job 10616 (pid=31145): Dormant child reaped
+[1649279597] wproc: Core Worker 1355: job 10616 (pid=31146) timed out. Killing it
+[1649279597] wproc: CHECK job 10616 from worker Core Worker 1355 timed out after 60.06s
+[1649279597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649279597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649279597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649279597] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.06 seconds)
+[1649279597] wproc: Core Worker 1355: job 10616 (pid=31146): Dormant child reaped
+[1649280106] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649280196] wproc: Core Worker 1356: job 10639 (pid=31706) timed out. Killing it
+[1649280196] wproc: CHECK job 10639 from worker Core Worker 1356 timed out after 60.06s
+[1649280196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649280196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649280196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.062s!
+[1649280196] wproc: Core Worker 1356: job 10639 (pid=31706): Dormant child reaped
+[1649280197] wproc: Core Worker 1354: job 10639 (pid=31707) timed out. Killing it
+[1649280197] wproc: CHECK job 10639 from worker Core Worker 1354 timed out after 60.01s
+[1649280197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649280197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649280197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.008s!
+[1649280197] wproc: Core Worker 1354: job 10639 (pid=31707): Dormant child reaped
+[1649280684] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649280796] wproc: Core Worker 1354: job 10662 (pid=32290) timed out. Killing it
+[1649280796] wproc: CHECK job 10662 from worker Core Worker 1354 timed out after 60.04s
+[1649280796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649280796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649280796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.041s!
+[1649280796] wproc: Core Worker 1354: job 10662 (pid=32290): Dormant child reaped
+[1649280797] wproc: Core Worker 1353: job 10663 (pid=32291) timed out. Killing it
+[1649280797] wproc: CHECK job 10663 from worker Core Worker 1353 timed out after 60.01s
+[1649280797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649280797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649280797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.006s!
+[1649280798] wproc: Core Worker 1353: job 10663 (pid=32291): Dormant child reaped
+[1649280871] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649280904] Auto-save of retention data completed successfully.
+[1649281396] wproc: Core Worker 1353: job 10686 (pid=482) timed out. Killing it
+[1649281396] wproc: CHECK job 10686 from worker Core Worker 1353 timed out after 60.05s
+[1649281396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649281396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649281396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.047s!
+[1649281396] wproc: Core Worker 1353: job 10686 (pid=482): Dormant child reaped
+[1649281397] wproc: Core Worker 1355: job 10686 (pid=483) timed out. Killing it
+[1649281397] wproc: CHECK job 10686 from worker Core Worker 1355 timed out after 60.05s
+[1649281397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649281397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649281397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.048s!
+[1649281398] wproc: Core Worker 1355: job 10686 (pid=483): Dormant child reaped
+[1649281905] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649281996] wproc: Core Worker 1355: job 10709 (pid=1131) timed out. Killing it
+[1649281996] wproc: CHECK job 10709 from worker Core Worker 1355 timed out after 60.01s
+[1649281996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649281996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649281996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.006s!
+[1649281996] wproc: Core Worker 1355: job 10709 (pid=1131): Dormant child reaped
+[1649281997] wproc: Core Worker 1356: job 10709 (pid=1132) timed out. Killing it
+[1649281997] wproc: CHECK job 10709 from worker Core Worker 1356 timed out after 60.02s
+[1649281997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649281997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649281997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.024s!
+[1649281998] wproc: Core Worker 1356: job 10709 (pid=1132): Dormant child reaped
+[1649282361] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649282596] wproc: Core Worker 1356: job 10732 (pid=1744) timed out. Killing it
+[1649282596] wproc: CHECK job 10732 from worker Core Worker 1356 timed out after 60.06s
+[1649282596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649282596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649282596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.064s!
+[1649282596] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.06 seconds)
+[1649282596] wproc: Core Worker 1356: job 10732 (pid=1744): Dormant child reaped
+[1649282597] wproc: Core Worker 1354: job 10732 (pid=1745) timed out. Killing it
+[1649282597] wproc: CHECK job 10732 from worker Core Worker 1354 timed out after 60.02s
+[1649282597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649282597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649282597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.017s!
+[1649282598] wproc: Core Worker 1354: job 10732 (pid=1745): Dormant child reaped
+[1649283104] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649283196] wproc: Core Worker 1353: job 10756 (pid=2405) timed out. Killing it
+[1649283196] wproc: CHECK job 10756 from worker Core Worker 1353 timed out after 60.03s
+[1649283196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649283196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649283196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.029s!
+[1649283196] wproc: Core Worker 1353: job 10756 (pid=2405): Dormant child reaped
+[1649283197] wproc: Core Worker 1355: job 10756 (pid=2406) timed out. Killing it
+[1649283197] wproc: CHECK job 10756 from worker Core Worker 1355 timed out after 60.03s
+[1649283197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649283197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649283197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.027s!
+[1649283197] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.03 seconds)
+[1649283198] wproc: Core Worker 1355: job 10756 (pid=2406): Dormant child reaped
+[1649283707] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649283796] wproc: Core Worker 1356: job 10779 (pid=2965) timed out. Killing it
+[1649283796] wproc: CHECK job 10779 from worker Core Worker 1356 timed out after 60.01s
+[1649283796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649283796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649283796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.007s!
+[1649283796] wproc: Core Worker 1356: job 10779 (pid=2965): Dormant child reaped
+[1649283797] wproc: Core Worker 1354: job 10779 (pid=2966) timed out. Killing it
+[1649283797] wproc: CHECK job 10779 from worker Core Worker 1354 timed out after 60.06s
+[1649283797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649283797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649283797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649283798] wproc: Core Worker 1354: job 10779 (pid=2966): Dormant child reaped
+[1649284284] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649284396] wproc: Core Worker 1354: job 10802 (pid=3544) timed out. Killing it
+[1649284396] wproc: CHECK job 10802 from worker Core Worker 1354 timed out after 60.06s
+[1649284396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649284396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649284396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.064s!
+[1649284397] wproc: Core Worker 1354: job 10802 (pid=3544): Dormant child reaped
+[1649284397] wproc: Core Worker 1353: job 10803 (pid=3545) timed out. Killing it
+[1649284397] wproc: CHECK job 10803 from worker Core Worker 1353 timed out after 60.05s
+[1649284397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649284397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649284397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.048s!
+[1649284398] wproc: Core Worker 1353: job 10803 (pid=3545): Dormant child reaped
+[1649284471] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649284504] Auto-save of retention data completed successfully.
+[1649284996] wproc: Core Worker 1353: job 10826 (pid=4097) timed out. Killing it
+[1649284996] wproc: CHECK job 10826 from worker Core Worker 1353 timed out after 60.05s
+[1649284996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649284996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649284996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.054s!
+[1649284997] wproc: Core Worker 1353: job 10826 (pid=4097): Dormant child reaped
+[1649284998] wproc: Core Worker 1355: job 10826 (pid=4098) timed out. Killing it
+[1649284998] wproc: CHECK job 10826 from worker Core Worker 1355 timed out after 60.06s
+[1649284998] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649284998] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649284998] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649284998] wproc: Core Worker 1355: job 10826 (pid=4098): Dormant child reaped
+[1649285506] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649285596] wproc: Core Worker 1355: job 10849 (pid=4645) timed out. Killing it
+[1649285596] wproc: CHECK job 10849 from worker Core Worker 1355 timed out after 60.04s
+[1649285596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649285596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649285596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.044s!
+[1649285597] wproc: Core Worker 1356: job 10849 (pid=4646) timed out. Killing it
+[1649285597] wproc: CHECK job 10849 from worker Core Worker 1356 timed out after 60.04s
+[1649285597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649285597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649285597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.044s!
+[1649285597] wproc: Core Worker 1355: job 10849 (pid=4645): Dormant child reaped
+[1649285597] wproc: Core Worker 1356: job 10849 (pid=4646): Dormant child reaped
+[1649285961] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649286196] wproc: Core Worker 1356: job 10872 (pid=5206) timed out. Killing it
+[1649286196] wproc: CHECK job 10872 from worker Core Worker 1356 timed out after 60.06s
+[1649286196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649286196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649286196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.060s!
+[1649286196] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.06 seconds)
+[1649286197] wproc: Core Worker 1354: job 10872 (pid=5207) timed out. Killing it
+[1649286197] wproc: CHECK job 10872 from worker Core Worker 1354 timed out after 60.05s
+[1649286197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649286197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649286197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.053s!
+[1649286197] wproc: Core Worker 1356: job 10872 (pid=5206): Dormant child reaped
+[1649286197] wproc: Core Worker 1354: job 10872 (pid=5207): Dormant child reaped
+[1649286797] wproc: Core Worker 1354: job 10895 (pid=5756) timed out. Killing it
+[1649286797] wproc: CHECK job 10895 from worker Core Worker 1354 timed out after 60.06s
+[1649286797] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649286797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649286797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.061s!
+[1649286797] wproc: Core Worker 1353: job 10896 (pid=5757) timed out. Killing it
+[1649286797] wproc: CHECK job 10896 from worker Core Worker 1353 timed out after 60.06s
+[1649286797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649286797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649286797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.065s!
+[1649286797] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.06 seconds)
+[1649286797] wproc: Core Worker 1354: job 10895 (pid=5756): Dormant child reaped
+[1649286797] wproc: Core Worker 1353: job 10896 (pid=5757): Dormant child reaped
+[1649287304] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649287307] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649287396] wproc: Core Worker 1356: job 10919 (pid=6331) timed out. Killing it
+[1649287396] wproc: CHECK job 10919 from worker Core Worker 1356 timed out after 60.05s
+[1649287396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649287396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649287396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.052s!
+[1649287396] wproc: Core Worker 1356: job 10919 (pid=6331): Dormant child reaped
+[1649287397] wproc: Core Worker 1354: job 10919 (pid=6332) timed out. Killing it
+[1649287397] wproc: CHECK job 10919 from worker Core Worker 1354 timed out after 60.02s
+[1649287397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649287397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649287397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.017s!
+[1649287397] wproc: Core Worker 1354: job 10919 (pid=6332): Dormant child reaped
+[1649287996] wproc: Core Worker 1356: job 10942 (pid=6909) timed out. Killing it
+[1649287996] wproc: CHECK job 10942 from worker Core Worker 1356 timed out after 60.05s
+[1649287996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649287996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649287996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.046s!
+[1649287996] wproc: Core Worker 1356: job 10942 (pid=6909): Dormant child reaped
+[1649287997] wproc: Core Worker 1354: job 10942 (pid=6910) timed out. Killing it
+[1649287997] wproc: CHECK job 10942 from worker Core Worker 1354 timed out after 60.04s
+[1649287997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649287997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649287997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.044s!
+[1649287997] wproc: Core Worker 1354: job 10942 (pid=6910): Dormant child reaped
+[1649288071] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649288104] Auto-save of retention data completed successfully.
+[1649288486] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649288596] wproc: Core Worker 1353: job 10966 (pid=7468) timed out. Killing it
+[1649288596] wproc: CHECK job 10966 from worker Core Worker 1353 timed out after 60.06s
+[1649288596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649288596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649288596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.059s!
+[1649288596] wproc: Core Worker 1353: job 10966 (pid=7468): Dormant child reaped
+[1649288597] wproc: Core Worker 1355: job 10966 (pid=7469) timed out. Killing it
+[1649288597] wproc: CHECK job 10966 from worker Core Worker 1355 timed out after 60.04s
+[1649288597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649288597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649288597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.037s!
+[1649288597] wproc: Core Worker 1355: job 10966 (pid=7469): Dormant child reaped
+[1649289106] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649289196] wproc: Core Worker 1355: job 10989 (pid=8019) timed out. Killing it
+[1649289196] wproc: CHECK job 10989 from worker Core Worker 1355 timed out after 60.03s
+[1649289196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649289196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649289196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.026s!
+[1649289196] wproc: Core Worker 1355: job 10989 (pid=8019): Dormant child reaped
+[1649289197] wproc: Core Worker 1356: job 10989 (pid=8020) timed out. Killing it
+[1649289197] wproc: CHECK job 10989 from worker Core Worker 1356 timed out after 60.05s
+[1649289197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649289197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649289197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.048s!
+[1649289197] wproc: Core Worker 1356: job 10989 (pid=8020): Dormant child reaped
+[1649289562] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649289796] wproc: Core Worker 1356: job 11012 (pid=8574) timed out. Killing it
+[1649289796] wproc: CHECK job 11012 from worker Core Worker 1356 timed out after 60.04s
+[1649289796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649289796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649289796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.043s!
+[1649289796] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.04 seconds)
+[1649289796] wproc: Core Worker 1356: job 11012 (pid=8574): Dormant child reaped
+[1649289797] wproc: Core Worker 1354: job 11012 (pid=8575) timed out. Killing it
+[1649289797] wproc: CHECK job 11012 from worker Core Worker 1354 timed out after 60.06s
+[1649289797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649289797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649289797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649289797] wproc: Core Worker 1354: job 11012 (pid=8575): Dormant child reaped
+[1649290396] wproc: Core Worker 1354: job 11035 (pid=9129) timed out. Killing it
+[1649290396] wproc: CHECK job 11035 from worker Core Worker 1354 timed out after 60.01s
+[1649290396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649290396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649290396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.012s!
+[1649290396] wproc: Core Worker 1354: job 11035 (pid=9129): Dormant child reaped
+[1649290397] wproc: Core Worker 1353: job 11036 (pid=9130) timed out. Killing it
+[1649290397] wproc: CHECK job 11036 from worker Core Worker 1353 timed out after 60.01s
+[1649290397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649290397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649290397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.008s!
+[1649290397] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.01 seconds)
+[1649290397] wproc: Core Worker 1353: job 11036 (pid=9130): Dormant child reaped
+[1649290904] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649290996] wproc: Core Worker 1355: job 11059 (pid=9692) timed out. Killing it
+[1649290996] wproc: CHECK job 11059 from worker Core Worker 1355 timed out after 60.06s
+[1649290996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649290996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649290996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.065s!
+[1649290996] wproc: Core Worker 1355: job 11059 (pid=9692): Dormant child reaped
+[1649290997] wproc: Core Worker 1356: job 11059 (pid=9693) timed out. Killing it
+[1649290997] wproc: CHECK job 11059 from worker Core Worker 1356 timed out after 60.04s
+[1649290997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649290997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649290997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.042s!
+[1649290997] wproc: Core Worker 1356: job 11059 (pid=9693): Dormant child reaped
+[1649291507] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649291596] wproc: Core Worker 1356: job 11082 (pid=10276) timed out. Killing it
+[1649291596] wproc: CHECK job 11082 from worker Core Worker 1356 timed out after 60.06s
+[1649291596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649291596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649291596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.058s!
+[1649291596] wproc: Core Worker 1356: job 11082 (pid=10276): Dormant child reaped
+[1649291597] wproc: Core Worker 1354: job 11082 (pid=10277) timed out. Killing it
+[1649291597] wproc: CHECK job 11082 from worker Core Worker 1354 timed out after 60.03s
+[1649291597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649291597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649291597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.032s!
+[1649291597] wproc: Core Worker 1354: job 11082 (pid=10277): Dormant child reaped
+[1649291671] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649291704] Auto-save of retention data completed successfully.
+[1649292196] wproc: Core Worker 1354: job 11105 (pid=10826) timed out. Killing it
+[1649292196] wproc: CHECK job 11105 from worker Core Worker 1354 timed out after 60.06s
+[1649292196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649292196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649292196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.064s!
+[1649292196] wproc: Core Worker 1354: job 11105 (pid=10826): Dormant child reaped
+[1649292197] wproc: Core Worker 1353: job 11106 (pid=10827) timed out. Killing it
+[1649292197] wproc: CHECK job 11106 from worker Core Worker 1353 timed out after 60.02s
+[1649292197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649292197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649292197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.023s!
+[1649292197] wproc: Core Worker 1353: job 11106 (pid=10827): Dormant child reaped
+[1649292685] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649292796] wproc: Core Worker 1353: job 11129 (pid=11377) timed out. Killing it
+[1649292796] wproc: CHECK job 11129 from worker Core Worker 1353 timed out after 60.01s
+[1649292796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649292796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649292796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.013s!
+[1649292796] wproc: Core Worker 1353: job 11129 (pid=11377): Dormant child reaped
+[1649292797] wproc: Core Worker 1355: job 11129 (pid=11378) timed out. Killing it
+[1649292797] wproc: CHECK job 11129 from worker Core Worker 1355 timed out after 60.06s
+[1649292797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649292797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649292797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649292797] wproc: Core Worker 1355: job 11129 (pid=11378): Dormant child reaped
+[1649293162] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649293306] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649293396] wproc: Core Worker 1356: job 11152 (pid=11939) timed out. Killing it
+[1649293396] wproc: CHECK job 11152 from worker Core Worker 1356 timed out after 60.06s
+[1649293396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649293396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649293396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.059s!
+[1649293396] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.06 seconds)
+[1649293396] wproc: Core Worker 1356: job 11152 (pid=11939): Dormant child reaped
+[1649293397] wproc: Core Worker 1354: job 11152 (pid=11940) timed out. Killing it
+[1649293397] wproc: CHECK job 11152 from worker Core Worker 1354 timed out after 60.06s
+[1649293397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649293397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649293397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649293397] wproc: Core Worker 1354: job 11152 (pid=11940): Dormant child reaped
+[1649293996] wproc: Core Worker 1354: job 11175 (pid=12496) timed out. Killing it
+[1649293996] wproc: CHECK job 11175 from worker Core Worker 1354 timed out after 60.03s
+[1649293996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649293996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649293996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.034s!
+[1649293996] wproc: Core Worker 1354: job 11175 (pid=12496): Dormant child reaped
+[1649293997] wproc: Core Worker 1353: job 11176 (pid=12497) timed out. Killing it
+[1649293997] wproc: CHECK job 11176 from worker Core Worker 1353 timed out after 60.05s
+[1649293997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649293997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649293997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.053s!
+[1649293997] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.05 seconds)
+[1649293998] wproc: Core Worker 1353: job 11176 (pid=12497): Dormant child reaped
+[1649294504] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649294596] wproc: Core Worker 1355: job 11199 (pid=13057) timed out. Killing it
+[1649294596] wproc: CHECK job 11199 from worker Core Worker 1355 timed out after 60.01s
+[1649294596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649294596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649294596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.011s!
+[1649294596] wproc: Core Worker 1355: job 11199 (pid=13057): Dormant child reaped
+[1649294597] wproc: Core Worker 1356: job 11199 (pid=13058) timed out. Killing it
+[1649294597] wproc: CHECK job 11199 from worker Core Worker 1356 timed out after 60.04s
+[1649294597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649294597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649294597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.037s!
+[1649294598] wproc: Core Worker 1356: job 11199 (pid=13058): Dormant child reaped
+[1649295196] wproc: Core Worker 1355: job 11222 (pid=13642) timed out. Killing it
+[1649295196] wproc: CHECK job 11222 from worker Core Worker 1355 timed out after 60.04s
+[1649295196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649295196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649295196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.045s!
+[1649295196] wproc: Core Worker 1355: job 11222 (pid=13642): Dormant child reaped
+[1649295197] wproc: Core Worker 1356: job 11222 (pid=13643) timed out. Killing it
+[1649295197] wproc: CHECK job 11222 from worker Core Worker 1356 timed out after 60.05s
+[1649295197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649295197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649295197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.054s!
+[1649295198] wproc: Core Worker 1356: job 11222 (pid=13643): Dormant child reaped
+[1649295304] Auto-save of retention data completed successfully.
+[1649295707] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649295796] wproc: Core Worker 1356: job 11245 (pid=14191) timed out. Killing it
+[1649295796] wproc: CHECK job 11245 from worker Core Worker 1356 timed out after 60.02s
+[1649295796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649295796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649295796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.024s!
+[1649295796] wproc: Core Worker 1356: job 11245 (pid=14191): Dormant child reaped
+[1649295797] wproc: Core Worker 1354: job 11245 (pid=14192) timed out. Killing it
+[1649295797] wproc: CHECK job 11245 from worker Core Worker 1354 timed out after 60.06s
+[1649295797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649295797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649295797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649295798] wproc: Core Worker 1354: job 11245 (pid=14192): Dormant child reaped
+[1649295871] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649296396] wproc: Core Worker 1354: job 11268 (pid=14740) timed out. Killing it
+[1649296396] wproc: CHECK job 11268 from worker Core Worker 1354 timed out after 60.06s
+[1649296396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649296396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649296396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.065s!
+[1649296396] wproc: Core Worker 1354: job 11268 (pid=14740): Dormant child reaped
+[1649296397] wproc: Core Worker 1353: job 11269 (pid=14741) timed out. Killing it
+[1649296397] wproc: CHECK job 11269 from worker Core Worker 1353 timed out after 60.03s
+[1649296397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649296397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649296397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.028s!
+[1649296398] wproc: Core Worker 1353: job 11269 (pid=14741): Dormant child reaped
+[1649296884] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649296906] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649296996] wproc: Core Worker 1355: job 11292 (pid=15296) timed out. Killing it
+[1649296996] wproc: CHECK job 11292 from worker Core Worker 1355 timed out after 60.03s
+[1649296996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649296996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649296996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.029s!
+[1649296996] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.03 seconds)
+[1649296997] wproc: Core Worker 1355: job 11292 (pid=15296): Dormant child reaped
+[1649296998] wproc: Core Worker 1356: job 11292 (pid=15297) timed out. Killing it
+[1649296998] wproc: CHECK job 11292 from worker Core Worker 1356 timed out after 60.06s
+[1649296998] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649296998] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649296998] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649296998] wproc: Core Worker 1356: job 11292 (pid=15297): Dormant child reaped
+[1649297364] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649297596] wproc: Core Worker 1354: job 11315 (pid=15857) timed out. Killing it
+[1649297596] wproc: CHECK job 11315 from worker Core Worker 1354 timed out after 60.06s
+[1649297596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649297596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649297596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.064s!
+[1649297597] wproc: Core Worker 1353: job 11316 (pid=15858) timed out. Killing it
+[1649297597] wproc: CHECK job 11316 from worker Core Worker 1353 timed out after 60.06s
+[1649297597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649297597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649297597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.058s!
+[1649297597] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.06 seconds)
+[1649297597] wproc: Core Worker 1354: job 11315 (pid=15857): Dormant child reaped
+[1649297597] wproc: Core Worker 1353: job 11316 (pid=15858): Dormant child reaped
+[1649298196] wproc: Core Worker 1353: job 11339 (pid=16413) timed out. Killing it
+[1649298196] wproc: CHECK job 11339 from worker Core Worker 1353 timed out after 60.03s
+[1649298196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649298196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649298196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.032s!
+[1649298197] wproc: Core Worker 1353: job 11339 (pid=16413): Dormant child reaped
+[1649298197] wproc: Core Worker 1355: job 11339 (pid=16414) timed out. Killing it
+[1649298197] wproc: CHECK job 11339 from worker Core Worker 1355 timed out after 60.05s
+[1649298197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649298197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649298197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.051s!
+[1649298197] wproc: Core Worker 1355: job 11339 (pid=16414): Dormant child reaped
+[1649298704] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649298796] wproc: Core Worker 1355: job 11362 (pid=16994) timed out. Killing it
+[1649298796] wproc: CHECK job 11362 from worker Core Worker 1355 timed out after 60.06s
+[1649298796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649298796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649298796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.064s!
+[1649298797] wproc: Core Worker 1355: job 11362 (pid=16994): Dormant child reaped
+[1649298797] wproc: Core Worker 1356: job 11362 (pid=16995) timed out. Killing it
+[1649298797] wproc: CHECK job 11362 from worker Core Worker 1356 timed out after 60.06s
+[1649298797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649298797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649298797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649298797] wproc: Core Worker 1356: job 11362 (pid=16995): Dormant child reaped
+[1649298904] Auto-save of retention data completed successfully.
+[1649299396] wproc: Core Worker 1355: job 11385 (pid=17548) timed out. Killing it
+[1649299396] wproc: CHECK job 11385 from worker Core Worker 1355 timed out after 60.02s
+[1649299396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649299396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649299396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.021s!
+[1649299397] wproc: Core Worker 1355: job 11385 (pid=17548): Dormant child reaped
+[1649299397] wproc: Core Worker 1356: job 11385 (pid=17549) timed out. Killing it
+[1649299397] wproc: CHECK job 11385 from worker Core Worker 1356 timed out after 60.05s
+[1649299397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649299397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649299397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.048s!
+[1649299397] wproc: Core Worker 1356: job 11385 (pid=17549): Dormant child reaped
+[1649299471] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649299906] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649299997] wproc: Core Worker 1354: job 11408 (pid=18111) timed out. Killing it
+[1649299997] wproc: CHECK job 11408 from worker Core Worker 1354 timed out after 60.04s
+[1649299997] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649299997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649299997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.042s!
+[1649299997] wproc: Core Worker 1354: job 11408 (pid=18111): Dormant child reaped
+[1649299997] wproc: Core Worker 1353: job 11409 (pid=18112) timed out. Killing it
+[1649299997] wproc: CHECK job 11409 from worker Core Worker 1353 timed out after 60.05s
+[1649299997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649299997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649299997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.052s!
+[1649299997] wproc: Core Worker 1353: job 11409 (pid=18112): Dormant child reaped
+[1649300145] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.52 ms
+[1649300209] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1649300484] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649300506] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649300596] wproc: Core Worker 1354: job 11432 (pid=18674) timed out. Killing it
+[1649300596] wproc: CHECK job 11432 from worker Core Worker 1354 timed out after 60.01s
+[1649300596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649300596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649300596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.009s!
+[1649300596] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.01 seconds)
+[1649300596] wproc: Core Worker 1354: job 11432 (pid=18674): Dormant child reaped
+[1649300597] wproc: Core Worker 1353: job 11433 (pid=18675) timed out. Killing it
+[1649300597] wproc: CHECK job 11433 from worker Core Worker 1353 timed out after 60.01s
+[1649300597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649300597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649300597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.005s!
+[1649300597] wproc: Core Worker 1353: job 11433 (pid=18675): Dormant child reaped
+[1649301196] wproc: Core Worker 1353: job 11456 (pid=19225) timed out. Killing it
+[1649301196] wproc: CHECK job 11456 from worker Core Worker 1353 timed out after 60.03s
+[1649301196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649301196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649301196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.027s!
+[1649301196] wproc: Core Worker 1353: job 11456 (pid=19225): Dormant child reaped
+[1649301197] wproc: Core Worker 1355: job 11456 (pid=19226) timed out. Killing it
+[1649301197] wproc: CHECK job 11456 from worker Core Worker 1355 timed out after 60.04s
+[1649301197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649301197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649301197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.044s!
+[1649301197] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.04 seconds)
+[1649301197] wproc: Core Worker 1355: job 11456 (pid=19226): Dormant child reaped
+[1649301563] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649301796] wproc: Core Worker 1356: job 11479 (pid=19784) timed out. Killing it
+[1649301796] wproc: CHECK job 11479 from worker Core Worker 1356 timed out after 60.03s
+[1649301796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649301796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649301796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.026s!
+[1649301796] wproc: Core Worker 1356: job 11479 (pid=19784): Dormant child reaped
+[1649301797] wproc: Core Worker 1354: job 11479 (pid=19785) timed out. Killing it
+[1649301797] wproc: CHECK job 11479 from worker Core Worker 1354 timed out after 60.06s
+[1649301797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649301797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649301797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649301797] wproc: Core Worker 1354: job 11479 (pid=19785): Dormant child reaped
+[1649302305] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649302396] wproc: Core Worker 1354: job 11502 (pid=20363) timed out. Killing it
+[1649302396] wproc: CHECK job 11502 from worker Core Worker 1354 timed out after 60.03s
+[1649302396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649302396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649302396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.028s!
+[1649302396] wproc: Core Worker 1354: job 11502 (pid=20363): Dormant child reaped
+[1649302397] wproc: Core Worker 1353: job 11503 (pid=20364) timed out. Killing it
+[1649302397] wproc: CHECK job 11503 from worker Core Worker 1353 timed out after 60.05s
+[1649302397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649302397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649302397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.048s!
+[1649302397] wproc: Core Worker 1353: job 11503 (pid=20364): Dormant child reaped
+[1649302504] Auto-save of retention data completed successfully.
+[1649302996] wproc: Core Worker 1354: job 11525 (pid=20908) timed out. Killing it
+[1649302996] wproc: CHECK job 11525 from worker Core Worker 1354 timed out after 60.03s
+[1649302996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649302996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649302996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.028s!
+[1649302996] wproc: Core Worker 1354: job 11525 (pid=20908): Dormant child reaped
+[1649302997] wproc: Core Worker 1353: job 11526 (pid=20909) timed out. Killing it
+[1649302997] wproc: CHECK job 11526 from worker Core Worker 1353 timed out after 60.06s
+[1649302997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649302997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649302997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649302997] wproc: Core Worker 1353: job 11526 (pid=20909): Dormant child reaped
+[1649303574] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.38 ms
+[1649303596] wproc: Core Worker 1354: job 11548 (pid=21455) timed out. Killing it
+[1649303596] wproc: CHECK job 11548 from worker Core Worker 1354 timed out after 60.03s
+[1649303596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649303596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649303596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.027s!
+[1649303596] wproc: Core Worker 1354: job 11548 (pid=21455): Dormant child reaped
+[1649303597] wproc: Core Worker 1353: job 11549 (pid=21456) timed out. Killing it
+[1649303597] wproc: CHECK job 11549 from worker Core Worker 1353 timed out after 60.02s
+[1649303597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649303597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649303597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.016s!
+[1649303597] wproc: Core Worker 1353: job 11549 (pid=21456): Dormant child reaped
+[1649303639] SERVICE ALERT: esxi03;PING;WARNING;SOFT;2;PING WARNING - Packet loss = 20%, RTA = 0.46 ms
+[1649303670] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649303703] SERVICE ALERT: esxi03;PING;OK;SOFT;3;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1649304085] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649304107] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649304196] wproc: Core Worker 1355: job 11573 (pid=22024) timed out. Killing it
+[1649304196] wproc: CHECK job 11573 from worker Core Worker 1355 timed out after 60.02s
+[1649304196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649304196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649304196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.021s!
+[1649304196] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.02 seconds)
+[1649304196] wproc: Core Worker 1355: job 11573 (pid=22024): Dormant child reaped
+[1649304197] wproc: Core Worker 1356: job 11573 (pid=22025) timed out. Killing it
+[1649304197] wproc: CHECK job 11573 from worker Core Worker 1356 timed out after 60.01s
+[1649304197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649304197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649304197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.006s!
+[1649304197] wproc: Core Worker 1356: job 11573 (pid=22025): Dormant child reaped
+[1649304706] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649304796] wproc: Core Worker 1354: job 11596 (pid=22585) timed out. Killing it
+[1649304796] wproc: CHECK job 11596 from worker Core Worker 1354 timed out after 60.02s
+[1649304796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649304796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649304796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.023s!
+[1649304796] wproc: Core Worker 1354: job 11596 (pid=22585): Dormant child reaped
+[1649304797] wproc: Core Worker 1353: job 11597 (pid=22586) timed out. Killing it
+[1649304797] wproc: CHECK job 11597 from worker Core Worker 1353 timed out after 60.04s
+[1649304797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649304797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649304797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.037s!
+[1649304797] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.04 seconds)
+[1649304797] wproc: Core Worker 1353: job 11597 (pid=22586): Dormant child reaped
+[1649305396] wproc: Core Worker 1353: job 11620 (pid=23133) timed out. Killing it
+[1649305396] wproc: CHECK job 11620 from worker Core Worker 1353 timed out after 60.02s
+[1649305396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649305396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649305396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.022s!
+[1649305396] wproc: Core Worker 1353: job 11620 (pid=23133): Dormant child reaped
+[1649305397] wproc: Core Worker 1355: job 11620 (pid=23134) timed out. Killing it
+[1649305397] wproc: CHECK job 11620 from worker Core Worker 1355 timed out after 60.02s
+[1649305397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649305397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649305397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.017s!
+[1649305397] wproc: Core Worker 1355: job 11620 (pid=23134): Dormant child reaped
+[1649305761] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649305996] wproc: Core Worker 1355: job 11643 (pid=23718) timed out. Killing it
+[1649305996] wproc: CHECK job 11643 from worker Core Worker 1355 timed out after 60.02s
+[1649305996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649305996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649305996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.022s!
+[1649305996] wproc: Core Worker 1355: job 11643 (pid=23718): Dormant child reaped
+[1649305997] wproc: Core Worker 1356: job 11643 (pid=23719) timed out. Killing it
+[1649305997] wproc: CHECK job 11643 from worker Core Worker 1356 timed out after 60.02s
+[1649305997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649305997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649305997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.022s!
+[1649305997] wproc: Core Worker 1356: job 11643 (pid=23719): Dormant child reaped
+[1649306104] Auto-save of retention data completed successfully.
+[1649306503] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649306596] wproc: Core Worker 1356: job 11666 (pid=24273) timed out. Killing it
+[1649306596] wproc: CHECK job 11666 from worker Core Worker 1356 timed out after 60.02s
+[1649306596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649306596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649306596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.022s!
+[1649306596] wproc: Core Worker 1356: job 11666 (pid=24273): Dormant child reaped
+[1649306597] wproc: Core Worker 1354: job 11666 (pid=24274) timed out. Killing it
+[1649306597] wproc: CHECK job 11666 from worker Core Worker 1354 timed out after 60.06s
+[1649306597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649306597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649306597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.063s!
+[1649306597] wproc: Core Worker 1354: job 11666 (pid=24274): Dormant child reaped
+[1649307068] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.35 ms
+[1649307133] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1649307196] wproc: Core Worker 1353: job 11690 (pid=24820) timed out. Killing it
+[1649307196] wproc: CHECK job 11690 from worker Core Worker 1353 timed out after 60.01s
+[1649307196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649307196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649307196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.008s!
+[1649307196] wproc: Core Worker 1353: job 11690 (pid=24820): Dormant child reaped
+[1649307197] wproc: Core Worker 1355: job 11690 (pid=24821) timed out. Killing it
+[1649307197] wproc: CHECK job 11690 from worker Core Worker 1355 timed out after 60.06s
+[1649307197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649307197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649307197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.059s!
+[1649307198] wproc: Core Worker 1355: job 11690 (pid=24821): Dormant child reaped
+[1649307271] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649307796] wproc: Core Worker 1355: job 11713 (pid=25377) timed out. Killing it
+[1649307796] wproc: CHECK job 11713 from worker Core Worker 1355 timed out after 60.01s
+[1649307796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649307796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649307796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.008s!
+[1649307796] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.01 seconds)
+[1649307796] wproc: Core Worker 1355: job 11713 (pid=25377): Dormant child reaped
+[1649307797] wproc: Core Worker 1356: job 11713 (pid=25378) timed out. Killing it
+[1649307797] wproc: CHECK job 11713 from worker Core Worker 1356 timed out after 60.01s
+[1649307797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649307797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649307797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.006s!
+[1649307798] wproc: Core Worker 1356: job 11713 (pid=25378): Dormant child reaped
+[1649308285] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649308306] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649308307] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649308396] wproc: Core Worker 1355: job 11737 (pid=25946) timed out. Killing it
+[1649308396] wproc: CHECK job 11737 from worker Core Worker 1355 timed out after 60.01s
+[1649308396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649308396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649308396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.007s!
+[1649308396] wproc: Core Worker 1355: job 11737 (pid=25946): Dormant child reaped
+[1649308397] wproc: Core Worker 1356: job 11737 (pid=25947) timed out. Killing it
+[1649308397] wproc: CHECK job 11737 from worker Core Worker 1356 timed out after 60.04s
+[1649308397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649308397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649308397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.044s!
+[1649308397] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.04 seconds)
+[1649308398] wproc: Core Worker 1356: job 11737 (pid=25947): Dormant child reaped
+[1649308398] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.42 ms
+[1649308462] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.39 ms
+[1649308996] wproc: Core Worker 1353: job 11761 (pid=26503) timed out. Killing it
+[1649308996] wproc: CHECK job 11761 from worker Core Worker 1353 timed out after 60.06s
+[1649308996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649308996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649308996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.059s!
+[1649308996] wproc: Core Worker 1353: job 11761 (pid=26503): Dormant child reaped
+[1649308997] wproc: Core Worker 1355: job 11761 (pid=26504) timed out. Killing it
+[1649308997] wproc: CHECK job 11761 from worker Core Worker 1355 timed out after 60.02s
+[1649308997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649308997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649308997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.025s!
+[1649308998] wproc: Core Worker 1355: job 11761 (pid=26504): Dormant child reaped
+[1649309362] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649309596] wproc: Core Worker 1355: job 11784 (pid=27084) timed out. Killing it
+[1649309596] wproc: CHECK job 11784 from worker Core Worker 1355 timed out after 60.02s
+[1649309596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649309596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649309596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.021s!
+[1649309596] wproc: Core Worker 1355: job 11784 (pid=27084): Dormant child reaped
+[1649309597] wproc: Core Worker 1356: job 11784 (pid=27085) timed out. Killing it
+[1649309597] wproc: CHECK job 11784 from worker Core Worker 1356 timed out after 60.01s
+[1649309597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649309597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649309597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.015s!
+[1649309598] wproc: Core Worker 1356: job 11784 (pid=27085): Dormant child reaped
+[1649309704] Auto-save of retention data completed successfully.
+[1649310103] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649310196] wproc: Core Worker 1356: job 11807 (pid=27634) timed out. Killing it
+[1649310196] wproc: CHECK job 11807 from worker Core Worker 1356 timed out after 60.03s
+[1649310196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649310196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649310196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.027s!
+[1649310196] wproc: Core Worker 1356: job 11807 (pid=27634): Dormant child reaped
+[1649310197] wproc: Core Worker 1354: job 11807 (pid=27635) timed out. Killing it
+[1649310197] wproc: CHECK job 11807 from worker Core Worker 1354 timed out after 60.03s
+[1649310197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649310197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649310197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.026s!
+[1649310198] wproc: Core Worker 1354: job 11807 (pid=27635): Dormant child reaped
+[1649310796] wproc: Core Worker 1356: job 11830 (pid=28183) timed out. Killing it
+[1649310796] wproc: CHECK job 11830 from worker Core Worker 1356 timed out after 60.01s
+[1649310796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649310796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649310796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.009s!
+[1649310796] wproc: Core Worker 1356: job 11830 (pid=28183): Dormant child reaped
+[1649310797] wproc: Core Worker 1354: job 11830 (pid=28184) timed out. Killing it
+[1649310797] wproc: CHECK job 11830 from worker Core Worker 1354 timed out after 60.02s
+[1649310797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649310797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649310797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.022s!
+[1649310798] wproc: Core Worker 1354: job 11830 (pid=28184): Dormant child reaped
+[1649311396] wproc: Core Worker 1356: job 11853 (pid=28732) timed out. Killing it
+[1649311396] wproc: CHECK job 11853 from worker Core Worker 1356 timed out after 60.06s
+[1649311396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649311396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649311396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.065s!
+[1649311396] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.06 seconds)
+[1649311396] wproc: Core Worker 1356: job 11853 (pid=28732): Dormant child reaped
+[1649311397] wproc: Core Worker 1354: job 11853 (pid=28733) timed out. Killing it
+[1649311397] wproc: CHECK job 11853 from worker Core Worker 1354 timed out after 60.01s
+[1649311397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649311397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649311397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.014s!
+[1649311398] wproc: Core Worker 1354: job 11853 (pid=28733): Dormant child reaped
+[1649311470] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649311494] SERVICE ALERT: esxi04;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 0%, RTA = 205.17 ms
+[1649311519] wproc: Core Worker 1354: job 11857 (pid=28796) timed out. Killing it
+[1649311519] wproc: CHECK job 11857 from worker Core Worker 1354 timed out after 30.02s
+[1649311519] wproc:   host=esxi02; service=(null);
+[1649311519] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649311519] Warning: Check of host 'esxi02' timed out after 30.02 seconds
+[1649311519] HOST ALERT: esxi02;DOWN;SOFT;1;(Host check timed out after 30.02 seconds)
+[1649311520] wproc: Core Worker 1354: job 11857 (pid=28796): Dormant child reaped
+[1649311558] SERVICE ALERT: esxi04;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1649311610] wproc: Core Worker 1356: job 11865 (pid=29006) timed out. Killing it
+[1649311610] wproc: CHECK job 11865 from worker Core Worker 1356 timed out after 30.00s
+[1649311610] wproc:   host=esxi02; service=(null);
+[1649311610] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649311610] Warning: Check of host 'esxi02' timed out after 30.00 seconds
+[1649311610] HOST ALERT: esxi02;DOWN;SOFT;2;(Host check timed out after 30.00 seconds)
+[1649311610] wproc: Core Worker 1356: job 11865 (pid=29006): Dormant child reaped
+[1649311624] SERVICE ALERT: esxi02;PING;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1649311670] HOST ALERT: esxi02;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.5.5.52)
+[1649311731] HOST ALERT: esxi02;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.5.5.52)
+[1649311795] HOST ALERT: esxi02;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.42 ms
+[1649311885] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649311886] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;OK;notify-service-by-email;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649311886] SERVICE ALERT: esxi02;ESXi Hardware Check;OK;HARD;3;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649311917] SERVICE ALERT: esxi02;PING;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1649311996] wproc: Core Worker 1354: job 11878 (pid=29309) timed out. Killing it
+[1649311996] wproc: CHECK job 11878 from worker Core Worker 1354 timed out after 60.01s
+[1649311996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649311996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649311996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.006s!
+[1649311996] wproc: Core Worker 1354: job 11878 (pid=29309): Dormant child reaped
+[1649311998] wproc: Core Worker 1353: job 11879 (pid=29310) timed out. Killing it
+[1649311998] wproc: CHECK job 11879 from worker Core Worker 1353 timed out after 60.04s
+[1649311998] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649311998] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649311998] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.036s!
+[1649311998] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.04 seconds)
+[1649311998] wproc: Core Worker 1353: job 11879 (pid=29310): Dormant child reaped
+[1649312121] wproc: Core Worker 1354: job 11882 (pid=29369) timed out. Killing it
+[1649312121] wproc: CHECK job 11882 from worker Core Worker 1354 timed out after 30.01s
+[1649312121] wproc:   host=esxi02; service=(null);
+[1649312121] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649312121] Warning: Check of host 'esxi02' timed out after 30.01 seconds
+[1649312121] HOST ALERT: esxi02;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1649312121] wproc: Core Worker 1354: job 11882 (pid=29369): Dormant child reaped
+[1649312211] wproc: Core Worker 1355: job 11890 (pid=29577) timed out. Killing it
+[1649312211] wproc: CHECK job 11890 from worker Core Worker 1355 timed out after 30.01s
+[1649312211] wproc:   host=esxi02; service=(null);
+[1649312211] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649312211] Warning: Check of host 'esxi02' timed out after 30.01 seconds
+[1649312211] HOST ALERT: esxi02;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1649312211] wproc: Core Worker 1355: job 11890 (pid=29577): Dormant child reaped
+[1649312224] SERVICE ALERT: esxi02;PING;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1649312272] HOST ALERT: esxi02;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.5.5.52)
+[1649312333] HOST ALERT: esxi02;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.5.5.52)
+[1649312394] HOST ALERT: esxi02;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.5.5.52)
+[1649312455] HOST ALERT: esxi02;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.5.5.52)
+[1649312491] SERVICE ALERT: esxi02;ESXi Hardware Check;UNKNOWN;HARD;1;UNKNOWN: (0, 'Socket error: [Errno 113] No route to host')
+[1649312506] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649312516] HOST ALERT: esxi02;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.5.5.52)
+[1649312577] HOST ALERT: esxi02;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.5.5.52)
+[1649312596] wproc: Core Worker 1356: job 11903 (pid=29878) timed out. Killing it
+[1649312596] wproc: CHECK job 11903 from worker Core Worker 1356 timed out after 60.01s
+[1649312596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649312596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649312596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.013s!
+[1649312596] wproc: Core Worker 1356: job 11903 (pid=29878): Dormant child reaped
+[1649312597] wproc: Core Worker 1354: job 11903 (pid=29879) timed out. Killing it
+[1649312597] wproc: CHECK job 11903 from worker Core Worker 1354 timed out after 60.05s
+[1649312597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649312597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649312597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.047s!
+[1649312597] wproc: Core Worker 1354: job 11903 (pid=29879): Dormant child reaped
+[1649312638] HOST ALERT: esxi02;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.5.5.52)
+[1649312699] HOST NOTIFICATION: nagiosadmin;esxi02;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.5.5.52)
+[1649312699] HOST ALERT: esxi02;DOWN;HARD;10;CRITICAL - Host Unreachable (10.5.5.52)
+[1649312962] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649313196] wproc: Core Worker 1356: job 11927 (pid=30471) timed out. Killing it
+[1649313196] wproc: CHECK job 11927 from worker Core Worker 1356 timed out after 60.01s
+[1649313196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649313196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649313196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.006s!
+[1649313196] wproc: Core Worker 1356: job 11927 (pid=30471): Dormant child reaped
+[1649313197] wproc: Core Worker 1354: job 11927 (pid=30472) timed out. Killing it
+[1649313197] wproc: CHECK job 11927 from worker Core Worker 1354 timed out after 60.03s
+[1649313197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649313197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649313197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.028s!
+[1649313197] wproc: Core Worker 1354: job 11927 (pid=30472): Dormant child reaped
+[1649313304] Auto-save of retention data completed successfully.
+[1649313703] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649313796] wproc: Core Worker 1354: job 11950 (pid=31027) timed out. Killing it
+[1649313796] wproc: CHECK job 11950 from worker Core Worker 1354 timed out after 60.02s
+[1649313796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649313796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649313796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.022s!
+[1649313796] wproc: Core Worker 1354: job 11950 (pid=31027): Dormant child reaped
+[1649313797] wproc: Core Worker 1353: job 11951 (pid=31028) timed out. Killing it
+[1649313797] wproc: CHECK job 11951 from worker Core Worker 1353 timed out after 60.06s
+[1649313797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649313797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649313797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649313797] wproc: Core Worker 1353: job 11951 (pid=31028): Dormant child reaped
+[1649313927] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.31 ms
+[1649313991] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.29 ms
+[1649314396] wproc: Core Worker 1355: job 11974 (pid=31575) timed out. Killing it
+[1649314396] wproc: CHECK job 11974 from worker Core Worker 1355 timed out after 60.03s
+[1649314396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649314396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649314396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.028s!
+[1649314396] wproc: Core Worker 1355: job 11974 (pid=31575): Dormant child reaped
+[1649314397] wproc: Core Worker 1356: job 11974 (pid=31576) timed out. Killing it
+[1649314397] wproc: CHECK job 11974 from worker Core Worker 1356 timed out after 60.03s
+[1649314397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649314397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649314397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.032s!
+[1649314397] wproc: Core Worker 1356: job 11974 (pid=31576): Dormant child reaped
+[1649314957] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.33 ms
+[1649314996] wproc: Core Worker 1355: job 11997 (pid=32129) timed out. Killing it
+[1649314996] wproc: CHECK job 11997 from worker Core Worker 1355 timed out after 60.04s
+[1649314996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649314996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649314996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.040s!
+[1649314996] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.04 seconds)
+[1649314996] wproc: Core Worker 1355: job 11997 (pid=32129): Dormant child reaped
+[1649314997] wproc: Core Worker 1356: job 11997 (pid=32130) timed out. Killing it
+[1649314997] wproc: CHECK job 11997 from worker Core Worker 1356 timed out after 60.03s
+[1649314997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649314997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649314997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.028s!
+[1649314997] wproc: Core Worker 1356: job 11997 (pid=32130): Dormant child reaped
+[1649315022] SERVICE ALERT: esxi03;PING;WARNING;SOFT;2;PING WARNING - Packet loss = 20%, RTA = 0.29 ms
+[1649315070] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649315086] SERVICE ALERT: esxi03;PING;OK;SOFT;3;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1649315596] wproc: Core Worker 1356: job 12021 (pid=32692) timed out. Killing it
+[1649315596] wproc: CHECK job 12021 from worker Core Worker 1356 timed out after 60.03s
+[1649315596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649315596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649315596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.028s!
+[1649315596] wproc: Core Worker 1356: job 12021 (pid=32692): Dormant child reaped
+[1649315597] wproc: Core Worker 1354: job 12021 (pid=32693) timed out. Killing it
+[1649315597] wproc: CHECK job 12021 from worker Core Worker 1354 timed out after 60.02s
+[1649315597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649315597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649315597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.023s!
+[1649315597] wproc: Core Worker 1354: job 12021 (pid=32693): Dormant child reaped
+[1649316084] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649316196] wproc: Core Worker 1354: job 12044 (pid=904) timed out. Killing it
+[1649316196] wproc: CHECK job 12044 from worker Core Worker 1354 timed out after 60.03s
+[1649316196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649316196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649316196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.025s!
+[1649316196] wproc: Core Worker 1354: job 12044 (pid=904): Dormant child reaped
+[1649316197] wproc: Core Worker 1353: job 12045 (pid=906) timed out. Killing it
+[1649316197] wproc: CHECK job 12045 from worker Core Worker 1353 timed out after 60.03s
+[1649316197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649316197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649316197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.029s!
+[1649316197] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.03 seconds)
+[1649316197] wproc: Core Worker 1353: job 12045 (pid=906): Dormant child reaped
+[1649316706] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649316796] wproc: Core Worker 1355: job 12068 (pid=1553) timed out. Killing it
+[1649316796] wproc: CHECK job 12068 from worker Core Worker 1355 timed out after 60.01s
+[1649316796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649316796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649316796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.013s!
+[1649316796] wproc: Core Worker 1355: job 12068 (pid=1553): Dormant child reaped
+[1649316797] wproc: Core Worker 1356: job 12068 (pid=1554) timed out. Killing it
+[1649316797] wproc: CHECK job 12068 from worker Core Worker 1356 timed out after 60.03s
+[1649316797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649316797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649316797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.026s!
+[1649316797] wproc: Core Worker 1356: job 12068 (pid=1554): Dormant child reaped
+[1649316904] Auto-save of retention data completed successfully.
+[1649317161] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649317304] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649317396] wproc: Core Worker 1354: job 12091 (pid=2251) timed out. Killing it
+[1649317396] wproc: CHECK job 12091 from worker Core Worker 1354 timed out after 60.02s
+[1649317396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649317396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649317396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.023s!
+[1649317396] wproc: Core Worker 1354: job 12091 (pid=2251): Dormant child reaped
+[1649317397] wproc: Core Worker 1353: job 12092 (pid=2252) timed out. Killing it
+[1649317397] wproc: CHECK job 12092 from worker Core Worker 1353 timed out after 60.01s
+[1649317397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649317397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649317397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.009s!
+[1649317397] wproc: Core Worker 1353: job 12092 (pid=2252): Dormant child reaped
+[1649317551] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.41 ms
+[1649317615] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.35 ms
+[1649317996] wproc: Core Worker 1355: job 12115 (pid=2802) timed out. Killing it
+[1649317996] wproc: CHECK job 12115 from worker Core Worker 1355 timed out after 60.02s
+[1649317996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649317996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649317996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.022s!
+[1649317997] wproc: Core Worker 1355: job 12115 (pid=2802): Dormant child reaped
+[1649317997] wproc: Core Worker 1356: job 12115 (pid=2803) timed out. Killing it
+[1649317997] wproc: CHECK job 12115 from worker Core Worker 1356 timed out after 60.06s
+[1649317997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649317997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649317997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649317997] wproc: Core Worker 1356: job 12115 (pid=2803): Dormant child reaped
+[1649318596] wproc: Core Worker 1355: job 12138 (pid=3350) timed out. Killing it
+[1649318596] wproc: CHECK job 12138 from worker Core Worker 1355 timed out after 60.02s
+[1649318596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649318596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649318596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.022s!
+[1649318596] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.02 seconds)
+[1649318597] wproc: Core Worker 1355: job 12138 (pid=3350): Dormant child reaped
+[1649318597] wproc: Core Worker 1356: job 12138 (pid=3351) timed out. Killing it
+[1649318597] wproc: CHECK job 12138 from worker Core Worker 1356 timed out after 60.01s
+[1649318597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649318597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649318597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.005s!
+[1649318597] wproc: Core Worker 1356: job 12138 (pid=3351): Dormant child reaped
+[1649318670] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649319196] wproc: Core Worker 1354: job 12161 (pid=3905) timed out. Killing it
+[1649319196] wproc: CHECK job 12161 from worker Core Worker 1354 timed out after 60.02s
+[1649319196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649319196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649319196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.022s!
+[1649319197] wproc: Core Worker 1354: job 12161 (pid=3905): Dormant child reaped
+[1649319197] wproc: Core Worker 1353: job 12162 (pid=3906) timed out. Killing it
+[1649319197] wproc: CHECK job 12162 from worker Core Worker 1353 timed out after 60.04s
+[1649319197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649319197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649319197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.043s!
+[1649319197] wproc: Core Worker 1353: job 12162 (pid=3906): Dormant child reaped
+[1649319684] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649319796] wproc: Core Worker 1353: job 12185 (pid=4469) timed out. Killing it
+[1649319796] wproc: CHECK job 12185 from worker Core Worker 1353 timed out after 60.02s
+[1649319796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649319796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649319796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.019s!
+[1649319797] wproc: Core Worker 1353: job 12185 (pid=4469): Dormant child reaped
+[1649319797] wproc: Core Worker 1355: job 12185 (pid=4470) timed out. Killing it
+[1649319797] wproc: CHECK job 12185 from worker Core Worker 1355 timed out after 60.05s
+[1649319797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649319797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649319797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.049s!
+[1649319797] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.05 seconds)
+[1649319797] wproc: Core Worker 1355: job 12185 (pid=4470): Dormant child reaped
+[1649319901] HOST NOTIFICATION: nagiosadmin;esxi02;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.5.5.52)
+[1649320306] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649320396] wproc: Core Worker 1354: job 12208 (pid=5073) timed out. Killing it
+[1649320396] wproc: CHECK job 12208 from worker Core Worker 1354 timed out after 60.02s
+[1649320396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649320396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649320396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.018s!
+[1649320397] wproc: Core Worker 1354: job 12208 (pid=5073): Dormant child reaped
+[1649320397] wproc: Core Worker 1353: job 12209 (pid=5074) timed out. Killing it
+[1649320397] wproc: CHECK job 12209 from worker Core Worker 1353 timed out after 60.00s
+[1649320397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649320397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649320397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.005s!
+[1649320397] wproc: Core Worker 1353: job 12209 (pid=5074): Dormant child reaped
+[1649320504] Auto-save of retention data completed successfully.
+[1649320623] SERVICE ALERT: esxi04;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.47 ms
+[1649320687] SERVICE ALERT: esxi04;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1649320762] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649320980] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.32 ms
+[1649320996] wproc: Core Worker 1356: job 12232 (pid=5634) timed out. Killing it
+[1649320996] wproc: CHECK job 12232 from worker Core Worker 1356 timed out after 60.02s
+[1649320996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649320996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649320996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.021s!
+[1649320997] wproc: Core Worker 1356: job 12232 (pid=5634): Dormant child reaped
+[1649320997] wproc: Core Worker 1354: job 12232 (pid=5635) timed out. Killing it
+[1649320997] wproc: CHECK job 12232 from worker Core Worker 1354 timed out after 60.02s
+[1649320997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649320997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649320997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.017s!
+[1649320997] wproc: Core Worker 1354: job 12232 (pid=5635): Dormant child reaped
+[1649321044] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.35 ms
+[1649321103] HOST NOTIFICATION: nagiosadmin;esxi02;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1649321103] HOST ALERT: esxi02;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1649321224] SERVICE NOTIFICATION: nagiosadmin;esxi02;PING;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out
+[1649321429] wproc: Core Worker 1354: job 12249 (pid=5984) timed out. Killing it
+[1649321429] wproc: CHECK job 12249 from worker Core Worker 1354 timed out after 30.03s
+[1649321429] wproc:   host=esxi02; service=(null);
+[1649321429] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649321429] Warning: Check of host 'esxi02' timed out after 30.03 seconds
+[1649321429] HOST ALERT: esxi02;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1649321430] wproc: Core Worker 1354: job 12249 (pid=5984): Dormant child reaped
+[1649321490] HOST ALERT: esxi02;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.5.5.52)
+[1649321504] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649321551] HOST ALERT: esxi02;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.5.5.52)
+[1649321596] wproc: Core Worker 1353: job 12257 (pid=6205) timed out. Killing it
+[1649321596] wproc: CHECK job 12257 from worker Core Worker 1353 timed out after 60.03s
+[1649321596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649321596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649321596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.028s!
+[1649321597] wproc: Core Worker 1353: job 12257 (pid=6205): Dormant child reaped
+[1649321597] wproc: Core Worker 1355: job 12257 (pid=6206) timed out. Killing it
+[1649321597] wproc: CHECK job 12257 from worker Core Worker 1355 timed out after 60.02s
+[1649321597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649321597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649321597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.017s!
+[1649321597] wproc: Core Worker 1355: job 12257 (pid=6206): Dormant child reaped
+[1649321611] HOST ALERT: esxi02;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.5.5.52)
+[1649321672] HOST ALERT: esxi02;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.5.5.52)
+[1649321734] HOST ALERT: esxi02;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.5.5.52)
+[1649321795] HOST ALERT: esxi02;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.5.5.52)
+[1649321856] HOST ALERT: esxi02;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.5.5.52)
+[1649321917] HOST ALERT: esxi02;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.5.5.52)
+[1649321978] HOST NOTIFICATION: nagiosadmin;esxi02;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.5.5.52)
+[1649321978] HOST ALERT: esxi02;DOWN;HARD;10;CRITICAL - Host Unreachable (10.5.5.52)
+[1649322196] wproc: Core Worker 1354: job 12281 (pid=6773) timed out. Killing it
+[1649322196] wproc: CHECK job 12281 from worker Core Worker 1354 timed out after 60.01s
+[1649322196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649322196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649322196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.009s!
+[1649322196] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.01 seconds)
+[1649322197] wproc: Core Worker 1354: job 12281 (pid=6773): Dormant child reaped
+[1649322197] wproc: Core Worker 1353: job 12282 (pid=6774) timed out. Killing it
+[1649322197] wproc: CHECK job 12282 from worker Core Worker 1353 timed out after 60.01s
+[1649322197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649322197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649322197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.005s!
+[1649322197] wproc: Core Worker 1353: job 12282 (pid=6774): Dormant child reaped
+[1649322271] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649322796] wproc: Core Worker 1355: job 12305 (pid=7337) timed out. Killing it
+[1649322796] wproc: CHECK job 12305 from worker Core Worker 1355 timed out after 60.01s
+[1649322796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649322796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649322796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.009s!
+[1649322797] wproc: Core Worker 1355: job 12305 (pid=7337): Dormant child reaped
+[1649322797] wproc: Core Worker 1356: job 12305 (pid=7338) timed out. Killing it
+[1649322797] wproc: CHECK job 12305 from worker Core Worker 1356 timed out after 60.02s
+[1649322797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649322797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649322797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.023s!
+[1649322797] wproc: Core Worker 1356: job 12305 (pid=7338): Dormant child reaped
+[1649323152] SERVICE ALERT: esxi04;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.44 ms
+[1649323216] SERVICE ALERT: esxi04;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1649323284] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649323396] wproc: Core Worker 1353: job 12329 (pid=7891) timed out. Killing it
+[1649323396] wproc: CHECK job 12329 from worker Core Worker 1353 timed out after 60.02s
+[1649323396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649323396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649323396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.017s!
+[1649323397] wproc: Core Worker 1353: job 12329 (pid=7891): Dormant child reaped
+[1649323397] wproc: Core Worker 1355: job 12329 (pid=7892) timed out. Killing it
+[1649323397] wproc: CHECK job 12329 from worker Core Worker 1355 timed out after 60.05s
+[1649323397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649323397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649323397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.053s!
+[1649323397] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.05 seconds)
+[1649323397] wproc: Core Worker 1355: job 12329 (pid=7892): Dormant child reaped
+[1649323996] wproc: Core Worker 1355: job 12352 (pid=8476) timed out. Killing it
+[1649323996] wproc: CHECK job 12352 from worker Core Worker 1355 timed out after 60.02s
+[1649323996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649323996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649323996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.017s!
+[1649323997] wproc: Core Worker 1355: job 12352 (pid=8476): Dormant child reaped
+[1649323997] wproc: Core Worker 1356: job 12352 (pid=8477) timed out. Killing it
+[1649323997] wproc: CHECK job 12352 from worker Core Worker 1356 timed out after 60.05s
+[1649323997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649323997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649323997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.055s!
+[1649323997] wproc: Core Worker 1356: job 12352 (pid=8477): Dormant child reaped
+[1649324104] Auto-save of retention data completed successfully.
+[1649324109] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.41 ms
+[1649324174] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1649324505] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649324597] wproc: Core Worker 1355: job 12376 (pid=9039) timed out. Killing it
+[1649324597] wproc: CHECK job 12376 from worker Core Worker 1355 timed out after 60.06s
+[1649324597] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649324597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649324597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.064s!
+[1649324597] wproc: Core Worker 1355: job 12376 (pid=9039): Dormant child reaped
+[1649324597] wproc: Core Worker 1356: job 12376 (pid=9040) timed out. Killing it
+[1649324597] wproc: CHECK job 12376 from worker Core Worker 1356 timed out after 60.06s
+[1649324597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649324597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649324597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649324597] wproc: Core Worker 1356: job 12376 (pid=9040): Dormant child reaped
+[1649324961] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649325196] wproc: Core Worker 1356: job 12399 (pid=9591) timed out. Killing it
+[1649325196] wproc: CHECK job 12399 from worker Core Worker 1356 timed out after 60.05s
+[1649325196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649325196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649325196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.051s!
+[1649325196] wproc: Core Worker 1356: job 12399 (pid=9591): Dormant child reaped
+[1649325197] wproc: Core Worker 1354: job 12399 (pid=9592) timed out. Killing it
+[1649325197] wproc: CHECK job 12399 from worker Core Worker 1354 timed out after 60.01s
+[1649325197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649325197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649325197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.012s!
+[1649325197] wproc: Core Worker 1354: job 12399 (pid=9592): Dormant child reaped
+[1649325702] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649325796] wproc: Core Worker 1354: job 12422 (pid=10141) timed out. Killing it
+[1649325796] wproc: CHECK job 12422 from worker Core Worker 1354 timed out after 60.01s
+[1649325796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649325796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649325796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.007s!
+[1649325796] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.01 seconds)
+[1649325796] wproc: Core Worker 1354: job 12422 (pid=10141): Dormant child reaped
+[1649325797] wproc: Core Worker 1353: job 12423 (pid=10142) timed out. Killing it
+[1649325797] wproc: CHECK job 12423 from worker Core Worker 1353 timed out after 60.06s
+[1649325797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649325797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649325797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.056s!
+[1649325798] wproc: Core Worker 1353: job 12423 (pid=10142): Dormant child reaped
+[1649326396] wproc: Core Worker 1353: job 12446 (pid=10690) timed out. Killing it
+[1649326396] wproc: CHECK job 12446 from worker Core Worker 1353 timed out after 60.05s
+[1649326396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649326396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649326396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.046s!
+[1649326396] wproc: Core Worker 1353: job 12446 (pid=10690): Dormant child reaped
+[1649326397] wproc: Core Worker 1355: job 12446 (pid=10691) timed out. Killing it
+[1649326397] wproc: CHECK job 12446 from worker Core Worker 1355 timed out after 60.05s
+[1649326397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649326397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649326397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.054s!
+[1649326398] wproc: Core Worker 1355: job 12446 (pid=10691): Dormant child reaped
+[1649326470] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649326996] wproc: Core Worker 1355: job 12469 (pid=11247) timed out. Killing it
+[1649326996] wproc: CHECK job 12469 from worker Core Worker 1355 timed out after 60.06s
+[1649326996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649326996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649326996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.057s!
+[1649326996] wproc: Core Worker 1355: job 12469 (pid=11247): Dormant child reaped
+[1649326997] wproc: Core Worker 1356: job 12469 (pid=11248) timed out. Killing it
+[1649326997] wproc: CHECK job 12469 from worker Core Worker 1356 timed out after 60.06s
+[1649326997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649326997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649326997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649326997] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.06 seconds)
+[1649326998] wproc: Core Worker 1356: job 12469 (pid=11248): Dormant child reaped
+[1649327484] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649327596] wproc: Core Worker 1354: job 12492 (pid=11842) timed out. Killing it
+[1649327596] wproc: CHECK job 12492 from worker Core Worker 1354 timed out after 60.03s
+[1649327596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649327596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649327596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.033s!
+[1649327596] wproc: Core Worker 1354: job 12492 (pid=11842): Dormant child reaped
+[1649327597] wproc: Core Worker 1353: job 12493 (pid=11843) timed out. Killing it
+[1649327597] wproc: CHECK job 12493 from worker Core Worker 1353 timed out after 60.02s
+[1649327597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649327597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649327597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.016s!
+[1649327598] wproc: Core Worker 1353: job 12493 (pid=11843): Dormant child reaped
+[1649327704] Auto-save of retention data completed successfully.
+[1649328105] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649328196] wproc: Core Worker 1353: job 12516 (pid=12397) timed out. Killing it
+[1649328196] wproc: CHECK job 12516 from worker Core Worker 1353 timed out after 60.05s
+[1649328196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649328196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649328196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.053s!
+[1649328196] wproc: Core Worker 1353: job 12516 (pid=12397): Dormant child reaped
+[1649328198] wproc: Core Worker 1355: job 12516 (pid=12398) timed out. Killing it
+[1649328198] wproc: CHECK job 12516 from worker Core Worker 1355 timed out after 60.06s
+[1649328198] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649328198] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649328198] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.063s!
+[1649328198] wproc: Core Worker 1355: job 12516 (pid=12398): Dormant child reaped
+[1649328739] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.38 ms
+[1649328796] wproc: Core Worker 1353: job 12539 (pid=12944) timed out. Killing it
+[1649328796] wproc: CHECK job 12539 from worker Core Worker 1353 timed out after 60.03s
+[1649328796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649328796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649328796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.028s!
+[1649328796] wproc: Core Worker 1353: job 12539 (pid=12944): Dormant child reaped
+[1649328797] wproc: Core Worker 1355: job 12539 (pid=12945) timed out. Killing it
+[1649328797] wproc: CHECK job 12539 from worker Core Worker 1355 timed out after 60.01s
+[1649328797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649328797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649328797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.012s!
+[1649328797] wproc: Core Worker 1355: job 12539 (pid=12945): Dormant child reaped
+[1649328803] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.33 ms
+[1649329162] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649329181] HOST NOTIFICATION: nagiosadmin;esxi02;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.5.5.52)
+[1649329304] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649329396] wproc: Core Worker 1353: job 12563 (pid=13512) timed out. Killing it
+[1649329396] wproc: CHECK job 12563 from worker Core Worker 1353 timed out after 60.01s
+[1649329396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649329396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649329396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.014s!
+[1649329396] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.01 seconds)
+[1649329396] wproc: Core Worker 1353: job 12563 (pid=13512): Dormant child reaped
+[1649329397] wproc: Core Worker 1355: job 12563 (pid=13513) timed out. Killing it
+[1649329397] wproc: CHECK job 12563 from worker Core Worker 1355 timed out after 60.01s
+[1649329397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649329397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649329397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.005s!
+[1649329397] wproc: Core Worker 1355: job 12563 (pid=13513): Dormant child reaped
+[1649329782] HOST NOTIFICATION: nagiosadmin;esxi02;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1649329782] HOST ALERT: esxi02;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1649329896] SERVICE ALERT: esxi02;ESXi Hardware Check;OK;SOFT;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649329917] SERVICE ALERT: esxi02;PING;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1649329996] wproc: Core Worker 1356: job 12586 (pid=14075) timed out. Killing it
+[1649329996] wproc: CHECK job 12586 from worker Core Worker 1356 timed out after 60.03s
+[1649329996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649329996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649329996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.028s!
+[1649329996] wproc: Core Worker 1356: job 12586 (pid=14075): Dormant child reaped
+[1649329997] wproc: Core Worker 1354: job 12586 (pid=14076) timed out. Killing it
+[1649329997] wproc: CHECK job 12586 from worker Core Worker 1354 timed out after 60.06s
+[1649329997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649329997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649329997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649329997] wproc: Core Worker 1354: job 12586 (pid=14076): Dormant child reaped
+[1649330070] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649330382] wproc: Core Worker 1353: job 12601 (pid=14390) timed out. Killing it
+[1649330382] wproc: CHECK job 12601 from worker Core Worker 1353 timed out after 30.01s
+[1649330382] wproc:   host=esxi04; service=(null);
+[1649330382] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649330382] Warning: Check of host 'esxi04' timed out after 30.01 seconds
+[1649330382] HOST ALERT: esxi04;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1649330382] wproc: Core Worker 1353: job 12601 (pid=14390): Dormant child reaped
+[1649330472] wproc: Core Worker 1356: job 12605 (pid=14593) timed out. Killing it
+[1649330472] wproc: CHECK job 12605 from worker Core Worker 1356 timed out after 30.02s
+[1649330472] wproc:   host=esxi04; service=(null);
+[1649330472] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649330472] Warning: Check of host 'esxi04' timed out after 30.02 seconds
+[1649330472] HOST ALERT: esxi04;DOWN;SOFT;2;(Host check timed out after 30.02 seconds)
+[1649330472] wproc: Core Worker 1356: job 12605 (pid=14593): Dormant child reaped
+[1649330487] SERVICE ALERT: esxi04;PING;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1649330534] wproc: Core Worker 1356: job 12607 (pid=14607) timed out. Killing it
+[1649330534] wproc: CHECK job 12607 from worker Core Worker 1356 timed out after 60.02s
+[1649330534] wproc:   host=esxi04; service=ESXi Hardware Check;
+[1649330534] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649330534] Warning: Check of service 'ESXi Hardware Check' on host 'esxi04' timed out after 60.021s!
+[1649330534] SERVICE ALERT: esxi04;ESXi Hardware Check;CRITICAL;HARD;3;(Service check timed out after 60.02 seconds)
+[1649330534] wproc: Core Worker 1356: job 12607 (pid=14607): Dormant child reaped
+[1649330562] wproc: Core Worker 1354: job 12609 (pid=14631) timed out. Killing it
+[1649330562] wproc: CHECK job 12609 from worker Core Worker 1354 timed out after 30.01s
+[1649330562] wproc:   host=esxi04; service=(null);
+[1649330562] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649330562] Warning: Check of host 'esxi04' timed out after 30.01 seconds
+[1649330562] HOST ALERT: esxi04;DOWN;SOFT;3;(Host check timed out after 30.01 seconds)
+[1649330562] wproc: Core Worker 1354: job 12609 (pid=14631): Dormant child reaped
+[1649330596] wproc: Core Worker 1355: job 12610 (pid=14635) timed out. Killing it
+[1649330596] wproc: CHECK job 12610 from worker Core Worker 1355 timed out after 60.03s
+[1649330596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649330596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649330596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.027s!
+[1649330596] wproc: Core Worker 1355: job 12610 (pid=14635): Dormant child reaped
+[1649330597] wproc: Core Worker 1356: job 12610 (pid=14636) timed out. Killing it
+[1649330597] wproc: CHECK job 12610 from worker Core Worker 1356 timed out after 60.06s
+[1649330597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649330597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649330597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.065s!
+[1649330597] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.06 seconds)
+[1649330597] wproc: Core Worker 1356: job 12610 (pid=14636): Dormant child reaped
+[1649330625] HOST ALERT: esxi04;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.5.5.54)
+[1649330688] HOST ALERT: esxi04;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.5.5.54)
+[1649330751] HOST ALERT: esxi04;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.5.5.54)
+[1649330814] HOST ALERT: esxi04;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.5.5.54)
+[1649330877] HOST ALERT: esxi04;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.5.5.54)
+[1649330940] HOST ALERT: esxi04;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.5.5.54)
+[1649331003] HOST ALERT: esxi04;DOWN;HARD;10;CRITICAL - Host Unreachable (10.5.5.54)
+[1649331078] SERVICE ALERT: esxi04;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 113] No route to host')
+[1649331084] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649331196] wproc: Core Worker 1353: job 12635 (pid=15234) timed out. Killing it
+[1649331196] wproc: CHECK job 12635 from worker Core Worker 1353 timed out after 60.03s
+[1649331196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649331196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649331196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.027s!
+[1649331196] wproc: Core Worker 1353: job 12635 (pid=15234): Dormant child reaped
+[1649331197] wproc: Core Worker 1355: job 12635 (pid=15235) timed out. Killing it
+[1649331197] wproc: CHECK job 12635 from worker Core Worker 1355 timed out after 60.03s
+[1649331197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649331197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649331197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.031s!
+[1649331197] wproc: Core Worker 1355: job 12635 (pid=15235): Dormant child reaped
+[1649331304] Auto-save of retention data completed successfully.
+[1649331796] wproc: Core Worker 1353: job 12658 (pid=15784) timed out. Killing it
+[1649331796] wproc: CHECK job 12658 from worker Core Worker 1353 timed out after 60.03s
+[1649331796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649331796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649331796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.027s!
+[1649331796] wproc: Core Worker 1353: job 12658 (pid=15784): Dormant child reaped
+[1649331797] wproc: Core Worker 1355: job 12658 (pid=15785) timed out. Killing it
+[1649331797] wproc: CHECK job 12658 from worker Core Worker 1355 timed out after 60.05s
+[1649331797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649331797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649331797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.053s!
+[1649331797] wproc: Core Worker 1355: job 12658 (pid=15785): Dormant child reaped
+[1649332396] wproc: Core Worker 1353: job 12681 (pid=16334) timed out. Killing it
+[1649332396] wproc: CHECK job 12681 from worker Core Worker 1353 timed out after 60.03s
+[1649332396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649332396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649332396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.028s!
+[1649332396] wproc: Core Worker 1353: job 12681 (pid=16334): Dormant child reaped
+[1649332397] wproc: Core Worker 1355: job 12681 (pid=16335) timed out. Killing it
+[1649332397] wproc: CHECK job 12681 from worker Core Worker 1355 timed out after 60.02s
+[1649332397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649332397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649332397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.024s!
+[1649332397] wproc: Core Worker 1355: job 12681 (pid=16335): Dormant child reaped
+[1649332762] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649332996] wproc: Core Worker 1355: job 12704 (pid=16891) timed out. Killing it
+[1649332996] wproc: CHECK job 12704 from worker Core Worker 1355 timed out after 60.03s
+[1649332996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649332996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649332996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.028s!
+[1649332996] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.03 seconds)
+[1649332996] wproc: Core Worker 1355: job 12704 (pid=16891): Dormant child reaped
+[1649332997] wproc: Core Worker 1356: job 12704 (pid=16892) timed out. Killing it
+[1649332997] wproc: CHECK job 12704 from worker Core Worker 1356 timed out after 60.00s
+[1649332997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649332997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649332997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.005s!
+[1649332997] wproc: Core Worker 1356: job 12704 (pid=16892): Dormant child reaped
+[1649333503] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649333596] wproc: Core Worker 1354: job 12727 (pid=17448) timed out. Killing it
+[1649333596] wproc: CHECK job 12727 from worker Core Worker 1354 timed out after 60.03s
+[1649333596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649333596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649333596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.027s!
+[1649333596] wproc: Core Worker 1354: job 12727 (pid=17448): Dormant child reaped
+[1649333597] wproc: Core Worker 1353: job 12728 (pid=17449) timed out. Killing it
+[1649333597] wproc: CHECK job 12728 from worker Core Worker 1353 timed out after 60.05s
+[1649333597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649333597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649333597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.048s!
+[1649333597] wproc: Core Worker 1353: job 12728 (pid=17449): Dormant child reaped
+[1649333671] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649334196] wproc: Core Worker 1353: job 12751 (pid=18007) timed out. Killing it
+[1649334196] wproc: CHECK job 12751 from worker Core Worker 1353 timed out after 60.03s
+[1649334196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649334196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649334196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.027s!
+[1649334196] wproc: Core Worker 1353: job 12751 (pid=18007): Dormant child reaped
+[1649334197] wproc: Core Worker 1355: job 12751 (pid=18008) timed out. Killing it
+[1649334197] wproc: CHECK job 12751 from worker Core Worker 1355 timed out after 60.06s
+[1649334197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649334197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649334197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649334197] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.06 seconds)
+[1649334197] wproc: Core Worker 1355: job 12751 (pid=18008): Dormant child reaped
+[1649334675] wproc: Core Worker 1353: job 12770 (pid=18524) timed out. Killing it
+[1649334675] wproc: CHECK job 12770 from worker Core Worker 1353 timed out after 30.01s
+[1649334675] wproc:   host=esxi07; service=(null);
+[1649334675] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649334675] Warning: Check of host 'esxi07' timed out after 30.01 seconds
+[1649334675] HOST ALERT: esxi07;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1649334676] wproc: Core Worker 1353: job 12770 (pid=18524): Dormant child reaped
+[1649334686] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649334765] wproc: Core Worker 1356: job 12774 (pid=18600) timed out. Killing it
+[1649334765] wproc: CHECK job 12774 from worker Core Worker 1356 timed out after 30.01s
+[1649334765] wproc:   host=esxi07; service=(null);
+[1649334765] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649334765] Warning: Check of host 'esxi07' timed out after 30.01 seconds
+[1649334765] HOST ALERT: esxi07;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1649334766] wproc: Core Worker 1356: job 12774 (pid=18600): Dormant child reaped
+[1649334780] SERVICE ALERT: esxi07;PING;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1649334796] wproc: Core Worker 1354: job 12774 (pid=18602) timed out. Killing it
+[1649334796] wproc: CHECK job 12774 from worker Core Worker 1354 timed out after 60.02s
+[1649334796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649334796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649334796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.015s!
+[1649334796] wproc: Core Worker 1354: job 12774 (pid=18602): Dormant child reaped
+[1649334797] wproc: Core Worker 1353: job 12775 (pid=18603) timed out. Killing it
+[1649334797] wproc: CHECK job 12775 from worker Core Worker 1353 timed out after 60.03s
+[1649334797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649334797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649334797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.033s!
+[1649334797] wproc: Core Worker 1353: job 12775 (pid=18603): Dormant child reaped
+[1649334855] wproc: Core Worker 1355: job 12776 (pid=18628) timed out. Killing it
+[1649334855] wproc: CHECK job 12776 from worker Core Worker 1355 timed out after 30.03s
+[1649334855] wproc:   host=esxi07; service=(null);
+[1649334855] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649334855] Warning: Check of host 'esxi07' timed out after 30.03 seconds
+[1649334855] HOST ALERT: esxi07;DOWN;SOFT;3;(Host check timed out after 30.03 seconds)
+[1649334856] wproc: Core Worker 1355: job 12776 (pid=18628): Dormant child reaped
+[1649334904] Auto-save of retention data completed successfully.
+[1649334917] HOST ALERT: esxi07;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.5.5.57)
+[1649334920] SERVICE ALERT: esxi07;ESXi Hardware Check;UNKNOWN;HARD;1;UNKNOWN: (0, 'Socket error: [Errno 113] No route to host')
+[1649334980] HOST ALERT: esxi07;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.5.5.57)
+[1649335043] HOST ALERT: esxi07;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.5.5.57)
+[1649335106] HOST ALERT: esxi07;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.5.5.57)
+[1649335169] HOST ALERT: esxi07;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.5.5.57)
+[1649335232] HOST ALERT: esxi07;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.5.5.57)
+[1649335295] HOST ALERT: esxi07;DOWN;HARD;10;CRITICAL - Host Unreachable (10.5.5.57)
+[1649335396] wproc: Core Worker 1355: job 12799 (pid=19160) timed out. Killing it
+[1649335396] wproc: CHECK job 12799 from worker Core Worker 1355 timed out after 60.02s
+[1649335396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649335396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649335396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.021s!
+[1649335396] wproc: Core Worker 1355: job 12799 (pid=19160): Dormant child reaped
+[1649335397] wproc: Core Worker 1356: job 12799 (pid=19161) timed out. Killing it
+[1649335397] wproc: CHECK job 12799 from worker Core Worker 1356 timed out after 60.02s
+[1649335397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649335397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649335397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.015s!
+[1649335397] wproc: Core Worker 1356: job 12799 (pid=19161): Dormant child reaped
+[1649335996] wproc: Core Worker 1355: job 12822 (pid=19706) timed out. Killing it
+[1649335996] wproc: CHECK job 12822 from worker Core Worker 1355 timed out after 60.01s
+[1649335996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649335996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649335996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.013s!
+[1649335996] wproc: Core Worker 1355: job 12822 (pid=19706): Dormant child reaped
+[1649335997] wproc: Core Worker 1356: job 12822 (pid=19707) timed out. Killing it
+[1649335997] wproc: CHECK job 12822 from worker Core Worker 1356 timed out after 60.06s
+[1649335997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649335997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649335997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649335997] wproc: Core Worker 1356: job 12822 (pid=19707): Dormant child reaped
+[1649336068] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.31 ms
+[1649336132] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.35 ms
+[1649336596] wproc: Core Worker 1353: job 12846 (pid=20263) timed out. Killing it
+[1649336596] wproc: CHECK job 12846 from worker Core Worker 1353 timed out after 60.04s
+[1649336596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649336596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649336596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.039s!
+[1649336596] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.04 seconds)
+[1649336596] wproc: Core Worker 1353: job 12846 (pid=20263): Dormant child reaped
+[1649336597] wproc: Core Worker 1355: job 12846 (pid=20264) timed out. Killing it
+[1649336597] wproc: CHECK job 12846 from worker Core Worker 1355 timed out after 60.04s
+[1649336597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649336597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649336597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.040s!
+[1649336597] wproc: Core Worker 1355: job 12846 (pid=20264): Dormant child reaped
+[1649336961] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649337104] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649337196] wproc: Core Worker 1354: job 12869 (pid=20834) timed out. Killing it
+[1649337196] wproc: CHECK job 12869 from worker Core Worker 1354 timed out after 60.03s
+[1649337196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649337196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649337196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.027s!
+[1649337196] wproc: Core Worker 1354: job 12869 (pid=20834): Dormant child reaped
+[1649337197] wproc: Core Worker 1353: job 12870 (pid=20835) timed out. Killing it
+[1649337197] wproc: CHECK job 12870 from worker Core Worker 1353 timed out after 60.03s
+[1649337197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649337197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649337197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.028s!
+[1649337197] wproc: Core Worker 1353: job 12870 (pid=20835): Dormant child reaped
+[1649337271] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649337796] wproc: Core Worker 1353: job 12893 (pid=21392) timed out. Killing it
+[1649337796] wproc: CHECK job 12893 from worker Core Worker 1353 timed out after 60.01s
+[1649337796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649337796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649337796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.007s!
+[1649337796] wproc: Core Worker 1353: job 12893 (pid=21392): Dormant child reaped
+[1649337797] wproc: Core Worker 1355: job 12893 (pid=21393) timed out. Killing it
+[1649337797] wproc: CHECK job 12893 from worker Core Worker 1355 timed out after 60.02s
+[1649337797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649337797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649337797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.021s!
+[1649337797] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.02 seconds)
+[1649337797] wproc: Core Worker 1355: job 12893 (pid=21393): Dormant child reaped
+[1649338396] wproc: Core Worker 1355: job 12916 (pid=21974) timed out. Killing it
+[1649338396] wproc: CHECK job 12916 from worker Core Worker 1355 timed out after 60.05s
+[1649338396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649338396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649338396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.050s!
+[1649338397] wproc: Core Worker 1355: job 12916 (pid=21974): Dormant child reaped
+[1649338397] wproc: Core Worker 1356: job 12916 (pid=21975) timed out. Killing it
+[1649338397] wproc: CHECK job 12916 from worker Core Worker 1356 timed out after 60.03s
+[1649338397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649338397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649338397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.026s!
+[1649338397] wproc: Core Worker 1356: job 12916 (pid=21975): Dormant child reaped
+[1649338504] Auto-save of retention data completed successfully.
+[1649338880] SERVICE ALERT: esxi04;PING;OK;HARD;4;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1649338884] HOST ALERT: esxi04;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1649338885] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649338897] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.32 ms
+[1649338963] SERVICE ALERT: esxi03;PING;WARNING;SOFT;2;PING WARNING - Packet loss = 20%, RTA = 0.35 ms
+[1649338996] wproc: Core Worker 1353: job 12940 (pid=22527) timed out. Killing it
+[1649338996] wproc: CHECK job 12940 from worker Core Worker 1353 timed out after 60.03s
+[1649338996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649338996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649338996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.031s!
+[1649338997] wproc: Core Worker 1353: job 12940 (pid=22527): Dormant child reaped
+[1649338997] wproc: Core Worker 1355: job 12940 (pid=22528) timed out. Killing it
+[1649338997] wproc: CHECK job 12940 from worker Core Worker 1355 timed out after 60.06s
+[1649338997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649338997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649338997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649338997] wproc: Core Worker 1355: job 12940 (pid=22528): Dormant child reaped
+[1649339027] SERVICE ALERT: esxi03;PING;OK;SOFT;3;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1649339484] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;OK;notify-service-by-email;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QKB Chassis S/N: FCH2216V0YZ  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649339484] SERVICE ALERT: esxi04;ESXi Hardware Check;OK;HARD;3;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QKB Chassis S/N: FCH2216V0YZ  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1649339596] wproc: Core Worker 1354: job 12963 (pid=23084) timed out. Killing it
+[1649339596] wproc: CHECK job 12963 from worker Core Worker 1354 timed out after 60.06s
+[1649339596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649339596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649339596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.064s!
+[1649339597] wproc: Core Worker 1354: job 12963 (pid=23084): Dormant child reaped
+[1649339597] wproc: Core Worker 1353: job 12964 (pid=23085) timed out. Killing it
+[1649339597] wproc: CHECK job 12964 from worker Core Worker 1353 timed out after 60.06s
+[1649339597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649339597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649339597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649339598] wproc: Core Worker 1353: job 12964 (pid=23085): Dormant child reaped
+[1649340196] wproc: Core Worker 1354: job 12986 (pid=23625) timed out. Killing it
+[1649340196] wproc: CHECK job 12986 from worker Core Worker 1354 timed out after 60.06s
+[1649340196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649340196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649340196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.065s!
+[1649340196] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.06 seconds)
+[1649340197] wproc: Core Worker 1354: job 12986 (pid=23625): Dormant child reaped
+[1649340197] wproc: Core Worker 1353: job 12987 (pid=23626) timed out. Killing it
+[1649340197] wproc: CHECK job 12987 from worker Core Worker 1353 timed out after 60.05s
+[1649340197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649340197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649340197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.049s!
+[1649340198] wproc: Core Worker 1353: job 12987 (pid=23626): Dormant child reaped
+[1649340292] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.47 ms
+[1649340356] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.34 ms
+[1649340562] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649340797] wproc: Core Worker 1354: job 13010 (pid=24194) timed out. Killing it
+[1649340797] wproc: CHECK job 13010 from worker Core Worker 1354 timed out after 60.06s
+[1649340797] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649340797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649340797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.056s!
+[1649340797] wproc: Core Worker 1354: job 13010 (pid=24194): Dormant child reaped
+[1649340797] wproc: Core Worker 1353: job 13011 (pid=24195) timed out. Killing it
+[1649340797] wproc: CHECK job 13011 from worker Core Worker 1353 timed out after 60.06s
+[1649340797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649340797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649340797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649340798] wproc: Core Worker 1353: job 13011 (pid=24195): Dormant child reaped
+[1649340871] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649341302] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649341322] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.50 ms
+[1649341386] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1649341396] wproc: Core Worker 1356: job 13034 (pid=24752) timed out. Killing it
+[1649341396] wproc: CHECK job 13034 from worker Core Worker 1356 timed out after 60.01s
+[1649341396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649341396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649341396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.011s!
+[1649341396] wproc: Core Worker 1356: job 13034 (pid=24752): Dormant child reaped
+[1649341397] wproc: Core Worker 1354: job 13034 (pid=24753) timed out. Killing it
+[1649341397] wproc: CHECK job 13034 from worker Core Worker 1354 timed out after 60.06s
+[1649341397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649341397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649341397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.064s!
+[1649341397] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.06 seconds)
+[1649341398] wproc: Core Worker 1354: job 13034 (pid=24753): Dormant child reaped
+[1649341996] wproc: Core Worker 1353: job 13058 (pid=25334) timed out. Killing it
+[1649341996] wproc: CHECK job 13058 from worker Core Worker 1353 timed out after 60.06s
+[1649341996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649341996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649341996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.061s!
+[1649341996] wproc: Core Worker 1353: job 13058 (pid=25334): Dormant child reaped
+[1649341998] wproc: Core Worker 1355: job 13058 (pid=25335) timed out. Killing it
+[1649341998] wproc: CHECK job 13058 from worker Core Worker 1355 timed out after 60.05s
+[1649341998] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649341998] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649341998] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.046s!
+[1649341998] wproc: Core Worker 1355: job 13058 (pid=25335): Dormant child reaped
+[1649342104] Auto-save of retention data completed successfully.
+[1649342596] wproc: Core Worker 1353: job 13081 (pid=25885) timed out. Killing it
+[1649342596] wproc: CHECK job 13081 from worker Core Worker 1353 timed out after 60.06s
+[1649342596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649342596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649342596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.065s!
+[1649342596] wproc: Core Worker 1353: job 13081 (pid=25885): Dormant child reaped
+[1649342597] wproc: Core Worker 1355: job 13081 (pid=25886) timed out. Killing it
+[1649342597] wproc: CHECK job 13081 from worker Core Worker 1355 timed out after 60.05s
+[1649342597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649342597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649342597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.054s!
+[1649342597] wproc: Core Worker 1355: job 13081 (pid=25886): Dormant child reaped
+[1649343085] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649343196] wproc: Core Worker 1355: job 13104 (pid=26436) timed out. Killing it
+[1649343196] wproc: CHECK job 13104 from worker Core Worker 1355 timed out after 60.06s
+[1649343196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649343196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649343196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.057s!
+[1649343196] wproc: Core Worker 1355: job 13104 (pid=26436): Dormant child reaped
+[1649343197] wproc: Core Worker 1356: job 13104 (pid=26437) timed out. Killing it
+[1649343197] wproc: CHECK job 13104 from worker Core Worker 1356 timed out after 60.01s
+[1649343197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649343197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649343197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.014s!
+[1649343197] wproc: Core Worker 1356: job 13104 (pid=26437): Dormant child reaped
+[1649343796] wproc: Core Worker 1355: job 13127 (pid=26988) timed out. Killing it
+[1649343796] wproc: CHECK job 13127 from worker Core Worker 1355 timed out after 60.06s
+[1649343796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649343796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649343796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.065s!
+[1649343796] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.06 seconds)
+[1649343796] wproc: Core Worker 1355: job 13127 (pid=26988): Dormant child reaped
+[1649343797] wproc: Core Worker 1356: job 13127 (pid=26989) timed out. Killing it
+[1649343797] wproc: CHECK job 13127 from worker Core Worker 1356 timed out after 60.05s
+[1649343797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649343797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649343797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.049s!
+[1649343797] wproc: Core Worker 1356: job 13127 (pid=26989): Dormant child reaped
+[1649344162] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649344396] wproc: Core Worker 1354: job 13150 (pid=27555) timed out. Killing it
+[1649344396] wproc: CHECK job 13150 from worker Core Worker 1354 timed out after 60.04s
+[1649344396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649344396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649344396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.045s!
+[1649344396] wproc: Core Worker 1354: job 13150 (pid=27555): Dormant child reaped
+[1649344397] wproc: Core Worker 1353: job 13151 (pid=27556) timed out. Killing it
+[1649344397] wproc: CHECK job 13151 from worker Core Worker 1353 timed out after 60.05s
+[1649344397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649344397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649344397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.055s!
+[1649344397] wproc: Core Worker 1353: job 13151 (pid=27556): Dormant child reaped
+[1649344903] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649344996] wproc: Core Worker 1353: job 13174 (pid=28109) timed out. Killing it
+[1649344996] wproc: CHECK job 13174 from worker Core Worker 1353 timed out after 60.01s
+[1649344996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649344996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649344996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.008s!
+[1649344996] wproc: Core Worker 1353: job 13174 (pid=28109): Dormant child reaped
+[1649344997] wproc: Core Worker 1355: job 13174 (pid=28110) timed out. Killing it
+[1649344997] wproc: CHECK job 13174 from worker Core Worker 1355 timed out after 60.04s
+[1649344997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649344997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649344997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.043s!
+[1649344997] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.04 seconds)
+[1649344997] wproc: Core Worker 1355: job 13174 (pid=28110): Dormant child reaped
+[1649345071] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649345596] wproc: Core Worker 1356: job 13197 (pid=28696) timed out. Killing it
+[1649345596] wproc: CHECK job 13197 from worker Core Worker 1356 timed out after 60.04s
+[1649345596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649345596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649345596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.038s!
+[1649345596] wproc: Core Worker 1356: job 13197 (pid=28696): Dormant child reaped
+[1649345597] wproc: Core Worker 1354: job 13197 (pid=28697) timed out. Killing it
+[1649345597] wproc: CHECK job 13197 from worker Core Worker 1354 timed out after 60.06s
+[1649345597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649345597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649345597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.055s!
+[1649345597] wproc: Core Worker 1354: job 13197 (pid=28697): Dormant child reaped
+[1649345704] Auto-save of retention data completed successfully.
+[1649345951] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.38 ms
+[1649346015] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1649346080] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.40 ms
+[1649346144] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1649346196] wproc: Core Worker 1355: job 13221 (pid=29248) timed out. Killing it
+[1649346196] wproc: CHECK job 13221 from worker Core Worker 1355 timed out after 60.03s
+[1649346196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649346196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649346196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.028s!
+[1649346196] wproc: Core Worker 1355: job 13221 (pid=29248): Dormant child reaped
+[1649346197] wproc: Core Worker 1356: job 13221 (pid=29249) timed out. Killing it
+[1649346197] wproc: CHECK job 13221 from worker Core Worker 1356 timed out after 60.06s
+[1649346197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649346197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649346197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.065s!
+[1649346197] wproc: Core Worker 1356: job 13221 (pid=29249): Dormant child reaped
+[1649346796] wproc: Core Worker 1356: job 13244 (pid=29794) timed out. Killing it
+[1649346796] wproc: CHECK job 13244 from worker Core Worker 1356 timed out after 60.06s
+[1649346796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649346796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649346796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.065s!
+[1649346796] wproc: Core Worker 1356: job 13244 (pid=29794): Dormant child reaped
+[1649346797] wproc: Core Worker 1354: job 13244 (pid=29795) timed out. Killing it
+[1649346797] wproc: CHECK job 13244 from worker Core Worker 1354 timed out after 60.03s
+[1649346797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649346797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649346797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.031s!
+[1649346797] wproc: Core Worker 1354: job 13244 (pid=29795): Dormant child reaped
+[1649346809] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.47 ms
+[1649346873] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1649347284] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649347396] wproc: Core Worker 1355: job 13268 (pid=30354) timed out. Killing it
+[1649347396] wproc: CHECK job 13268 from worker Core Worker 1355 timed out after 60.06s
+[1649347396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649347396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649347396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.060s!
+[1649347396] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.06 seconds)
+[1649347396] wproc: Core Worker 1355: job 13268 (pid=30354): Dormant child reaped
+[1649347397] wproc: Core Worker 1356: job 13268 (pid=30355) timed out. Killing it
+[1649347397] wproc: CHECK job 13268 from worker Core Worker 1356 timed out after 60.06s
+[1649347397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649347397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649347397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.063s!
+[1649347397] wproc: Core Worker 1356: job 13268 (pid=30355): Dormant child reaped
+[1649347762] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649347996] wproc: Core Worker 1354: job 13291 (pid=30919) timed out. Killing it
+[1649347996] wproc: CHECK job 13291 from worker Core Worker 1354 timed out after 60.03s
+[1649347996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649347996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649347996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.034s!
+[1649347996] wproc: Core Worker 1354: job 13291 (pid=30919): Dormant child reaped
+[1649347997] wproc: Core Worker 1353: job 13292 (pid=30920) timed out. Killing it
+[1649347997] wproc: CHECK job 13292 from worker Core Worker 1353 timed out after 60.06s
+[1649347997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649347997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649347997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.057s!
+[1649347997] wproc: Core Worker 1353: job 13292 (pid=30920): Dormant child reaped
+[1649348504] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649348596] wproc: Core Worker 1353: job 13315 (pid=31475) timed out. Killing it
+[1649348596] wproc: CHECK job 13315 from worker Core Worker 1353 timed out after 60.02s
+[1649348596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649348596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649348596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.023s!
+[1649348596] wproc: Core Worker 1353: job 13315 (pid=31475): Dormant child reaped
+[1649348597] wproc: Core Worker 1355: job 13315 (pid=31476) timed out. Killing it
+[1649348597] wproc: CHECK job 13315 from worker Core Worker 1355 timed out after 60.04s
+[1649348597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649348597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649348597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.036s!
+[1649348597] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.04 seconds)
+[1649348597] wproc: Core Worker 1355: job 13315 (pid=31476): Dormant child reaped
+[1649348671] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649349196] wproc: Core Worker 1356: job 13338 (pid=32058) timed out. Killing it
+[1649349196] wproc: CHECK job 13338 from worker Core Worker 1356 timed out after 60.03s
+[1649349196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649349196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649349196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.028s!
+[1649349196] wproc: Core Worker 1356: job 13338 (pid=32058): Dormant child reaped
+[1649349197] wproc: Core Worker 1354: job 13338 (pid=32059) timed out. Killing it
+[1649349197] wproc: CHECK job 13338 from worker Core Worker 1354 timed out after 60.05s
+[1649349197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649349197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649349197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.053s!
+[1649349197] wproc: Core Worker 1354: job 13338 (pid=32059): Dormant child reaped
+[1649349304] Auto-save of retention data completed successfully.
+[1649349796] wproc: Core Worker 1356: job 13361 (pid=32618) timed out. Killing it
+[1649349796] wproc: CHECK job 13361 from worker Core Worker 1356 timed out after 60.06s
+[1649349796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649349796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649349796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.058s!
+[1649349796] wproc: Core Worker 1356: job 13361 (pid=32618): Dormant child reaped
+[1649349797] wproc: Core Worker 1354: job 13361 (pid=32619) timed out. Killing it
+[1649349797] wproc: CHECK job 13361 from worker Core Worker 1354 timed out after 60.06s
+[1649349797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649349797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649349797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.065s!
+[1649349797] wproc: Core Worker 1354: job 13361 (pid=32619): Dormant child reaped
+[1649350396] wproc: Core Worker 1356: job 13384 (pid=796) timed out. Killing it
+[1649350396] wproc: CHECK job 13384 from worker Core Worker 1356 timed out after 60.04s
+[1649350396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649350396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649350396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.039s!
+[1649350397] wproc: Core Worker 1356: job 13384 (pid=796): Dormant child reaped
+[1649350397] wproc: Core Worker 1354: job 13384 (pid=797) timed out. Killing it
+[1649350397] wproc: CHECK job 13384 from worker Core Worker 1354 timed out after 60.03s
+[1649350397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649350397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649350397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.028s!
+[1649350397] wproc: Core Worker 1354: job 13384 (pid=797): Dormant child reaped
+[1649350884] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649350996] wproc: Core Worker 1354: job 13407 (pid=1441) timed out. Killing it
+[1649350996] wproc: CHECK job 13407 from worker Core Worker 1354 timed out after 60.06s
+[1649350996] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649350996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649350996] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.065s!
+[1649350996] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.06 seconds)
+[1649350997] wproc: Core Worker 1354: job 13407 (pid=1441): Dormant child reaped
+[1649350997] wproc: Core Worker 1353: job 13408 (pid=1442) timed out. Killing it
+[1649350997] wproc: CHECK job 13408 from worker Core Worker 1353 timed out after 60.03s
+[1649350997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649350997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649350997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.033s!
+[1649350997] wproc: Core Worker 1353: job 13408 (pid=1442): Dormant child reaped
+[1649351596] wproc: Core Worker 1353: job 13431 (pid=2131) timed out. Killing it
+[1649351596] wproc: CHECK job 13431 from worker Core Worker 1353 timed out after 60.06s
+[1649351596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649351596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649351596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.062s!
+[1649351597] wproc: Core Worker 1353: job 13431 (pid=2131): Dormant child reaped
+[1649351597] wproc: Core Worker 1355: job 13431 (pid=2132) timed out. Killing it
+[1649351597] wproc: CHECK job 13431 from worker Core Worker 1355 timed out after 60.04s
+[1649351597] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649351597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649351597] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.037s!
+[1649351598] wproc: Core Worker 1355: job 13431 (pid=2132): Dormant child reaped
+[1649351738] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.39 ms
+[1649351803] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1649351961] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649352104] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649352196] wproc: Core Worker 1353: job 13455 (pid=2695) timed out. Killing it
+[1649352196] wproc: CHECK job 13455 from worker Core Worker 1353 timed out after 60.03s
+[1649352196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649352196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649352196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.031s!
+[1649352197] wproc: Core Worker 1353: job 13455 (pid=2695): Dormant child reaped
+[1649352197] wproc: Core Worker 1355: job 13455 (pid=2696) timed out. Killing it
+[1649352197] wproc: CHECK job 13455 from worker Core Worker 1355 timed out after 60.06s
+[1649352197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649352197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649352197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.056s!
+[1649352197] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.06 seconds)
+[1649352198] wproc: Core Worker 1355: job 13455 (pid=2696): Dormant child reaped
+[1649352272] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649352796] wproc: Core Worker 1356: job 13478 (pid=3278) timed out. Killing it
+[1649352796] wproc: CHECK job 13478 from worker Core Worker 1356 timed out after 60.03s
+[1649352796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649352796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649352796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.030s!
+[1649352797] wproc: Core Worker 1356: job 13478 (pid=3278): Dormant child reaped
+[1649352797] wproc: Core Worker 1354: job 13478 (pid=3279) timed out. Killing it
+[1649352797] wproc: CHECK job 13478 from worker Core Worker 1354 timed out after 60.01s
+[1649352797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649352797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649352797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.011s!
+[1649352798] wproc: Core Worker 1354: job 13478 (pid=3279): Dormant child reaped
+[1649352904] Auto-save of retention data completed successfully.
+[1649353396] wproc: Core Worker 1356: job 13501 (pid=3826) timed out. Killing it
+[1649353396] wproc: CHECK job 13501 from worker Core Worker 1356 timed out after 60.03s
+[1649353396] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649353396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649353396] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.030s!
+[1649353397] wproc: Core Worker 1356: job 13501 (pid=3826): Dormant child reaped
+[1649353397] wproc: Core Worker 1354: job 13501 (pid=3827) timed out. Killing it
+[1649353397] wproc: CHECK job 13501 from worker Core Worker 1354 timed out after 60.06s
+[1649353397] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649353397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649353397] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.059s!
+[1649353398] wproc: Core Worker 1354: job 13501 (pid=3827): Dormant child reaped
+[1649353997] wproc: Core Worker 1356: job 13524 (pid=4371) timed out. Killing it
+[1649353997] wproc: CHECK job 13524 from worker Core Worker 1356 timed out after 60.01s
+[1649353997] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649353997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649353997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.013s!
+[1649353997] wproc: Core Worker 1356: job 13524 (pid=4371): Dormant child reaped
+[1649353997] wproc: Core Worker 1354: job 13524 (pid=4372) timed out. Killing it
+[1649353997] wproc: CHECK job 13524 from worker Core Worker 1354 timed out after 60.06s
+[1649353997] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649353997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649353997] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.065s!
+[1649353998] wproc: Core Worker 1354: job 13524 (pid=4372): Dormant child reaped
+[1649354484] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649354569] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.38 ms
+[1649354596] wproc: Core Worker 1354: job 13547 (pid=4925) timed out. Killing it
+[1649354596] wproc: CHECK job 13547 from worker Core Worker 1354 timed out after 60.02s
+[1649354596] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649354596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649354596] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.015s!
+[1649354596] SERVICE NOTIFICATION: nagiosadmin;esxi08;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.02 seconds)
+[1649354596] wproc: Core Worker 1354: job 13547 (pid=4925): Dormant child reaped
+[1649354598] wproc: Core Worker 1353: job 13548 (pid=4926) timed out. Killing it
+[1649354598] wproc: CHECK job 13548 from worker Core Worker 1353 timed out after 60.03s
+[1649354598] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649354598] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649354598] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.030s!
+[1649354598] wproc: Core Worker 1353: job 13548 (pid=4926): Dormant child reaped
+[1649354633] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.52 ms
+[1649355196] wproc: Core Worker 1356: job 13571 (pid=5490) timed out. Killing it
+[1649355196] wproc: CHECK job 13571 from worker Core Worker 1356 timed out after 60.02s
+[1649355196] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649355196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649355196] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.025s!
+[1649355196] wproc: Core Worker 1356: job 13571 (pid=5490): Dormant child reaped
+[1649355197] wproc: Core Worker 1354: job 13571 (pid=5491) timed out. Killing it
+[1649355197] wproc: CHECK job 13571 from worker Core Worker 1354 timed out after 60.05s
+[1649355197] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649355197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649355197] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.049s!
+[1649355197] wproc: Core Worker 1354: job 13571 (pid=5491): Dormant child reaped
+[1649355561] SERVICE NOTIFICATION: nagiosadmin;esxi03;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649355796] wproc: Core Worker 1354: job 13594 (pid=6042) timed out. Killing it
+[1649355796] wproc: CHECK job 13594 from worker Core Worker 1354 timed out after 60.02s
+[1649355796] wproc:   host=esxi08; service=ESXi Hardware Check;
+[1649355796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649355796] Warning: Check of service 'ESXi Hardware Check' on host 'esxi08' timed out after 60.023s!
+[1649355796] wproc: Core Worker 1354: job 13594 (pid=6042): Dormant child reaped
+[1649355797] wproc: Core Worker 1353: job 13595 (pid=6043) timed out. Killing it
+[1649355797] wproc: CHECK job 13595 from worker Core Worker 1353 timed out after 60.04s
+[1649355797] wproc:   host=esxi09; service=ESXi Hardware Check;
+[1649355797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1649355797] Warning: Check of service 'ESXi Hardware Check' on host 'esxi09' timed out after 60.044s!
+[1649355797] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.04 seconds)
+[1649355797] wproc: Core Worker 1353: job 13595 (pid=6043): Dormant child reaped
+[1649355872] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN:
+[1649355980] wproc: Core Worker 1354: job 13604 (pid=6323) timed out. Killing it
+[1649355980] wproc: Core Worker 1354: job 34757312 with pid 6323 reaped at timeout. timeouts=2; started=13606

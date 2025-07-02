@@ -1,0 +1,129 @@
+[1542306600] LOG ROTATION: DAILY
+[1542306600] LOG VERSION: 2.0
+[1542306600] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1542306600] CURRENT HOST STATE: localhost.localdomain;DOWN;HARD;10;CRITICAL - Host Unreachable (10.5.5.15)
+[1542306600] CURRENT HOST STATE: router1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.68 ms
+[1542306600] CURRENT HOST STATE: router2;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.83 ms
+[1542306600] CURRENT HOST STATE: router3;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.31 ms
+[1542306600] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1542306600] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1542306600] CURRENT SERVICE STATE: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1542306600] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1542306600] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 46721 MB (91.29% inode=99%):
+[1542306600] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1542306600] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1542306600] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 80 processes with STATE = RSZDT
+[1542306600] CURRENT SERVICE STATE: localhost.localdomain;Current Load;OK;HARD;1;OK - load average: 0.00, 0.04, 0.20
+[1542306600] CURRENT SERVICE STATE: localhost.localdomain;Current Users;OK;HARD;1;USERS OK - 2 users currently logged in
+[1542306600] CURRENT SERVICE STATE: localhost.localdomain;HTTP;CRITICAL;HARD;4;connect to address 10.5.5.15 and port 80: No route to host
+[1542306600] CURRENT SERVICE STATE: localhost.localdomain;PING;CRITICAL;HARD;4;CRITICAL - Host Unreachable (10.5.5.15)
+[1542306600] CURRENT SERVICE STATE: localhost.localdomain;Root Partition;OK;HARD;1;DISK OK - free space: / 46721 MB (91.29% inode=99%):
+[1542306600] CURRENT SERVICE STATE: localhost.localdomain;SSH;CRITICAL;HARD;4;connect to address 10.5.5.15 and port 22: No route to host
+[1542306600] CURRENT SERVICE STATE: localhost.localdomain;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1542306600] CURRENT SERVICE STATE: localhost.localdomain;Total Processes;OK;HARD;1;PROCS OK: 80 processes with STATE = RSZDT
+[1542306600] CURRENT SERVICE STATE: router1;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.67 ms
+[1542306600] CURRENT SERVICE STATE: router2;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.81 ms
+[1542306600] CURRENT SERVICE STATE: router3;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.73 ms
+[1542308931] Auto-save of retention data completed successfully.
+[1542312531] Auto-save of retention data completed successfully.
+[1542316131] Auto-save of retention data completed successfully.
+[1542319731] Auto-save of retention data completed successfully.
+[1542323331] Auto-save of retention data completed successfully.
+[1542326931] Auto-save of retention data completed successfully.
+[1542329884] wproc: Core Worker 20816: job 18261 (pid=16116) timed out. Killing it
+[1542329884] wproc: CHECK job 18261 from worker Core Worker 20816 timed out after 30.02s
+[1542329884] wproc:   host=router1; service=(null);
+[1542329884] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1542329884] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1542329884] HOST ALERT: router1;DOWN;SOFT;1;(Host check timed out after 30.02 seconds)
+[1542329884] wproc: Core Worker 20816: job 18261 (pid=16116): Dormant child reaped
+[1542329974] wproc: Core Worker 20816: job 18262 (pid=16131) timed out. Killing it
+[1542329974] wproc: CHECK job 18262 from worker Core Worker 20816 timed out after 30.03s
+[1542329974] wproc:   host=router1; service=(null);
+[1542329974] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1542329974] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1542329974] wproc: Core Worker 20816: job 18262 (pid=16131): Dormant child reaped
+[1542330064] wproc: Core Worker 20819: job 18263 (pid=16173) timed out. Killing it
+[1542330064] wproc: CHECK job 18263 from worker Core Worker 20819 timed out after 30.01s
+[1542330064] wproc:   host=router1; service=(null);
+[1542330064] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1542330064] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1542330064] wproc: Core Worker 20819: job 18263 (pid=16173): Dormant child reaped
+[1542330154] wproc: Core Worker 20819: job 18265 (pid=16199) timed out. Killing it
+[1542330154] wproc: CHECK job 18265 from worker Core Worker 20819 timed out after 30.01s
+[1542330154] wproc:   host=router1; service=(null);
+[1542330154] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1542330154] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1542330154] wproc: Core Worker 20819: job 18265 (pid=16199): Dormant child reaped
+[1542330180] SERVICE ALERT: router1;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1542330244] wproc: Core Worker 20818: job 18266 (pid=16221) timed out. Killing it
+[1542330244] wproc: CHECK job 18266 from worker Core Worker 20818 timed out after 30.04s
+[1542330244] wproc:   host=router1; service=(null);
+[1542330244] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1542330244] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1542330244] wproc: Core Worker 20818: job 18266 (pid=16221): Dormant child reaped
+[1542330331] SERVICE NOTIFICATION: nagiosadmin;router1;check-host-alive;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out
+[1542330334] wproc: Core Worker 20819: job 18268 (pid=16243) timed out. Killing it
+[1542330334] wproc: CHECK job 18268 from worker Core Worker 20819 timed out after 30.01s
+[1542330334] wproc:   host=router1; service=(null);
+[1542330334] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1542330334] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1542330334] wproc: Core Worker 20819: job 18268 (pid=16243): Dormant child reaped
+[1542330424] wproc: Core Worker 20819: job 18270 (pid=16280) timed out. Killing it
+[1542330424] wproc: CHECK job 18270 from worker Core Worker 20819 timed out after 30.02s
+[1542330424] wproc:   host=router1; service=(null);
+[1542330424] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1542330424] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1542330424] wproc: Core Worker 20819: job 18270 (pid=16280): Dormant child reaped
+[1542330488] HOST ALERT: router1;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.63 ms
+[1542330531] Auto-save of retention data completed successfully.
+[1542330904] SERVICE NOTIFICATION: nagiosadmin;router1;check-host-alive;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.65 ms
+[1542330904] SERVICE ALERT: router1;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.65 ms
+[1542334131] Auto-save of retention data completed successfully.
+[1542337731] Auto-save of retention data completed successfully.
+[1542341331] Auto-save of retention data completed successfully.
+[1542344931] Auto-save of retention data completed successfully.
+[1542348531] Auto-save of retention data completed successfully.
+[1542352131] Auto-save of retention data completed successfully.
+[1542355731] Auto-save of retention data completed successfully.
+[1542359331] Auto-save of retention data completed successfully.
+[1542362931] Auto-save of retention data completed successfully.
+[1542365131] SERVICE ALERT: router1;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1542365161] wproc: Core Worker 20818: job 18777 (pid=25797) timed out. Killing it
+[1542365161] wproc: CHECK job 18777 from worker Core Worker 20818 timed out after 30.03s
+[1542365161] wproc:   host=router1; service=(null);
+[1542365161] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1542365161] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1542365161] HOST ALERT: router1;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1542365161] wproc: Core Worker 20818: job 18777 (pid=25797): Dormant child reaped
+[1542365251] wproc: Core Worker 20817: job 18779 (pid=25828) timed out. Killing it
+[1542365251] wproc: CHECK job 18779 from worker Core Worker 20817 timed out after 30.03s
+[1542365251] wproc:   host=router1; service=(null);
+[1542365251] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1542365251] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1542365251] wproc: Core Worker 20817: job 18779 (pid=25828): Dormant child reaped
+[1542365282] SERVICE NOTIFICATION: nagiosadmin;router1;check-host-alive;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out
+[1542365282] SERVICE ALERT: router1;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1542365341] wproc: Core Worker 20818: job 18780 (pid=25852) timed out. Killing it
+[1542365341] wproc: CHECK job 18780 from worker Core Worker 20818 timed out after 30.01s
+[1542365341] wproc:   host=router1; service=(null);
+[1542365341] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1542365341] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1542365341] wproc: Core Worker 20818: job 18780 (pid=25852): Dormant child reaped
+[1542365431] wproc: Core Worker 20818: job 18782 (pid=25881) timed out. Killing it
+[1542365431] wproc: CHECK job 18782 from worker Core Worker 20818 timed out after 30.03s
+[1542365431] wproc:   host=router1; service=(null);
+[1542365431] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1542365431] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1542365432] wproc: Core Worker 20818: job 18782 (pid=25881): Dormant child reaped
+[1542365495] HOST ALERT: router1;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.59 ms
+[1542365855] SERVICE NOTIFICATION: nagiosadmin;router1;check-host-alive;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.62 ms
+[1542365855] SERVICE ALERT: router1;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.62 ms
+[1542366531] Auto-save of retention data completed successfully.
+[1542370131] Auto-save of retention data completed successfully.
+[1542373731] Auto-save of retention data completed successfully.
+[1542377331] Auto-save of retention data completed successfully.
+[1542380931] Auto-save of retention data completed successfully.
+[1542384531] Auto-save of retention data completed successfully.
+[1542388131] Auto-save of retention data completed successfully.
+[1542391731] Auto-save of retention data completed successfully.

@@ -1,0 +1,469 @@
+[1544034600] LOG ROTATION: DAILY
+[1544034600] LOG VERSION: 2.0
+[1544034600] CURRENT HOST STATE: esxi01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1544034600] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1544034600] CURRENT HOST STATE: localhost.localdomain;DOWN;HARD;10;CRITICAL - Host Unreachable (10.5.5.15)
+[1544034600] CURRENT HOST STATE: router1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.64 ms
+[1544034600] CURRENT HOST STATE: router2;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.75 ms
+[1544034600] CURRENT HOST STATE: router3;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.69 ms
+[1544034600] CURRENT SERVICE STATE: esxi01;ESXi Memory usage;CRITICAL;HARD;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_esx, ...) failed. errno is 2: No such file or directory
+[1544034600] CURRENT SERVICE STATE: esxi01;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.57 ms
+[1544034600] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.04, 0.03, 0.05
+[1544034600] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1544034600] CURRENT SERVICE STATE: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1544034600] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1544034600] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 45087 MB (88.10% inode=99%):
+[1544034600] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1544034600] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1544034600] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 80 processes with STATE = RSZDT
+[1544034600] CURRENT SERVICE STATE: localhost.localdomain;Current Load;OK;HARD;1;OK - load average: 0.00, 0.04, 0.20
+[1544034600] CURRENT SERVICE STATE: localhost.localdomain;Current Users;OK;HARD;1;USERS OK - 2 users currently logged in
+[1544034600] CURRENT SERVICE STATE: localhost.localdomain;HTTP;CRITICAL;HARD;4;connect to address 10.5.5.15 and port 80: No route to host
+[1544034600] CURRENT SERVICE STATE: localhost.localdomain;PING;CRITICAL;HARD;4;CRITICAL - Host Unreachable (10.5.5.15)
+[1544034600] CURRENT SERVICE STATE: localhost.localdomain;Root Partition;OK;HARD;1;DISK OK - free space: / 45087 MB (88.10% inode=99%):
+[1544034600] CURRENT SERVICE STATE: localhost.localdomain;SSH;CRITICAL;HARD;4;connect to address 10.5.5.15 and port 22: No route to host
+[1544034600] CURRENT SERVICE STATE: localhost.localdomain;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1544034600] CURRENT SERVICE STATE: localhost.localdomain;Total Processes;OK;HARD;1;PROCS OK: 78 processes with STATE = RSZDT
+[1544034600] CURRENT SERVICE STATE: router1;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.61 ms
+[1544034600] CURRENT SERVICE STATE: router2;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.78 ms
+[1544034600] CURRENT SERVICE STATE: router3;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.69 ms
+[1544035778] Auto-save of retention data completed successfully.
+[1544038128] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Memory usage;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_esx, ...) failed. errno is 2: No such file or directory
+[1544039378] Auto-save of retention data completed successfully.
+[1544041728] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Memory usage;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_esx, ...) failed. errno is 2: No such file or directory
+[1544042978] Auto-save of retention data completed successfully.
+[1544045328] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Memory usage;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_esx, ...) failed. errno is 2: No such file or directory
+[1544046578] Auto-save of retention data completed successfully.
+[1544048928] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Memory usage;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_esx, ...) failed. errno is 2: No such file or directory
+[1544050178] Auto-save of retention data completed successfully.
+[1544052528] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Memory usage;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_esx, ...) failed. errno is 2: No such file or directory
+[1544053778] Auto-save of retention data completed successfully.
+[1544056128] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Memory usage;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_esx, ...) failed. errno is 2: No such file or directory
+[1544057378] Auto-save of retention data completed successfully.
+[1544059728] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Memory usage;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_esx, ...) failed. errno is 2: No such file or directory
+[1544060978] Auto-save of retention data completed successfully.
+[1544063328] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Memory usage;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_esx, ...) failed. errno is 2: No such file or directory
+[1544064578] Auto-save of retention data completed successfully.
+[1544066928] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Memory usage;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_esx, ...) failed. errno is 2: No such file or directory
+[1544068178] Auto-save of retention data completed successfully.
+[1544070528] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Memory usage;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_esx, ...) failed. errno is 2: No such file or directory
+[1544071382] Caught SIGTERM, shutting down...
+[1544071382] Caught SIGTERM, shutting down...
+[1544071382] Successfully shutdown... (PID=2764)
+[1544071382] Nagios 4.4.2 starting... (PID=23526)
+[1544071382] Local time is Thu Dec 06 10:13:02 IST 2018
+[1544071382] LOG VERSION: 2.0
+[1544071382] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544071382] qh: core query handler registered
+[1544071382] qh: echo service query handler registered
+[1544071382] qh: help for the query handler registered
+[1544071382] wproc: Successfully registered manager as @wproc with query handler
+[1544071382] wproc: Registry request: name=Core Worker 23528;pid=23528
+[1544071382] wproc: Registry request: name=Core Worker 23529;pid=23529
+[1544071382] wproc: Registry request: name=Core Worker 23530;pid=23530
+[1544071382] wproc: Registry request: name=Core Worker 23527;pid=23527
+[1544071382] Successfully launched command file worker with pid 23532
+[1544071384] Caught SIGTERM, shutting down...
+[1544071384] Caught SIGTERM, shutting down...
+[1544071384] Caught SIGTERM, shutting down...
+[1544071384] Successfully shutdown... (PID=23526)
+[1544071384] Nagios 4.4.2 starting... (PID=23550)
+[1544071384] Local time is Thu Dec 06 10:13:04 IST 2018
+[1544071384] LOG VERSION: 2.0
+[1544071384] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544071384] qh: core query handler registered
+[1544071384] qh: echo service query handler registered
+[1544071384] qh: help for the query handler registered
+[1544071384] wproc: Successfully registered manager as @wproc with query handler
+[1544071384] wproc: Registry request: name=Core Worker 23552;pid=23552
+[1544071384] wproc: Registry request: name=Core Worker 23551;pid=23551
+[1544071384] wproc: Registry request: name=Core Worker 23553;pid=23553
+[1544071384] wproc: Registry request: name=Core Worker 23554;pid=23554
+[1544071384] Successfully launched command file worker with pid 23556
+[1544071662] Caught SIGTERM, shutting down...
+[1544071662] Caught SIGTERM, shutting down...
+[1544071662] Caught SIGTERM, shutting down...
+[1544071662] Successfully shutdown... (PID=23550)
+[1544071767] Nagios 4.4.2 starting... (PID=23713)
+[1544071767] Local time is Thu Dec 06 10:19:27 IST 2018
+[1544071767] LOG VERSION: 2.0
+[1544071767] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544071767] qh: core query handler registered
+[1544071767] qh: echo service query handler registered
+[1544071767] qh: help for the query handler registered
+[1544071767] wproc: Successfully registered manager as @wproc with query handler
+[1544071767] wproc: Registry request: name=Core Worker 23714;pid=23714
+[1544071767] wproc: Registry request: name=Core Worker 23716;pid=23716
+[1544071767] wproc: Registry request: name=Core Worker 23717;pid=23717
+[1544071767] wproc: Registry request: name=Core Worker 23715;pid=23715
+[1544071767] Successfully launched command file worker with pid 23719
+[1544071769] Caught SIGTERM, shutting down...
+[1544071769] Caught SIGTERM, shutting down...
+[1544071769] Caught SIGTERM, shutting down...
+[1544071769] Successfully shutdown... (PID=23713)
+[1544071769] Nagios 4.4.2 starting... (PID=23740)
+[1544071769] Local time is Thu Dec 06 10:19:29 IST 2018
+[1544071769] LOG VERSION: 2.0
+[1544071769] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544071769] qh: core query handler registered
+[1544071769] qh: echo service query handler registered
+[1544071769] qh: help for the query handler registered
+[1544071769] wproc: Successfully registered manager as @wproc with query handler
+[1544071769] wproc: Registry request: name=Core Worker 23741;pid=23741
+[1544071769] wproc: Registry request: name=Core Worker 23744;pid=23744
+[1544071769] wproc: Registry request: name=Core Worker 23743;pid=23743
+[1544071769] wproc: Registry request: name=Core Worker 23742;pid=23742
+[1544071769] Successfully launched command file worker with pid 23747
+[1544071904] SERVICE ALERT: esxi01;ESXi CPU Load;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_esx, ...) failed. errno is 2: No such file or directory
+[1544072024] SERVICE ALERT: esxi01;ESXi CPU Load;CRITICAL;SOFT;2;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_esx, ...) failed. errno is 2: No such file or directory
+[1544072144] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi CPU Load;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_esx, ...) failed. errno is 2: No such file or directory
+[1544072144] SERVICE ALERT: esxi01;ESXi CPU Load;CRITICAL;HARD;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_esx, ...) failed. errno is 2: No such file or directory
+[1544073512] Caught SIGTERM, shutting down...
+[1544073512] Caught SIGTERM, shutting down...
+[1544073512] Caught SIGTERM, shutting down...
+[1544073512] Successfully shutdown... (PID=23740)
+[1544073682] Nagios 4.4.2 starting... (PID=24510)
+[1544073682] Local time is Thu Dec 06 10:51:22 IST 2018
+[1544073682] LOG VERSION: 2.0
+[1544073682] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544073682] qh: core query handler registered
+[1544073682] qh: echo service query handler registered
+[1544073682] qh: help for the query handler registered
+[1544073682] wproc: Successfully registered manager as @wproc with query handler
+[1544073682] wproc: Registry request: name=Core Worker 24511;pid=24511
+[1544073682] wproc: Registry request: name=Core Worker 24512;pid=24512
+[1544073682] wproc: Registry request: name=Core Worker 24513;pid=24513
+[1544073682] wproc: Registry request: name=Core Worker 24514;pid=24514
+[1544073682] Successfully launched command file worker with pid 24517
+[1544073812] SERVICE ALERT: esxi01;ESXi Hardware Check;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_esxi_hardware, ...) failed. errno is 2: No such file or directory
+[1544073932] SERVICE ALERT: esxi01;ESXi Hardware Check;CRITICAL;SOFT;2;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_esxi_hardware, ...) failed. errno is 2: No such file or directory
+[1544074052] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_esxi_hardware, ...) failed. errno is 2: No such file or directory
+[1544074052] SERVICE ALERT: esxi01;ESXi Hardware Check;CRITICAL;HARD;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_esxi_hardware, ...) failed. errno is 2: No such file or directory
+[1544075030] Caught SIGTERM, shutting down...
+[1544075030] Caught SIGTERM, shutting down...
+[1544075030] Caught SIGTERM, shutting down...
+[1544075030] Successfully shutdown... (PID=24510)
+[1544075209] Nagios 4.4.2 starting... (PID=25023)
+[1544075209] Local time is Thu Dec 06 11:16:49 IST 2018
+[1544075209] LOG VERSION: 2.0
+[1544075209] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544075209] qh: core query handler registered
+[1544075209] qh: echo service query handler registered
+[1544075209] qh: help for the query handler registered
+[1544075209] wproc: Successfully registered manager as @wproc with query handler
+[1544075209] wproc: Registry request: name=Core Worker 25024;pid=25024
+[1544075209] wproc: Registry request: name=Core Worker 25027;pid=25027
+[1544075209] wproc: Registry request: name=Core Worker 25025;pid=25025
+[1544075209] wproc: Registry request: name=Core Worker 25026;pid=25026
+[1544075209] Successfully launched command file worker with pid 25030
+[1544075290] Caught SIGTERM, shutting down...
+[1544075290] Caught SIGTERM, shutting down...
+[1544075290] Caught SIGTERM, shutting down...
+[1544075290] Successfully shutdown... (PID=25023)
+[1544075290] Nagios 4.4.2 starting... (PID=25086)
+[1544075290] Local time is Thu Dec 06 11:18:10 IST 2018
+[1544075290] LOG VERSION: 2.0
+[1544075290] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544075290] qh: core query handler registered
+[1544075290] qh: echo service query handler registered
+[1544075290] qh: help for the query handler registered
+[1544075290] wproc: Successfully registered manager as @wproc with query handler
+[1544075290] wproc: Registry request: name=Core Worker 25088;pid=25088
+[1544075290] wproc: Registry request: name=Core Worker 25089;pid=25089
+[1544075290] wproc: Registry request: name=Core Worker 25091;pid=25091
+[1544075290] wproc: Registry request: name=Core Worker 25090;pid=25090
+[1544075290] Successfully launched command file worker with pid 25095
+[1544075676] Caught SIGTERM, shutting down...
+[1544075676] wproc: Socket to worker Core Worker 25088 broken, removing
+[1544075676] wproc: Socket to worker Core Worker 25089 broken, removing
+[1544075676] wproc: Socket to worker Core Worker 25090 broken, removing
+[1544075676] wproc: Socket to worker Core Worker 25091 broken, removing
+[1544075676] Caught SIGTERM, shutting down...
+[1544075676] Successfully shutdown... (PID=25086)
+[1544077250] Nagios 4.4.2 starting... (PID=25697)
+[1544077250] Local time is Thu Dec 06 11:50:50 IST 2018
+[1544077250] LOG VERSION: 2.0
+[1544077250] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544077250] qh: core query handler registered
+[1544077250] qh: echo service query handler registered
+[1544077250] qh: help for the query handler registered
+[1544077250] wproc: Successfully registered manager as @wproc with query handler
+[1544077250] wproc: Registry request: name=Core Worker 25698;pid=25698
+[1544077250] wproc: Registry request: name=Core Worker 25699;pid=25699
+[1544077250] wproc: Registry request: name=Core Worker 25701;pid=25701
+[1544077250] wproc: Registry request: name=Core Worker 25700;pid=25700
+[1544077250] Successfully launched command file worker with pid 25704
+[1544077274] Caught SIGTERM, shutting down...
+[1544077274] Caught SIGTERM, shutting down...
+[1544077274] Caught SIGTERM, shutting down...
+[1544077274] Successfully shutdown... (PID=25697)
+[1544077274] Nagios 4.4.2 starting... (PID=25725)
+[1544077274] Local time is Thu Dec 06 11:51:14 IST 2018
+[1544077274] LOG VERSION: 2.0
+[1544077274] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544077274] qh: core query handler registered
+[1544077274] qh: echo service query handler registered
+[1544077274] qh: help for the query handler registered
+[1544077274] wproc: Successfully registered manager as @wproc with query handler
+[1544077274] wproc: Registry request: name=Core Worker 25728;pid=25728
+[1544077274] wproc: Registry request: name=Core Worker 25730;pid=25730
+[1544077274] wproc: Registry request: name=Core Worker 25729;pid=25729
+[1544077274] wproc: Registry request: name=Core Worker 25731;pid=25731
+[1544077274] Successfully launched command file worker with pid 25734
+[1544077275] Caught SIGTERM, shutting down...
+[1544077275] Caught SIGTERM, shutting down...
+[1544077275] Caught SIGTERM, shutting down...
+[1544077275] Successfully shutdown... (PID=25725)
+[1544077275] Nagios 4.4.2 starting... (PID=25752)
+[1544077275] Local time is Thu Dec 06 11:51:15 IST 2018
+[1544077275] LOG VERSION: 2.0
+[1544077275] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544077275] qh: core query handler registered
+[1544077275] qh: echo service query handler registered
+[1544077275] qh: help for the query handler registered
+[1544077275] wproc: Successfully registered manager as @wproc with query handler
+[1544077275] wproc: Registry request: name=Core Worker 25753;pid=25753
+[1544077275] wproc: Registry request: name=Core Worker 25756;pid=25756
+[1544077275] wproc: Registry request: name=Core Worker 25755;pid=25755
+[1544077275] wproc: Registry request: name=Core Worker 25754;pid=25754
+[1544077275] Successfully launched command file worker with pid 25759
+[1544077389] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;OK;notify-service-by-email;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1544077389] SERVICE ALERT: esxi01;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1544077903] Caught SIGTERM, shutting down...
+[1544077903] Caught SIGTERM, shutting down...
+[1544077903] Caught SIGTERM, shutting down...
+[1544077903] Successfully shutdown... (PID=25752)
+[1544077903] Nagios 4.4.2 starting... (PID=26031)
+[1544077903] Local time is Thu Dec 06 12:01:43 IST 2018
+[1544077903] LOG VERSION: 2.0
+[1544077903] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544077903] qh: core query handler registered
+[1544077903] qh: echo service query handler registered
+[1544077903] qh: help for the query handler registered
+[1544077903] wproc: Successfully registered manager as @wproc with query handler
+[1544077903] wproc: Registry request: name=Core Worker 26032;pid=26032
+[1544077903] wproc: Registry request: name=Core Worker 26033;pid=26033
+[1544077903] wproc: Registry request: name=Core Worker 26034;pid=26034
+[1544077903] wproc: Registry request: name=Core Worker 26035;pid=26035
+[1544077903] Successfully launched command file worker with pid 26038
+[1544081503] Auto-save of retention data completed successfully.
+[1544081969] Caught SIGTERM, shutting down...
+[1544081969] Caught SIGTERM, shutting down...
+[1544081969] wproc: Socket to worker Core Worker 26032 broken, removing
+[1544081969] wproc: Socket to worker Core Worker 26033 broken, removing
+[1544081969] wproc: Socket to worker Core Worker 26034 broken, removing
+[1544081969] wproc: Socket to worker Core Worker 26035 broken, removing
+[1544081969] Successfully shutdown... (PID=26031)
+[1544081969] Nagios 4.4.2 starting... (PID=27326)
+[1544081969] Local time is Thu Dec 06 13:09:29 IST 2018
+[1544081969] LOG VERSION: 2.0
+[1544081969] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544081969] qh: core query handler registered
+[1544081969] qh: echo service query handler registered
+[1544081969] qh: help for the query handler registered
+[1544081969] wproc: Successfully registered manager as @wproc with query handler
+[1544081969] wproc: Registry request: name=Core Worker 27327;pid=27327
+[1544081969] wproc: Registry request: name=Core Worker 27328;pid=27328
+[1544081969] wproc: Registry request: name=Core Worker 27330;pid=27330
+[1544081969] wproc: Registry request: name=Core Worker 27329;pid=27329
+[1544081971] Successfully launched command file worker with pid 27333
+[1544082097] SERVICE ALERT: esxi01;Esxi CPU Load;UNKNOWN;SOFT;1;ESX3-0 UNKNOWN - Missing perl module VMware::VIRuntime. Download and install 'VMware Infrastructure (VI) Perl Toolkit', available at http://www.vmware.com/download/sdk/
+[1544082217] SERVICE ALERT: esxi01;Esxi CPU Load;UNKNOWN;SOFT;2;ESX3-0 UNKNOWN - Missing perl module VMware::VIRuntime. Download and install 'VMware Infrastructure (VI) Perl Toolkit', available at http://www.vmware.com/download/sdk/
+[1544082337] SERVICE NOTIFICATION: nagiosadmin;esxi01;Esxi CPU Load;UNKNOWN;notify-service-by-email;ESX3-0 UNKNOWN - Missing perl module VMware::VIRuntime. Download and install 'VMware Infrastructure (VI) Perl Toolkit', available at http://www.vmware.com/download/sdk/
+[1544082337] SERVICE ALERT: esxi01;Esxi CPU Load;UNKNOWN;HARD;3;ESX3-0 UNKNOWN - Missing perl module VMware::VIRuntime. Download and install 'VMware Infrastructure (VI) Perl Toolkit', available at http://www.vmware.com/download/sdk/
+[1544082597] Caught SIGTERM, shutting down...
+[1544082597] wproc: Socket to worker Core Worker 27327 broken, removing
+[1544082597] Caught SIGTERM, shutting down...
+[1544082597] Successfully shutdown... (PID=27326)
+[1544082597] Nagios 4.4.2 starting... (PID=27659)
+[1544082597] Local time is Thu Dec 06 13:19:57 IST 2018
+[1544082597] LOG VERSION: 2.0
+[1544082597] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544082597] qh: core query handler registered
+[1544082597] qh: echo service query handler registered
+[1544082597] qh: help for the query handler registered
+[1544082597] wproc: Successfully registered manager as @wproc with query handler
+[1544082597] wproc: Registry request: name=Core Worker 27662;pid=27662
+[1544082597] wproc: Registry request: name=Core Worker 27660;pid=27660
+[1544082597] wproc: Registry request: name=Core Worker 27661;pid=27661
+[1544082597] wproc: Registry request: name=Core Worker 27663;pid=27663
+[1544082597] Successfully launched command file worker with pid 27666
+[1544082599] Caught SIGTERM, shutting down...
+[1544082599] Caught SIGTERM, shutting down...
+[1544082599] Caught SIGTERM, shutting down...
+[1544082599] Successfully shutdown... (PID=27659)
+[1544082599] Nagios 4.4.2 starting... (PID=27682)
+[1544082599] Local time is Thu Dec 06 13:19:59 IST 2018
+[1544082599] LOG VERSION: 2.0
+[1544082599] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544082599] qh: core query handler registered
+[1544082599] qh: echo service query handler registered
+[1544082599] qh: help for the query handler registered
+[1544082599] wproc: Successfully registered manager as @wproc with query handler
+[1544082599] wproc: Registry request: name=Core Worker 27684;pid=27684
+[1544082599] wproc: Registry request: name=Core Worker 27685;pid=27685
+[1544082599] wproc: Registry request: name=Core Worker 27686;pid=27686
+[1544082599] wproc: Registry request: name=Core Worker 27683;pid=27683
+[1544082599] Successfully launched command file worker with pid 27688
+[1544082624] Caught SIGTERM, shutting down...
+[1544082624] Successfully shutdown... (PID=27682)
+[1544082640] Nagios 4.4.2 starting... (PID=1109)
+[1544082640] Local time is Thu Dec 06 13:20:40 IST 2018
+[1544082640] LOG VERSION: 2.0
+[1544082640] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544082640] qh: core query handler registered
+[1544082640] qh: echo service query handler registered
+[1544082640] qh: help for the query handler registered
+[1544082640] wproc: Successfully registered manager as @wproc with query handler
+[1544082640] wproc: Registry request: name=Core Worker 1111;pid=1111
+[1544082640] wproc: Registry request: name=Core Worker 1112;pid=1112
+[1544082640] wproc: Registry request: name=Core Worker 1115;pid=1115
+[1544082640] wproc: Registry request: name=Core Worker 1114;pid=1114
+[1544082640] Successfully launched command file worker with pid 1125
+[1544085937] SERVICE NOTIFICATION: nagiosadmin;esxi01;Esxi CPU Load;UNKNOWN;notify-service-by-email;ESX3-0 UNKNOWN - Missing perl module VMware::VIRuntime. Download and install 'VMware Infrastructure (VI) Perl Toolkit', available at http://www.vmware.com/download/sdk/
+[1544086240] Auto-save of retention data completed successfully.
+[1544088260] Caught SIGTERM, shutting down...
+[1544088260] Caught SIGTERM, shutting down...
+[1544088260] Caught SIGTERM, shutting down...
+[1544088260] Successfully shutdown... (PID=1109)
+[1544088260] Nagios 4.4.2 starting... (PID=3814)
+[1544088260] Local time is Thu Dec 06 14:54:20 IST 2018
+[1544088260] LOG VERSION: 2.0
+[1544088260] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544088260] qh: core query handler registered
+[1544088260] qh: echo service query handler registered
+[1544088260] qh: help for the query handler registered
+[1544088260] wproc: Successfully registered manager as @wproc with query handler
+[1544088260] wproc: Registry request: name=Core Worker 3816;pid=3816
+[1544088260] wproc: Registry request: name=Core Worker 3815;pid=3815
+[1544088260] wproc: Registry request: name=Core Worker 3818;pid=3818
+[1544088260] wproc: Registry request: name=Core Worker 3817;pid=3817
+[1544088260] Successfully launched command file worker with pid 3820
+[1544088263] Caught SIGTERM, shutting down...
+[1544088263] Successfully shutdown... (PID=3814)
+[1544088276] Nagios 4.4.2 starting... (PID=1136)
+[1544088276] Local time is Thu Dec 06 14:54:36 IST 2018
+[1544088276] LOG VERSION: 2.0
+[1544088276] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544088276] qh: core query handler registered
+[1544088276] qh: echo service query handler registered
+[1544088276] qh: help for the query handler registered
+[1544088276] wproc: Successfully registered manager as @wproc with query handler
+[1544088276] wproc: Registry request: name=Core Worker 1143;pid=1143
+[1544088276] wproc: Registry request: name=Core Worker 1144;pid=1144
+[1544088276] wproc: Registry request: name=Core Worker 1142;pid=1142
+[1544088276] wproc: Registry request: name=Core Worker 1141;pid=1141
+[1544088276] Successfully launched command file worker with pid 1186
+[1544089537] SERVICE NOTIFICATION: nagiosadmin;esxi01;Esxi CPU Load;UNKNOWN;notify-service-by-email;ESX3-0 UNKNOWN - Missing perl module VMware::VIRuntime. Download and install 'VMware Infrastructure (VI) Perl Toolkit', available at http://www.vmware.com/download/sdk/
+[1544090290] Caught SIGTERM, shutting down...
+[1544090290] Caught SIGTERM, shutting down...
+[1544090290] Caught SIGTERM, shutting down...
+[1544090290] Successfully shutdown... (PID=1136)
+[1544090306] Nagios 4.4.2 starting... (PID=5999)
+[1544090306] Local time is Thu Dec 06 15:28:26 IST 2018
+[1544090306] LOG VERSION: 2.0
+[1544090306] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544090306] qh: core query handler registered
+[1544090306] qh: echo service query handler registered
+[1544090306] qh: help for the query handler registered
+[1544090306] wproc: Successfully registered manager as @wproc with query handler
+[1544090306] wproc: Registry request: name=Core Worker 6003;pid=6003
+[1544090306] wproc: Registry request: name=Core Worker 6002;pid=6002
+[1544090306] wproc: Registry request: name=Core Worker 6004;pid=6004
+[1544090306] wproc: Registry request: name=Core Worker 6001;pid=6001
+[1544090306] Successfully launched command file worker with pid 6011
+[1544092557] Caught SIGTERM, shutting down...
+[1544092557] Successfully shutdown... (PID=5999)
+[1544092558] Nagios 4.4.2 starting... (PID=26101)
+[1544092558] Local time is Thu Dec 06 16:05:58 IST 2018
+[1544092558] LOG VERSION: 2.0
+[1544092558] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544092558] qh: core query handler registered
+[1544092558] qh: echo service query handler registered
+[1544092558] qh: help for the query handler registered
+[1544092558] wproc: Successfully registered manager as @wproc with query handler
+[1544092558] wproc: Registry request: name=Core Worker 26103;pid=26103
+[1544092558] wproc: Registry request: name=Core Worker 26102;pid=26102
+[1544092558] wproc: Registry request: name=Core Worker 26104;pid=26104
+[1544092558] wproc: Registry request: name=Core Worker 26105;pid=26105
+[1544092558] Successfully launched command file worker with pid 26108
+[1544092670] Caught SIGTERM, shutting down...
+[1544092670] Caught SIGTERM, shutting down...
+[1544092670] Caught SIGTERM, shutting down...
+[1544092670] Successfully shutdown... (PID=26101)
+[1544092670] Nagios 4.4.2 starting... (PID=26191)
+[1544092670] Local time is Thu Dec 06 16:07:50 IST 2018
+[1544092670] LOG VERSION: 2.0
+[1544092670] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544092670] qh: core query handler registered
+[1544092670] qh: echo service query handler registered
+[1544092670] qh: help for the query handler registered
+[1544092670] wproc: Successfully registered manager as @wproc with query handler
+[1544092670] wproc: Registry request: name=Core Worker 26193;pid=26193
+[1544092670] wproc: Registry request: name=Core Worker 26194;pid=26194
+[1544092670] wproc: Registry request: name=Core Worker 26192;pid=26192
+[1544092670] wproc: Registry request: name=Core Worker 26195;pid=26195
+[1544092670] Successfully launched command file worker with pid 26198
+[1544093137] SERVICE NOTIFICATION: nagiosadmin;esxi01;Esxi CPU Load;UNKNOWN;notify-service-by-email;ESX3-0 UNKNOWN - Missing perl module VMware::VIRuntime. Download and install 'VMware Infrastructure (VI) Perl Toolkit', available at http://www.vmware.com/download/sdk/
+[1544093248] Caught SIGTERM, shutting down...
+[1544093248] Caught SIGTERM, shutting down...
+[1544093248] Successfully shutdown... (PID=26191)
+[1544093249] Nagios 4.4.2 starting... (PID=26413)
+[1544093249] Local time is Thu Dec 06 16:17:29 IST 2018
+[1544093249] LOG VERSION: 2.0
+[1544093249] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544093249] qh: core query handler registered
+[1544093249] qh: echo service query handler registered
+[1544093249] qh: help for the query handler registered
+[1544093249] wproc: Successfully registered manager as @wproc with query handler
+[1544093249] wproc: Registry request: name=Core Worker 26415;pid=26415
+[1544093249] wproc: Registry request: name=Core Worker 26417;pid=26417
+[1544093249] wproc: Registry request: name=Core Worker 26418;pid=26418
+[1544093249] wproc: Registry request: name=Core Worker 26416;pid=26416
+[1544093249] Successfully launched command file worker with pid 26421
+[1544093388] SERVICE ALERT: esxi02;ESXi Hardware Check;UNKNOWN;SOFT;1;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544093508] SERVICE ALERT: esxi02;ESXi Hardware Check;UNKNOWN;SOFT;2;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544093628] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544093628] SERVICE ALERT: esxi02;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544094136] Caught SIGTERM, shutting down...
+[1544094136] Caught SIGTERM, shutting down...
+[1544094136] Successfully shutdown... (PID=26413)
+[1544094136] Nagios 4.4.2 starting... (PID=26741)
+[1544094136] Local time is Thu Dec 06 16:32:16 IST 2018
+[1544094136] LOG VERSION: 2.0
+[1544094136] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544094136] qh: core query handler registered
+[1544094136] qh: echo service query handler registered
+[1544094136] qh: help for the query handler registered
+[1544094136] wproc: Successfully registered manager as @wproc with query handler
+[1544094136] wproc: Registry request: name=Core Worker 26742;pid=26742
+[1544094136] wproc: Registry request: name=Core Worker 26743;pid=26743
+[1544094136] wproc: Registry request: name=Core Worker 26744;pid=26744
+[1544094136] wproc: Registry request: name=Core Worker 26745;pid=26745
+[1544094136] Successfully launched command file worker with pid 26747
+[1544094138] Caught SIGTERM, shutting down...
+[1544094138] Caught SIGTERM, shutting down...
+[1544094138] Successfully shutdown... (PID=26741)
+[1544094138] Nagios 4.4.2 starting... (PID=26763)
+[1544094138] Local time is Thu Dec 06 16:32:18 IST 2018
+[1544094138] LOG VERSION: 2.0
+[1544094138] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544094138] qh: core query handler registered
+[1544094138] qh: echo service query handler registered
+[1544094138] qh: help for the query handler registered
+[1544094138] wproc: Successfully registered manager as @wproc with query handler
+[1544094138] wproc: Registry request: name=Core Worker 26765;pid=26765
+[1544094138] wproc: Registry request: name=Core Worker 26766;pid=26766
+[1544094138] wproc: Registry request: name=Core Worker 26767;pid=26767
+[1544094138] wproc: Registry request: name=Core Worker 26768;pid=26768
+[1544094138] Successfully launched command file worker with pid 26771
+[1544094237] SERVICE NOTIFICATION: nagiosadmin;esxi02;ESXi Hardware Check;OK;notify-service-by-email;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1544094237] SERVICE ALERT: esxi02;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1544097738] Auto-save of retention data completed successfully.
+[1544101338] Auto-save of retention data completed successfully.
+[1544104938] Auto-save of retention data completed successfully.
+[1544108538] Auto-save of retention data completed successfully.
+[1544112138] Auto-save of retention data completed successfully.
+[1544115738] Auto-save of retention data completed successfully.
+[1544119338] Auto-save of retention data completed successfully.
+[1544418890] Caught SIGTERM, shutting down...

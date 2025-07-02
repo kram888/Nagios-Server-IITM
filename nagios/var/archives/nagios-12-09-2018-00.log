@@ -1,0 +1,125 @@
+[1544207400] LOG ROTATION: DAILY
+[1544207400] LOG VERSION: 2.0
+[1544207400] CURRENT HOST STATE: esxi01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.50 ms
+[1544207400] CURRENT HOST STATE: esxi02;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.50 ms
+[1544207400] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1544207400] CURRENT HOST STATE: localhost.localdomain;DOWN;HARD;10;CRITICAL - Host Unreachable (10.5.5.15)
+[1544207400] CURRENT HOST STATE: router1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.62 ms
+[1544207400] CURRENT HOST STATE: router2;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.80 ms
+[1544207400] CURRENT HOST STATE: router3;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.68 ms
+[1544207400] CURRENT SERVICE STATE: esxi01;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1544207400] CURRENT SERVICE STATE: esxi01;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.52 ms
+[1544207400] CURRENT SERVICE STATE: esxi02;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1544207400] CURRENT SERVICE STATE: esxi02;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1544207400] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1544207400] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1544207400] CURRENT SERVICE STATE: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1544207400] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1544207400] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 44737 MB (87.42% inode=99%):
+[1544207400] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1544207400] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1544207400] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 80 processes with STATE = RSZDT
+[1544207400] CURRENT SERVICE STATE: localhost.localdomain;Current Load;OK;HARD;1;OK - load average: 0.00, 0.04, 0.20
+[1544207400] CURRENT SERVICE STATE: localhost.localdomain;Current Users;OK;HARD;1;USERS OK - 2 users currently logged in
+[1544207400] CURRENT SERVICE STATE: localhost.localdomain;HTTP;CRITICAL;HARD;4;connect to address 10.5.5.15 and port 80: No route to host
+[1544207400] CURRENT SERVICE STATE: localhost.localdomain;PING;CRITICAL;HARD;4;CRITICAL - Host Unreachable (10.5.5.15)
+[1544207400] CURRENT SERVICE STATE: localhost.localdomain;Root Partition;OK;HARD;1;DISK OK - free space: / 44737 MB (87.42% inode=99%):
+[1544207400] CURRENT SERVICE STATE: localhost.localdomain;SSH;CRITICAL;HARD;4;connect to address 10.5.5.15 and port 22: No route to host
+[1544207400] CURRENT SERVICE STATE: localhost.localdomain;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1544207400] CURRENT SERVICE STATE: localhost.localdomain;Total Processes;OK;HARD;1;PROCS OK: 84 processes with STATE = RSZDT
+[1544207400] CURRENT SERVICE STATE: router1;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.61 ms
+[1544207400] CURRENT SERVICE STATE: router2;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.81 ms
+[1544207400] CURRENT SERVICE STATE: router3;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.72 ms
+[1544209338] Auto-save of retention data completed successfully.
+[1544212938] Auto-save of retention data completed successfully.
+[1544216538] Auto-save of retention data completed successfully.
+[1544220138] Auto-save of retention data completed successfully.
+[1544223738] Auto-save of retention data completed successfully.
+[1544227338] Auto-save of retention data completed successfully.
+[1544230938] Auto-save of retention data completed successfully.
+[1544234538] Auto-save of retention data completed successfully.
+[1544238138] Auto-save of retention data completed successfully.
+[1544241738] Auto-save of retention data completed successfully.
+[1544245338] Auto-save of retention data completed successfully.
+[1544248938] Auto-save of retention data completed successfully.
+[1544252538] Auto-save of retention data completed successfully.
+[1544256138] Auto-save of retention data completed successfully.
+[1544259738] Auto-save of retention data completed successfully.
+[1544259801] wproc: Core Worker 26766: job 3105 (pid=675) timed out. Killing it
+[1544259801] wproc: CHECK job 3105 from worker Core Worker 26766 timed out after 30.02s
+[1544259801] wproc:   host=router1; service=(null);
+[1544259801] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544259801] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1544259801] HOST ALERT: router1;DOWN;SOFT;1;(Host check timed out after 30.02 seconds)
+[1544259801] wproc: Core Worker 26766: job 3105 (pid=675): Dormant child reaped
+[1544259891] wproc: Core Worker 26767: job 3107 (pid=703) timed out. Killing it
+[1544259891] wproc: CHECK job 3107 from worker Core Worker 26767 timed out after 30.01s
+[1544259891] wproc:   host=router1; service=(null);
+[1544259891] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544259891] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544259891] wproc: Core Worker 26767: job 3107 (pid=703): Dormant child reaped
+[1544259981] wproc: Core Worker 26765: job 3110 (pid=737) timed out. Killing it
+[1544259981] wproc: CHECK job 3110 from worker Core Worker 26765 timed out after 30.02s
+[1544259981] wproc:   host=router1; service=(null);
+[1544259981] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544259981] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1544259981] wproc: Core Worker 26765: job 3110 (pid=737): Dormant child reaped
+[1544260071] wproc: Core Worker 26768: job 3111 (pid=765) timed out. Killing it
+[1544260071] wproc: CHECK job 3111 from worker Core Worker 26768 timed out after 30.01s
+[1544260071] wproc:   host=router1; service=(null);
+[1544260071] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544260071] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544260071] wproc: Core Worker 26768: job 3111 (pid=765): Dormant child reaped
+[1544260160] SERVICE ALERT: router1;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1544260161] wproc: Core Worker 26767: job 3113 (pid=798) timed out. Killing it
+[1544260161] wproc: CHECK job 3113 from worker Core Worker 26767 timed out after 30.03s
+[1544260161] wproc:   host=router1; service=(null);
+[1544260161] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544260161] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544260162] wproc: Core Worker 26767: job 3113 (pid=798): Dormant child reaped
+[1544260251] wproc: Core Worker 26768: job 3115 (pid=845) timed out. Killing it
+[1544260251] wproc: CHECK job 3115 from worker Core Worker 26768 timed out after 30.04s
+[1544260251] wproc:   host=router1; service=(null);
+[1544260251] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544260251] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1544260252] wproc: Core Worker 26768: job 3115 (pid=845): Dormant child reaped
+[1544260311] SERVICE NOTIFICATION: nagiosadmin;router1;check-host-alive;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out
+[1544260341] wproc: Core Worker 26768: job 3117 (pid=925) timed out. Killing it
+[1544260341] wproc: CHECK job 3117 from worker Core Worker 26768 timed out after 30.04s
+[1544260341] wproc:   host=router1; service=(null);
+[1544260341] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544260341] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1544260342] wproc: Core Worker 26768: job 3117 (pid=925): Dormant child reaped
+[1544260431] wproc: Core Worker 26765: job 3119 (pid=942) timed out. Killing it
+[1544260431] wproc: CHECK job 3119 from worker Core Worker 26765 timed out after 30.04s
+[1544260431] wproc:   host=router1; service=(null);
+[1544260431] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544260431] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1544260432] wproc: Core Worker 26765: job 3119 (pid=942): Dormant child reaped
+[1544260521] wproc: Core Worker 26768: job 3121 (pid=978) timed out. Killing it
+[1544260521] wproc: CHECK job 3121 from worker Core Worker 26768 timed out after 30.02s
+[1544260521] wproc:   host=router1; service=(null);
+[1544260521] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544260521] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1544260522] wproc: Core Worker 26768: job 3121 (pid=978): Dormant child reaped
+[1544260611] wproc: Core Worker 26765: job 3123 (pid=994) timed out. Killing it
+[1544260611] wproc: CHECK job 3123 from worker Core Worker 26765 timed out after 30.01s
+[1544260611] wproc:   host=router1; service=(null);
+[1544260611] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544260611] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544260611] HOST NOTIFICATION: nagiosadmin;router1;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1544260611] HOST ALERT: router1;DOWN;HARD;10;(Host check timed out after 30.01 seconds)
+[1544260612] wproc: Core Worker 26765: job 3123 (pid=994): Dormant child reaped
+[1544260884] SERVICE NOTIFICATION: nagiosadmin;router1;check-host-alive;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.63 ms
+[1544260884] SERVICE ALERT: router1;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.63 ms
+[1544260888] HOST NOTIFICATION: nagiosadmin;router1;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.58 ms
+[1544260888] HOST ALERT: router1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.58 ms
+[1544263338] Auto-save of retention data completed successfully.
+[1544266938] Auto-save of retention data completed successfully.
+[1544270538] Auto-save of retention data completed successfully.
+[1544274138] Auto-save of retention data completed successfully.
+[1544277738] Auto-save of retention data completed successfully.
+[1544281338] Auto-save of retention data completed successfully.
+[1544284938] Auto-save of retention data completed successfully.
+[1544288538] Auto-save of retention data completed successfully.
+[1544292138] Auto-save of retention data completed successfully.

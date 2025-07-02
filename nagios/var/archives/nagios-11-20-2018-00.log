@@ -1,0 +1,75 @@
+[1542565800] LOG ROTATION: DAILY
+[1542565800] LOG VERSION: 2.0
+[1542565800] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1542565800] CURRENT HOST STATE: localhost.localdomain;DOWN;HARD;10;CRITICAL - Host Unreachable (10.5.5.15)
+[1542565800] CURRENT HOST STATE: router1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.69 ms
+[1542565800] CURRENT HOST STATE: router2;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.81 ms
+[1542565800] CURRENT HOST STATE: router3;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.71 ms
+[1542565800] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1542565800] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1542565800] CURRENT SERVICE STATE: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1542565800] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1542565800] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 46718 MB (91.29% inode=99%):
+[1542565800] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1542565800] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1542565800] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 74 processes with STATE = RSZDT
+[1542565800] CURRENT SERVICE STATE: localhost.localdomain;Current Load;OK;HARD;1;OK - load average: 0.00, 0.04, 0.20
+[1542565800] CURRENT SERVICE STATE: localhost.localdomain;Current Users;OK;HARD;1;USERS OK - 2 users currently logged in
+[1542565800] CURRENT SERVICE STATE: localhost.localdomain;HTTP;CRITICAL;HARD;4;connect to address 10.5.5.15 and port 80: No route to host
+[1542565800] CURRENT SERVICE STATE: localhost.localdomain;PING;CRITICAL;HARD;4;CRITICAL - Host Unreachable (10.5.5.15)
+[1542565800] CURRENT SERVICE STATE: localhost.localdomain;Root Partition;OK;HARD;1;DISK OK - free space: / 46718 MB (91.29% inode=99%):
+[1542565800] CURRENT SERVICE STATE: localhost.localdomain;SSH;CRITICAL;HARD;4;connect to address 10.5.5.15 and port 22: No route to host
+[1542565800] CURRENT SERVICE STATE: localhost.localdomain;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1542565800] CURRENT SERVICE STATE: localhost.localdomain;Total Processes;OK;HARD;1;PROCS OK: 75 processes with STATE = RSZDT
+[1542565800] CURRENT SERVICE STATE: router1;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.67 ms
+[1542565800] CURRENT SERVICE STATE: router2;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.80 ms
+[1542565800] CURRENT SERVICE STATE: router3;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.48 ms
+[1542568131] Auto-save of retention data completed successfully.
+[1542571731] Auto-save of retention data completed successfully.
+[1542575331] Auto-save of retention data completed successfully.
+[1542578931] Auto-save of retention data completed successfully.
+[1542582531] Auto-save of retention data completed successfully.
+[1542586131] Auto-save of retention data completed successfully.
+[1542589731] Auto-save of retention data completed successfully.
+[1542593331] Auto-save of retention data completed successfully.
+[1542596931] Auto-save of retention data completed successfully.
+[1542600531] Auto-save of retention data completed successfully.
+[1542604131] Auto-save of retention data completed successfully.
+[1542607731] Auto-save of retention data completed successfully.
+[1542611331] Auto-save of retention data completed successfully.
+[1542614931] Auto-save of retention data completed successfully.
+[1542618531] Auto-save of retention data completed successfully.
+[1542622131] Auto-save of retention data completed successfully.
+[1542625731] Auto-save of retention data completed successfully.
+[1542629331] Auto-save of retention data completed successfully.
+[1542632931] Auto-save of retention data completed successfully.
+[1542635282] SERVICE ALERT: router1;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1542635312] wproc: Core Worker 20818: job 22718 (pid=3309) timed out. Killing it
+[1542635312] wproc: CHECK job 22718 from worker Core Worker 20818 timed out after 30.02s
+[1542635312] wproc:   host=router1; service=(null);
+[1542635312] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1542635312] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1542635312] HOST ALERT: router1;DOWN;SOFT;1;(Host check timed out after 30.02 seconds)
+[1542635313] wproc: Core Worker 20818: job 22718 (pid=3309): Dormant child reaped
+[1542635402] wproc: Core Worker 20817: job 22720 (pid=3339) timed out. Killing it
+[1542635402] wproc: CHECK job 22720 from worker Core Worker 20817 timed out after 30.02s
+[1542635402] wproc:   host=router1; service=(null);
+[1542635402] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1542635402] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1542635403] wproc: Core Worker 20817: job 22720 (pid=3339): Dormant child reaped
+[1542635433] SERVICE NOTIFICATION: nagiosadmin;router1;check-host-alive;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out
+[1542635433] SERVICE ALERT: router1;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1542635492] wproc: Core Worker 20818: job 22722 (pid=3380) timed out. Killing it
+[1542635492] wproc: CHECK job 22722 from worker Core Worker 20818 timed out after 30.03s
+[1542635492] wproc:   host=router1; service=(null);
+[1542635492] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1542635492] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1542635493] wproc: Core Worker 20818: job 22722 (pid=3380): Dormant child reaped
+[1542635556] HOST ALERT: router1;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.61 ms
+[1542636006] SERVICE NOTIFICATION: nagiosadmin;router1;check-host-alive;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.59 ms
+[1542636006] SERVICE ALERT: router1;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.59 ms
+[1542636531] Auto-save of retention data completed successfully.
+[1542640131] Auto-save of retention data completed successfully.
+[1542643731] Auto-save of retention data completed successfully.
+[1542647331] Auto-save of retention data completed successfully.
+[1542650931] Auto-save of retention data completed successfully.

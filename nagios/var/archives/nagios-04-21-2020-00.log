@@ -1,0 +1,527 @@
+[1587321000] LOG ROTATION: DAILY
+[1587321000] LOG VERSION: 2.0
+[1587321000] CURRENT HOST STATE: AP_Main_Bldg;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.73 ms
+[1587321000] CURRENT HOST STATE: Director_Bldg;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.61 ms
+[1587321000] CURRENT HOST STATE: Director_Resident;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.96 ms
+[1587321000] CURRENT HOST STATE: esxi01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1587321000] CURRENT HOST STATE: esxi02;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1587321000] CURRENT HOST STATE: esxi03;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.31 ms
+[1587321000] CURRENT HOST STATE: esxi04;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.49 ms
+[1587321000] CURRENT HOST STATE: esxi05;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1587321000] CURRENT HOST STATE: esxi06;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.39 ms
+[1587321000] CURRENT HOST STATE: esxi07;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.55 ms
+[1587321000] CURRENT HOST STATE: esxi08;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1587321000] CURRENT HOST STATE: esxi09;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.33 ms
+[1587321000] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1587321000] CURRENT HOST STATE: vmware10gswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 5.24 ms
+[1587321000] CURRENT HOST STATE: vmwaremgmtswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 2.40 ms
+[1587321000] CURRENT SERVICE STATE: AP_Main_Bldg;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.79 ms
+[1587321000] CURRENT SERVICE STATE: Director_Bldg;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.57 ms
+[1587321000] CURRENT SERVICE STATE: Director_Resident;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.65 ms
+[1587321000] CURRENT SERVICE STATE: esxi01;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1587321000] CURRENT SERVICE STATE: esxi01;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.39 ms
+[1587321000] CURRENT SERVICE STATE: esxi02;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1587321000] CURRENT SERVICE STATE: esxi02;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1587321000] CURRENT SERVICE STATE: esxi03;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1587321000] CURRENT SERVICE STATE: esxi03;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.42 ms
+[1587321000] CURRENT SERVICE STATE: esxi04;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN:
+[1587321000] CURRENT SERVICE STATE: esxi04;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1587321000] CURRENT SERVICE STATE: esxi05;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN:
+[1587321000] CURRENT SERVICE STATE: esxi05;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1587321000] CURRENT SERVICE STATE: esxi06;ESXi Haradware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1587321000] CURRENT SERVICE STATE: esxi06;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1587321000] CURRENT SERVICE STATE: esxi07;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1587321000] CURRENT SERVICE STATE: esxi07;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.50 ms
+[1587321000] CURRENT SERVICE STATE: esxi08;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1587321000] CURRENT SERVICE STATE: esxi08;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.42 ms
+[1587321000] CURRENT SERVICE STATE: esxi09;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1587321000] CURRENT SERVICE STATE: esxi09;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1587321000] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.14, 0.06, 0.05
+[1587321000] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1587321000] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+[1587321000] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 42834 MB (83.70% inode=99%):
+[1587321000] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1587321000] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1587321000] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 86 processes with STATE = RSZDT
+[1587321000] CURRENT SERVICE STATE: vmware10gswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.31 ms
+[1587321000] CURRENT SERVICE STATE: vmwaremgmtswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.81 ms
+[1587323285] Auto-save of retention data completed successfully.
+[1587325784] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.38 ms
+[1587325848] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.33 ms
+[1587326885] Auto-save of retention data completed successfully.
+[1587330485] Auto-save of retention data completed successfully.
+[1587334085] Auto-save of retention data completed successfully.
+[1587337685] Auto-save of retention data completed successfully.
+[1587341285] Auto-save of retention data completed successfully.
+[1587344885] Auto-save of retention data completed successfully.
+[1587348485] Auto-save of retention data completed successfully.
+[1587348954] wproc: Core Worker 22691: job 362649 (pid=15882) timed out. Killing it
+[1587348954] wproc: CHECK job 362649 from worker Core Worker 22691 timed out after 30.01s
+[1587348954] wproc:   host=Director_Bldg; service=(null);
+[1587348954] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587348954] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1587348954] HOST ALERT: Director_Bldg;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1587348954] wproc: Core Worker 22691: job 362649 (pid=15882): Dormant child reaped
+[1587349044] wproc: Core Worker 22689: job 362651 (pid=15910) timed out. Killing it
+[1587349044] wproc: CHECK job 362651 from worker Core Worker 22689 timed out after 30.03s
+[1587349044] wproc:   host=Director_Bldg; service=(null);
+[1587349044] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587349044] Warning: Check of host 'Director_Bldg' timed out after 30.03 seconds
+[1587349044] HOST ALERT: Director_Bldg;DOWN;SOFT;2;(Host check timed out after 30.03 seconds)
+[1587349044] wproc: Core Worker 22689: job 362651 (pid=15910): Dormant child reaped
+[1587349134] wproc: Core Worker 22691: job 362655 (pid=15953) timed out. Killing it
+[1587349134] wproc: CHECK job 362655 from worker Core Worker 22691 timed out after 30.03s
+[1587349134] wproc:   host=Director_Bldg; service=(null);
+[1587349134] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587349134] Warning: Check of host 'Director_Bldg' timed out after 30.03 seconds
+[1587349134] HOST ALERT: Director_Bldg;DOWN;SOFT;3;(Host check timed out after 30.03 seconds)
+[1587349135] wproc: Core Worker 22691: job 362655 (pid=15953): Dormant child reaped
+[1587349169] SERVICE ALERT: Director_Bldg;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1587349223] wproc: Core Worker 22689: job 362659 (pid=15995) timed out. Killing it
+[1587349223] wproc: CHECK job 362659 from worker Core Worker 22689 timed out after 30.01s
+[1587349223] wproc:   host=Director_Resident; service=(null);
+[1587349223] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587349223] Warning: Check of host 'Director_Resident' timed out after 30.01 seconds
+[1587349223] HOST ALERT: Director_Resident;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1587349224] wproc: Core Worker 22689: job 362659 (pid=15995): Dormant child reaped
+[1587349224] wproc: Core Worker 22691: job 362659 (pid=15998) timed out. Killing it
+[1587349224] wproc: CHECK job 362659 from worker Core Worker 22691 timed out after 30.03s
+[1587349224] wproc:   host=Director_Bldg; service=(null);
+[1587349224] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587349224] Warning: Check of host 'Director_Bldg' timed out after 30.03 seconds
+[1587349224] HOST ALERT: Director_Bldg;DOWN;SOFT;4;(Host check timed out after 30.03 seconds)
+[1587349225] wproc: Core Worker 22691: job 362659 (pid=15998): Dormant child reaped
+[1587349313] wproc: Core Worker 22689: job 362661 (pid=16161) timed out. Killing it
+[1587349313] wproc: CHECK job 362661 from worker Core Worker 22689 timed out after 30.01s
+[1587349313] wproc:   host=Director_Resident; service=(null);
+[1587349313] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587349313] Warning: Check of host 'Director_Resident' timed out after 30.01 seconds
+[1587349313] HOST ALERT: Director_Resident;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1587349314] wproc: Core Worker 22689: job 362661 (pid=16161): Dormant child reaped
+[1587349314] wproc: Core Worker 22690: job 362661 (pid=16163) timed out. Killing it
+[1587349314] wproc: CHECK job 362661 from worker Core Worker 22690 timed out after 30.01s
+[1587349314] wproc:   host=Director_Bldg; service=(null);
+[1587349314] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587349314] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1587349314] HOST ALERT: Director_Bldg;DOWN;SOFT;5;(Host check timed out after 30.01 seconds)
+[1587349315] wproc: Core Worker 22690: job 362661 (pid=16163): Dormant child reaped
+[1587349403] wproc: Core Worker 22689: job 362666 (pid=16214) timed out. Killing it
+[1587349403] wproc: CHECK job 362666 from worker Core Worker 22689 timed out after 30.02s
+[1587349403] wproc:   host=Director_Resident; service=(null);
+[1587349403] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587349403] Warning: Check of host 'Director_Resident' timed out after 30.02 seconds
+[1587349403] HOST ALERT: Director_Resident;DOWN;SOFT;3;(Host check timed out after 30.02 seconds)
+[1587349404] wproc: Core Worker 22689: job 362666 (pid=16214): Dormant child reaped
+[1587349404] wproc: Core Worker 22690: job 362666 (pid=16216) timed out. Killing it
+[1587349404] wproc: CHECK job 362666 from worker Core Worker 22690 timed out after 30.03s
+[1587349404] wproc:   host=Director_Bldg; service=(null);
+[1587349404] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587349404] Warning: Check of host 'Director_Bldg' timed out after 30.03 seconds
+[1587349404] HOST ALERT: Director_Bldg;DOWN;SOFT;6;(Host check timed out after 30.03 seconds)
+[1587349405] wproc: Core Worker 22690: job 362666 (pid=16216): Dormant child reaped
+[1587349494] wproc: Core Worker 22692: job 362667 (pid=16236) timed out. Killing it
+[1587349494] wproc: CHECK job 362667 from worker Core Worker 22692 timed out after 30.01s
+[1587349494] wproc:   host=Director_Resident; service=(null);
+[1587349494] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587349494] Warning: Check of host 'Director_Resident' timed out after 30.01 seconds
+[1587349494] HOST ALERT: Director_Resident;DOWN;SOFT;4;(Host check timed out after 30.01 seconds)
+[1587349494] wproc: Core Worker 22692: job 362667 (pid=16236): Dormant child reaped
+[1587349494] wproc: Core Worker 22689: job 362668 (pid=16238) timed out. Killing it
+[1587349494] wproc: CHECK job 362668 from worker Core Worker 22689 timed out after 30.01s
+[1587349494] wproc:   host=Director_Bldg; service=(null);
+[1587349494] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587349494] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1587349494] HOST ALERT: Director_Bldg;DOWN;SOFT;7;(Host check timed out after 30.01 seconds)
+[1587349495] wproc: Core Worker 22689: job 362668 (pid=16238): Dormant child reaped
+[1587349527] SERVICE ALERT: Director_Resident;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1587349584] wproc: Core Worker 22690: job 362670 (pid=16409) timed out. Killing it
+[1587349584] wproc: CHECK job 362670 from worker Core Worker 22690 timed out after 30.03s
+[1587349584] wproc:   host=Director_Resident; service=(null);
+[1587349584] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587349584] Warning: Check of host 'Director_Resident' timed out after 30.03 seconds
+[1587349584] HOST ALERT: Director_Resident;DOWN;SOFT;5;(Host check timed out after 30.03 seconds)
+[1587349584] wproc: Core Worker 22690: job 362670 (pid=16409): Dormant child reaped
+[1587349584] wproc: Core Worker 22691: job 362670 (pid=16411) timed out. Killing it
+[1587349584] wproc: CHECK job 362670 from worker Core Worker 22691 timed out after 30.03s
+[1587349584] wproc:   host=Director_Bldg; service=(null);
+[1587349584] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587349584] Warning: Check of host 'Director_Bldg' timed out after 30.03 seconds
+[1587349584] HOST ALERT: Director_Bldg;DOWN;SOFT;8;(Host check timed out after 30.03 seconds)
+[1587349585] wproc: Core Worker 22691: job 362670 (pid=16411): Dormant child reaped
+[1587349674] wproc: Core Worker 22690: job 362672 (pid=16434) timed out. Killing it
+[1587349674] wproc: CHECK job 362672 from worker Core Worker 22690 timed out after 30.02s
+[1587349674] wproc:   host=Director_Resident; service=(null);
+[1587349674] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587349674] Warning: Check of host 'Director_Resident' timed out after 30.02 seconds
+[1587349674] HOST ALERT: Director_Resident;DOWN;SOFT;6;(Host check timed out after 30.02 seconds)
+[1587349674] wproc: Core Worker 22690: job 362672 (pid=16434): Dormant child reaped
+[1587349674] wproc: Core Worker 22691: job 362672 (pid=16436) timed out. Killing it
+[1587349674] wproc: CHECK job 362672 from worker Core Worker 22691 timed out after 30.02s
+[1587349674] wproc:   host=Director_Bldg; service=(null);
+[1587349674] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587349674] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1587349674] HOST ALERT: Director_Bldg;DOWN;SOFT;9;(Host check timed out after 30.02 seconds)
+[1587349675] wproc: Core Worker 22691: job 362672 (pid=16436): Dormant child reaped
+[1587349764] wproc: Core Worker 22692: job 362676 (pid=16484) timed out. Killing it
+[1587349764] wproc: CHECK job 362676 from worker Core Worker 22692 timed out after 30.01s
+[1587349764] wproc:   host=Director_Resident; service=(null);
+[1587349764] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587349764] Warning: Check of host 'Director_Resident' timed out after 30.01 seconds
+[1587349764] HOST ALERT: Director_Resident;DOWN;SOFT;7;(Host check timed out after 30.01 seconds)
+[1587349764] wproc: Core Worker 22692: job 362676 (pid=16484): Dormant child reaped
+[1587349764] wproc: Core Worker 22689: job 362677 (pid=16486) timed out. Killing it
+[1587349764] wproc: CHECK job 362677 from worker Core Worker 22689 timed out after 30.01s
+[1587349764] wproc:   host=Director_Bldg; service=(null);
+[1587349764] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587349764] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1587349764] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1587349764] HOST ALERT: Director_Bldg;DOWN;HARD;10;(Host check timed out after 30.01 seconds)
+[1587349765] wproc: Core Worker 22689: job 362677 (pid=16486): Dormant child reaped
+[1587349854] wproc: Core Worker 22692: job 362680 (pid=16673) timed out. Killing it
+[1587349854] wproc: CHECK job 362680 from worker Core Worker 22692 timed out after 30.02s
+[1587349854] wproc:   host=Director_Resident; service=(null);
+[1587349854] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587349854] Warning: Check of host 'Director_Resident' timed out after 30.02 seconds
+[1587349854] HOST ALERT: Director_Resident;DOWN;SOFT;8;(Host check timed out after 30.02 seconds)
+[1587349854] wproc: Core Worker 22692: job 362680 (pid=16673): Dormant child reaped
+[1587349944] wproc: Core Worker 22692: job 362682 (pid=16733) timed out. Killing it
+[1587349944] wproc: CHECK job 362682 from worker Core Worker 22692 timed out after 30.02s
+[1587349944] wproc:   host=Director_Resident; service=(null);
+[1587349944] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587349944] Warning: Check of host 'Director_Resident' timed out after 30.02 seconds
+[1587349944] HOST ALERT: Director_Resident;DOWN;SOFT;9;(Host check timed out after 30.02 seconds)
+[1587349944] wproc: Core Worker 22692: job 362682 (pid=16733): Dormant child reaped
+[1587350034] wproc: Core Worker 22692: job 362686 (pid=16770) timed out. Killing it
+[1587350034] wproc: CHECK job 362686 from worker Core Worker 22692 timed out after 30.01s
+[1587350034] wproc:   host=Director_Resident; service=(null);
+[1587350034] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587350034] Warning: Check of host 'Director_Resident' timed out after 30.01 seconds
+[1587350034] HOST NOTIFICATION: nagiosadmin;Director_Resident;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1587350034] HOST ALERT: Director_Resident;DOWN;HARD;10;(Host check timed out after 30.01 seconds)
+[1587350034] wproc: Core Worker 22692: job 362686 (pid=16770): Dormant child reaped
+[1587350094] wproc: Core Worker 22691: job 362688 (pid=16798) timed out. Killing it
+[1587350094] wproc: CHECK job 362688 from worker Core Worker 22691 timed out after 30.01s
+[1587350094] wproc:   host=Director_Bldg; service=(null);
+[1587350094] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587350094] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1587350095] wproc: Core Worker 22691: job 362688 (pid=16798): Dormant child reaped
+[1587350364] wproc: Core Worker 22690: job 362696 (pid=17035) timed out. Killing it
+[1587350364] wproc: CHECK job 362696 from worker Core Worker 22690 timed out after 30.01s
+[1587350364] wproc:   host=Director_Resident; service=(null);
+[1587350364] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587350364] Warning: Check of host 'Director_Resident' timed out after 30.01 seconds
+[1587350364] wproc: Core Worker 22690: job 362696 (pid=17035): Dormant child reaped
+[1587350394] wproc: Core Worker 22691: job 362697 (pid=17045) timed out. Killing it
+[1587350394] wproc: CHECK job 362697 from worker Core Worker 22691 timed out after 30.01s
+[1587350394] wproc:   host=Director_Bldg; service=(null);
+[1587350394] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587350394] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1587350395] wproc: Core Worker 22691: job 362697 (pid=17045): Dormant child reaped
+[1587350664] wproc: Core Worker 22689: job 362706 (pid=17293) timed out. Killing it
+[1587350664] wproc: CHECK job 362706 from worker Core Worker 22689 timed out after 30.03s
+[1587350664] wproc:   host=Director_Resident; service=(null);
+[1587350664] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587350664] Warning: Check of host 'Director_Resident' timed out after 30.03 seconds
+[1587350664] wproc: Core Worker 22689: job 362706 (pid=17293): Dormant child reaped
+[1587350694] wproc: Core Worker 22689: job 362707 (pid=17301) timed out. Killing it
+[1587350694] wproc: CHECK job 362707 from worker Core Worker 22689 timed out after 30.01s
+[1587350694] wproc:   host=Director_Bldg; service=(null);
+[1587350694] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587350694] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1587350695] wproc: Core Worker 22689: job 362707 (pid=17301): Dormant child reaped
+[1587350964] wproc: Core Worker 22692: job 362714 (pid=17537) timed out. Killing it
+[1587350964] wproc: CHECK job 362714 from worker Core Worker 22692 timed out after 30.01s
+[1587350964] wproc:   host=Director_Resident; service=(null);
+[1587350964] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587350964] Warning: Check of host 'Director_Resident' timed out after 30.01 seconds
+[1587350964] wproc: Core Worker 22692: job 362714 (pid=17537): Dormant child reaped
+[1587350994] wproc: Core Worker 22689: job 362716 (pid=17547) timed out. Killing it
+[1587350994] wproc: CHECK job 362716 from worker Core Worker 22689 timed out after 30.01s
+[1587350994] wproc:   host=Director_Bldg; service=(null);
+[1587350994] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587350994] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1587350995] wproc: Core Worker 22689: job 362716 (pid=17547): Dormant child reaped
+[1587351264] wproc: Core Worker 22691: job 362724 (pid=17795) timed out. Killing it
+[1587351264] wproc: CHECK job 362724 from worker Core Worker 22691 timed out after 30.02s
+[1587351264] wproc:   host=Director_Resident; service=(null);
+[1587351264] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587351264] Warning: Check of host 'Director_Resident' timed out after 30.02 seconds
+[1587351264] wproc: Core Worker 22691: job 362724 (pid=17795): Dormant child reaped
+[1587351294] wproc: Core Worker 22691: job 362725 (pid=17803) timed out. Killing it
+[1587351294] wproc: CHECK job 362725 from worker Core Worker 22691 timed out after 30.01s
+[1587351294] wproc:   host=Director_Bldg; service=(null);
+[1587351294] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587351294] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1587351295] wproc: Core Worker 22691: job 362725 (pid=17803): Dormant child reaped
+[1587351539] HOST NOTIFICATION: nagiosadmin;Director_Resident;UP;notify-host-by-email;PING OK - Packet loss = 40%, RTA = 1.24 ms
+[1587351539] HOST ALERT: Director_Resident;UP;HARD;1;PING OK - Packet loss = 40%, RTA = 1.24 ms
+[1587351542] SERVICE ALERT: Director_Bldg;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.64 ms
+[1587351547] HOST NOTIFICATION: nagiosadmin;Director_Bldg;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.60 ms
+[1587351547] HOST ALERT: Director_Bldg;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.60 ms
+[1587351900] SERVICE ALERT: Director_Resident;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.69 ms
+[1587352085] Auto-save of retention data completed successfully.
+[1587355320] SERVICE ALERT: esxi09;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.32 ms
+[1587355384] SERVICE ALERT: esxi09;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1587355685] Auto-save of retention data completed successfully.
+[1587359285] Auto-save of retention data completed successfully.
+[1587362885] Auto-save of retention data completed successfully.
+[1587364464] wproc: Core Worker 22691: job 363132 (pid=28973) timed out. Killing it
+[1587364464] wproc: CHECK job 363132 from worker Core Worker 22691 timed out after 30.01s
+[1587364464] wproc:   host=Director_Resident; service=(null);
+[1587364464] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587364464] Warning: Check of host 'Director_Resident' timed out after 30.01 seconds
+[1587364464] HOST ALERT: Director_Resident;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1587364464] wproc: Core Worker 22691: job 363132 (pid=28973): Dormant child reaped
+[1587364472] wproc: Core Worker 22692: job 363132 (pid=28983) timed out. Killing it
+[1587364472] wproc: CHECK job 363132 from worker Core Worker 22692 timed out after 30.01s
+[1587364472] wproc:   host=Director_Bldg; service=(null);
+[1587364472] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587364472] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1587364472] HOST ALERT: Director_Bldg;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1587364472] wproc: Core Worker 22692: job 363132 (pid=28983): Dormant child reaped
+[1587364527] SERVICE ALERT: Director_Resident;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1587364554] wproc: Core Worker 22690: job 363135 (pid=29148) timed out. Killing it
+[1587364554] wproc: CHECK job 363135 from worker Core Worker 22690 timed out after 30.03s
+[1587364554] wproc:   host=Director_Resident; service=(null);
+[1587364554] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587364554] Warning: Check of host 'Director_Resident' timed out after 30.03 seconds
+[1587364554] HOST ALERT: Director_Resident;DOWN;SOFT;2;(Host check timed out after 30.03 seconds)
+[1587364554] wproc: Core Worker 22690: job 363135 (pid=29148): Dormant child reaped
+[1587364562] wproc: Core Worker 22692: job 363135 (pid=29152) timed out. Killing it
+[1587364562] wproc: CHECK job 363135 from worker Core Worker 22692 timed out after 30.01s
+[1587364562] wproc:   host=Director_Bldg; service=(null);
+[1587364562] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587364562] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1587364562] HOST ALERT: Director_Bldg;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1587364562] wproc: Core Worker 22692: job 363135 (pid=29152): Dormant child reaped
+[1587364644] wproc: Core Worker 22689: job 363137 (pid=29170) timed out. Killing it
+[1587364644] wproc: CHECK job 363137 from worker Core Worker 22689 timed out after 30.02s
+[1587364644] wproc:   host=Director_Resident; service=(null);
+[1587364644] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587364644] Warning: Check of host 'Director_Resident' timed out after 30.02 seconds
+[1587364644] HOST ALERT: Director_Resident;DOWN;SOFT;3;(Host check timed out after 30.02 seconds)
+[1587364644] wproc: Core Worker 22689: job 363137 (pid=29170): Dormant child reaped
+[1587364652] wproc: Core Worker 22692: job 363137 (pid=29184) timed out. Killing it
+[1587364652] wproc: CHECK job 363137 from worker Core Worker 22692 timed out after 30.00s
+[1587364652] wproc:   host=Director_Bldg; service=(null);
+[1587364652] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587364652] Warning: Check of host 'Director_Bldg' timed out after 30.00 seconds
+[1587364652] HOST ALERT: Director_Bldg;DOWN;SOFT;3;(Host check timed out after 30.00 seconds)
+[1587364652] wproc: Core Worker 22692: job 363137 (pid=29184): Dormant child reaped
+[1587364734] wproc: Core Worker 22692: job 363141 (pid=29224) timed out. Killing it
+[1587364734] wproc: CHECK job 363141 from worker Core Worker 22692 timed out after 30.03s
+[1587364734] wproc:   host=Director_Resident; service=(null);
+[1587364734] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587364734] Warning: Check of host 'Director_Resident' timed out after 30.03 seconds
+[1587364734] HOST ALERT: Director_Resident;DOWN;SOFT;4;(Host check timed out after 30.03 seconds)
+[1587364734] wproc: Core Worker 22692: job 363141 (pid=29224): Dormant child reaped
+[1587364742] wproc: Core Worker 22689: job 363142 (pid=29226) timed out. Killing it
+[1587364742] wproc: CHECK job 363142 from worker Core Worker 22689 timed out after 30.03s
+[1587364742] wproc:   host=Director_Bldg; service=(null);
+[1587364742] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587364742] Warning: Check of host 'Director_Bldg' timed out after 30.03 seconds
+[1587364742] HOST ALERT: Director_Bldg;DOWN;SOFT;4;(Host check timed out after 30.03 seconds)
+[1587364742] wproc: Core Worker 22689: job 363142 (pid=29226): Dormant child reaped
+[1587364769] SERVICE ALERT: Director_Bldg;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1587364824] wproc: Core Worker 22692: job 363145 (pid=29261) timed out. Killing it
+[1587364824] wproc: CHECK job 363145 from worker Core Worker 22692 timed out after 30.03s
+[1587364824] wproc:   host=Director_Resident; service=(null);
+[1587364824] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587364824] Warning: Check of host 'Director_Resident' timed out after 30.03 seconds
+[1587364824] HOST ALERT: Director_Resident;DOWN;SOFT;5;(Host check timed out after 30.03 seconds)
+[1587364824] wproc: Core Worker 22692: job 363145 (pid=29261): Dormant child reaped
+[1587364832] wproc: Core Worker 22690: job 363146 (pid=29293) timed out. Killing it
+[1587364832] wproc: CHECK job 363146 from worker Core Worker 22690 timed out after 30.03s
+[1587364832] wproc:   host=Director_Bldg; service=(null);
+[1587364832] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587364832] Warning: Check of host 'Director_Bldg' timed out after 30.03 seconds
+[1587364832] HOST ALERT: Director_Bldg;DOWN;SOFT;5;(Host check timed out after 30.03 seconds)
+[1587364832] wproc: Core Worker 22690: job 363146 (pid=29293): Dormant child reaped
+[1587364914] wproc: Core Worker 22691: job 363147 (pid=29439) timed out. Killing it
+[1587364914] wproc: CHECK job 363147 from worker Core Worker 22691 timed out after 30.01s
+[1587364914] wproc:   host=Director_Resident; service=(null);
+[1587364914] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587364914] Warning: Check of host 'Director_Resident' timed out after 30.01 seconds
+[1587364914] HOST ALERT: Director_Resident;DOWN;SOFT;6;(Host check timed out after 30.01 seconds)
+[1587364914] wproc: Core Worker 22691: job 363147 (pid=29439): Dormant child reaped
+[1587364922] wproc: Core Worker 22689: job 363148 (pid=29443) timed out. Killing it
+[1587364922] wproc: CHECK job 363148 from worker Core Worker 22689 timed out after 30.01s
+[1587364922] wproc:   host=Director_Bldg; service=(null);
+[1587364922] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587364922] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1587364922] HOST ALERT: Director_Bldg;DOWN;SOFT;6;(Host check timed out after 30.01 seconds)
+[1587364922] wproc: Core Worker 22689: job 363148 (pid=29443): Dormant child reaped
+[1587365004] wproc: Core Worker 22691: job 363152 (pid=29484) timed out. Killing it
+[1587365004] wproc: CHECK job 363152 from worker Core Worker 22691 timed out after 30.01s
+[1587365004] wproc:   host=Director_Resident; service=(null);
+[1587365004] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587365004] Warning: Check of host 'Director_Resident' timed out after 30.01 seconds
+[1587365004] HOST ALERT: Director_Resident;DOWN;SOFT;7;(Host check timed out after 30.01 seconds)
+[1587365004] wproc: Core Worker 22691: job 363152 (pid=29484): Dormant child reaped
+[1587365012] wproc: Core Worker 22692: job 363152 (pid=29494) timed out. Killing it
+[1587365012] wproc: CHECK job 363152 from worker Core Worker 22692 timed out after 30.02s
+[1587365012] wproc:   host=Director_Bldg; service=(null);
+[1587365012] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587365012] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1587365012] HOST ALERT: Director_Bldg;DOWN;SOFT;7;(Host check timed out after 30.02 seconds)
+[1587365012] wproc: Core Worker 22692: job 363152 (pid=29494): Dormant child reaped
+[1587365094] wproc: Core Worker 22691: job 363154 (pid=29517) timed out. Killing it
+[1587365094] wproc: CHECK job 363154 from worker Core Worker 22691 timed out after 30.01s
+[1587365094] wproc:   host=Director_Resident; service=(null);
+[1587365094] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587365094] Warning: Check of host 'Director_Resident' timed out after 30.01 seconds
+[1587365094] HOST ALERT: Director_Resident;DOWN;SOFT;8;(Host check timed out after 30.01 seconds)
+[1587365094] wproc: Core Worker 22691: job 363154 (pid=29517): Dormant child reaped
+[1587365102] wproc: Core Worker 22689: job 363155 (pid=29521) timed out. Killing it
+[1587365102] wproc: CHECK job 363155 from worker Core Worker 22689 timed out after 30.01s
+[1587365102] wproc:   host=Director_Bldg; service=(null);
+[1587365102] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587365102] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1587365102] HOST ALERT: Director_Bldg;DOWN;SOFT;8;(Host check timed out after 30.01 seconds)
+[1587365102] wproc: Core Worker 22689: job 363155 (pid=29521): Dormant child reaped
+[1587365184] wproc: Core Worker 22692: job 363156 (pid=29682) timed out. Killing it
+[1587365184] wproc: CHECK job 363156 from worker Core Worker 22692 timed out after 30.01s
+[1587365184] wproc:   host=Director_Resident; service=(null);
+[1587365184] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587365184] Warning: Check of host 'Director_Resident' timed out after 30.01 seconds
+[1587365184] HOST ALERT: Director_Resident;DOWN;SOFT;9;(Host check timed out after 30.01 seconds)
+[1587365184] wproc: Core Worker 22692: job 363156 (pid=29682): Dormant child reaped
+[1587365192] wproc: Core Worker 22689: job 363157 (pid=29692) timed out. Killing it
+[1587365192] wproc: CHECK job 363157 from worker Core Worker 22689 timed out after 30.02s
+[1587365192] wproc:   host=Director_Bldg; service=(null);
+[1587365192] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587365192] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1587365192] HOST ALERT: Director_Bldg;DOWN;SOFT;9;(Host check timed out after 30.02 seconds)
+[1587365192] wproc: Core Worker 22689: job 363157 (pid=29692): Dormant child reaped
+[1587365274] wproc: Core Worker 22692: job 363158 (pid=29716) timed out. Killing it
+[1587365274] wproc: CHECK job 363158 from worker Core Worker 22692 timed out after 30.01s
+[1587365274] wproc:   host=Director_Resident; service=(null);
+[1587365274] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587365274] Warning: Check of host 'Director_Resident' timed out after 30.01 seconds
+[1587365274] HOST NOTIFICATION: nagiosadmin;Director_Resident;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1587365274] HOST ALERT: Director_Resident;DOWN;HARD;10;(Host check timed out after 30.01 seconds)
+[1587365274] wproc: Core Worker 22692: job 363158 (pid=29716): Dormant child reaped
+[1587365282] wproc: Core Worker 22689: job 363161 (pid=29731) timed out. Killing it
+[1587365282] wproc: CHECK job 363161 from worker Core Worker 22689 timed out after 30.03s
+[1587365282] wproc:   host=Director_Bldg; service=(null);
+[1587365282] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587365282] Warning: Check of host 'Director_Bldg' timed out after 30.03 seconds
+[1587365282] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;(Host check timed out after 30.03 seconds)
+[1587365282] HOST ALERT: Director_Bldg;DOWN;HARD;10;(Host check timed out after 30.03 seconds)
+[1587365282] wproc: Core Worker 22689: job 363161 (pid=29731): Dormant child reaped
+[1587365359] SERVICE ALERT: esxi01;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.58 ms
+[1587365423] SERVICE ALERT: esxi01;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1587365604] wproc: Core Worker 22689: job 363173 (pid=30010) timed out. Killing it
+[1587365604] wproc: CHECK job 363173 from worker Core Worker 22689 timed out after 30.00s
+[1587365604] wproc:   host=Director_Resident; service=(null);
+[1587365604] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587365604] Warning: Check of host 'Director_Resident' timed out after 30.00 seconds
+[1587365604] wproc: Core Worker 22689: job 363173 (pid=30010): Dormant child reaped
+[1587365612] wproc: Core Worker 22690: job 363173 (pid=30020) timed out. Killing it
+[1587365612] wproc: CHECK job 363173 from worker Core Worker 22690 timed out after 30.02s
+[1587365612] wproc:   host=Director_Bldg; service=(null);
+[1587365612] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587365612] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1587365612] wproc: Core Worker 22690: job 363173 (pid=30020): Dormant child reaped
+[1587365904] wproc: Core Worker 22691: job 363181 (pid=30251) timed out. Killing it
+[1587365904] wproc: CHECK job 363181 from worker Core Worker 22691 timed out after 30.02s
+[1587365904] wproc:   host=Director_Resident; service=(null);
+[1587365904] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587365904] Warning: Check of host 'Director_Resident' timed out after 30.02 seconds
+[1587365904] wproc: Core Worker 22691: job 363181 (pid=30251): Dormant child reaped
+[1587365912] wproc: Core Worker 22692: job 363181 (pid=30261) timed out. Killing it
+[1587365912] wproc: CHECK job 363181 from worker Core Worker 22692 timed out after 30.01s
+[1587365912] wproc:   host=Director_Bldg; service=(null);
+[1587365912] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587365912] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1587365912] wproc: Core Worker 22692: job 363181 (pid=30261): Dormant child reaped
+[1587365942] SERVICE ALERT: Director_Bldg;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.59 ms
+[1587365946] HOST NOTIFICATION: nagiosadmin;Director_Bldg;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.53 ms
+[1587365946] HOST ALERT: Director_Bldg;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.53 ms
+[1587366179] HOST NOTIFICATION: nagiosadmin;Director_Resident;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 0.69 ms
+[1587366179] HOST ALERT: Director_Resident;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 0.69 ms
+[1587366300] SERVICE ALERT: Director_Resident;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.66 ms
+[1587366485] Auto-save of retention data completed successfully.
+[1587370085] Auto-save of retention data completed successfully.
+[1587373685] Auto-save of retention data completed successfully.
+[1587377285] Auto-save of retention data completed successfully.
+[1587380885] Auto-save of retention data completed successfully.
+[1587384485] Auto-save of retention data completed successfully.
+[1587384569] SERVICE ALERT: Director_Bldg;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1587384572] wproc: Core Worker 22689: job 363757 (pid=13813) timed out. Killing it
+[1587384572] wproc: CHECK job 363757 from worker Core Worker 22689 timed out after 30.01s
+[1587384572] wproc:   host=Director_Bldg; service=(null);
+[1587384572] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587384572] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1587384572] HOST ALERT: Director_Bldg;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1587384572] wproc: Core Worker 22689: job 363757 (pid=13813): Dormant child reaped
+[1587384662] wproc: Core Worker 22691: job 363760 (pid=13999) timed out. Killing it
+[1587384662] wproc: CHECK job 363760 from worker Core Worker 22691 timed out after 30.03s
+[1587384662] wproc:   host=Director_Bldg; service=(null);
+[1587384662] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587384662] Warning: Check of host 'Director_Bldg' timed out after 30.03 seconds
+[1587384662] HOST ALERT: Director_Bldg;DOWN;SOFT;2;(Host check timed out after 30.03 seconds)
+[1587384662] wproc: Core Worker 22691: job 363760 (pid=13999): Dormant child reaped
+[1587384720] SERVICE ALERT: Director_Bldg;check-host-alive;CRITICAL;HARD;3;CRITICAL - Plugin timed out
+[1587384752] wproc: Core Worker 22690: job 363763 (pid=14027) timed out. Killing it
+[1587384752] wproc: CHECK job 363763 from worker Core Worker 22690 timed out after 30.00s
+[1587384752] wproc:   host=Director_Bldg; service=(null);
+[1587384752] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587384752] Warning: Check of host 'Director_Bldg' timed out after 30.00 seconds
+[1587384752] HOST ALERT: Director_Bldg;DOWN;SOFT;3;(Host check timed out after 30.00 seconds)
+[1587384752] wproc: Core Worker 22690: job 363763 (pid=14027): Dormant child reaped
+[1587384804] wproc: Core Worker 22691: job 363766 (pid=14058) timed out. Killing it
+[1587384804] wproc: CHECK job 363766 from worker Core Worker 22691 timed out after 30.01s
+[1587384804] wproc:   host=Director_Resident; service=(null);
+[1587384804] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587384804] Warning: Check of host 'Director_Resident' timed out after 30.01 seconds
+[1587384804] HOST ALERT: Director_Resident;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1587384804] wproc: Core Worker 22691: job 363766 (pid=14058): Dormant child reaped
+[1587384842] wproc: Core Worker 22692: job 363766 (pid=14068) timed out. Killing it
+[1587384842] wproc: CHECK job 363766 from worker Core Worker 22692 timed out after 30.03s
+[1587384842] wproc:   host=Director_Bldg; service=(null);
+[1587384842] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587384842] Warning: Check of host 'Director_Bldg' timed out after 30.03 seconds
+[1587384842] HOST ALERT: Director_Bldg;DOWN;SOFT;4;(Host check timed out after 30.03 seconds)
+[1587384842] wproc: Core Worker 22692: job 363766 (pid=14068): Dormant child reaped
+[1587384894] wproc: Core Worker 22691: job 363768 (pid=14090) timed out. Killing it
+[1587384894] wproc: CHECK job 363768 from worker Core Worker 22691 timed out after 30.01s
+[1587384894] wproc:   host=Director_Resident; service=(null);
+[1587384894] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587384894] Warning: Check of host 'Director_Resident' timed out after 30.01 seconds
+[1587384894] HOST ALERT: Director_Resident;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1587384894] wproc: Core Worker 22691: job 363768 (pid=14090): Dormant child reaped
+[1587384927] SERVICE ALERT: Director_Resident;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1587384932] wproc: Core Worker 22689: job 363770 (pid=14144) timed out. Killing it
+[1587384932] wproc: CHECK job 363770 from worker Core Worker 22689 timed out after 30.03s
+[1587384932] wproc:   host=Director_Bldg; service=(null);
+[1587384932] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587384932] Warning: Check of host 'Director_Bldg' timed out after 30.03 seconds
+[1587384932] HOST ALERT: Director_Bldg;DOWN;SOFT;5;(Host check timed out after 30.03 seconds)
+[1587384932] wproc: Core Worker 22689: job 363770 (pid=14144): Dormant child reaped
+[1587384984] wproc: Core Worker 22692: job 363770 (pid=14252) timed out. Killing it
+[1587384984] wproc: CHECK job 363770 from worker Core Worker 22692 timed out after 30.02s
+[1587384984] wproc:   host=Director_Resident; service=(null);
+[1587384984] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587384984] Warning: Check of host 'Director_Resident' timed out after 30.02 seconds
+[1587384984] HOST ALERT: Director_Resident;DOWN;SOFT;3;(Host check timed out after 30.02 seconds)
+[1587384984] wproc: Core Worker 22692: job 363770 (pid=14252): Dormant child reaped
+[1587385022] wproc: Core Worker 22691: job 363771 (pid=14266) timed out. Killing it
+[1587385022] wproc: CHECK job 363771 from worker Core Worker 22691 timed out after 30.01s
+[1587385022] wproc:   host=Director_Bldg; service=(null);
+[1587385022] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1587385022] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1587385022] HOST ALERT: Director_Bldg;DOWN;SOFT;6;(Host check timed out after 30.01 seconds)
+[1587385022] wproc: Core Worker 22691: job 363771 (pid=14266): Dormant child reaped
+[1587385049] HOST ALERT: Director_Resident;UP;SOFT;1;PING OK - Packet loss = 20%, RTA = 0.88 ms
+[1587385086] HOST ALERT: Director_Bldg;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.59 ms
+[1587385293] SERVICE ALERT: Director_Bldg;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.67 ms
+[1587385500] SERVICE ALERT: Director_Resident;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.90 ms
+[1587388085] Auto-save of retention data completed successfully.
+[1587391685] Auto-save of retention data completed successfully.
+[1587395285] Auto-save of retention data completed successfully.
+[1587398885] Auto-save of retention data completed successfully.
+[1587399549] SERVICE ALERT: esxi09;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 16.74 ms
+[1587399613] SERVICE ALERT: esxi09;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1587402485] Auto-save of retention data completed successfully.
+[1587406085] Auto-save of retention data completed successfully.

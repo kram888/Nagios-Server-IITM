@@ -1,0 +1,58 @@
+[1540319400] LOG ROTATION: DAILY
+[1540319400] LOG VERSION: 2.0
+[1540319400] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1540319400] CURRENT HOST STATE: localhost.localdomain;DOWN;HARD;10;CRITICAL - Host Unreachable (10.5.5.15)
+[1540319400] CURRENT HOST STATE: router1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.62 ms
+[1540319400] CURRENT HOST STATE: router2;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.76 ms
+[1540319400] CURRENT HOST STATE: router3;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.70 ms
+[1540319400] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.07, 0.28
+[1540319400] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 2 users currently logged in
+[1540319400] CURRENT SERVICE STATE: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1540319400] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.02 ms
+[1540319400] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 46762 MB (91.37% inode=99%):
+[1540319400] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1540319400] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1540319400] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 82 processes with STATE = RSZDT
+[1540319400] CURRENT SERVICE STATE: localhost.localdomain;Current Load;OK;HARD;1;OK - load average: 0.00, 0.04, 0.22
+[1540319400] CURRENT SERVICE STATE: localhost.localdomain;Current Users;OK;HARD;1;USERS OK - 2 users currently logged in
+[1540319400] CURRENT SERVICE STATE: localhost.localdomain;HTTP;CRITICAL;HARD;4;connect to address 10.5.5.15 and port 80: No route to host
+[1540319400] CURRENT SERVICE STATE: localhost.localdomain;PING;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.5.5.15)
+[1540319400] CURRENT SERVICE STATE: localhost.localdomain;Root Partition;OK;HARD;1;DISK OK - free space: / 46762 MB (91.37% inode=99%):
+[1540319400] CURRENT SERVICE STATE: localhost.localdomain;SSH;CRITICAL;HARD;1;connect to address 10.5.5.15 and port 22: No route to host
+[1540319400] CURRENT SERVICE STATE: localhost.localdomain;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1540319400] CURRENT SERVICE STATE: localhost.localdomain;Total Processes;OK;HARD;1;PROCS OK: 82 processes with STATE = RSZDT
+[1540319400] CURRENT SERVICE STATE: router1;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.74 ms
+[1540319400] CURRENT SERVICE STATE: router2;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.69 ms
+[1540319400] CURRENT SERVICE STATE: router3;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.63 ms
+[1540319852] Auto-save of retention data completed successfully.
+[1540323452] Auto-save of retention data completed successfully.
+[1540327052] Auto-save of retention data completed successfully.
+[1540330652] Auto-save of retention data completed successfully.
+[1540334252] Auto-save of retention data completed successfully.
+[1540337852] Auto-save of retention data completed successfully.
+[1540341452] Auto-save of retention data completed successfully.
+[1540345052] Auto-save of retention data completed successfully.
+[1540348652] Auto-save of retention data completed successfully.
+[1540351906] HOST NOTIFICATION: nagiosadmin;localhost.localdomain;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.5.5.15)
+[1540352252] Auto-save of retention data completed successfully.
+[1540355852] Auto-save of retention data completed successfully.
+[1540359107] HOST NOTIFICATION: nagiosadmin;localhost.localdomain;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.5.5.15)
+[1540359452] Auto-save of retention data completed successfully.
+[1540359537] EXTERNAL COMMAND: DISABLE_SVC_CHECK;localhost.localdomain;HTTP
+[1540359550] EXTERNAL COMMAND: DISABLE_SVC_CHECK;localhost.localdomain;Current Load
+[1540359565] EXTERNAL COMMAND: DISABLE_SVC_CHECK;localhost.localdomain;Current Users
+[1540359577] EXTERNAL COMMAND: DISABLE_HOST_CHECK;localhost.localdomain
+[1540363052] Auto-save of retention data completed successfully.
+[1540366358] HOST NOTIFICATION: nagiosadmin;localhost.localdomain;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.5.5.15)
+[1540366652] Auto-save of retention data completed successfully.
+[1540370252] Auto-save of retention data completed successfully.
+[1540373558] HOST NOTIFICATION: nagiosadmin;localhost.localdomain;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.5.5.15)
+[1540373852] Auto-save of retention data completed successfully.
+[1540377452] Auto-save of retention data completed successfully.
+[1540381052] Auto-save of retention data completed successfully.
+[1540384652] Auto-save of retention data completed successfully.
+[1540388252] Auto-save of retention data completed successfully.
+[1540391852] Auto-save of retention data completed successfully.
+[1540395452] Auto-save of retention data completed successfully.
+[1540399052] Auto-save of retention data completed successfully.
+[1540402652] Auto-save of retention data completed successfully.

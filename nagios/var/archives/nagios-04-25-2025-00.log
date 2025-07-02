@@ -1,0 +1,702 @@
+[1745433000] LOG ROTATION: DAILY
+[1745433000] LOG VERSION: 2.0
+[1745433000] CURRENT HOST STATE: AP_Main_Bldg;DOWN;HARD;10;CRITICAL - Host Unreachable (10.3.1.25)
+[1745433000] CURRENT HOST STATE: Director_Bldg;DOWN;HARD;10;CRITICAL - Host Unreachable (10.3.1.10)
+[1745433000] CURRENT HOST STATE: Director_Resident;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1745433000] CURRENT HOST STATE: Switch_29;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.45 ms
+[1745433000] CURRENT HOST STATE: Switch_30;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.81 ms
+[1745433000] CURRENT HOST STATE: Switch_31;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1745433000] CURRENT HOST STATE: Switch_32;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1745433000] CURRENT HOST STATE: Switch_33;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.90 ms
+[1745433000] CURRENT HOST STATE: Switch_34;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 5.22 ms
+[1745433000] CURRENT HOST STATE: esxi01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.53 ms
+[1745433000] CURRENT HOST STATE: esxi02;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.49 ms
+[1745433000] CURRENT HOST STATE: esxi03;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.45 ms
+[1745433000] CURRENT HOST STATE: esxi04;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.61 ms
+[1745433000] CURRENT HOST STATE: esxi05;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.55 ms
+[1745433000] CURRENT HOST STATE: esxi06;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.52 ms
+[1745433000] CURRENT HOST STATE: esxi07;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1745433000] CURRENT HOST STATE: esxi08;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.45 ms
+[1745433000] CURRENT HOST STATE: esxi09;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.54 ms
+[1745433000] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
+[1745433000] CURRENT HOST STATE: vmware10gswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.39 ms
+[1745433000] CURRENT HOST STATE: vmwaremgmtswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.94 ms
+[1745433000] CURRENT SERVICE STATE: AP_Main_Bldg;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.3.1.25)
+[1745433000] CURRENT SERVICE STATE: Director_Bldg;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.3.1.10)
+[1745433000] CURRENT SERVICE STATE: Director_Resident;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 2.47 ms
+[1745433000] CURRENT SERVICE STATE: Switch_29;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 2.47 ms
+[1745433000] CURRENT SERVICE STATE: Switch_30;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 2.45 ms
+[1745433000] CURRENT SERVICE STATE: Switch_31;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 4.57 ms
+[1745433000] CURRENT SERVICE STATE: Switch_32;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.68 ms
+[1745433000] CURRENT SERVICE STATE: Switch_33;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 2.89 ms
+[1745433000] CURRENT SERVICE STATE: Switch_34;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 3.65 ms
+[1745433000] CURRENT SERVICE STATE: esxi01;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1745433000] CURRENT SERVICE STATE: esxi01;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.60 ms
+[1745433000] CURRENT SERVICE STATE: esxi02;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1745433000] CURRENT SERVICE STATE: esxi02;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.59 ms
+[1745433000] CURRENT SERVICE STATE: esxi03;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1745433000] CURRENT SERVICE STATE: esxi03;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.49 ms
+[1745433000] CURRENT SERVICE STATE: esxi04;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745433000] CURRENT SERVICE STATE: esxi04;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.52 ms
+[1745433000] CURRENT SERVICE STATE: esxi05;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745433000] CURRENT SERVICE STATE: esxi05;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.59 ms
+[1745433000] CURRENT SERVICE STATE: esxi06;ESXi Haradware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745433000] CURRENT SERVICE STATE: esxi06;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.48 ms
+[1745433000] CURRENT SERVICE STATE: esxi07;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745433000] CURRENT SERVICE STATE: esxi07;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.52 ms
+[1745433000] CURRENT SERVICE STATE: esxi08;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1745433000] CURRENT SERVICE STATE: esxi08;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1745433000] CURRENT SERVICE STATE: esxi09;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1745433000] CURRENT SERVICE STATE: esxi09;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1745433000] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.00, 0.00
+[1745433000] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1745433000] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
+[1745433000] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 39873 MB (77.91% inode=99%):
+[1745433000] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1745433000] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1745433000] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 119 processes with STATE = RSZDT
+[1745433000] CURRENT SERVICE STATE: vmware10gswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 5.07 ms
+[1745433000] CURRENT SERVICE STATE: vmwaremgmtswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 6.02 ms
+[1745433204] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745433205] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745433205] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745433537] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745433804] Auto-save of retention data completed successfully.
+[1745434107] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745435907] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745436804] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745436805] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745436805] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745437137] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745437404] Auto-save of retention data completed successfully.
+[1745437707] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745439507] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745440405] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745440406] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745440406] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745440737] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745441004] Auto-save of retention data completed successfully.
+[1745441307] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745443107] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745444337] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745444604] Auto-save of retention data completed successfully.
+[1745444604] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745444605] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745444606] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745444907] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745446707] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745447937] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745448204] Auto-save of retention data completed successfully.
+[1745448204] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745448205] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745448507] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745448805] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745450307] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745451537] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745451804] Auto-save of retention data completed successfully.
+[1745451804] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745451805] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745452107] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745452405] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745453907] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745454539] Nagios 4.4.4 starting... (PID=1345)
+[1745454539] Local time is Thu Apr 24 05:58:59 IST 2025
+[1745454539] LOG VERSION: 2.0
+[1745454539] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1745454539] qh: core query handler registered
+[1745454539] qh: echo service query handler registered
+[1745454539] qh: help for the query handler registered
+[1745454539] wproc: Successfully registered manager as @wproc with query handler
+[1745454539] wproc: Registry request: name=Core Worker 1346;pid=1346
+[1745454539] wproc: Registry request: name=Core Worker 1349;pid=1349
+[1745454539] wproc: Registry request: name=Core Worker 1348;pid=1348
+[1745454539] wproc: Registry request: name=Core Worker 1347;pid=1347
+[1745454539] Successfully launched command file worker with pid 1350
+[1745454542] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745454542] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745454542] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745454534] Warning: A system time change of -8 seconds (0d 0h 0m 8s backwards in time) has been detected.  Compensating...
+[1745454534] SERVICE ALERT: esxi04;PING;CRITICAL;SOFT;1;CRITICAL - Host Unreachable (10.5.5.54)
+[1745454537] HOST ALERT: esxi04;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.5.5.54)
+[1745454542] SERVICE ALERT: esxi08;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1745454542] SERVICE ALERT: esxi02;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1745454542] SERVICE ALERT: localhost;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1745454542] SERVICE ALERT: esxi06;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1745454542] SERVICE ALERT: esxi09;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1745454542] SERVICE ALERT: esxi07;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1745454542] SERVICE ALERT: esxi05;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1745454542] SERVICE ALERT: esxi03;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1745454542] SERVICE ALERT: esxi01;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1745454546] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745454572] wproc: Core Worker 1349: job 12 (pid=1724) timed out. Killing it
+[1745454572] wproc: Core Worker 1349: job 26362256 with pid 1724 reaped at timeout. timeouts=1; started=13
+[1745454576] wproc: Core Worker 1347: job 12 (pid=1760) timed out. Killing it
+[1745454576] wproc: Core Worker 1347: job 36954448 with pid 1760 reaped at timeout. timeouts=1; started=13
+[1745454597] SERVICE ALERT: esxi04;PING;CRITICAL;HARD;4;CRITICAL - Host Unreachable (10.5.5.54)
+[1745454600] HOST ALERT: esxi04;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.5.5.54)
+[1745454606] SERVICE ALERT: esxi08;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.52 ms
+[1745454606] SERVICE ALERT: esxi06;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.81 ms
+[1745454606] SERVICE ALERT: esxi01;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.68 ms
+[1745454606] SERVICE ALERT: esxi07;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.75 ms
+[1745454606] SERVICE ALERT: esxi09;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1745454606] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.36 ms
+[1745454606] SERVICE ALERT: esxi02;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.54 ms
+[1745454606] SERVICE ALERT: localhost;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.06 ms
+[1745454606] SERVICE ALERT: esxi05;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.81 ms
+[1745454663] HOST ALERT: esxi04;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.5.5.54)
+[1745454727] HOST ALERT: esxi04;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1745454898] SERVICE ALERT: esxi04;PING;OK;HARD;4;PING OK - Packet loss = 0%, RTA = 0.55 ms
+[1745455139] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745455472] wproc: Core Worker 1348: job 47 (pid=2807) timed out. Killing it
+[1745455472] wproc: Core Worker 1348: job 14411072 with pid 2807 reaped at timeout. timeouts=1; started=48
+[1745455772] wproc: Core Worker 1348: job 61 (pid=3095) timed out. Killing it
+[1745455772] wproc: Core Worker 1348: job 14409456 with pid 3095 reaped at timeout. timeouts=2; started=62
+[1745456346] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745456376] wproc: Core Worker 1347: job 84 (pid=3656) timed out. Killing it
+[1745456376] wproc: Core Worker 1347: job 36952976 with pid 3656 reaped at timeout. timeouts=2; started=85
+[1745457126] wproc: Core Worker 1348: job 111 (pid=4402) timed out. Killing it
+[1745457126] wproc: Core Worker 1348: job 14385936 with pid 4402 reaped at timeout. timeouts=3; started=112
+[1745458131] Auto-save of retention data completed successfully.
+[1745458209] SERVICE ALERT: esxi04;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1745458239] wproc: Core Worker 1348: job 155 (pid=5336) timed out. Killing it
+[1745458239] wproc: CHECK job 155 from worker Core Worker 1348 timed out after 30.03s
+[1745458239] wproc:   host=esxi04; service=(null);
+[1745458239] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745458239] Warning: Check of host 'esxi04' timed out after 30.03 seconds
+[1745458239] HOST ALERT: esxi04;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1745458240] wproc: Core Worker 1348: job 155 (pid=5336): Dormant child reaped
+[1745458280] SERVICE ALERT: esxi04;PING;CRITICAL;HARD;4;CRITICAL - Plugin timed out
+[1745458329] wproc: Core Worker 1347: job 158 (pid=5537) timed out. Killing it
+[1745458329] wproc: CHECK job 158 from worker Core Worker 1347 timed out after 30.01s
+[1745458329] wproc:   host=esxi04; service=(null);
+[1745458329] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745458329] Warning: Check of host 'esxi04' timed out after 30.01 seconds
+[1745458329] HOST ALERT: esxi04;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1745458330] wproc: Core Worker 1347: job 158 (pid=5537): Dormant child reaped
+[1745458419] wproc: Core Worker 1346: job 159 (pid=5555) timed out. Killing it
+[1745458419] wproc: CHECK job 159 from worker Core Worker 1346 timed out after 30.01s
+[1745458419] wproc:   host=esxi04; service=(null);
+[1745458419] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745458419] Warning: Check of host 'esxi04' timed out after 30.01 seconds
+[1745458419] HOST ALERT: esxi04;DOWN;SOFT;3;(Host check timed out after 30.01 seconds)
+[1745458420] wproc: Core Worker 1346: job 159 (pid=5555): Dormant child reaped
+[1745458442] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745458483] HOST ALERT: esxi04;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1745458573] SERVICE FLAPPING ALERT: esxi04;PING;STARTED; Service appears to have started flapping (21.6% change >= 20.0% threshold)
+[1745458573] SERVICE ALERT: esxi04;PING;OK;HARD;4;PING OK - Packet loss = 0%, RTA = 0.54 ms
+[1745458731] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745458731] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745458732] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745458739] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745459109] wproc: Core Worker 1347: job 188 (pid=6181) timed out. Killing it
+[1745459109] wproc: CHECK job 188 from worker Core Worker 1347 timed out after 30.03s
+[1745459109] wproc:   host=esxi04; service=(null);
+[1745459109] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745459109] Warning: Check of host 'esxi04' timed out after 30.03 seconds
+[1745459109] HOST ALERT: esxi04;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1745459109] wproc: Core Worker 1347: job 188 (pid=6181): Dormant child reaped
+[1745459199] wproc: Core Worker 1349: job 192 (pid=6365) timed out. Killing it
+[1745459199] wproc: CHECK job 192 from worker Core Worker 1349 timed out after 30.03s
+[1745459199] wproc:   host=esxi04; service=(null);
+[1745459199] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745459199] Warning: Check of host 'esxi04' timed out after 30.03 seconds
+[1745459199] HOST ALERT: esxi04;DOWN;SOFT;2;(Host check timed out after 30.03 seconds)
+[1745459199] wproc: Core Worker 1349: job 192 (pid=6365): Dormant child reaped
+[1745459233] wproc: Core Worker 1348: job 192 (pid=6367) timed out. Killing it
+[1745459233] SERVICE ALERT: esxi04;PING;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1745459233] wproc: Core Worker 1348: job 14406064 with pid 6367 reaped at timeout. timeouts=4; started=193
+[1745459262] HOST ALERT: esxi04;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.5.5.54)
+[1745459325] HOST ALERT: esxi04;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.5.5.54)
+[1745459388] HOST ALERT: esxi04;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.5.5.54)
+[1745459451] HOST ALERT: esxi04;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.5.5.54)
+[1745459514] HOST ALERT: esxi04;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.5.5.54)
+[1745459577] HOST ALERT: esxi04;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.5.5.54)
+[1745459640] HOST ALERT: esxi04;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.5.5.54)
+[1745459703] HOST ALERT: esxi04;DOWN;HARD;10;CRITICAL - Host Unreachable (10.5.5.54)
+[1745460242] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745460272] wproc: Core Worker 1347: job 234 (pid=7279) timed out. Killing it
+[1745460272] wproc: Core Worker 1347: job 36929872 with pid 7279 reaped at timeout. timeouts=3; started=236
+[1745460307] HOST ALERT: esxi04;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1745460377] SERVICE ALERT: esxi04;PING;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.54 ms
+[1745460606] HOST ALERT: esxi04;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.5.5.54)
+[1745460669] HOST ALERT: esxi04;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.5.5.54)
+[1745460676] SERVICE ALERT: esxi04;PING;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.5.5.54)
+[1745460732] HOST ALERT: esxi04;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.5.5.54)
+[1745460796] HOST ALERT: esxi04;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 3.63 ms
+[1745460977] SERVICE ALERT: esxi04;PING;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.62 ms
+[1745461176] wproc: Core Worker 1347: job 273 (pid=8133) timed out. Killing it
+[1745461176] wproc: Core Worker 1347: job 36953696 with pid 8133 reaped at timeout. timeouts=4; started=274
+[1745461731] Auto-save of retention data completed successfully.
+[1745462042] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745462091] wproc: Core Worker 1349: job 306 (pid=8980) timed out. Killing it
+[1745462091] wproc: Core Worker 1349: job 26355696 with pid 8980 reaped at timeout. timeouts=2; started=307
+[1745462331] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745462331] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745462332] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745462339] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745463842] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745463984] SERVICE ALERT: esxi04;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1745464014] wproc: Core Worker 1348: job 380 (pid=10844) timed out. Killing it
+[1745464014] wproc: CHECK job 380 from worker Core Worker 1348 timed out after 30.03s
+[1745464014] wproc:   host=esxi04; service=(null);
+[1745464014] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745464014] Warning: Check of host 'esxi04' timed out after 30.03 seconds
+[1745464014] HOST ALERT: esxi04;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1745464014] wproc: Core Worker 1348: job 380 (pid=10844): Dormant child reaped
+[1745464055] SERVICE ALERT: esxi04;PING;CRITICAL;HARD;4;CRITICAL - Plugin timed out
+[1745464104] wproc: Core Worker 1346: job 381 (pid=10864) timed out. Killing it
+[1745464104] wproc: CHECK job 381 from worker Core Worker 1346 timed out after 30.02s
+[1745464104] wproc:   host=esxi04; service=(null);
+[1745464104] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745464104] Warning: Check of host 'esxi04' timed out after 30.02 seconds
+[1745464104] HOST ALERT: esxi04;DOWN;SOFT;2;(Host check timed out after 30.02 seconds)
+[1745464104] wproc: Core Worker 1346: job 381 (pid=10864): Dormant child reaped
+[1745464168] HOST ALERT: esxi04;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.56 ms
+[1745464172] wproc: Core Worker 1348: job 390 (pid=10938) timed out. Killing it
+[1745464172] wproc: Core Worker 1348: job 14403088 with pid 10938 reaped at timeout. timeouts=5; started=391
+[1745464348] SERVICE ALERT: esxi04;PING;OK;HARD;4;PING OK - Packet loss = 0%, RTA = 0.55 ms
+[1745464794] wproc: Core Worker 1349: job 414 (pid=11494) timed out. Killing it
+[1745464794] wproc: Core Worker 1349: job 26357312 with pid 11494 reaped at timeout. timeouts=3; started=415
+[1745465331] Auto-save of retention data completed successfully.
+[1745465642] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745465931] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745465931] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745465932] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745465939] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745465994] wproc: Core Worker 1348: job 461 (pid=12644) timed out. Killing it
+[1745465994] wproc: CHECK job 461 from worker Core Worker 1348 timed out after 30.01s
+[1745465994] wproc:   host=esxi04; service=(null);
+[1745465994] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745465994] Warning: Check of host 'esxi04' timed out after 30.01 seconds
+[1745465994] HOST ALERT: esxi04;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1745465995] wproc: Core Worker 1348: job 461 (pid=12644): Dormant child reaped
+[1745466085] wproc: Core Worker 1346: job 463 (pid=12820) timed out. Killing it
+[1745466085] wproc: CHECK job 463 from worker Core Worker 1346 timed out after 30.02s
+[1745466085] wproc:   host=esxi04; service=(null);
+[1745466085] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745466085] Warning: Check of host 'esxi04' timed out after 30.02 seconds
+[1745466085] HOST ALERT: esxi04;DOWN;SOFT;2;(Host check timed out after 30.02 seconds)
+[1745466085] wproc: Core Worker 1346: job 463 (pid=12820): Dormant child reaped
+[1745466159] SERVICE ALERT: esxi04;PING;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1745466175] wproc: Core Worker 1348: job 465 (pid=12848) timed out. Killing it
+[1745466175] wproc: CHECK job 465 from worker Core Worker 1348 timed out after 30.03s
+[1745466175] wproc:   host=esxi04; service=(null);
+[1745466175] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745466175] Warning: Check of host 'esxi04' timed out after 30.03 seconds
+[1745466175] HOST ALERT: esxi04;DOWN;SOFT;3;(Host check timed out after 30.03 seconds)
+[1745466175] wproc: Core Worker 1348: job 465 (pid=12848): Dormant child reaped
+[1745466239] HOST ALERT: esxi04;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.42 ms
+[1745466452] SERVICE ALERT: esxi04;PING;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.49 ms
+[1745466865] wproc: Core Worker 1346: job 491 (pid=13436) timed out. Killing it
+[1745466865] wproc: CHECK job 491 from worker Core Worker 1346 timed out after 30.01s
+[1745466865] wproc:   host=esxi04; service=(null);
+[1745466865] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745466865] Warning: Check of host 'esxi04' timed out after 30.01 seconds
+[1745466865] HOST ALERT: esxi04;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1745466865] wproc: Core Worker 1346: job 491 (pid=13436): Dormant child reaped
+[1745466955] wproc: Core Worker 1349: job 495 (pid=13620) timed out. Killing it
+[1745466955] wproc: CHECK job 495 from worker Core Worker 1349 timed out after 30.03s
+[1745466955] wproc:   host=esxi04; service=(null);
+[1745466955] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745466955] Warning: Check of host 'esxi04' timed out after 30.03 seconds
+[1745466955] HOST ALERT: esxi04;DOWN;SOFT;2;(Host check timed out after 30.03 seconds)
+[1745466955] wproc: Core Worker 1349: job 495 (pid=13620): Dormant child reaped
+[1745467045] wproc: Core Worker 1346: job 498 (pid=13659) timed out. Killing it
+[1745467045] wproc: CHECK job 498 from worker Core Worker 1346 timed out after 30.03s
+[1745467045] wproc:   host=esxi04; service=(null);
+[1745467045] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745467045] Warning: Check of host 'esxi04' timed out after 30.03 seconds
+[1745467045] HOST ALERT: esxi04;DOWN;SOFT;3;(Host check timed out after 30.03 seconds)
+[1745467045] wproc: Core Worker 1346: job 498 (pid=13659): Dormant child reaped
+[1745467059] SERVICE ALERT: esxi04;PING;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1745467108] HOST ALERT: esxi04;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.5.5.54)
+[1745467171] HOST ALERT: esxi04;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.5.5.54)
+[1745467234] HOST ALERT: esxi04;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.5.5.54)
+[1745467297] HOST ALERT: esxi04;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.5.5.54)
+[1745467360] HOST ALERT: esxi04;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.5.5.54)
+[1745467423] HOST ALERT: esxi04;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.5.5.54)
+[1745467442] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745467486] HOST NOTIFICATION: nagiosadmin;esxi04;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.5.5.54)
+[1745467486] HOST ALERT: esxi04;DOWN;HARD;10;CRITICAL - Host Unreachable (10.5.5.54)
+[1745468090] HOST NOTIFICATION: nagiosadmin;esxi04;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.49 ms
+[1745468090] HOST ALERT: esxi04;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.49 ms
+[1745468252] SERVICE ALERT: esxi04;PING;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.56 ms
+[1745468931] Auto-save of retention data completed successfully.
+[1745469242] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745469531] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745469531] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745469532] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745469539] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745471042] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745471259] SERVICE ALERT: esxi04;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1745471289] wproc: Core Worker 1346: job 663 (pid=17584) timed out. Killing it
+[1745471289] wproc: CHECK job 663 from worker Core Worker 1346 timed out after 30.03s
+[1745471289] wproc:   host=esxi04; service=(null);
+[1745471289] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745471289] Warning: Check of host 'esxi04' timed out after 30.03 seconds
+[1745471289] HOST ALERT: esxi04;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1745471289] wproc: Core Worker 1346: job 663 (pid=17584): Dormant child reaped
+[1745471330] SERVICE ALERT: esxi04;PING;CRITICAL;HARD;4;CRITICAL - Plugin timed out
+[1745471379] wproc: Core Worker 1349: job 673 (pid=17672) timed out. Killing it
+[1745471379] wproc: CHECK job 673 from worker Core Worker 1349 timed out after 30.03s
+[1745471379] wproc:   host=esxi04; service=(null);
+[1745471379] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745471379] Warning: Check of host 'esxi04' timed out after 30.03 seconds
+[1745471379] HOST ALERT: esxi04;DOWN;SOFT;2;(Host check timed out after 30.03 seconds)
+[1745471379] wproc: Core Worker 1349: job 673 (pid=17672): Dormant child reaped
+[1745471399] wproc: Core Worker 1346: job 669 (pid=17640) timed out. Killing it
+[1745471399] wproc: CHECK job 669 from worker Core Worker 1346 timed out after 60.01s
+[1745471399] wproc:   host=esxi04; service=ESXi Hardware Check;
+[1745471399] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745471399] Warning: Check of service 'ESXi Hardware Check' on host 'esxi04' timed out after 60.009s!
+[1745471399] SERVICE ALERT: esxi04;ESXi Hardware Check;CRITICAL;HARD;3;(Service check timed out after 60.01 seconds)
+[1745471399] wproc: Core Worker 1346: job 669 (pid=17640): Dormant child reaped
+[1745471469] wproc: Core Worker 1346: job 675 (pid=17844) timed out. Killing it
+[1745471469] wproc: CHECK job 675 from worker Core Worker 1346 timed out after 30.01s
+[1745471469] wproc:   host=esxi04; service=(null);
+[1745471469] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745471469] Warning: Check of host 'esxi04' timed out after 30.01 seconds
+[1745471469] HOST ALERT: esxi04;DOWN;SOFT;3;(Host check timed out after 30.01 seconds)
+[1745471469] wproc: Core Worker 1346: job 675 (pid=17844): Dormant child reaped
+[1745471533] HOST ALERT: esxi04;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1745471623] SERVICE ALERT: esxi04;PING;OK;HARD;4;PING OK - Packet loss = 0%, RTA = 0.52 ms
+[1745471939] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745471939] SERVICE ALERT: esxi04;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745472531] Auto-save of retention data completed successfully.
+[1745472842] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745473131] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745473131] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745473132] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745473173] wproc: Core Worker 1347: job 743 (pid=19370) timed out. Killing it
+[1745473173] wproc: Core Worker 1347: job 36951120 with pid 19370 reaped at timeout. timeouts=5; started=744
+[1745474634] SERVICE ALERT: esxi04;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1745474642] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745474664] wproc: Core Worker 1349: job 796 (pid=20693) timed out. Killing it
+[1745474664] wproc: CHECK job 796 from worker Core Worker 1349 timed out after 30.02s
+[1745474664] wproc:   host=esxi04; service=(null);
+[1745474664] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745474664] Warning: Check of host 'esxi04' timed out after 30.02 seconds
+[1745474664] HOST ALERT: esxi04;DOWN;SOFT;1;(Host check timed out after 30.02 seconds)
+[1745474664] wproc: Core Worker 1349: job 796 (pid=20693): Dormant child reaped
+[1745474696] SERVICE ALERT: esxi04;PING;CRITICAL;HARD;4;CRITICAL - Host Unreachable (10.5.5.54)
+[1745474727] HOST ALERT: esxi04;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.5.5.54)
+[1745474788] HOST ALERT: esxi04;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.5.5.54)
+[1745474852] HOST ALERT: esxi04;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1745474999] wproc: Core Worker 1347: job 807 (pid=20976) timed out. Killing it
+[1745474999] wproc: CHECK job 807 from worker Core Worker 1347 timed out after 60.01s
+[1745474999] wproc:   host=esxi04; service=ESXi Hardware Check;
+[1745474999] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745474999] Warning: Check of service 'ESXi Hardware Check' on host 'esxi04' timed out after 60.009s!
+[1745474999] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;CRITICAL;notify-service-by-email;(Service check timed out after 60.01 seconds)
+[1745474999] SERVICE ALERT: esxi04;ESXi Hardware Check;CRITICAL;HARD;3;(Service check timed out after 60.01 seconds)
+[1745474999] wproc: Core Worker 1347: job 807 (pid=20976): Dormant child reaped
+[1745475029] wproc: Core Worker 1349: job 815 (pid=21037) timed out. Killing it
+[1745475029] wproc: CHECK job 815 from worker Core Worker 1349 timed out after 30.03s
+[1745475029] wproc:   host=esxi04; service=(null);
+[1745475029] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745475029] Warning: Check of host 'esxi04' timed out after 30.03 seconds
+[1745475029] HOST ALERT: esxi04;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1745475029] wproc: Core Worker 1349: job 815 (pid=21037): Dormant child reaped
+[1745475119] wproc: Core Worker 1348: job 818 (pid=21226) timed out. Killing it
+[1745475119] wproc: CHECK job 818 from worker Core Worker 1348 timed out after 30.03s
+[1745475119] wproc:   host=esxi04; service=(null);
+[1745475119] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745475119] Warning: Check of host 'esxi04' timed out after 30.03 seconds
+[1745475119] HOST ALERT: esxi04;DOWN;SOFT;2;(Host check timed out after 30.03 seconds)
+[1745475119] wproc: Core Worker 1348: job 818 (pid=21226): Dormant child reaped
+[1745475183] HOST FLAPPING ALERT: esxi04;STARTED; Host appears to have started flapping (22.9% change > 20.0% threshold)
+[1745475183] HOST ALERT: esxi04;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1745475298] SERVICE ALERT: esxi04;PING;OK;HARD;4;PING OK - Packet loss = 0%, RTA = 0.48 ms
+[1745475599] SERVICE FLAPPING ALERT: esxi04;ESXi Hardware Check;STARTED; Service appears to have started flapping (23.2% change >= 20.0% threshold)
+[1745475599] SERVICE ALERT: esxi04;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745476131] Auto-save of retention data completed successfully.
+[1745476442] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745476731] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745476731] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745476732] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745477399] HOST FLAPPING ALERT: esxi04;STOPPED; Host appears to have stopped flapping (3.9% change < 5.0% threshold)
+[1745478242] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745479731] Auto-save of retention data completed successfully.
+[1745480042] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745480331] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745480331] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745480332] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745480702] SERVICE FLAPPING ALERT: esxi04;PING;STOPPED; Service appears to have stopped flapping (3.9% change < 5.0% threshold)
+[1745481842] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745483331] Auto-save of retention data completed successfully.
+[1745483642] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745483931] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745483931] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745483933] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745485442] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745486931] Auto-save of retention data completed successfully.
+[1745486999] SERVICE FLAPPING ALERT: esxi04;ESXi Hardware Check;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)
+[1745486999] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745487242] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745487531] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745487531] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745488132] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745489042] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745489973] wproc: Core Worker 1346: job 1394 (pid=2805) timed out. Killing it
+[1745489973] wproc: Core Worker 1346: job 16521088 with pid 2805 reaped at timeout. timeouts=1; started=1395
+[1745490294] HOST ALERT: Switch_31;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.31)
+[1745490301] HOST ALERT: esxi04;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.5.5.54)
+[1745490301] SERVICE ALERT: esxi04;PING;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.5.5.54)
+[1745490307] wproc: Core Worker 1349: job 1404 (pid=3072) timed out. Killing it
+[1745490307] wproc: CHECK job 1404 from worker Core Worker 1349 timed out after 30.00s
+[1745490307] wproc:   host=Switch_30; service=(null);
+[1745490307] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745490307] Warning: Check of host 'Switch_30' timed out after 30.00 seconds
+[1745490307] HOST ALERT: Switch_30;DOWN;SOFT;1;(Host check timed out after 30.00 seconds)
+[1745490307] wproc: Core Worker 1349: job 1404 (pid=3072): Dormant child reaped
+[1745490351] wproc: Core Worker 1348: job 1405 (pid=3233) timed out. Killing it
+[1745490351] wproc: CHECK job 1405 from worker Core Worker 1348 timed out after 30.03s
+[1745490351] wproc:   host=Switch_33; service=(null);
+[1745490351] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745490351] Warning: Check of host 'Switch_33' timed out after 30.03 seconds
+[1745490351] HOST ALERT: Switch_33;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1745490352] wproc: Core Worker 1348: job 1405 (pid=3233): Dormant child reaped
+[1745490358] HOST ALERT: Switch_31;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 2.93 ms
+[1745490366] HOST ALERT: esxi04;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.56 ms
+[1745490367] wproc: Core Worker 1347: job 1405 (pid=3235) timed out. Killing it
+[1745490367] wproc: CHECK job 1405 from worker Core Worker 1347 timed out after 30.00s
+[1745490367] wproc:   host=Switch_34; service=(null);
+[1745490367] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745490367] Warning: Check of host 'Switch_34' timed out after 30.00 seconds
+[1745490367] HOST ALERT: Switch_34;DOWN;SOFT;1;(Host check timed out after 30.00 seconds)
+[1745490367] wproc: Core Worker 1347: job 1405 (pid=3235): Dormant child reaped
+[1745490371] HOST ALERT: Switch_30;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 2.84 ms
+[1745490415] HOST ALERT: Switch_33;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 5.52 ms
+[1745490431] HOST ALERT: Switch_34;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 4.18 ms
+[1745490531] Auto-save of retention data completed successfully.
+[1745490599] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745490603] SERVICE ALERT: esxi04;PING;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1745490843] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745491131] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745491131] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745491732] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745492942] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745494131] Auto-save of retention data completed successfully.
+[1745494199] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745494731] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745494731] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745494742] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745495333] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745495471] SERVICE ALERT: esxi08;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 35.81 ms
+[1745495484] wproc: Core Worker 1347: job 1606 (pid=8034) timed out. Killing it
+[1745495484] wproc: CHECK job 1606 from worker Core Worker 1347 timed out after 30.01s
+[1745495484] wproc:   host=Switch_31; service=(null);
+[1745495484] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745495484] Warning: Check of host 'Switch_31' timed out after 30.01 seconds
+[1745495484] HOST ALERT: Switch_31;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1745495484] wproc: Core Worker 1347: job 1606 (pid=8034): Dormant child reaped
+[1745495497] wproc: Core Worker 1348: job 1609 (pid=8064) timed out. Killing it
+[1745495497] wproc: CHECK job 1609 from worker Core Worker 1348 timed out after 30.03s
+[1745495497] wproc:   host=Switch_30; service=(null);
+[1745495497] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745495497] Warning: Check of host 'Switch_30' timed out after 30.03 seconds
+[1745495497] HOST ALERT: Switch_30;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1745495497] wproc: Core Worker 1348: job 1609 (pid=8064): Dormant child reaped
+[1745495535] SERVICE ALERT: esxi08;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 52.54 ms
+[1745495541] wproc: Core Worker 1346: job 1610 (pid=8068) timed out. Killing it
+[1745495541] wproc: CHECK job 1610 from worker Core Worker 1346 timed out after 30.02s
+[1745495541] wproc:   host=Switch_33; service=(null);
+[1745495541] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745495541] Warning: Check of host 'Switch_33' timed out after 30.02 seconds
+[1745495541] HOST ALERT: Switch_33;DOWN;SOFT;1;(Host check timed out after 30.02 seconds)
+[1745495541] wproc: Core Worker 1346: job 1610 (pid=8068): Dormant child reaped
+[1745495549] HOST ALERT: Switch_31;UP;SOFT;1;PING WARNING - Packet loss = 80%, RTA = 19.03 ms
+[1745495557] wproc: Core Worker 1349: job 1610 (pid=8078) timed out. Killing it
+[1745495557] wproc: CHECK job 1610 from worker Core Worker 1349 timed out after 30.03s
+[1745495557] wproc:   host=Switch_34; service=(null);
+[1745495557] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745495557] Warning: Check of host 'Switch_34' timed out after 30.03 seconds
+[1745495557] HOST ALERT: Switch_34;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1745495558] wproc: Core Worker 1349: job 1610 (pid=8078): Dormant child reaped
+[1745495587] wproc: Core Worker 1346: job 1611 (pid=8084) timed out. Killing it
+[1745495587] wproc: CHECK job 1611 from worker Core Worker 1346 timed out after 30.02s
+[1745495587] wproc:   host=Switch_30; service=(null);
+[1745495587] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745495587] Warning: Check of host 'Switch_30' timed out after 30.02 seconds
+[1745495587] HOST ALERT: Switch_30;DOWN;SOFT;2;(Host check timed out after 30.02 seconds)
+[1745495587] wproc: Core Worker 1346: job 1611 (pid=8084): Dormant child reaped
+[1745495600] SERVICE ALERT: esxi08;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 45.50 ms
+[1745495631] wproc: Core Worker 1347: job 1611 (pid=8098) timed out. Killing it
+[1745495631] wproc: CHECK job 1611 from worker Core Worker 1347 timed out after 30.01s
+[1745495631] wproc:   host=Switch_33; service=(null);
+[1745495631] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745495631] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1745495631] HOST ALERT: Switch_33;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1745495631] wproc: Core Worker 1347: job 1611 (pid=8098): Dormant child reaped
+[1745495647] wproc: Core Worker 1348: job 1612 (pid=8104) timed out. Killing it
+[1745495647] wproc: CHECK job 1612 from worker Core Worker 1348 timed out after 30.01s
+[1745495647] wproc:   host=Switch_34; service=(null);
+[1745495647] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745495647] Warning: Check of host 'Switch_34' timed out after 30.01 seconds
+[1745495647] HOST ALERT: Switch_34;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1745495648] wproc: Core Worker 1348: job 1612 (pid=8104): Dormant child reaped
+[1745495650] HOST ALERT: Switch_30;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.30)
+[1745495664] SERVICE ALERT: esxi08;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 40.72 ms
+[1745495672] wproc: Core Worker 1347: job 1614 (pid=8128) timed out. Killing it
+[1745495672] wproc: CHECK job 1614 from worker Core Worker 1347 timed out after 30.01s
+[1745495672] wproc:   host=esxi07; service=(null);
+[1745495672] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745495672] Warning: Check of host 'esxi07' timed out after 30.01 seconds
+[1745495672] HOST ALERT: esxi07;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1745495672] wproc: Core Worker 1347: job 1614 (pid=8128): Dormant child reaped
+[1745495694] HOST ALERT: Switch_33;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.33)
+[1745495709] HOST ALERT: Switch_32;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.32)
+[1745495710] HOST ALERT: Switch_34;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.34)
+[1745495713] HOST ALERT: Switch_30;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.30)
+[1745495736] HOST ALERT: esxi07;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 42.97 ms
+[1745495757] HOST ALERT: Switch_33;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.33)
+[1745495771] SERVICE ALERT: esxi05;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 43.08 ms
+[1745495773] HOST ALERT: Switch_34;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.34)
+[1745495774] HOST ALERT: Switch_32;UP;SOFT;1;PING WARNING - Packet loss = 80%, RTA = 19.53 ms
+[1745495776] HOST ALERT: Switch_30;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.30)
+[1745495820] HOST ALERT: Switch_33;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.33)
+[1745495835] SERVICE ALERT: esxi05;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 41.96 ms
+[1745495836] HOST ALERT: Switch_34;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.34)
+[1745495839] HOST ALERT: Switch_30;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.30)
+[1745495883] HOST ALERT: Switch_33;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.33)
+[1745495900] HOST ALERT: Switch_34;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.34)
+[1745495902] HOST ALERT: Switch_30;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.30)
+[1745495920] HOST ALERT: vmwaremgmtswitch;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.39)
+[1745495939] SERVICE ALERT: vmwaremgmtswitch;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.39)
+[1745495942] SERVICE ALERT: Switch_30;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.30)
+[1745495943] SERVICE ALERT: Switch_32;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Host Unreachable (10.1.1.32)
+[1745495946] HOST ALERT: Switch_32;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.32)
+[1745495950] HOST ALERT: Switch_33;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.33)
+[1745495963] HOST ALERT: Switch_34;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.34)
+[1745495966] HOST ALERT: Switch_30;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.30)
+[1745495970] SERVICE ALERT: Switch_29;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1745495970] SERVICE ALERT: Switch_33;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1745495970] SERVICE ALERT: Switch_34;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1745495983] HOST ALERT: vmwaremgmtswitch;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.39)
+[1745495991] wproc: Core Worker 1347: job 1634 (pid=8467) timed out. Killing it
+[1745495991] wproc: CHECK job 1634 from worker Core Worker 1347 timed out after 30.03s
+[1745495991] wproc:   host=Switch_29; service=(null);
+[1745495991] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745495991] Warning: Check of host 'Switch_29' timed out after 30.03 seconds
+[1745495991] HOST ALERT: Switch_29;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1745495991] wproc: Core Worker 1347: job 1634 (pid=8467): Dormant child reaped
+[1745496010] HOST FLAPPING ALERT: Switch_32;STARTED; Host appears to have started flapping (23.9% change > 20.0% threshold)
+[1745496010] HOST ALERT: Switch_32;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 4.31 ms
+[1745496013] HOST ALERT: Switch_33;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.33)
+[1745496027] HOST ALERT: Switch_34;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 4.14 ms
+[1745496029] HOST ALERT: Switch_30;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.30)
+[1745496047] HOST ALERT: vmwaremgmtswitch;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 4.57 ms
+[1745496055] HOST ALERT: Switch_29;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 5.53 ms
+[1745496067] SERVICE ALERT: Switch_32;check-host-alive;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.35 ms
+[1745496076] HOST ALERT: Switch_33;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.33)
+[1745496092] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745496092] HOST ALERT: Switch_30;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.30)
+[1745496094] SERVICE ALERT: Switch_29;check-host-alive;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1745496139] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1745496139] HOST ALERT: Switch_33;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.33)
+[1745496542] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745496543] SERVICE ALERT: Switch_34;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 2.17 ms
+[1745496543] SERVICE ALERT: vmwaremgmtswitch;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 6.40 ms
+[1745497731] Auto-save of retention data completed successfully.
+[1745497799] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745497895] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745497942] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1745498331] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745498331] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745498342] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745499532] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745499610] HOST FLAPPING ALERT: Switch_32;STOPPED; Host appears to have stopped flapping (3.8% change < 5.0% threshold)
+[1745499695] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745499742] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1745500142] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745501331] Auto-save of retention data completed successfully.
+[1745501399] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745501495] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745501542] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1745501931] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745501931] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745501942] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745503132] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745503295] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745503342] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1745503769] wproc: Core Worker 1347: job 1937 (pid=15755) timed out. Killing it
+[1745503769] wproc: CHECK job 1937 from worker Core Worker 1347 timed out after 30.02s
+[1745503769] wproc:   host=Director_Bldg; service=(null);
+[1745503769] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745503769] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1745503769] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;(Host check timed out after 30.02 seconds)
+[1745503769] wproc: Core Worker 1347: job 1937 (pid=15755): Dormant child reaped
+[1745504369] wproc: Core Worker 1346: job 1961 (pid=16305) timed out. Killing it
+[1745504369] wproc: CHECK job 1961 from worker Core Worker 1346 timed out after 30.03s
+[1745504369] wproc:   host=Director_Bldg; service=(null);
+[1745504369] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745504369] Warning: Check of host 'Director_Bldg' timed out after 30.03 seconds
+[1745504369] wproc: Core Worker 1346: job 1961 (pid=16305): Dormant child reaped
+[1745504931] Auto-save of retention data completed successfully.
+[1745504969] wproc: Core Worker 1348: job 1984 (pid=16851) timed out. Killing it
+[1745504969] wproc: CHECK job 1984 from worker Core Worker 1348 timed out after 30.03s
+[1745504969] wproc:   host=Director_Bldg; service=(null);
+[1745504969] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745504969] Warning: Check of host 'Director_Bldg' timed out after 30.03 seconds
+[1745504969] wproc: Core Worker 1348: job 1984 (pid=16851): Dormant child reaped
+[1745504999] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745505095] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745505142] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1745505531] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745505531] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745505569] wproc: Core Worker 1347: job 2008 (pid=17460) timed out. Killing it
+[1745505569] wproc: CHECK job 2008 from worker Core Worker 1347 timed out after 30.03s
+[1745505569] wproc:   host=Director_Bldg; service=(null);
+[1745505569] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745505569] Warning: Check of host 'Director_Bldg' timed out after 30.03 seconds
+[1745505569] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;(Host check timed out after 30.03 seconds)
+[1745505569] wproc: Core Worker 1347: job 2008 (pid=17460): Dormant child reaped
+[1745506169] wproc: Core Worker 1348: job 2031 (pid=18004) timed out. Killing it
+[1745506169] wproc: CHECK job 2031 from worker Core Worker 1348 timed out after 30.01s
+[1745506169] wproc:   host=Director_Bldg; service=(null);
+[1745506169] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1745506169] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1745506169] wproc: Core Worker 1348: job 2031 (pid=18004): Dormant child reaped
+[1745506732] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745506895] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745506942] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1745507642] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745508531] Auto-save of retention data completed successfully.
+[1745508599] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745508695] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745508742] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1745509132] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745509132] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745509442] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745510332] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745510495] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745510543] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1745511242] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745512131] Auto-save of retention data completed successfully.
+[1745512199] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745512295] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745512343] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1745512773] wproc: Core Worker 1347: job 2291 (pid=24202) timed out. Killing it
+[1745512773] wproc: Core Worker 1347: job 36949552 with pid 24202 reaped at timeout. timeouts=6; started=2292
+[1745513042] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745513331] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745513331] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745513932] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745514095] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745514143] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1745514842] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745515731] Auto-save of retention data completed successfully.
+[1745515799] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745515895] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745515943] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1745516409] SERVICE ALERT: esxi04;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1745516473] SERVICE ALERT: esxi04;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1745516642] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745516931] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745516931] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745517532] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1745517695] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1745517743] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1745518442] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1745519331] Auto-save of retention data completed successfully.
+[1745519399] SERVICE NOTIFICATION: nagiosadmin;esxi04;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')

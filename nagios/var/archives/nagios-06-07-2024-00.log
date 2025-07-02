@@ -1,0 +1,483 @@
+[1717612200] LOG ROTATION: DAILY
+[1717612200] LOG VERSION: 2.0
+[1717612200] CURRENT HOST STATE: AP_Main_Bldg;DOWN;HARD;10;CRITICAL - Host Unreachable (10.3.1.25)
+[1717612200] CURRENT HOST STATE: Director_Bldg;DOWN;HARD;10;CRITICAL - Host Unreachable (10.3.1.10)
+[1717612200] CURRENT HOST STATE: Director_Resident;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1717612200] CURRENT HOST STATE: Switch_29;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.10 ms
+[1717612200] CURRENT HOST STATE: Switch_30;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.30)
+[1717612200] CURRENT HOST STATE: Switch_31;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.31)
+[1717612200] CURRENT HOST STATE: Switch_32;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.32)
+[1717612200] CURRENT HOST STATE: Switch_33;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.33)
+[1717612200] CURRENT HOST STATE: Switch_34;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.82 ms
+[1717612200] CURRENT HOST STATE: esxi01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1717612200] CURRENT HOST STATE: esxi02;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.81 ms
+[1717612200] CURRENT HOST STATE: esxi03;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1717612200] CURRENT HOST STATE: esxi04;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.52 ms
+[1717612200] CURRENT HOST STATE: esxi05;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.59 ms
+[1717612200] CURRENT HOST STATE: esxi06;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1717612200] CURRENT HOST STATE: esxi07;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1717612200] CURRENT HOST STATE: esxi08;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1717612200] CURRENT HOST STATE: esxi09;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1717612200] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
+[1717612200] CURRENT HOST STATE: vmware10gswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.22 ms
+[1717612200] CURRENT HOST STATE: vmwaremgmtswitch;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.39)
+[1717612200] CURRENT SERVICE STATE: AP_Main_Bldg;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.3.1.25)
+[1717612200] CURRENT SERVICE STATE: Director_Bldg;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.3.1.10)
+[1717612200] CURRENT SERVICE STATE: Director_Resident;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.34 ms
+[1717612200] CURRENT SERVICE STATE: Switch_29;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 2.88 ms
+[1717612200] CURRENT SERVICE STATE: Switch_30;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.30)
+[1717612200] CURRENT SERVICE STATE: Switch_31;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.31)
+[1717612200] CURRENT SERVICE STATE: Switch_32;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.1.1.32)
+[1717612200] CURRENT SERVICE STATE: Switch_33;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.1.1.33)
+[1717612200] CURRENT SERVICE STATE: Switch_34;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 3.88 ms
+[1717612200] CURRENT SERVICE STATE: esxi01;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1717612200] CURRENT SERVICE STATE: esxi01;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.45 ms
+[1717612200] CURRENT SERVICE STATE: esxi02;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1717612200] CURRENT SERVICE STATE: esxi02;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 2.91 ms
+[1717612200] CURRENT SERVICE STATE: esxi03;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1717612200] CURRENT SERVICE STATE: esxi03;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1717612200] CURRENT SERVICE STATE: esxi04;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH20177WVC Chassis S/N: FCH2018V06M  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1717612200] CURRENT SERVICE STATE: esxi04;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1717612200] CURRENT SERVICE STATE: esxi05;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1717612200] CURRENT SERVICE STATE: esxi05;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1717612200] CURRENT SERVICE STATE: esxi06;ESXi Haradware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1717612200] CURRENT SERVICE STATE: esxi06;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.60 ms
+[1717612200] CURRENT SERVICE STATE: esxi07;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1717612200] CURRENT SERVICE STATE: esxi07;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.54 ms
+[1717612200] CURRENT SERVICE STATE: esxi08;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1717612200] CURRENT SERVICE STATE: esxi08;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 2.98 ms
+[1717612200] CURRENT SERVICE STATE: esxi09;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1717612200] CURRENT SERVICE STATE: esxi09;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.56 ms
+[1717612200] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.04, 0.05, 0.05
+[1717612200] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1717612200] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+[1717612200] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 40352 MB (78.85% inode=99%):
+[1717612200] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1717612200] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1717612200] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 101 processes with STATE = RSZDT
+[1717612200] CURRENT SERVICE STATE: vmware10gswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.30 ms
+[1717612200] CURRENT SERVICE STATE: vmwaremgmtswitch;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.39)
+[1717612392] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717612593] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717612633] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717613338] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717613434] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717613550] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717614192] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717614393] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717614433] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717615138] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717615223] Auto-save of retention data completed successfully.
+[1717615234] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717615350] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717615993] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717616193] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717616233] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717616938] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717617034] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717617150] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717617993] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717618016] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717618033] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717618435] SERVICE FLAPPING ALERT: Switch_30;check-host-alive;STOPPED; Service appears to have stopped flapping (3.9% change < 5.0% threshold)
+[1717618738] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717618823] Auto-save of retention data completed successfully.
+[1717618834] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717618950] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717619793] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717619816] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717619833] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717620538] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717620634] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717620750] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717621593] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717621616] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717621633] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717622339] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717622423] Auto-save of retention data completed successfully.
+[1717622434] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717622550] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717623393] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717623416] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717623433] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717624234] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717624350] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717624435] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717625193] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717625216] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717625233] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717626023] Auto-save of retention data completed successfully.
+[1717626034] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717626150] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717626235] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717626993] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717627016] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717627033] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717627834] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717627951] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717628035] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717628793] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717628817] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717628833] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717629623] Auto-save of retention data completed successfully.
+[1717629634] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717629835] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717629891] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717630593] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717630633] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717630916] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717631434] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717631635] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717631691] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717632393] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717632433] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717632716] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717633223] Auto-save of retention data completed successfully.
+[1717633234] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717633435] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717633491] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717634193] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717634233] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717634516] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717635034] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717635235] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717635291] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717635993] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717636034] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717636316] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717636823] Auto-save of retention data completed successfully.
+[1717636834] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717637035] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717637092] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717637793] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717638116] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717638118] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717638634] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717638835] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717639050] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717639593] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717639916] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717639918] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717640423] Auto-save of retention data completed successfully.
+[1717640434] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717640635] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717640850] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717641393] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717641716] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717641718] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717642234] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717642435] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717642650] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717643193] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717643516] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717643518] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717644023] Auto-save of retention data completed successfully.
+[1717644034] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717644235] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717644450] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717644993] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717645316] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717645318] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717645834] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717646035] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717646250] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717646793] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717647116] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717647118] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717647623] Auto-save of retention data completed successfully.
+[1717647634] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717647835] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717648050] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717648593] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717648917] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717648918] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717649434] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717649635] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717649850] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717650004] SERVICE ALERT: Switch_34;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Host Unreachable (10.1.1.34)
+[1717650007] HOST ALERT: Switch_34;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.34)
+[1717650018] SERVICE ALERT: Switch_29;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Host Unreachable (10.1.1.29)
+[1717650021] HOST ALERT: Switch_29;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.29)
+[1717650070] HOST ALERT: Switch_34;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.34)
+[1717650084] HOST ALERT: Switch_29;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.29)
+[1717650127] SERVICE ALERT: Switch_34;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.1.1.34)
+[1717650130] HOST ALERT: Switch_34;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.34)
+[1717650141] SERVICE ALERT: Switch_29;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.1.1.29)
+[1717650144] HOST ALERT: Switch_29;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.29)
+[1717650193] HOST ALERT: Switch_34;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.34)
+[1717650207] HOST ALERT: Switch_29;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.29)
+[1717650256] HOST ALERT: Switch_34;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.34)
+[1717650270] HOST ALERT: Switch_29;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.29)
+[1717650319] HOST ALERT: Switch_34;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.34)
+[1717650333] HOST ALERT: Switch_29;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.29)
+[1717650382] HOST ALERT: Switch_34;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.34)
+[1717650393] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717650396] HOST ALERT: Switch_29;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.29)
+[1717650445] HOST ALERT: Switch_34;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.34)
+[1717650459] HOST ALERT: Switch_29;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.29)
+[1717650508] HOST ALERT: Switch_34;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.34)
+[1717650522] HOST ALERT: Switch_29;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.29)
+[1717650571] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1717650571] HOST ALERT: Switch_34;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.34)
+[1717650585] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1717650585] HOST ALERT: Switch_29;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.29)
+[1717650718] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717650792] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717650890] HOST NOTIFICATION: nagiosadmin;Switch_29;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 2.98 ms
+[1717650890] HOST ALERT: Switch_29;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 2.98 ms
+[1717650894] SERVICE ALERT: Switch_33;check-host-alive;OK;HARD;3;PING OK - Packet loss = 20%, RTA = 4.06 ms
+[1717650898] HOST NOTIFICATION: nagiosadmin;Switch_33;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 4.39 ms
+[1717650898] HOST ALERT: Switch_33;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 4.39 ms
+[1717651140] HOST NOTIFICATION: nagiosadmin;Switch_30;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 6.39 ms
+[1717651140] HOST ALERT: Switch_30;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 6.39 ms
+[1717651176] HOST NOTIFICATION: nagiosadmin;Switch_34;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 2.93 ms
+[1717651176] HOST ALERT: Switch_34;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 2.93 ms
+[1717651223] Auto-save of retention data completed successfully.
+[1717651234] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717651328] SERVICE ALERT: Switch_34;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 3.14 ms
+[1717651342] SERVICE ALERT: Switch_29;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 2.25 ms
+[1717651436] SERVICE ALERT: Switch_30;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 2.21 ms
+[1717652193] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717652518] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717652592] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717653035] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717653993] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717654318] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717654392] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717654823] Auto-save of retention data completed successfully.
+[1717655059] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717655793] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717656118] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717656192] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717656859] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717657593] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717657918] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717657992] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717658423] Auto-save of retention data completed successfully.
+[1717658659] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717659393] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717659718] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717659792] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717660459] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717661193] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717661518] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717661592] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717662023] Auto-save of retention data completed successfully.
+[1717662259] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717662993] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717663318] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717663392] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717664059] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717664793] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717665118] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717665192] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717665623] Auto-save of retention data completed successfully.
+[1717665859] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717666593] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717666918] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717666992] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717667659] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717668420] wproc: Core Worker 1327: job 1372445 (pid=18755) timed out. Killing it
+[1717668420] wproc: CHECK job 1372445 from worker Core Worker 1327 timed out after 30.02s
+[1717668420] wproc:   host=Switch_31; service=(null);
+[1717668420] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1717668420] Warning: Check of host 'Switch_31' timed out after 30.02 seconds
+[1717668420] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;(Host check timed out after 30.02 seconds)
+[1717668420] wproc: Core Worker 1327: job 1372445 (pid=18755): Dormant child reaped
+[1717668718] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717668792] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717669188] HOST ALERT: Switch_29;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.29)
+[1717669198] HOST ALERT: Switch_33;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.33)
+[1717669201] wproc: Core Worker 1324: job 1372474 (pid=19382) timed out. Killing it
+[1717669201] wproc: CHECK job 1372474 from worker Core Worker 1324 timed out after 30.03s
+[1717669201] wproc:   host=Switch_34; service=(null);
+[1717669201] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1717669201] Warning: Check of host 'Switch_34' timed out after 30.03 seconds
+[1717669201] HOST ALERT: Switch_34;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1717669201] wproc: Core Worker 1324: job 1372474 (pid=19382): Dormant child reaped
+[1717669223] Auto-save of retention data completed successfully.
+[1717669251] HOST ALERT: Switch_29;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.29)
+[1717669261] HOST ALERT: Switch_33;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.33)
+[1717669264] HOST ALERT: Switch_34;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.34)
+[1717669314] HOST ALERT: Switch_29;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.29)
+[1717669324] HOST ALERT: Switch_33;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.33)
+[1717669327] HOST ALERT: Switch_34;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.34)
+[1717669330] SERVICE ALERT: Switch_34;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.34)
+[1717669345] SERVICE ALERT: Switch_29;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.29)
+[1717669377] HOST ALERT: Switch_29;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.29)
+[1717669387] HOST ALERT: Switch_33;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.33)
+[1717669390] HOST ALERT: Switch_34;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.34)
+[1717669435] SERVICE ALERT: Switch_30;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Host Unreachable (10.1.1.30)
+[1717669438] HOST ALERT: Switch_30;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.30)
+[1717669440] HOST ALERT: Switch_29;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.29)
+[1717669450] HOST ALERT: Switch_33;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.33)
+[1717669453] HOST ALERT: Switch_34;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.34)
+[1717669459] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717669491] SERVICE ALERT: Switch_33;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.33)
+[1717669501] HOST ALERT: Switch_30;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.30)
+[1717669503] HOST ALERT: Switch_29;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.29)
+[1717669513] HOST ALERT: Switch_33;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.33)
+[1717669516] HOST ALERT: Switch_34;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.34)
+[1717669558] SERVICE ALERT: Switch_30;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.1.1.30)
+[1717669564] HOST ALERT: Switch_30;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.30)
+[1717669566] HOST ALERT: Switch_29;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.29)
+[1717669576] HOST ALERT: Switch_33;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.33)
+[1717669579] HOST ALERT: Switch_34;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.34)
+[1717669627] HOST ALERT: Switch_30;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.30)
+[1717669630] HOST ALERT: Switch_29;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.29)
+[1717669639] HOST ALERT: Switch_33;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.33)
+[1717669642] HOST ALERT: Switch_34;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.34)
+[1717669690] HOST ALERT: Switch_30;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.30)
+[1717669693] HOST ALERT: Switch_29;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.29)
+[1717669702] HOST ALERT: Switch_33;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.33)
+[1717669705] HOST ALERT: Switch_34;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.34)
+[1717669753] HOST ALERT: Switch_30;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.30)
+[1717669756] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1717669756] HOST ALERT: Switch_29;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.29)
+[1717669765] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717669765] HOST ALERT: Switch_33;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.33)
+[1717669768] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1717669768] HOST ALERT: Switch_34;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.34)
+[1717669816] HOST ALERT: Switch_30;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.30)
+[1717669879] HOST ALERT: Switch_30;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.30)
+[1717669942] HOST ALERT: Switch_30;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.30)
+[1717670006] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717670006] HOST ALERT: Switch_30;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.30)
+[1717670361] HOST NOTIFICATION: nagiosadmin;Switch_29;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 0.77 ms
+[1717670361] HOST ALERT: Switch_29;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 0.77 ms
+[1717670370] HOST NOTIFICATION: nagiosadmin;Switch_33;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 3.62 ms
+[1717670370] HOST ALERT: Switch_33;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 3.62 ms
+[1717670373] HOST NOTIFICATION: nagiosadmin;Switch_34;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 0.90 ms
+[1717670373] HOST ALERT: Switch_34;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 0.90 ms
+[1717670494] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717670518] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717670532] SERVICE ALERT: Switch_34;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 17.01 ms
+[1717670546] SERVICE ALERT: Switch_29;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 3.47 ms
+[1717670592] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717670611] HOST NOTIFICATION: nagiosadmin;Switch_30;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 3.91 ms
+[1717670611] HOST ALERT: Switch_30;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 3.91 ms
+[1717670692] SERVICE ALERT: Switch_33;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 2.25 ms
+[1717670759] SERVICE ALERT: Switch_30;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 5.81 ms
+[1717671259] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717672318] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717672392] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717672482] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1717672823] Auto-save of retention data completed successfully.
+[1717673059] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717673084] SERVICE ALERT: Switch_31;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1717673088] HOST NOTIFICATION: nagiosadmin;Switch_31;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.42 ms
+[1717673088] HOST ALERT: Switch_31;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.42 ms
+[1717674014] wproc: Core Worker 1325: job 1372670 (pid=23994) timed out. Killing it
+[1717674014] wproc: CHECK job 1372670 from worker Core Worker 1325 timed out after 30.03s
+[1717674014] wproc:   host=Switch_31; service=(null);
+[1717674014] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1717674014] Warning: Check of host 'Switch_31' timed out after 30.03 seconds
+[1717674014] HOST ALERT: Switch_31;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1717674014] wproc: Core Worker 1325: job 1372670 (pid=23994): Dormant child reaped
+[1717674079] HOST ALERT: Switch_31;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.31)
+[1717674119] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717674142] HOST ALERT: Switch_31;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.31)
+[1717674192] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717674205] HOST ALERT: Switch_31;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.31)
+[1717674268] HOST ALERT: Switch_31;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.31)
+[1717674282] SERVICE ALERT: Switch_31;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.31)
+[1717674331] HOST ALERT: Switch_31;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.31)
+[1717674394] HOST ALERT: Switch_31;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.31)
+[1717674457] HOST ALERT: Switch_31;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.31)
+[1717674520] HOST ALERT: Switch_31;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.31)
+[1717674584] HOST ALERT: Switch_31;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.42 ms
+[1717674859] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717674883] SERVICE ALERT: Switch_31;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1717675933] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717675992] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717676423] Auto-save of retention data completed successfully.
+[1717676659] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717677733] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717677792] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717678459] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717679533] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717679592] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717680023] Auto-save of retention data completed successfully.
+[1717680259] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717681333] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717681392] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717682059] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717683133] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717683192] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717683623] Auto-save of retention data completed successfully.
+[1717683859] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717684933] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717684992] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717685659] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717686733] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717686792] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717687223] Auto-save of retention data completed successfully.
+[1717687459] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717688533] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717688592] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717689259] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717690333] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717690392] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717690823] Auto-save of retention data completed successfully.
+[1717691059] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717692133] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717692192] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717692859] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717692990] SERVICE ALERT: Switch_30;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1717693020] wproc: Core Worker 1324: job 1373411 (pid=9675) timed out. Killing it
+[1717693020] wproc: CHECK job 1373411 from worker Core Worker 1324 timed out after 30.03s
+[1717693020] wproc:   host=Switch_30; service=(null);
+[1717693020] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1717693020] Warning: Check of host 'Switch_30' timed out after 30.03 seconds
+[1717693020] HOST ALERT: Switch_30;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1717693020] wproc: Core Worker 1324: job 1373411 (pid=9675): Dormant child reaped
+[1717693110] wproc: Core Worker 1326: job 1373413 (pid=9703) timed out. Killing it
+[1717693110] wproc: CHECK job 1373413 from worker Core Worker 1326 timed out after 30.02s
+[1717693110] wproc:   host=Switch_30; service=(null);
+[1717693110] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1717693110] Warning: Check of host 'Switch_30' timed out after 30.02 seconds
+[1717693110] HOST ALERT: Switch_30;DOWN;SOFT;2;(Host check timed out after 30.02 seconds)
+[1717693110] wproc: Core Worker 1326: job 1373413 (pid=9703): Dormant child reaped
+[1717693141] SERVICE ALERT: Switch_30;check-host-alive;CRITICAL;HARD;3;CRITICAL - Plugin timed out
+[1717693173] HOST ALERT: Switch_30;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.30)
+[1717693196] wproc: Core Worker 1327: job 1373416 (pid=9739) timed out. Killing it
+[1717693196] wproc: CHECK job 1373416 from worker Core Worker 1327 timed out after 30.01s
+[1717693196] wproc:   host=Switch_33; service=(null);
+[1717693196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1717693196] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1717693196] HOST ALERT: Switch_33;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1717693196] wproc: Core Worker 1327: job 1373416 (pid=9739): Dormant child reaped
+[1717693236] HOST ALERT: Switch_30;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.30)
+[1717693259] HOST ALERT: Switch_33;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.33)
+[1717693299] HOST ALERT: Switch_30;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.30)
+[1717693322] HOST ALERT: Switch_33;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.33)
+[1717693362] HOST ALERT: Switch_30;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.30)
+[1717693385] HOST ALERT: Switch_33;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.33)
+[1717693425] HOST ALERT: Switch_30;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.30)
+[1717693448] HOST ALERT: Switch_33;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.33)
+[1717693488] HOST ALERT: Switch_30;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.30)
+[1717693491] SERVICE ALERT: Switch_33;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.33)
+[1717693511] HOST ALERT: Switch_33;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.33)
+[1717693551] HOST ALERT: Switch_30;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.30)
+[1717693575] HOST ALERT: Switch_33;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.33)
+[1717693614] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717693614] HOST ALERT: Switch_30;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.30)
+[1717693638] HOST ALERT: Switch_33;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.33)
+[1717693701] HOST ALERT: Switch_33;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.33)
+[1717693764] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717693764] HOST ALERT: Switch_33;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.33)
+[1717693933] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717693992] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717694423] Auto-save of retention data completed successfully.
+[1717694659] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717695417] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717695567] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717695733] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717695792] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717696459] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)
+[1717697217] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1717697367] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1717697533] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1717697592] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1717698023] Auto-save of retention data completed successfully.
+[1717698259] HOST NOTIFICATION: nagiosadmin;vmwaremgmtswitch;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.39)

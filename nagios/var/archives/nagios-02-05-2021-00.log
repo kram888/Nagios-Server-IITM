@@ -1,0 +1,996 @@
+[1612377000] LOG ROTATION: DAILY
+[1612377000] LOG VERSION: 2.0
+[1612377000] CURRENT HOST STATE: AP_Main_Bldg;DOWN;HARD;10;CRITICAL - Host Unreachable (10.3.1.25)
+[1612377000] CURRENT HOST STATE: Director_Bldg;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.54 ms
+[1612377000] CURRENT HOST STATE: Director_Resident;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1612377000] CURRENT HOST STATE: Switch_29;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.29)
+[1612377000] CURRENT HOST STATE: Switch_30;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.30)
+[1612377000] CURRENT HOST STATE: Switch_31;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.31)
+[1612377000] CURRENT HOST STATE: Switch_32;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.32)
+[1612377000] CURRENT HOST STATE: Switch_33;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.33)
+[1612377000] CURRENT HOST STATE: Switch_34;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.34)
+[1612377000] CURRENT HOST STATE: esxi01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.58 ms
+[1612377000] CURRENT HOST STATE: esxi02;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.48 ms
+[1612377000] CURRENT HOST STATE: esxi03;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.70 ms
+[1612377000] CURRENT HOST STATE: esxi04;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1612377000] CURRENT HOST STATE: esxi05;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.42 ms
+[1612377000] CURRENT HOST STATE: esxi06;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.45 ms
+[1612377000] CURRENT HOST STATE: esxi07;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1612377000] CURRENT HOST STATE: esxi08;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1612377000] CURRENT HOST STATE: esxi09;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.34 ms
+[1612377000] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+[1612377000] CURRENT HOST STATE: vmware10gswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.34 ms
+[1612377000] CURRENT HOST STATE: vmwaremgmtswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.85 ms
+[1612377000] CURRENT SERVICE STATE: AP_Main_Bldg;check-host-alive;CRITICAL;HARD;3;CRITICAL - Plugin timed out
+[1612377000] CURRENT SERVICE STATE: Director_Bldg;check-host-alive;OK;HARD;1;PING OK - Packet loss = 20%, RTA = 4.29 ms
+[1612377000] CURRENT SERVICE STATE: Director_Resident;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 4.30 ms
+[1612377000] CURRENT SERVICE STATE: Switch_29;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.29)
+[1612377000] CURRENT SERVICE STATE: Switch_30;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.30)
+[1612377000] CURRENT SERVICE STATE: Switch_31;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.31)
+[1612377000] CURRENT SERVICE STATE: Switch_32;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.32)
+[1612377000] CURRENT SERVICE STATE: Switch_33;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1612377000] CURRENT SERVICE STATE: Switch_34;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1612377000] CURRENT SERVICE STATE: esxi01;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1612377000] CURRENT SERVICE STATE: esxi01;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1612377000] CURRENT SERVICE STATE: esxi02;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1612377000] CURRENT SERVICE STATE: esxi02;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.95 ms
+[1612377000] CURRENT SERVICE STATE: esxi03;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1612377000] CURRENT SERVICE STATE: esxi03;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1612377000] CURRENT SERVICE STATE: esxi04;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QKB Chassis S/N: FCH2216V0YZ  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1612377000] CURRENT SERVICE STATE: esxi04;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.50 ms
+[1612377000] CURRENT SERVICE STATE: esxi05;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1612377000] CURRENT SERVICE STATE: esxi05;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.45 ms
+[1612377000] CURRENT SERVICE STATE: esxi06;ESXi Haradware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1612377000] CURRENT SERVICE STATE: esxi06;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.36 ms
+[1612377000] CURRENT SERVICE STATE: esxi07;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1612377000] CURRENT SERVICE STATE: esxi07;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1612377000] CURRENT SERVICE STATE: esxi08;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1612377000] CURRENT SERVICE STATE: esxi08;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.31 ms
+[1612377000] CURRENT SERVICE STATE: esxi09;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1612377000] CURRENT SERVICE STATE: esxi09;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.50 ms
+[1612377000] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.02, 0.08, 0.11
+[1612377000] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1612377000] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+[1612377000] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 42756 MB (83.54% inode=99%):
+[1612377000] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1612377000] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1612377000] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 85 processes with STATE = RSZDT
+[1612377000] CURRENT SERVICE STATE: vmware10gswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 6.61 ms
+[1612377000] CURRENT SERVICE STATE: vmwaremgmtswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 5.68 ms
+[1612377052] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612377081] wproc: Core Worker 1175: job 4967 (pid=23936) timed out. Killing it
+[1612377081] wproc: CHECK job 4967 from worker Core Worker 1175 timed out after 30.00s
+[1612377081] wproc:   host=Switch_30; service=(null);
+[1612377081] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612377081] Warning: Check of host 'Switch_30' timed out after 30.00 seconds
+[1612377081] wproc: Core Worker 1175: job 4967 (pid=23936): Dormant child reaped
+[1612377082] wproc: Core Worker 1175: job 4968 (pid=23943) timed out. Killing it
+[1612377082] wproc: CHECK job 4968 from worker Core Worker 1175 timed out after 30.01s
+[1612377082] wproc:   host=Switch_33; service=(null);
+[1612377082] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612377082] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1612377082] wproc: Core Worker 1175: job 4968 (pid=23943): Dormant child reaped
+[1612377082] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612377682] wproc: Core Worker 1177: job 4991 (pid=24533) timed out. Killing it
+[1612377682] wproc: CHECK job 4991 from worker Core Worker 1177 timed out after 30.01s
+[1612377682] wproc:   host=Switch_33; service=(null);
+[1612377682] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612377682] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1612377682] wproc: Core Worker 1177: job 4991 (pid=24533): Dormant child reaped
+[1612378249] Auto-save of retention data completed successfully.
+[1612378282] wproc: Core Worker 1177: job 5014 (pid=25084) timed out. Killing it
+[1612378282] wproc: CHECK job 5014 from worker Core Worker 1177 timed out after 30.01s
+[1612378282] wproc:   host=Switch_33; service=(null);
+[1612378282] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612378282] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1612378282] wproc: Core Worker 1177: job 5014 (pid=25084): Dormant child reaped
+[1612378554] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612378554] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612378560] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612378583] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612378881] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612378882] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612378882] wproc: Core Worker 1177: job 5038 (pid=25650) timed out. Killing it
+[1612378882] wproc: CHECK job 5038 from worker Core Worker 1177 timed out after 30.01s
+[1612378882] wproc:   host=Switch_33; service=(null);
+[1612378882] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612378882] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1612378882] wproc: Core Worker 1177: job 5038 (pid=25650): Dormant child reaped
+[1612379482] wproc: Core Worker 1175: job 5062 (pid=26209) timed out. Killing it
+[1612379482] wproc: CHECK job 5062 from worker Core Worker 1175 timed out after 30.00s
+[1612379482] wproc:   host=Switch_33; service=(null);
+[1612379482] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612379482] Warning: Check of host 'Switch_33' timed out after 30.00 seconds
+[1612379482] wproc: Core Worker 1175: job 5062 (pid=26209): Dormant child reaped
+[1612380082] wproc: Core Worker 1175: job 5085 (pid=26753) timed out. Killing it
+[1612380082] wproc: CHECK job 5085 from worker Core Worker 1175 timed out after 30.01s
+[1612380082] wproc:   host=Switch_33; service=(null);
+[1612380082] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612380082] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1612380082] wproc: Core Worker 1175: job 5085 (pid=26753): Dormant child reaped
+[1612380354] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612380354] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612380360] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612380383] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612380681] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612380682] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612380682] wproc: Core Worker 1175: job 5109 (pid=27325) timed out. Killing it
+[1612380682] wproc: CHECK job 5109 from worker Core Worker 1175 timed out after 30.00s
+[1612380682] wproc:   host=Switch_33; service=(null);
+[1612380682] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612380682] Warning: Check of host 'Switch_33' timed out after 30.00 seconds
+[1612380683] wproc: Core Worker 1175: job 5109 (pid=27325): Dormant child reaped
+[1612381282] wproc: Core Worker 1177: job 5132 (pid=27916) timed out. Killing it
+[1612381282] wproc: CHECK job 5132 from worker Core Worker 1177 timed out after 30.00s
+[1612381282] wproc:   host=Switch_33; service=(null);
+[1612381282] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612381282] Warning: Check of host 'Switch_33' timed out after 30.00 seconds
+[1612381283] wproc: Core Worker 1177: job 5132 (pid=27916): Dormant child reaped
+[1612381849] Auto-save of retention data completed successfully.
+[1612381882] wproc: Core Worker 1177: job 5155 (pid=28463) timed out. Killing it
+[1612381882] wproc: CHECK job 5155 from worker Core Worker 1177 timed out after 30.01s
+[1612381882] wproc:   host=Switch_33; service=(null);
+[1612381882] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612381882] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1612381883] wproc: Core Worker 1177: job 5155 (pid=28463): Dormant child reaped
+[1612381910] wproc: Core Worker 1178: job 5157 (pid=28481) timed out. Killing it
+[1612381910] wproc: Core Worker 1178: job 34105216 with pid 28481 reaped at timeout. timeouts=4; started=5158
+[1612382154] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612382154] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612382160] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612382183] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612382481] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612382482] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612382482] wproc: Core Worker 1176: job 5179 (pid=29034) timed out. Killing it
+[1612382482] wproc: CHECK job 5179 from worker Core Worker 1176 timed out after 30.00s
+[1612382482] wproc:   host=Switch_33; service=(null);
+[1612382482] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612382482] Warning: Check of host 'Switch_33' timed out after 30.00 seconds
+[1612382483] wproc: Core Worker 1176: job 5179 (pid=29034): Dormant child reaped
+[1612383083] wproc: Core Worker 1175: job 5203 (pid=29597) timed out. Killing it
+[1612383083] wproc: CHECK job 5203 from worker Core Worker 1175 timed out after 30.00s
+[1612383083] wproc:   host=Switch_33; service=(null);
+[1612383083] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612383083] Warning: Check of host 'Switch_33' timed out after 30.00 seconds
+[1612383083] wproc: Core Worker 1175: job 5203 (pid=29597): Dormant child reaped
+[1612383316] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.37 ms
+[1612383380] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1612383954] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612383954] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612383960] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612383983] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612384281] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612384282] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612384311] wproc: Core Worker 1175: job 5253 (pid=30772) timed out. Killing it
+[1612384311] wproc: Core Worker 1175: job 23772736 with pid 30772 reaped at timeout. timeouts=6; started=5254
+[1612384881] wproc: Core Worker 1175: job 5273 (pid=31296) timed out. Killing it
+[1612384881] wproc: CHECK job 5273 from worker Core Worker 1175 timed out after 30.01s
+[1612384881] wproc:   host=Switch_29; service=(null);
+[1612384881] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612384881] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612384881] wproc: Core Worker 1175: job 5273 (pid=31296): Dormant child reaped
+[1612385449] Auto-save of retention data completed successfully.
+[1612385481] wproc: Core Worker 1178: job 5295 (pid=31842) timed out. Killing it
+[1612385481] wproc: CHECK job 5295 from worker Core Worker 1178 timed out after 30.01s
+[1612385481] wproc:   host=Switch_29; service=(null);
+[1612385481] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612385481] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612385481] wproc: Core Worker 1178: job 5295 (pid=31842): Dormant child reaped
+[1612385754] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612385754] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612385760] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612385783] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612386081] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612386081] wproc: Core Worker 1177: job 5319 (pid=32412) timed out. Killing it
+[1612386081] wproc: CHECK job 5319 from worker Core Worker 1177 timed out after 30.00s
+[1612386081] wproc:   host=Switch_29; service=(null);
+[1612386081] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612386081] Warning: Check of host 'Switch_29' timed out after 30.00 seconds
+[1612386081] wproc: Core Worker 1177: job 5319 (pid=32412): Dormant child reaped
+[1612386082] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612386681] wproc: Core Worker 1176: job 5343 (pid=584) timed out. Killing it
+[1612386681] wproc: CHECK job 5343 from worker Core Worker 1176 timed out after 30.00s
+[1612386681] wproc:   host=Switch_29; service=(null);
+[1612386681] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612386681] Warning: Check of host 'Switch_29' timed out after 30.00 seconds
+[1612386681] wproc: Core Worker 1176: job 5343 (pid=584): Dormant child reaped
+[1612386681] wproc: Core Worker 1175: job 5344 (pid=590) timed out. Killing it
+[1612386681] wproc: CHECK job 5344 from worker Core Worker 1175 timed out after 30.01s
+[1612386681] wproc:   host=Switch_30; service=(null);
+[1612386681] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612386681] Warning: Check of host 'Switch_30' timed out after 30.01 seconds
+[1612386682] wproc: Core Worker 1175: job 5344 (pid=590): Dormant child reaped
+[1612387281] wproc: Core Worker 1175: job 5366 (pid=1217) timed out. Killing it
+[1612387281] wproc: CHECK job 5366 from worker Core Worker 1175 timed out after 30.00s
+[1612387281] wproc:   host=Switch_29; service=(null);
+[1612387281] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612387281] Warning: Check of host 'Switch_29' timed out after 30.00 seconds
+[1612387281] wproc: Core Worker 1175: job 5366 (pid=1217): Dormant child reaped
+[1612387281] wproc: Core Worker 1175: job 5367 (pid=1224) timed out. Killing it
+[1612387281] wproc: CHECK job 5367 from worker Core Worker 1175 timed out after 30.01s
+[1612387281] wproc:   host=Switch_30; service=(null);
+[1612387281] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612387281] Warning: Check of host 'Switch_30' timed out after 30.01 seconds
+[1612387282] wproc: Core Worker 1175: job 5367 (pid=1224): Dormant child reaped
+[1612387414] wproc: Core Worker 1178: job 5371 (pid=1278) timed out. Killing it
+[1612387414] wproc: Core Worker 1178: job 34105680 with pid 1278 reaped at timeout. timeouts=5; started=5372
+[1612387554] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612387554] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612387560] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612387584] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612387881] wproc: Core Worker 1176: job 5390 (pid=1803) timed out. Killing it
+[1612387881] wproc: CHECK job 5390 from worker Core Worker 1176 timed out after 30.01s
+[1612387881] wproc:   host=Switch_29; service=(null);
+[1612387881] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612387881] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612387881] wproc: Core Worker 1176: job 5390 (pid=1803): Dormant child reaped
+[1612387881] wproc: Core Worker 1175: job 5391 (pid=1809) timed out. Killing it
+[1612387881] wproc: CHECK job 5391 from worker Core Worker 1175 timed out after 30.01s
+[1612387881] wproc:   host=Switch_30; service=(null);
+[1612387881] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612387881] Warning: Check of host 'Switch_30' timed out after 30.01 seconds
+[1612387882] wproc: Core Worker 1175: job 5391 (pid=1809): Dormant child reaped
+[1612387882] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612388156] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612388481] wproc: Core Worker 1176: job 5413 (pid=2385) timed out. Killing it
+[1612388481] wproc: CHECK job 5413 from worker Core Worker 1176 timed out after 30.01s
+[1612388481] wproc:   host=Switch_30; service=(null);
+[1612388481] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612388481] Warning: Check of host 'Switch_30' timed out after 30.01 seconds
+[1612388481] wproc: Core Worker 1176: job 5413 (pid=2385): Dormant child reaped
+[1612388481] wproc: Core Worker 1178: job 5413 (pid=2389) timed out. Killing it
+[1612388481] wproc: CHECK job 5413 from worker Core Worker 1178 timed out after 30.01s
+[1612388481] wproc:   host=Switch_29; service=(null);
+[1612388481] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612388481] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612388481] wproc: Core Worker 1178: job 5413 (pid=2389): Dormant child reaped
+[1612389049] Auto-save of retention data completed successfully.
+[1612389081] wproc: Core Worker 1178: job 5436 (pid=2924) timed out. Killing it
+[1612389081] wproc: CHECK job 5436 from worker Core Worker 1178 timed out after 30.01s
+[1612389081] wproc:   host=Switch_29; service=(null);
+[1612389081] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612389081] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612389081] wproc: Core Worker 1178: job 5436 (pid=2924): Dormant child reaped
+[1612389183] SERVICE ALERT: esxi07;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 40%, RTA = 0.47 ms
+[1612389247] SERVICE ALERT: esxi07;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1612389354] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612389354] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612389361] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612389659] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612389681] wproc: Core Worker 1177: job 5461 (pid=3489) timed out. Killing it
+[1612389681] wproc: CHECK job 5461 from worker Core Worker 1177 timed out after 30.01s
+[1612389681] wproc:   host=Switch_29; service=(null);
+[1612389681] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612389681] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612389682] wproc: Core Worker 1177: job 5461 (pid=3489): Dormant child reaped
+[1612389682] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612389956] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612390281] wproc: Core Worker 1177: job 5485 (pid=4110) timed out. Killing it
+[1612390281] wproc: CHECK job 5485 from worker Core Worker 1177 timed out after 30.01s
+[1612390281] wproc:   host=Switch_29; service=(null);
+[1612390281] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612390281] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612390282] wproc: Core Worker 1177: job 5485 (pid=4110): Dormant child reaped
+[1612390345] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.43 ms
+[1612390409] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.36 ms
+[1612390881] wproc: Core Worker 1176: job 5509 (pid=4661) timed out. Killing it
+[1612390881] wproc: CHECK job 5509 from worker Core Worker 1176 timed out after 30.01s
+[1612390881] wproc:   host=Switch_29; service=(null);
+[1612390881] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612390881] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612390882] wproc: Core Worker 1176: job 5509 (pid=4661): Dormant child reaped
+[1612391154] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612391154] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612391461] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612391481] wproc: Core Worker 1178: job 5532 (pid=5222) timed out. Killing it
+[1612391481] wproc: CHECK job 5532 from worker Core Worker 1178 timed out after 30.01s
+[1612391481] wproc:   host=Switch_29; service=(null);
+[1612391481] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612391481] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612391482] wproc: Core Worker 1178: job 5532 (pid=5222): Dormant child reaped
+[1612391482] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612391483] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612391756] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612392081] wproc: Core Worker 1177: job 5555 (pid=5826) timed out. Killing it
+[1612392081] wproc: CHECK job 5555 from worker Core Worker 1177 timed out after 30.01s
+[1612392081] wproc:   host=Switch_29; service=(null);
+[1612392081] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612392081] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612392081] wproc: Core Worker 1177: job 5555 (pid=5826): Dormant child reaped
+[1612392649] Auto-save of retention data completed successfully.
+[1612392681] wproc: Core Worker 1177: job 5578 (pid=6375) timed out. Killing it
+[1612392681] wproc: CHECK job 5578 from worker Core Worker 1177 timed out after 30.01s
+[1612392681] wproc:   host=Switch_29; service=(null);
+[1612392681] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612392681] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612392681] wproc: Core Worker 1177: job 5578 (pid=6375): Dormant child reaped
+[1612392954] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612392954] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612393261] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612393281] wproc: Core Worker 1176: job 5602 (pid=6942) timed out. Killing it
+[1612393281] wproc: CHECK job 5602 from worker Core Worker 1176 timed out after 30.01s
+[1612393281] wproc:   host=Switch_29; service=(null);
+[1612393281] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612393281] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612393281] wproc: Core Worker 1176: job 5602 (pid=6942): Dormant child reaped
+[1612393282] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612393283] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612393556] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612393881] wproc: Core Worker 1176: job 5626 (pid=7524) timed out. Killing it
+[1612393881] wproc: CHECK job 5626 from worker Core Worker 1176 timed out after 30.01s
+[1612393881] wproc:   host=Switch_29; service=(null);
+[1612393881] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612393881] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612393881] wproc: Core Worker 1176: job 5626 (pid=7524): Dormant child reaped
+[1612393883] wproc: Core Worker 1178: job 5627 (pid=7535) timed out. Killing it
+[1612393883] wproc: CHECK job 5627 from worker Core Worker 1178 timed out after 30.01s
+[1612393883] wproc:   host=Switch_33; service=(null);
+[1612393883] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612393883] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1612393883] wproc: Core Worker 1178: job 5627 (pid=7535): Dormant child reaped
+[1612394481] wproc: Core Worker 1177: job 5649 (pid=8080) timed out. Killing it
+[1612394481] wproc: CHECK job 5649 from worker Core Worker 1177 timed out after 30.01s
+[1612394481] wproc:   host=Switch_29; service=(null);
+[1612394481] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612394481] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612394481] wproc: Core Worker 1177: job 5649 (pid=8080): Dormant child reaped
+[1612394483] wproc: Core Worker 1178: job 5650 (pid=8089) timed out. Killing it
+[1612394483] wproc: CHECK job 5650 from worker Core Worker 1178 timed out after 30.01s
+[1612394483] wproc:   host=Switch_33; service=(null);
+[1612394483] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612394483] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1612394483] wproc: Core Worker 1178: job 5650 (pid=8089): Dormant child reaped
+[1612394754] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612394754] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612395062] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612395081] wproc: Core Worker 1175: job 5673 (pid=8641) timed out. Killing it
+[1612395081] wproc: CHECK job 5673 from worker Core Worker 1175 timed out after 30.01s
+[1612395081] wproc:   host=Switch_29; service=(null);
+[1612395081] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612395081] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612395081] wproc: Core Worker 1175: job 5673 (pid=8641): Dormant child reaped
+[1612395082] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612395083] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612395083] wproc: Core Worker 1176: job 5674 (pid=8650) timed out. Killing it
+[1612395083] wproc: CHECK job 5674 from worker Core Worker 1176 timed out after 30.01s
+[1612395083] wproc:   host=Switch_33; service=(null);
+[1612395083] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612395083] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1612395083] wproc: Core Worker 1176: job 5674 (pid=8650): Dormant child reaped
+[1612395356] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612395681] wproc: Core Worker 1176: job 5697 (pid=9318) timed out. Killing it
+[1612395681] wproc: CHECK job 5697 from worker Core Worker 1176 timed out after 30.01s
+[1612395681] wproc:   host=Switch_29; service=(null);
+[1612395681] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612395681] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612395681] wproc: Core Worker 1176: job 5697 (pid=9318): Dormant child reaped
+[1612395683] wproc: Core Worker 1176: job 5698 (pid=9332) timed out. Killing it
+[1612395683] wproc: CHECK job 5698 from worker Core Worker 1176 timed out after 30.00s
+[1612395683] wproc:   host=Switch_33; service=(null);
+[1612395683] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612395683] Warning: Check of host 'Switch_33' timed out after 30.00 seconds
+[1612395683] wproc: Core Worker 1176: job 5698 (pid=9332): Dormant child reaped
+[1612396249] Auto-save of retention data completed successfully.
+[1612396281] wproc: Core Worker 1175: job 5720 (pid=9876) timed out. Killing it
+[1612396281] wproc: CHECK job 5720 from worker Core Worker 1175 timed out after 30.01s
+[1612396281] wproc:   host=Switch_29; service=(null);
+[1612396281] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612396281] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612396281] wproc: Core Worker 1175: job 5720 (pid=9876): Dormant child reaped
+[1612396283] wproc: Core Worker 1176: job 5721 (pid=9885) timed out. Killing it
+[1612396283] wproc: CHECK job 5721 from worker Core Worker 1176 timed out after 30.00s
+[1612396283] wproc:   host=Switch_33; service=(null);
+[1612396283] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612396283] Warning: Check of host 'Switch_33' timed out after 30.00 seconds
+[1612396283] wproc: Core Worker 1176: job 5721 (pid=9885): Dormant child reaped
+[1612396554] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612396555] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612396881] wproc: Core Worker 1175: job 5744 (pid=10441) timed out. Killing it
+[1612396881] wproc: CHECK job 5744 from worker Core Worker 1175 timed out after 30.01s
+[1612396881] wproc:   host=Switch_29; service=(null);
+[1612396881] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612396881] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612396881] wproc: Core Worker 1175: job 5744 (pid=10441): Dormant child reaped
+[1612396882] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612396882] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612396883] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612396883] wproc: Core Worker 1178: job 5744 (pid=10447) timed out. Killing it
+[1612396883] wproc: CHECK job 5744 from worker Core Worker 1178 timed out after 30.00s
+[1612396883] wproc:   host=Switch_33; service=(null);
+[1612396883] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612396883] Warning: Check of host 'Switch_33' timed out after 30.00 seconds
+[1612396883] wproc: Core Worker 1178: job 5744 (pid=10447): Dormant child reaped
+[1612397156] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612397481] wproc: Core Worker 1177: job 5767 (pid=11009) timed out. Killing it
+[1612397481] wproc: CHECK job 5767 from worker Core Worker 1177 timed out after 30.01s
+[1612397481] wproc:   host=Switch_29; service=(null);
+[1612397481] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612397481] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612397481] wproc: Core Worker 1177: job 5767 (pid=11009): Dormant child reaped
+[1612398081] wproc: Core Worker 1178: job 5790 (pid=11557) timed out. Killing it
+[1612398081] wproc: CHECK job 5790 from worker Core Worker 1178 timed out after 30.01s
+[1612398081] wproc:   host=Switch_29; service=(null);
+[1612398081] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612398081] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612398081] wproc: Core Worker 1178: job 5790 (pid=11557): Dormant child reaped
+[1612398133] wproc: Core Worker 1175: job 5793 (pid=11575) timed out. Killing it
+[1612398133] wproc: Core Worker 1175: job 23772016 with pid 11575 reaped at timeout. timeouts=7; started=5794
+[1612398354] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612398652] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612398681] wproc: Core Worker 1176: job 5814 (pid=12110) timed out. Killing it
+[1612398681] wproc: CHECK job 5814 from worker Core Worker 1176 timed out after 30.01s
+[1612398681] wproc:   host=Switch_30; service=(null);
+[1612398681] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612398681] Warning: Check of host 'Switch_30' timed out after 30.01 seconds
+[1612398682] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612398682] wproc: Core Worker 1176: job 5814 (pid=12110): Dormant child reaped
+[1612398683] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612398956] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612398960] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612399281] wproc: Core Worker 1177: job 5838 (pid=12711) timed out. Killing it
+[1612399281] wproc: CHECK job 5838 from worker Core Worker 1177 timed out after 30.01s
+[1612399281] wproc:   host=Switch_30; service=(null);
+[1612399281] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612399281] Warning: Check of host 'Switch_30' timed out after 30.01 seconds
+[1612399282] wproc: Core Worker 1177: job 5838 (pid=12711): Dormant child reaped
+[1612399849] Auto-save of retention data completed successfully.
+[1612399881] wproc: Core Worker 1177: job 5861 (pid=13259) timed out. Killing it
+[1612399881] wproc: CHECK job 5861 from worker Core Worker 1177 timed out after 30.01s
+[1612399881] wproc:   host=Switch_29; service=(null);
+[1612399881] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612399881] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612399881] wproc: Core Worker 1177: job 5861 (pid=13259): Dormant child reaped
+[1612400154] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612400452] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612400482] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612400483] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612400756] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612400760] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612401954] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612402252] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612402281] wproc: Core Worker 1176: job 5955 (pid=15489) timed out. Killing it
+[1612402281] wproc: CHECK job 5955 from worker Core Worker 1176 timed out after 30.01s
+[1612402281] wproc:   host=Switch_29; service=(null);
+[1612402281] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612402281] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612402282] wproc: Core Worker 1176: job 5955 (pid=15489): Dormant child reaped
+[1612402282] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612402283] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612402556] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612402560] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612402881] wproc: Core Worker 1177: job 5979 (pid=16091) timed out. Killing it
+[1612402881] wproc: CHECK job 5979 from worker Core Worker 1177 timed out after 30.01s
+[1612402881] wproc:   host=Switch_29; service=(null);
+[1612402881] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612402881] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612402882] wproc: Core Worker 1177: job 5979 (pid=16091): Dormant child reaped
+[1612402884] wproc: Core Worker 1176: job 5980 (pid=16097) timed out. Killing it
+[1612402884] wproc: CHECK job 5980 from worker Core Worker 1176 timed out after 30.01s
+[1612402884] wproc:   host=Switch_33; service=(null);
+[1612402884] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612402884] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1612402884] wproc: Core Worker 1176: job 5980 (pid=16097): Dormant child reaped
+[1612403449] Auto-save of retention data completed successfully.
+[1612403481] wproc: Core Worker 1177: job 6002 (pid=16637) timed out. Killing it
+[1612403481] wproc: CHECK job 6002 from worker Core Worker 1177 timed out after 30.01s
+[1612403481] wproc:   host=Switch_29; service=(null);
+[1612403481] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612403481] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612403482] wproc: Core Worker 1177: job 6002 (pid=16637): Dormant child reaped
+[1612403484] wproc: Core Worker 1176: job 6003 (pid=16643) timed out. Killing it
+[1612403484] wproc: CHECK job 6003 from worker Core Worker 1176 timed out after 30.01s
+[1612403484] wproc:   host=Switch_33; service=(null);
+[1612403484] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612403484] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1612403484] wproc: Core Worker 1176: job 6003 (pid=16643): Dormant child reaped
+[1612403754] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612404052] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612404081] wproc: Core Worker 1177: job 6025 (pid=17194) timed out. Killing it
+[1612404081] wproc: CHECK job 6025 from worker Core Worker 1177 timed out after 30.01s
+[1612404081] wproc:   host=Switch_29; service=(null);
+[1612404081] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612404081] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612404082] wproc: Core Worker 1177: job 6025 (pid=17194): Dormant child reaped
+[1612404082] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612404083] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612404084] wproc: Core Worker 1178: job 6026 (pid=17207) timed out. Killing it
+[1612404084] wproc: CHECK job 6026 from worker Core Worker 1178 timed out after 30.01s
+[1612404084] wproc:   host=Switch_33; service=(null);
+[1612404084] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612404084] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1612404084] wproc: Core Worker 1178: job 6026 (pid=17207): Dormant child reaped
+[1612404357] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612404360] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612404681] wproc: Core Worker 1175: job 6050 (pid=17765) timed out. Killing it
+[1612404681] wproc: CHECK job 6050 from worker Core Worker 1175 timed out after 30.01s
+[1612404681] wproc:   host=Switch_29; service=(null);
+[1612404681] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612404681] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612404682] wproc: Core Worker 1175: job 6050 (pid=17765): Dormant child reaped
+[1612405282] wproc: Core Worker 1175: job 6073 (pid=18311) timed out. Killing it
+[1612405282] wproc: CHECK job 6073 from worker Core Worker 1175 timed out after 30.01s
+[1612405282] wproc:   host=Switch_29; service=(null);
+[1612405282] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612405282] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612405282] wproc: Core Worker 1175: job 6073 (pid=18311): Dormant child reaped
+[1612405554] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612405852] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612405881] wproc: Core Worker 1177: job 6095 (pid=18855) timed out. Killing it
+[1612405881] wproc: CHECK job 6095 from worker Core Worker 1177 timed out after 30.01s
+[1612405881] wproc:   host=Switch_29; service=(null);
+[1612405881] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612405881] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612405881] wproc: Core Worker 1177: job 6095 (pid=18855): Dormant child reaped
+[1612405882] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612405883] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612405887] wproc: Core Worker 1178: job 6097 (pid=18876) timed out. Killing it
+[1612405887] wproc: CHECK job 6097 from worker Core Worker 1178 timed out after 30.01s
+[1612405887] wproc:   host=Switch_34; service=(null);
+[1612405887] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612405887] Warning: Check of host 'Switch_34' timed out after 30.01 seconds
+[1612405887] wproc: Core Worker 1178: job 6097 (pid=18876): Dormant child reaped
+[1612406157] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612406160] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612406481] wproc: Core Worker 1178: job 6119 (pid=19457) timed out. Killing it
+[1612406481] wproc: CHECK job 6119 from worker Core Worker 1178 timed out after 30.01s
+[1612406481] wproc:   host=Switch_29; service=(null);
+[1612406481] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612406481] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612406481] wproc: Core Worker 1178: job 6119 (pid=19457): Dormant child reaped
+[1612406487] wproc: Core Worker 1178: job 6121 (pid=19472) timed out. Killing it
+[1612406487] wproc: CHECK job 6121 from worker Core Worker 1178 timed out after 30.01s
+[1612406487] wproc:   host=Switch_34; service=(null);
+[1612406487] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612406487] Warning: Check of host 'Switch_34' timed out after 30.01 seconds
+[1612406487] wproc: Core Worker 1178: job 6121 (pid=19472): Dormant child reaped
+[1612407049] Auto-save of retention data completed successfully.
+[1612407081] wproc: Core Worker 1178: job 6142 (pid=20001) timed out. Killing it
+[1612407081] wproc: CHECK job 6142 from worker Core Worker 1178 timed out after 30.01s
+[1612407081] wproc:   host=Switch_29; service=(null);
+[1612407081] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612407081] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612407081] wproc: Core Worker 1178: job 6142 (pid=20001): Dormant child reaped
+[1612407087] wproc: Core Worker 1178: job 6144 (pid=20016) timed out. Killing it
+[1612407087] wproc: CHECK job 6144 from worker Core Worker 1178 timed out after 30.01s
+[1612407087] wproc:   host=Switch_34; service=(null);
+[1612407087] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612407087] Warning: Check of host 'Switch_34' timed out after 30.01 seconds
+[1612407087] wproc: Core Worker 1178: job 6144 (pid=20016): Dormant child reaped
+[1612407354] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612407652] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612407681] wproc: Core Worker 1175: job 6166 (pid=20550) timed out. Killing it
+[1612407681] wproc: CHECK job 6166 from worker Core Worker 1175 timed out after 30.01s
+[1612407681] wproc:   host=Switch_29; service=(null);
+[1612407681] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612407681] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612407681] wproc: Core Worker 1175: job 6166 (pid=20550): Dormant child reaped
+[1612407682] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612407683] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612407957] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612407960] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612408281] wproc: Core Worker 1176: job 6190 (pid=21127) timed out. Killing it
+[1612408281] wproc: CHECK job 6190 from worker Core Worker 1176 timed out after 30.01s
+[1612408281] wproc:   host=Switch_29; service=(null);
+[1612408281] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612408281] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612408281] wproc: Core Worker 1176: job 6190 (pid=21127): Dormant child reaped
+[1612408881] wproc: Core Worker 1177: job 6213 (pid=21673) timed out. Killing it
+[1612408881] wproc: CHECK job 6213 from worker Core Worker 1177 timed out after 30.01s
+[1612408881] wproc:   host=Switch_29; service=(null);
+[1612408881] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612408881] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612408881] wproc: Core Worker 1177: job 6213 (pid=21673): Dormant child reaped
+[1612409154] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612409452] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612409481] wproc: Core Worker 1178: job 6236 (pid=22227) timed out. Killing it
+[1612409481] wproc: CHECK job 6236 from worker Core Worker 1178 timed out after 30.01s
+[1612409481] wproc:   host=Switch_29; service=(null);
+[1612409481] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612409481] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612409481] wproc: Core Worker 1178: job 6236 (pid=22227): Dormant child reaped
+[1612409482] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612409483] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612409757] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612409760] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612410081] wproc: Core Worker 1175: job 6261 (pid=22826) timed out. Killing it
+[1612410081] wproc: CHECK job 6261 from worker Core Worker 1175 timed out after 30.01s
+[1612410081] wproc:   host=Switch_29; service=(null);
+[1612410081] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612410081] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612410081] wproc: Core Worker 1175: job 6261 (pid=22826): Dormant child reaped
+[1612410649] Auto-save of retention data completed successfully.
+[1612410681] wproc: Core Worker 1176: job 6284 (pid=23368) timed out. Killing it
+[1612410681] wproc: CHECK job 6284 from worker Core Worker 1176 timed out after 30.01s
+[1612410681] wproc:   host=Switch_29; service=(null);
+[1612410681] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612410681] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612410681] wproc: Core Worker 1176: job 6284 (pid=23368): Dormant child reaped
+[1612410681] wproc: Core Worker 1177: job 6284 (pid=23370) timed out. Killing it
+[1612410681] wproc: CHECK job 6284 from worker Core Worker 1177 timed out after 30.01s
+[1612410681] wproc:   host=Switch_30; service=(null);
+[1612410681] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612410681] Warning: Check of host 'Switch_30' timed out after 30.01 seconds
+[1612410682] wproc: Core Worker 1177: job 6284 (pid=23370): Dormant child reaped
+[1612410954] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612411252] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612411281] wproc: Core Worker 1178: job 6307 (pid=23918) timed out. Killing it
+[1612411281] wproc: CHECK job 6307 from worker Core Worker 1178 timed out after 30.01s
+[1612411281] wproc:   host=Switch_29; service=(null);
+[1612411281] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612411281] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612411281] wproc: Core Worker 1178: job 6307 (pid=23918): Dormant child reaped
+[1612411282] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612411283] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612411557] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612411560] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612411881] wproc: Core Worker 1175: job 6332 (pid=24498) timed out. Killing it
+[1612411881] wproc: CHECK job 6332 from worker Core Worker 1175 timed out after 30.01s
+[1612411881] wproc:   host=Switch_29; service=(null);
+[1612411881] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612411881] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612411881] wproc: Core Worker 1175: job 6332 (pid=24498): Dormant child reaped
+[1612412481] wproc: Core Worker 1175: job 6355 (pid=25046) timed out. Killing it
+[1612412481] wproc: CHECK job 6355 from worker Core Worker 1175 timed out after 30.01s
+[1612412481] wproc:   host=Switch_29; service=(null);
+[1612412481] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612412481] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612412481] wproc: Core Worker 1175: job 6355 (pid=25046): Dormant child reaped
+[1612412754] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612413052] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612413081] wproc: Core Worker 1176: job 6378 (pid=25595) timed out. Killing it
+[1612413081] wproc: CHECK job 6378 from worker Core Worker 1176 timed out after 30.01s
+[1612413081] wproc:   host=Switch_29; service=(null);
+[1612413081] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612413081] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612413081] wproc: Core Worker 1176: job 6378 (pid=25595): Dormant child reaped
+[1612413082] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612413083] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612413357] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612413360] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612413619] SERVICE ALERT: esxi08;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1612413619] SERVICE ALERT: esxi09;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1612413681] wproc: Core Worker 1175: job 6403 (pid=26205) timed out. Killing it
+[1612413681] wproc: CHECK job 6403 from worker Core Worker 1175 timed out after 30.01s
+[1612413681] wproc:   host=Switch_29; service=(null);
+[1612413681] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612413681] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612413682] wproc: Core Worker 1175: job 6403 (pid=26205): Dormant child reaped
+[1612413683] SERVICE ALERT: esxi08;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.29 ms
+[1612413683] SERVICE ALERT: esxi09;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.45 ms
+[1612414249] Auto-save of retention data completed successfully.
+[1612414281] wproc: Core Worker 1177: job 6426 (pid=26755) timed out. Killing it
+[1612414281] wproc: CHECK job 6426 from worker Core Worker 1177 timed out after 30.01s
+[1612414281] wproc:   host=Switch_29; service=(null);
+[1612414281] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612414281] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612414282] wproc: Core Worker 1177: job 6426 (pid=26755): Dormant child reaped
+[1612414554] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612414852] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612414881] wproc: Core Worker 1178: job 6449 (pid=27304) timed out. Killing it
+[1612414881] wproc: CHECK job 6449 from worker Core Worker 1178 timed out after 30.01s
+[1612414881] wproc:   host=Switch_29; service=(null);
+[1612414881] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612414881] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612414882] wproc: Core Worker 1178: job 6449 (pid=27304): Dormant child reaped
+[1612414882] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612414883] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612414884] wproc: Core Worker 1178: job 6450 (pid=27316) timed out. Killing it
+[1612414884] wproc: CHECK job 6450 from worker Core Worker 1178 timed out after 30.01s
+[1612414884] wproc:   host=Switch_33; service=(null);
+[1612414884] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612414884] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1612414885] wproc: Core Worker 1178: job 6450 (pid=27316): Dormant child reaped
+[1612415157] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612415160] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612415481] wproc: Core Worker 1175: job 6474 (pid=27887) timed out. Killing it
+[1612415481] wproc: CHECK job 6474 from worker Core Worker 1175 timed out after 30.01s
+[1612415481] wproc:   host=Switch_29; service=(null);
+[1612415481] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612415481] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612415482] wproc: Core Worker 1175: job 6474 (pid=27887): Dormant child reaped
+[1612416081] wproc: Core Worker 1175: job 6497 (pid=28443) timed out. Killing it
+[1612416081] wproc: CHECK job 6497 from worker Core Worker 1175 timed out after 30.01s
+[1612416081] wproc:   host=Switch_29; service=(null);
+[1612416081] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612416081] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612416082] wproc: Core Worker 1175: job 6497 (pid=28443): Dormant child reaped
+[1612416355] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612416652] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612416681] wproc: Core Worker 1176: job 6519 (pid=28990) timed out. Killing it
+[1612416681] wproc: CHECK job 6519 from worker Core Worker 1176 timed out after 30.01s
+[1612416681] wproc:   host=Switch_29; service=(null);
+[1612416681] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612416681] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612416681] wproc: Core Worker 1176: job 6519 (pid=28990): Dormant child reaped
+[1612416682] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612416683] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612416957] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612416960] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612417849] Auto-save of retention data completed successfully.
+[1612418452] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612418454] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612418482] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612418483] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612418757] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612418760] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612419708] wproc: Core Worker 1176: job 6640 (pid=31883) timed out. Killing it
+[1612419708] wproc: Core Worker 1176: job 31317056 with pid 31883 reaped at timeout. timeouts=6; started=6641
+[1612420252] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612420281] wproc: Core Worker 1176: job 6660 (pid=32414) timed out. Killing it
+[1612420281] wproc: CHECK job 6660 from worker Core Worker 1176 timed out after 30.01s
+[1612420281] wproc:   host=Switch_29; service=(null);
+[1612420281] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612420281] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612420281] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1612420281] wproc: Core Worker 1176: job 6660 (pid=32414): Dormant child reaped
+[1612420282] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612420283] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612420551] HOST ALERT: Director_Bldg;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.3.1.10)
+[1612420557] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612420560] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612420567] HOST ALERT: Director_Resident;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.26)
+[1612420614] HOST ALERT: Director_Bldg;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.3.1.10)
+[1612420630] HOST ALERT: Director_Resident;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.26)
+[1612420677] HOST ALERT: Director_Bldg;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.3.1.10)
+[1612420693] HOST ALERT: Director_Resident;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.26)
+[1612420740] HOST ALERT: Director_Bldg;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.3.1.10)
+[1612420756] HOST ALERT: Director_Resident;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.26)
+[1612420803] HOST ALERT: Director_Bldg;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.3.1.10)
+[1612420819] HOST ALERT: Director_Resident;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.26)
+[1612420859] SERVICE ALERT: Director_Resident;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.26)
+[1612420866] HOST ALERT: Director_Bldg;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.3.1.10)
+[1612420881] wproc: Core Worker 1177: job 6686 (pid=662) timed out. Killing it
+[1612420881] wproc: CHECK job 6686 from worker Core Worker 1177 timed out after 30.00s
+[1612420881] wproc:   host=Switch_29; service=(null);
+[1612420881] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612420881] Warning: Check of host 'Switch_29' timed out after 30.00 seconds
+[1612420881] SERVICE ALERT: Director_Bldg;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1612420881] wproc: Core Worker 1177: job 6686 (pid=662): Dormant child reaped
+[1612420882] HOST ALERT: Director_Resident;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.26)
+[1612420884] wproc: Core Worker 1175: job 6688 (pid=673) timed out. Killing it
+[1612420884] wproc: CHECK job 6688 from worker Core Worker 1175 timed out after 30.01s
+[1612420884] wproc:   host=Switch_33; service=(null);
+[1612420884] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612420884] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1612420884] wproc: Core Worker 1175: job 6688 (pid=673): Dormant child reaped
+[1612420929] HOST ALERT: Director_Bldg;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.3.1.10)
+[1612420945] HOST ALERT: Director_Resident;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.26)
+[1612420989] HOST ALERT: Director_Bldg;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.3.1.10)
+[1612421008] HOST ALERT: Director_Resident;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.26)
+[1612421052] HOST ALERT: Director_Bldg;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.3.1.10)
+[1612421071] HOST ALERT: Director_Resident;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.26)
+[1612421115] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1612421115] HOST ALERT: Director_Bldg;DOWN;HARD;10;CRITICAL - Host Unreachable (10.3.1.10)
+[1612421134] HOST NOTIFICATION: nagiosadmin;Director_Resident;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.26)
+[1612421134] HOST ALERT: Director_Resident;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.26)
+[1612421449] Auto-save of retention data completed successfully.
+[1612421481] wproc: Core Worker 1177: job 6712 (pid=1346) timed out. Killing it
+[1612421481] wproc: CHECK job 6712 from worker Core Worker 1177 timed out after 30.01s
+[1612421481] wproc:   host=Switch_29; service=(null);
+[1612421481] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612421481] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612421481] wproc: Core Worker 1177: job 6712 (pid=1346): Dormant child reaped
+[1612421484] wproc: Core Worker 1177: job 6713 (pid=1353) timed out. Killing it
+[1612421484] wproc: CHECK job 6713 from worker Core Worker 1177 timed out after 30.01s
+[1612421484] wproc:   host=Switch_33; service=(null);
+[1612421484] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612421484] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1612421484] wproc: Core Worker 1177: job 6713 (pid=1353): Dormant child reaped
+[1612422052] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612422081] wproc: Core Worker 1177: job 6735 (pid=1907) timed out. Killing it
+[1612422081] wproc: CHECK job 6735 from worker Core Worker 1177 timed out after 30.01s
+[1612422081] wproc:   host=Switch_29; service=(null);
+[1612422081] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612422081] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612422081] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1612422081] wproc: Core Worker 1177: job 6735 (pid=1907): Dormant child reaped
+[1612422082] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612422083] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612422357] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612422360] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612422681] wproc: Core Worker 1175: job 6760 (pid=2499) timed out. Killing it
+[1612422681] wproc: CHECK job 6760 from worker Core Worker 1175 timed out after 30.01s
+[1612422681] wproc:   host=Switch_29; service=(null);
+[1612422681] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612422681] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612422681] wproc: Core Worker 1175: job 6760 (pid=2499): Dormant child reaped
+[1612422919] HOST NOTIFICATION: nagiosadmin;Director_Bldg;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.95 ms
+[1612422919] HOST ALERT: Director_Bldg;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.95 ms
+[1612422938] HOST NOTIFICATION: nagiosadmin;Director_Resident;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.30 ms
+[1612422938] HOST ALERT: Director_Resident;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.30 ms
+[1612423254] SERVICE ALERT: Director_Bldg;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 4.66 ms
+[1612423255] SERVICE ALERT: Director_Resident;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 7.27 ms
+[1612423281] wproc: Core Worker 1177: job 6783 (pid=3064) timed out. Killing it
+[1612423281] wproc: CHECK job 6783 from worker Core Worker 1177 timed out after 30.01s
+[1612423281] wproc:   host=Switch_29; service=(null);
+[1612423281] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612423281] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612423281] wproc: Core Worker 1177: job 6783 (pid=3064): Dormant child reaped
+[1612423852] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612423881] wproc: Core Worker 1178: job 6806 (pid=3632) timed out. Killing it
+[1612423881] wproc: CHECK job 6806 from worker Core Worker 1178 timed out after 30.01s
+[1612423881] wproc:   host=Switch_29; service=(null);
+[1612423881] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612423881] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612423881] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1612423881] wproc: Core Worker 1178: job 6806 (pid=3632): Dormant child reaped
+[1612423882] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612423883] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612424157] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612424160] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612424481] wproc: Core Worker 1176: job 6831 (pid=4257) timed out. Killing it
+[1612424481] wproc: CHECK job 6831 from worker Core Worker 1176 timed out after 30.00s
+[1612424481] wproc:   host=Switch_29; service=(null);
+[1612424481] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612424481] Warning: Check of host 'Switch_29' timed out after 30.00 seconds
+[1612424481] wproc: Core Worker 1176: job 6831 (pid=4257): Dormant child reaped
+[1612425049] Auto-save of retention data completed successfully.
+[1612425081] wproc: Core Worker 1175: job 6854 (pid=4806) timed out. Killing it
+[1612425081] wproc: CHECK job 6854 from worker Core Worker 1175 timed out after 30.01s
+[1612425081] wproc:   host=Switch_29; service=(null);
+[1612425081] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612425081] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612425081] wproc: Core Worker 1175: job 6854 (pid=4806): Dormant child reaped
+[1612425652] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612425681] wproc: Core Worker 1176: job 6877 (pid=5361) timed out. Killing it
+[1612425681] wproc: CHECK job 6877 from worker Core Worker 1176 timed out after 30.01s
+[1612425681] wproc:   host=Switch_29; service=(null);
+[1612425681] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612425681] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612425681] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1612425682] wproc: Core Worker 1176: job 6877 (pid=5361): Dormant child reaped
+[1612425682] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612425683] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612425957] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612425960] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612426281] wproc: Core Worker 1178: job 6901 (pid=5958) timed out. Killing it
+[1612426281] wproc: CHECK job 6901 from worker Core Worker 1178 timed out after 30.01s
+[1612426281] wproc:   host=Switch_29; service=(null);
+[1612426281] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612426281] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612426282] wproc: Core Worker 1178: job 6901 (pid=5958): Dormant child reaped
+[1612426881] wproc: Core Worker 1178: job 6924 (pid=6520) timed out. Killing it
+[1612426881] wproc: CHECK job 6924 from worker Core Worker 1178 timed out after 30.01s
+[1612426881] wproc:   host=Switch_29; service=(null);
+[1612426881] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612426881] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612426882] wproc: Core Worker 1178: job 6924 (pid=6520): Dormant child reaped
+[1612427452] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612427481] wproc: Core Worker 1178: job 6947 (pid=7076) timed out. Killing it
+[1612427481] wproc: CHECK job 6947 from worker Core Worker 1178 timed out after 30.01s
+[1612427481] wproc:   host=Switch_29; service=(null);
+[1612427481] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612427481] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612427481] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1612427482] wproc: Core Worker 1178: job 6947 (pid=7076): Dormant child reaped
+[1612427482] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612427484] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612427757] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612427760] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612428649] Auto-save of retention data completed successfully.
+[1612428684] wproc: Core Worker 1175: job 6996 (pid=8258) timed out. Killing it
+[1612428684] wproc: CHECK job 6996 from worker Core Worker 1175 timed out after 30.01s
+[1612428684] wproc:   host=Switch_33; service=(null);
+[1612428684] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612428684] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1612428684] wproc: Core Worker 1175: job 6996 (pid=8258): Dormant child reaped
+[1612429252] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612429282] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612429284] wproc: Core Worker 1176: job 7019 (pid=8821) timed out. Killing it
+[1612429284] wproc: CHECK job 7019 from worker Core Worker 1176 timed out after 30.01s
+[1612429284] wproc:   host=Switch_33; service=(null);
+[1612429284] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612429284] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1612429284] wproc: Core Worker 1176: job 7019 (pid=8821): Dormant child reaped
+[1612429554] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612429557] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612429560] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612429583] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612429884] wproc: Core Worker 1177: job 7043 (pid=9478) timed out. Killing it
+[1612429884] wproc: CHECK job 7043 from worker Core Worker 1177 timed out after 30.01s
+[1612429884] wproc:   host=Switch_33; service=(null);
+[1612429884] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612429884] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1612429884] wproc: Core Worker 1177: job 7043 (pid=9478): Dormant child reaped
+[1612430481] wproc: Core Worker 1176: job 7065 (pid=10023) timed out. Killing it
+[1612430481] wproc: CHECK job 7065 from worker Core Worker 1176 timed out after 30.00s
+[1612430481] wproc:   host=Switch_29; service=(null);
+[1612430481] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612430481] Warning: Check of host 'Switch_29' timed out after 30.00 seconds
+[1612430481] wproc: Core Worker 1176: job 7065 (pid=10023): Dormant child reaped
+[1612431052] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1612431081] wproc: Core Worker 1176: job 7088 (pid=10575) timed out. Killing it
+[1612431081] wproc: CHECK job 7088 from worker Core Worker 1176 timed out after 30.00s
+[1612431081] wproc:   host=Switch_29; service=(null);
+[1612431081] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612431081] Warning: Check of host 'Switch_29' timed out after 30.00 seconds
+[1612431081] wproc: Core Worker 1176: job 7088 (pid=10575): Dormant child reaped
+[1612431082] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612431354] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612431357] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1612431360] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1612431383] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1612431681] wproc: Core Worker 1175: job 7113 (pid=11186) timed out. Killing it
+[1612431681] wproc: CHECK job 7113 from worker Core Worker 1175 timed out after 30.01s
+[1612431681] wproc:   host=Switch_29; service=(null);
+[1612431681] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612431681] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1612431681] wproc: Core Worker 1175: job 7113 (pid=11186): Dormant child reaped
+[1612431685] HOST NOTIFICATION: nagiosadmin;Switch_31;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 1.41 ms
+[1612431685] HOST ALERT: Switch_31;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 1.41 ms
+[1612431956] HOST NOTIFICATION: nagiosadmin;Switch_30;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 0.88 ms
+[1612431956] HOST ALERT: Switch_30;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 0.88 ms
+[1612431959] HOST NOTIFICATION: nagiosadmin;Switch_33;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 1.55 ms
+[1612431959] HOST ALERT: Switch_33;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 1.55 ms
+[1612431962] HOST NOTIFICATION: nagiosadmin;Switch_34;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 0.94 ms
+[1612431962] HOST ALERT: Switch_34;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 0.94 ms
+[1612432249] Auto-save of retention data completed successfully.
+[1612432253] SERVICE ALERT: Switch_30;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 6.69 ms
+[1612432254] SERVICE ALERT: Switch_33;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 8.42 ms
+[1612432255] SERVICE ALERT: Switch_34;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 5.11 ms
+[1612432257] SERVICE ALERT: Switch_31;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 6.58 ms
+[1612432882] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612433154] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612434682] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612434954] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1612435849] Auto-save of retention data completed successfully.
+[1612436156] HOST NOTIFICATION: nagiosadmin;Switch_29;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 0.81 ms
+[1612436156] HOST ALERT: Switch_29;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 0.81 ms
+[1612436457] SERVICE ALERT: Switch_29;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 11.21 ms
+[1612436482] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612437275] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.44 ms
+[1612437339] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1612438282] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612439449] Auto-save of retention data completed successfully.
+[1612440082] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1612440654] SERVICE ALERT: Switch_32;check-host-alive;OK;HARD;3;PING OK - Packet loss = 20%, RTA = 3.73 ms
+[1612440658] HOST NOTIFICATION: nagiosadmin;Switch_32;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 7.55 ms
+[1612440658] HOST ALERT: Switch_32;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 7.55 ms
+[1612443049] Auto-save of retention data completed successfully.
+[1612443053] SERVICE ALERT: Director_Bldg;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Host Unreachable (10.3.1.10)
+[1612443054] SERVICE ALERT: Director_Resident;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Host Unreachable (10.1.1.26)
+[1612443056] HOST ALERT: Director_Bldg;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.3.1.10)
+[1612443064] wproc: Core Worker 1175: job 7547 (pid=21792) timed out. Killing it
+[1612443064] wproc: CHECK job 7547 from worker Core Worker 1175 timed out after 30.01s
+[1612443064] wproc:   host=Director_Resident; service=(null);
+[1612443064] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1612443064] Warning: Check of host 'Director_Resident' timed out after 30.01 seconds
+[1612443064] HOST ALERT: Director_Resident;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1612443064] wproc: Core Worker 1175: job 7547 (pid=21792): Dormant child reaped
+[1612443119] HOST ALERT: Director_Bldg;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.3.1.10)
+[1612443127] HOST ALERT: Director_Resident;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.26)
+[1612443176] SERVICE ALERT: Director_Bldg;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.3.1.10)
+[1612443177] SERVICE ALERT: Director_Resident;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.1.1.26)
+[1612443182] HOST ALERT: Director_Bldg;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.3.1.10)
+[1612443190] HOST ALERT: Director_Resident;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.26)
+[1612443245] HOST ALERT: Director_Bldg;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.3.1.10)
+[1612443253] HOST ALERT: Director_Resident;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.26)
+[1612443306] HOST ALERT: Director_Bldg;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.3.1.10)
+[1612443316] HOST ALERT: Director_Resident;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.26)
+[1612443369] HOST ALERT: Director_Bldg;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.3.1.10)
+[1612443379] HOST ALERT: Director_Resident;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.26)
+[1612443432] HOST ALERT: Director_Bldg;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.3.1.10)
+[1612443442] HOST ALERT: Director_Resident;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.26)
+[1612443495] HOST ALERT: Director_Bldg;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.3.1.10)
+[1612443505] HOST ALERT: Director_Resident;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.26)
+[1612443558] HOST ALERT: Director_Bldg;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.3.1.10)
+[1612443568] HOST ALERT: Director_Resident;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.26)
+[1612443621] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1612443621] HOST ALERT: Director_Bldg;DOWN;HARD;10;CRITICAL - Host Unreachable (10.3.1.10)
+[1612443631] HOST NOTIFICATION: nagiosadmin;Director_Resident;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.26)
+[1612443631] HOST ALERT: Director_Resident;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.26)
+[1612444825] HOST NOTIFICATION: nagiosadmin;Director_Bldg;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.55 ms
+[1612444825] HOST ALERT: Director_Bldg;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.55 ms
+[1612444835] HOST NOTIFICATION: nagiosadmin;Director_Resident;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.77 ms
+[1612444835] HOST ALERT: Director_Resident;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.77 ms
+[1612444977] SERVICE ALERT: Director_Bldg;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.61 ms
+[1612444978] SERVICE ALERT: Director_Resident;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1612446649] Auto-save of retention data completed successfully.
+[1612448504] SERVICE ALERT: esxi03;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.37 ms
+[1612448568] SERVICE ALERT: esxi03;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1612450249] Auto-save of retention data completed successfully.
+[1612451478] SERVICE ALERT: esxi02;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.53 ms
+[1612451542] SERVICE ALERT: esxi02;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.34 ms
+[1612453849] Auto-save of retention data completed successfully.
+[1612457449] Auto-save of retention data completed successfully.
+[1612461049] Auto-save of retention data completed successfully.

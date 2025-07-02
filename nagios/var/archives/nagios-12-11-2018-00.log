@@ -1,0 +1,1068 @@
+[1544380200] LOG ROTATION: DAILY
+[1544380200] LOG VERSION: 2.0
+[1544380200] CURRENT HOST STATE: esxi01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.53 ms
+[1544380200] CURRENT HOST STATE: esxi02;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1544380200] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1544380200] CURRENT HOST STATE: localhost.localdomain;DOWN;HARD;10;CRITICAL - Host Unreachable (10.5.5.15)
+[1544380200] CURRENT HOST STATE: router1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.61 ms
+[1544380200] CURRENT HOST STATE: router2;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.77 ms
+[1544380200] CURRENT HOST STATE: router3;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.67 ms
+[1544380200] CURRENT SERVICE STATE: esxi01;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1544380200] CURRENT SERVICE STATE: esxi01;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.55 ms
+[1544380200] CURRENT SERVICE STATE: esxi02;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1544380200] CURRENT SERVICE STATE: esxi02;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1544380200] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1544380200] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1544380200] CURRENT SERVICE STATE: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1544380200] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1544380200] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 44739 MB (87.42% inode=99%):
+[1544380200] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1544380200] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1544380200] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 76 processes with STATE = RSZDT
+[1544380200] CURRENT SERVICE STATE: localhost.localdomain;Current Load;OK;HARD;1;OK - load average: 0.00, 0.04, 0.20
+[1544380200] CURRENT SERVICE STATE: localhost.localdomain;Current Users;OK;HARD;1;USERS OK - 2 users currently logged in
+[1544380200] CURRENT SERVICE STATE: localhost.localdomain;HTTP;CRITICAL;HARD;4;connect to address 10.5.5.15 and port 80: No route to host
+[1544380200] CURRENT SERVICE STATE: localhost.localdomain;PING;CRITICAL;HARD;4;CRITICAL - Host Unreachable (10.5.5.15)
+[1544380200] CURRENT SERVICE STATE: localhost.localdomain;Root Partition;OK;HARD;1;DISK OK - free space: / 44739 MB (87.42% inode=99%):
+[1544380200] CURRENT SERVICE STATE: localhost.localdomain;SSH;CRITICAL;HARD;4;connect to address 10.5.5.15 and port 22: No route to host
+[1544380200] CURRENT SERVICE STATE: localhost.localdomain;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1544380200] CURRENT SERVICE STATE: localhost.localdomain;Total Processes;OK;HARD;1;PROCS OK: 79 processes with STATE = RSZDT
+[1544380200] CURRENT SERVICE STATE: router1;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.64 ms
+[1544380200] CURRENT SERVICE STATE: router2;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.80 ms
+[1544380200] CURRENT SERVICE STATE: router3;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.74 ms
+[1544381511] SERVICE ALERT: router1;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1544381514] wproc: Core Worker 26767: job 5390 (pid=5331) timed out. Killing it
+[1544381514] wproc: CHECK job 5390 from worker Core Worker 26767 timed out after 30.01s
+[1544381514] wproc:   host=router1; service=(null);
+[1544381514] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544381514] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544381514] HOST ALERT: router1;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1544381514] wproc: Core Worker 26767: job 5390 (pid=5331): Dormant child reaped
+[1544381604] wproc: Core Worker 26765: job 5392 (pid=5350) timed out. Killing it
+[1544381604] wproc: CHECK job 5392 from worker Core Worker 26765 timed out after 30.01s
+[1544381604] wproc:   host=router1; service=(null);
+[1544381604] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544381604] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544381604] wproc: Core Worker 26765: job 5392 (pid=5350): Dormant child reaped
+[1544381662] SERVICE NOTIFICATION: nagiosadmin;router1;check-host-alive;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out
+[1544381662] SERVICE ALERT: router1;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1544381694] wproc: Core Worker 26768: job 5394 (pid=5392) timed out. Killing it
+[1544381694] wproc: CHECK job 5394 from worker Core Worker 26768 timed out after 30.01s
+[1544381694] wproc:   host=router1; service=(null);
+[1544381694] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544381694] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544381694] wproc: Core Worker 26768: job 5394 (pid=5392): Dormant child reaped
+[1544381784] wproc: Core Worker 26766: job 5397 (pid=5417) timed out. Killing it
+[1544381784] wproc: CHECK job 5397 from worker Core Worker 26766 timed out after 30.04s
+[1544381784] wproc:   host=router1; service=(null);
+[1544381784] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544381784] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1544381784] wproc: Core Worker 26766: job 5397 (pid=5417): Dormant child reaped
+[1544381874] wproc: Core Worker 26765: job 5399 (pid=5446) timed out. Killing it
+[1544381874] wproc: CHECK job 5399 from worker Core Worker 26765 timed out after 30.01s
+[1544381874] wproc:   host=router1; service=(null);
+[1544381874] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544381874] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544381874] wproc: Core Worker 26765: job 5399 (pid=5446): Dormant child reaped
+[1544381964] wproc: Core Worker 26767: job 5400 (pid=5466) timed out. Killing it
+[1544381964] wproc: CHECK job 5400 from worker Core Worker 26767 timed out after 30.03s
+[1544381964] wproc:   host=router1; service=(null);
+[1544381964] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544381964] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544381964] wproc: Core Worker 26767: job 5400 (pid=5466): Dormant child reaped
+[1544382054] wproc: Core Worker 26768: job 5402 (pid=5512) timed out. Killing it
+[1544382054] wproc: CHECK job 5402 from worker Core Worker 26768 timed out after 30.03s
+[1544382054] wproc:   host=router1; service=(null);
+[1544382054] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544382054] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544382054] wproc: Core Worker 26768: job 5402 (pid=5512): Dormant child reaped
+[1544382138] Auto-save of retention data completed successfully.
+[1544382144] wproc: Core Worker 26766: job 5404 (pid=5538) timed out. Killing it
+[1544382144] wproc: CHECK job 5404 from worker Core Worker 26766 timed out after 30.01s
+[1544382144] wproc:   host=router1; service=(null);
+[1544382144] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544382144] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544382144] wproc: Core Worker 26766: job 5404 (pid=5538): Dormant child reaped
+[1544382234] wproc: Core Worker 26767: job 5405 (pid=5570) timed out. Killing it
+[1544382234] wproc: CHECK job 5405 from worker Core Worker 26767 timed out after 30.01s
+[1544382234] wproc:   host=router1; service=(null);
+[1544382234] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544382234] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544382234] wproc: Core Worker 26767: job 5405 (pid=5570): Dormant child reaped
+[1544382324] wproc: Core Worker 26767: job 5408 (pid=5624) timed out. Killing it
+[1544382324] wproc: CHECK job 5408 from worker Core Worker 26767 timed out after 30.02s
+[1544382324] wproc:   host=router1; service=(null);
+[1544382324] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544382324] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1544382324] HOST NOTIFICATION: nagiosadmin;router1;DOWN;notify-host-by-email;(Host check timed out after 30.02 seconds)
+[1544382324] HOST ALERT: router1;DOWN;HARD;10;(Host check timed out after 30.02 seconds)
+[1544382324] wproc: Core Worker 26767: job 5408 (pid=5624): Dormant child reaped
+[1544382654] wproc: Core Worker 26768: job 5414 (pid=5766) timed out. Killing it
+[1544382654] wproc: CHECK job 5414 from worker Core Worker 26768 timed out after 30.04s
+[1544382654] wproc:   host=router1; service=(null);
+[1544382654] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544382654] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1544382654] wproc: Core Worker 26768: job 5414 (pid=5766): Dormant child reaped
+[1544382954] wproc: Core Worker 26768: job 5420 (pid=5848) timed out. Killing it
+[1544382954] wproc: CHECK job 5420 from worker Core Worker 26768 timed out after 30.03s
+[1544382954] wproc:   host=router1; service=(null);
+[1544382954] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544382954] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544382954] wproc: Core Worker 26768: job 5420 (pid=5848): Dormant child reaped
+[1544383254] wproc: Core Worker 26765: job 5426 (pid=5940) timed out. Killing it
+[1544383254] wproc: CHECK job 5426 from worker Core Worker 26765 timed out after 30.00s
+[1544383254] wproc:   host=router1; service=(null);
+[1544383254] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544383254] Warning: Check of host 'router1' timed out after 30.00 seconds
+[1544383254] wproc: Core Worker 26765: job 5426 (pid=5940): Dormant child reaped
+[1544383554] wproc: Core Worker 26765: job 5432 (pid=6034) timed out. Killing it
+[1544383554] wproc: CHECK job 5432 from worker Core Worker 26765 timed out after 30.01s
+[1544383554] wproc:   host=router1; service=(null);
+[1544383554] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544383554] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544383554] wproc: Core Worker 26765: job 5432 (pid=6034): Dormant child reaped
+[1544383854] wproc: Core Worker 26766: job 5437 (pid=6129) timed out. Killing it
+[1544383854] wproc: CHECK job 5437 from worker Core Worker 26766 timed out after 30.02s
+[1544383854] wproc:   host=router1; service=(null);
+[1544383854] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544383854] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1544383854] wproc: Core Worker 26766: job 5437 (pid=6129): Dormant child reaped
+[1544384154] wproc: Core Worker 26766: job 5443 (pid=6244) timed out. Killing it
+[1544384154] wproc: CHECK job 5443 from worker Core Worker 26766 timed out after 30.00s
+[1544384154] wproc:   host=router1; service=(null);
+[1544384154] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544384154] Warning: Check of host 'router1' timed out after 30.00 seconds
+[1544384154] HOST NOTIFICATION: nagiosadmin;router1;DOWN;notify-host-by-email;(Host check timed out after 30.00 seconds)
+[1544384154] wproc: Core Worker 26766: job 5443 (pid=6244): Dormant child reaped
+[1544384454] wproc: Core Worker 26768: job 5448 (pid=6346) timed out. Killing it
+[1544384454] wproc: CHECK job 5448 from worker Core Worker 26768 timed out after 30.01s
+[1544384454] wproc:   host=router1; service=(null);
+[1544384454] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544384454] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544384454] wproc: Core Worker 26768: job 5448 (pid=6346): Dormant child reaped
+[1544384754] wproc: Core Worker 26768: job 5454 (pid=6428) timed out. Killing it
+[1544384754] wproc: CHECK job 5454 from worker Core Worker 26768 timed out after 30.01s
+[1544384754] wproc:   host=router1; service=(null);
+[1544384754] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544384754] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544384754] wproc: Core Worker 26768: job 5454 (pid=6428): Dormant child reaped
+[1544385054] wproc: Core Worker 26765: job 5460 (pid=6520) timed out. Killing it
+[1544385054] wproc: CHECK job 5460 from worker Core Worker 26765 timed out after 30.01s
+[1544385054] wproc:   host=router1; service=(null);
+[1544385054] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544385054] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544385054] wproc: Core Worker 26765: job 5460 (pid=6520): Dormant child reaped
+[1544385354] wproc: Core Worker 26765: job 5466 (pid=6602) timed out. Killing it
+[1544385354] wproc: CHECK job 5466 from worker Core Worker 26765 timed out after 30.03s
+[1544385354] wproc:   host=router1; service=(null);
+[1544385354] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544385354] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544385354] wproc: Core Worker 26765: job 5466 (pid=6602): Dormant child reaped
+[1544385654] wproc: Core Worker 26766: job 5471 (pid=6696) timed out. Killing it
+[1544385654] wproc: CHECK job 5471 from worker Core Worker 26766 timed out after 30.03s
+[1544385654] wproc:   host=router1; service=(null);
+[1544385654] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544385654] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544385654] wproc: Core Worker 26766: job 5471 (pid=6696): Dormant child reaped
+[1544385738] Auto-save of retention data completed successfully.
+[1544385954] wproc: Core Worker 26766: job 5477 (pid=6778) timed out. Killing it
+[1544385954] wproc: CHECK job 5477 from worker Core Worker 26766 timed out after 30.04s
+[1544385954] wproc:   host=router1; service=(null);
+[1544385954] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544385954] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1544385954] HOST NOTIFICATION: nagiosadmin;router1;DOWN;notify-host-by-email;(Host check timed out after 30.04 seconds)
+[1544385955] wproc: Core Worker 26766: job 5477 (pid=6778): Dormant child reaped
+[1544386254] wproc: Core Worker 26768: job 5482 (pid=6881) timed out. Killing it
+[1544386254] wproc: CHECK job 5482 from worker Core Worker 26768 timed out after 30.03s
+[1544386254] wproc:   host=router1; service=(null);
+[1544386254] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544386254] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544386255] wproc: Core Worker 26768: job 5482 (pid=6881): Dormant child reaped
+[1544386554] wproc: Core Worker 26768: job 5488 (pid=6963) timed out. Killing it
+[1544386554] wproc: CHECK job 5488 from worker Core Worker 26768 timed out after 30.01s
+[1544386554] wproc:   host=router1; service=(null);
+[1544386554] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544386554] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544386555] wproc: Core Worker 26768: job 5488 (pid=6963): Dormant child reaped
+[1544386854] wproc: Core Worker 26765: job 5494 (pid=7055) timed out. Killing it
+[1544386854] wproc: CHECK job 5494 from worker Core Worker 26765 timed out after 30.03s
+[1544386854] wproc:   host=router1; service=(null);
+[1544386854] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544386854] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544386855] wproc: Core Worker 26765: job 5494 (pid=7055): Dormant child reaped
+[1544387154] wproc: Core Worker 26765: job 5500 (pid=7137) timed out. Killing it
+[1544387154] wproc: CHECK job 5500 from worker Core Worker 26765 timed out after 30.01s
+[1544387154] wproc:   host=router1; service=(null);
+[1544387154] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544387154] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544387155] wproc: Core Worker 26765: job 5500 (pid=7137): Dormant child reaped
+[1544387454] wproc: Core Worker 26766: job 5505 (pid=7232) timed out. Killing it
+[1544387454] wproc: CHECK job 5505 from worker Core Worker 26766 timed out after 30.02s
+[1544387454] wproc:   host=router1; service=(null);
+[1544387454] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544387454] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1544387455] wproc: Core Worker 26766: job 5505 (pid=7232): Dormant child reaped
+[1544387754] wproc: Core Worker 26766: job 5511 (pid=7346) timed out. Killing it
+[1544387754] wproc: CHECK job 5511 from worker Core Worker 26766 timed out after 30.02s
+[1544387754] wproc:   host=router1; service=(null);
+[1544387754] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544387754] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1544387754] HOST NOTIFICATION: nagiosadmin;router1;DOWN;notify-host-by-email;(Host check timed out after 30.02 seconds)
+[1544387755] wproc: Core Worker 26766: job 5511 (pid=7346): Dormant child reaped
+[1544388054] wproc: Core Worker 26768: job 5516 (pid=7445) timed out. Killing it
+[1544388054] wproc: CHECK job 5516 from worker Core Worker 26768 timed out after 30.04s
+[1544388054] wproc:   host=router1; service=(null);
+[1544388054] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544388054] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1544388055] wproc: Core Worker 26768: job 5516 (pid=7445): Dormant child reaped
+[1544388354] wproc: Core Worker 26768: job 5522 (pid=7527) timed out. Killing it
+[1544388354] wproc: CHECK job 5522 from worker Core Worker 26768 timed out after 30.01s
+[1544388354] wproc:   host=router1; service=(null);
+[1544388354] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544388354] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544388355] wproc: Core Worker 26768: job 5522 (pid=7527): Dormant child reaped
+[1544388654] wproc: Core Worker 26765: job 5528 (pid=7621) timed out. Killing it
+[1544388654] wproc: CHECK job 5528 from worker Core Worker 26765 timed out after 30.04s
+[1544388654] wproc:   host=router1; service=(null);
+[1544388654] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544388654] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1544388655] wproc: Core Worker 26765: job 5528 (pid=7621): Dormant child reaped
+[1544388955] wproc: Core Worker 26765: job 5534 (pid=7710) timed out. Killing it
+[1544388955] wproc: CHECK job 5534 from worker Core Worker 26765 timed out after 30.03s
+[1544388955] wproc:   host=router1; service=(null);
+[1544388955] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544388955] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544388955] wproc: Core Worker 26765: job 5534 (pid=7710): Dormant child reaped
+[1544389254] wproc: Core Worker 26766: job 5539 (pid=7799) timed out. Killing it
+[1544389254] wproc: CHECK job 5539 from worker Core Worker 26766 timed out after 30.04s
+[1544389254] wproc:   host=router1; service=(null);
+[1544389254] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544389254] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1544389254] wproc: Core Worker 26766: job 5539 (pid=7799): Dormant child reaped
+[1544389338] Auto-save of retention data completed successfully.
+[1544389554] wproc: Core Worker 26766: job 5545 (pid=7883) timed out. Killing it
+[1544389554] wproc: CHECK job 5545 from worker Core Worker 26766 timed out after 30.00s
+[1544389554] wproc:   host=router1; service=(null);
+[1544389554] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544389554] Warning: Check of host 'router1' timed out after 30.00 seconds
+[1544389554] HOST NOTIFICATION: nagiosadmin;router1;DOWN;notify-host-by-email;(Host check timed out after 30.00 seconds)
+[1544389554] wproc: Core Worker 26766: job 5545 (pid=7883): Dormant child reaped
+[1544389854] wproc: Core Worker 26768: job 5550 (pid=7985) timed out. Killing it
+[1544389854] wproc: CHECK job 5550 from worker Core Worker 26768 timed out after 30.01s
+[1544389854] wproc:   host=router1; service=(null);
+[1544389854] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544389854] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544389854] wproc: Core Worker 26768: job 5550 (pid=7985): Dormant child reaped
+[1544390154] wproc: Core Worker 26768: job 5556 (pid=8068) timed out. Killing it
+[1544390154] wproc: CHECK job 5556 from worker Core Worker 26768 timed out after 30.03s
+[1544390154] wproc:   host=router1; service=(null);
+[1544390154] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544390154] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544390154] wproc: Core Worker 26768: job 5556 (pid=8068): Dormant child reaped
+[1544390454] wproc: Core Worker 26765: job 5562 (pid=8161) timed out. Killing it
+[1544390454] wproc: CHECK job 5562 from worker Core Worker 26765 timed out after 30.01s
+[1544390454] wproc:   host=router1; service=(null);
+[1544390454] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544390454] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544390454] wproc: Core Worker 26765: job 5562 (pid=8161): Dormant child reaped
+[1544390754] wproc: Core Worker 26765: job 5568 (pid=8244) timed out. Killing it
+[1544390754] wproc: CHECK job 5568 from worker Core Worker 26765 timed out after 30.01s
+[1544390754] wproc:   host=router1; service=(null);
+[1544390754] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544390754] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544390754] wproc: Core Worker 26765: job 5568 (pid=8244): Dormant child reaped
+[1544391054] wproc: Core Worker 26766: job 5573 (pid=8339) timed out. Killing it
+[1544391054] wproc: CHECK job 5573 from worker Core Worker 26766 timed out after 30.03s
+[1544391054] wproc:   host=router1; service=(null);
+[1544391054] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544391054] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544391054] wproc: Core Worker 26766: job 5573 (pid=8339): Dormant child reaped
+[1544391354] wproc: Core Worker 26766: job 5579 (pid=8457) timed out. Killing it
+[1544391354] wproc: CHECK job 5579 from worker Core Worker 26766 timed out after 30.03s
+[1544391354] wproc:   host=router1; service=(null);
+[1544391354] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544391354] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544391354] HOST NOTIFICATION: nagiosadmin;router1;DOWN;notify-host-by-email;(Host check timed out after 30.03 seconds)
+[1544391354] wproc: Core Worker 26766: job 5579 (pid=8457): Dormant child reaped
+[1544391654] wproc: Core Worker 26768: job 5584 (pid=8565) timed out. Killing it
+[1544391654] wproc: CHECK job 5584 from worker Core Worker 26768 timed out after 30.03s
+[1544391654] wproc:   host=router1; service=(null);
+[1544391654] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544391654] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544391654] wproc: Core Worker 26768: job 5584 (pid=8565): Dormant child reaped
+[1544391954] wproc: Core Worker 26768: job 5590 (pid=8651) timed out. Killing it
+[1544391954] wproc: CHECK job 5590 from worker Core Worker 26768 timed out after 30.03s
+[1544391954] wproc:   host=router1; service=(null);
+[1544391954] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544391954] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544391954] wproc: Core Worker 26768: job 5590 (pid=8651): Dormant child reaped
+[1544392254] wproc: Core Worker 26765: job 5596 (pid=8752) timed out. Killing it
+[1544392254] wproc: CHECK job 5596 from worker Core Worker 26765 timed out after 30.03s
+[1544392254] wproc:   host=router1; service=(null);
+[1544392254] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544392254] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544392254] wproc: Core Worker 26765: job 5596 (pid=8752): Dormant child reaped
+[1544392554] wproc: Core Worker 26765: job 5602 (pid=8834) timed out. Killing it
+[1544392554] wproc: CHECK job 5602 from worker Core Worker 26765 timed out after 30.01s
+[1544392554] wproc:   host=router1; service=(null);
+[1544392554] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544392554] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544392554] wproc: Core Worker 26765: job 5602 (pid=8834): Dormant child reaped
+[1544392854] wproc: Core Worker 26766: job 5607 (pid=8966) timed out. Killing it
+[1544392854] wproc: CHECK job 5607 from worker Core Worker 26766 timed out after 30.02s
+[1544392854] wproc:   host=router1; service=(null);
+[1544392854] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544392854] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1544392854] wproc: Core Worker 26766: job 5607 (pid=8966): Dormant child reaped
+[1544392938] Auto-save of retention data completed successfully.
+[1544393154] wproc: Core Worker 26766: job 5613 (pid=9049) timed out. Killing it
+[1544393154] wproc: CHECK job 5613 from worker Core Worker 26766 timed out after 30.01s
+[1544393154] wproc:   host=router1; service=(null);
+[1544393154] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544393154] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544393154] HOST NOTIFICATION: nagiosadmin;router1;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1544393154] wproc: Core Worker 26766: job 5613 (pid=9049): Dormant child reaped
+[1544393454] wproc: Core Worker 26768: job 5618 (pid=9159) timed out. Killing it
+[1544393454] wproc: CHECK job 5618 from worker Core Worker 26768 timed out after 30.02s
+[1544393454] wproc:   host=router1; service=(null);
+[1544393454] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544393454] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1544393454] wproc: Core Worker 26768: job 5618 (pid=9159): Dormant child reaped
+[1544393754] wproc: Core Worker 26768: job 5624 (pid=9242) timed out. Killing it
+[1544393754] wproc: CHECK job 5624 from worker Core Worker 26768 timed out after 30.02s
+[1544393754] wproc:   host=router1; service=(null);
+[1544393754] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544393754] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1544393754] wproc: Core Worker 26768: job 5624 (pid=9242): Dormant child reaped
+[1544394054] wproc: Core Worker 26765: job 5630 (pid=9337) timed out. Killing it
+[1544394054] wproc: CHECK job 5630 from worker Core Worker 26765 timed out after 30.01s
+[1544394054] wproc:   host=router1; service=(null);
+[1544394054] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544394054] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544394054] wproc: Core Worker 26765: job 5630 (pid=9337): Dormant child reaped
+[1544394354] wproc: Core Worker 26765: job 5636 (pid=9419) timed out. Killing it
+[1544394354] wproc: CHECK job 5636 from worker Core Worker 26765 timed out after 30.01s
+[1544394354] wproc:   host=router1; service=(null);
+[1544394354] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544394354] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544394354] wproc: Core Worker 26765: job 5636 (pid=9419): Dormant child reaped
+[1544394654] wproc: Core Worker 26766: job 5641 (pid=9521) timed out. Killing it
+[1544394654] wproc: CHECK job 5641 from worker Core Worker 26766 timed out after 30.01s
+[1544394654] wproc:   host=router1; service=(null);
+[1544394654] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544394654] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544394654] wproc: Core Worker 26766: job 5641 (pid=9521): Dormant child reaped
+[1544394954] wproc: Core Worker 26766: job 5647 (pid=9699) timed out. Killing it
+[1544394954] wproc: CHECK job 5647 from worker Core Worker 26766 timed out after 30.00s
+[1544394954] wproc:   host=router1; service=(null);
+[1544394954] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544394954] Warning: Check of host 'router1' timed out after 30.00 seconds
+[1544394954] HOST NOTIFICATION: nagiosadmin;router1;DOWN;notify-host-by-email;(Host check timed out after 30.00 seconds)
+[1544394954] wproc: Core Worker 26766: job 5647 (pid=9699): Dormant child reaped
+[1544395254] wproc: Core Worker 26768: job 5652 (pid=9804) timed out. Killing it
+[1544395254] wproc: CHECK job 5652 from worker Core Worker 26768 timed out after 30.01s
+[1544395254] wproc:   host=router1; service=(null);
+[1544395254] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544395254] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544395254] wproc: Core Worker 26768: job 5652 (pid=9804): Dormant child reaped
+[1544395554] wproc: Core Worker 26768: job 5658 (pid=9887) timed out. Killing it
+[1544395554] wproc: CHECK job 5658 from worker Core Worker 26768 timed out after 30.02s
+[1544395554] wproc:   host=router1; service=(null);
+[1544395554] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544395554] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1544395554] wproc: Core Worker 26768: job 5658 (pid=9887): Dormant child reaped
+[1544395854] wproc: Core Worker 26765: job 5664 (pid=9977) timed out. Killing it
+[1544395854] wproc: CHECK job 5664 from worker Core Worker 26765 timed out after 30.03s
+[1544395854] wproc:   host=router1; service=(null);
+[1544395854] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544395854] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544395854] wproc: Core Worker 26765: job 5664 (pid=9977): Dormant child reaped
+[1544396154] wproc: Core Worker 26765: job 5670 (pid=10059) timed out. Killing it
+[1544396154] wproc: CHECK job 5670 from worker Core Worker 26765 timed out after 30.01s
+[1544396154] wproc:   host=router1; service=(null);
+[1544396154] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544396154] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544396154] wproc: Core Worker 26765: job 5670 (pid=10059): Dormant child reaped
+[1544396454] wproc: Core Worker 26766: job 5675 (pid=10153) timed out. Killing it
+[1544396454] wproc: CHECK job 5675 from worker Core Worker 26766 timed out after 30.01s
+[1544396454] wproc:   host=router1; service=(null);
+[1544396454] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544396454] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544396454] wproc: Core Worker 26766: job 5675 (pid=10153): Dormant child reaped
+[1544396538] Auto-save of retention data completed successfully.
+[1544396754] wproc: Core Worker 26766: job 5681 (pid=10235) timed out. Killing it
+[1544396754] wproc: CHECK job 5681 from worker Core Worker 26766 timed out after 30.01s
+[1544396754] wproc:   host=router1; service=(null);
+[1544396754] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544396754] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544396754] HOST NOTIFICATION: nagiosadmin;router1;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1544396754] wproc: Core Worker 26766: job 5681 (pid=10235): Dormant child reaped
+[1544397054] wproc: Core Worker 26768: job 5686 (pid=10336) timed out. Killing it
+[1544397054] wproc: CHECK job 5686 from worker Core Worker 26768 timed out after 30.03s
+[1544397054] wproc:   host=router1; service=(null);
+[1544397054] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544397054] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544397054] wproc: Core Worker 26768: job 5686 (pid=10336): Dormant child reaped
+[1544397354] wproc: Core Worker 26768: job 5692 (pid=10418) timed out. Killing it
+[1544397354] wproc: CHECK job 5692 from worker Core Worker 26768 timed out after 30.01s
+[1544397354] wproc:   host=router1; service=(null);
+[1544397354] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544397354] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544397354] wproc: Core Worker 26768: job 5692 (pid=10418): Dormant child reaped
+[1544397654] wproc: Core Worker 26765: job 5698 (pid=10513) timed out. Killing it
+[1544397654] wproc: CHECK job 5698 from worker Core Worker 26765 timed out after 30.04s
+[1544397654] wproc:   host=router1; service=(null);
+[1544397654] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544397654] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1544397654] wproc: Core Worker 26765: job 5698 (pid=10513): Dormant child reaped
+[1544397954] wproc: Core Worker 26765: job 5704 (pid=10595) timed out. Killing it
+[1544397954] wproc: CHECK job 5704 from worker Core Worker 26765 timed out after 30.03s
+[1544397954] wproc:   host=router1; service=(null);
+[1544397954] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544397954] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544397954] wproc: Core Worker 26765: job 5704 (pid=10595): Dormant child reaped
+[1544398254] wproc: Core Worker 26766: job 5709 (pid=10688) timed out. Killing it
+[1544398254] wproc: CHECK job 5709 from worker Core Worker 26766 timed out after 30.03s
+[1544398254] wproc:   host=router1; service=(null);
+[1544398254] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544398254] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544398254] wproc: Core Worker 26766: job 5709 (pid=10688): Dormant child reaped
+[1544398554] wproc: Core Worker 26766: job 5715 (pid=10798) timed out. Killing it
+[1544398554] wproc: CHECK job 5715 from worker Core Worker 26766 timed out after 30.03s
+[1544398554] wproc:   host=router1; service=(null);
+[1544398554] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544398554] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544398554] HOST NOTIFICATION: nagiosadmin;router1;DOWN;notify-host-by-email;(Host check timed out after 30.03 seconds)
+[1544398554] wproc: Core Worker 26766: job 5715 (pid=10798): Dormant child reaped
+[1544398854] wproc: Core Worker 26768: job 5720 (pid=10899) timed out. Killing it
+[1544398854] wproc: CHECK job 5720 from worker Core Worker 26768 timed out after 30.03s
+[1544398854] wproc:   host=router1; service=(null);
+[1544398854] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544398854] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544398854] wproc: Core Worker 26768: job 5720 (pid=10899): Dormant child reaped
+[1544399154] wproc: Core Worker 26768: job 5726 (pid=10981) timed out. Killing it
+[1544399154] wproc: CHECK job 5726 from worker Core Worker 26768 timed out after 30.02s
+[1544399154] wproc:   host=router1; service=(null);
+[1544399154] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544399154] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1544399154] wproc: Core Worker 26768: job 5726 (pid=10981): Dormant child reaped
+[1544399454] wproc: Core Worker 26765: job 5732 (pid=11074) timed out. Killing it
+[1544399454] wproc: CHECK job 5732 from worker Core Worker 26765 timed out after 30.03s
+[1544399454] wproc:   host=router1; service=(null);
+[1544399454] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544399454] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544399455] wproc: Core Worker 26765: job 5732 (pid=11074): Dormant child reaped
+[1544399754] wproc: Core Worker 26765: job 5738 (pid=11156) timed out. Killing it
+[1544399754] wproc: CHECK job 5738 from worker Core Worker 26765 timed out after 30.01s
+[1544399754] wproc:   host=router1; service=(null);
+[1544399754] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544399754] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544399755] wproc: Core Worker 26765: job 5738 (pid=11156): Dormant child reaped
+[1544400054] wproc: Core Worker 26766: job 5743 (pid=11250) timed out. Killing it
+[1544400054] wproc: CHECK job 5743 from worker Core Worker 26766 timed out after 30.03s
+[1544400054] wproc:   host=router1; service=(null);
+[1544400054] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544400054] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544400055] wproc: Core Worker 26766: job 5743 (pid=11250): Dormant child reaped
+[1544400138] Auto-save of retention data completed successfully.
+[1544400354] wproc: Core Worker 26766: job 5749 (pid=11332) timed out. Killing it
+[1544400354] wproc: CHECK job 5749 from worker Core Worker 26766 timed out after 30.04s
+[1544400354] wproc:   host=router1; service=(null);
+[1544400354] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544400354] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1544400354] HOST NOTIFICATION: nagiosadmin;router1;DOWN;notify-host-by-email;(Host check timed out after 30.04 seconds)
+[1544400355] wproc: Core Worker 26766: job 5749 (pid=11332): Dormant child reaped
+[1544400654] wproc: Core Worker 26768: job 5754 (pid=11430) timed out. Killing it
+[1544400654] wproc: CHECK job 5754 from worker Core Worker 26768 timed out after 30.03s
+[1544400654] wproc:   host=router1; service=(null);
+[1544400654] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544400654] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544400655] wproc: Core Worker 26768: job 5754 (pid=11430): Dormant child reaped
+[1544400954] wproc: Core Worker 26768: job 5760 (pid=11513) timed out. Killing it
+[1544400954] wproc: CHECK job 5760 from worker Core Worker 26768 timed out after 30.03s
+[1544400954] wproc:   host=router1; service=(null);
+[1544400954] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544400954] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544400955] wproc: Core Worker 26768: job 5760 (pid=11513): Dormant child reaped
+[1544401254] wproc: Core Worker 26765: job 5766 (pid=11607) timed out. Killing it
+[1544401254] wproc: CHECK job 5766 from worker Core Worker 26765 timed out after 30.03s
+[1544401254] wproc:   host=router1; service=(null);
+[1544401254] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544401254] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544401255] wproc: Core Worker 26765: job 5766 (pid=11607): Dormant child reaped
+[1544401554] wproc: Core Worker 26765: job 5772 (pid=11690) timed out. Killing it
+[1544401554] wproc: CHECK job 5772 from worker Core Worker 26765 timed out after 30.03s
+[1544401554] wproc:   host=router1; service=(null);
+[1544401554] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544401554] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544401555] wproc: Core Worker 26765: job 5772 (pid=11690): Dormant child reaped
+[1544401855] wproc: Core Worker 26766: job 5777 (pid=11782) timed out. Killing it
+[1544401855] wproc: CHECK job 5777 from worker Core Worker 26766 timed out after 30.03s
+[1544401855] wproc:   host=router1; service=(null);
+[1544401855] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544401855] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544401855] wproc: Core Worker 26766: job 5777 (pid=11782): Dormant child reaped
+[1544402154] wproc: Core Worker 26766: job 5783 (pid=11895) timed out. Killing it
+[1544402154] wproc: CHECK job 5783 from worker Core Worker 26766 timed out after 30.03s
+[1544402154] wproc:   host=router1; service=(null);
+[1544402154] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544402154] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544402154] HOST NOTIFICATION: nagiosadmin;router1;DOWN;notify-host-by-email;(Host check timed out after 30.03 seconds)
+[1544402154] wproc: Core Worker 26766: job 5783 (pid=11895): Dormant child reaped
+[1544402454] wproc: Core Worker 26768: job 5788 (pid=11997) timed out. Killing it
+[1544402454] wproc: CHECK job 5788 from worker Core Worker 26768 timed out after 30.04s
+[1544402454] wproc:   host=router1; service=(null);
+[1544402454] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544402454] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1544402454] wproc: Core Worker 26768: job 5788 (pid=11997): Dormant child reaped
+[1544402754] wproc: Core Worker 26768: job 5794 (pid=12079) timed out. Killing it
+[1544402754] wproc: CHECK job 5794 from worker Core Worker 26768 timed out after 30.04s
+[1544402754] wproc:   host=router1; service=(null);
+[1544402754] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544402754] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1544402754] wproc: Core Worker 26768: job 5794 (pid=12079): Dormant child reaped
+[1544403054] wproc: Core Worker 26765: job 5800 (pid=12173) timed out. Killing it
+[1544403054] wproc: CHECK job 5800 from worker Core Worker 26765 timed out after 30.04s
+[1544403054] wproc:   host=router1; service=(null);
+[1544403054] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544403054] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1544403054] wproc: Core Worker 26765: job 5800 (pid=12173): Dormant child reaped
+[1544403354] wproc: Core Worker 26765: job 5806 (pid=12256) timed out. Killing it
+[1544403354] wproc: CHECK job 5806 from worker Core Worker 26765 timed out after 30.02s
+[1544403354] wproc:   host=router1; service=(null);
+[1544403354] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544403354] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1544403354] wproc: Core Worker 26765: job 5806 (pid=12256): Dormant child reaped
+[1544403654] wproc: Core Worker 26766: job 5811 (pid=12349) timed out. Killing it
+[1544403654] wproc: CHECK job 5811 from worker Core Worker 26766 timed out after 30.01s
+[1544403654] wproc:   host=router1; service=(null);
+[1544403654] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544403654] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544403654] wproc: Core Worker 26766: job 5811 (pid=12349): Dormant child reaped
+[1544403738] Auto-save of retention data completed successfully.
+[1544403954] wproc: Core Worker 26766: job 5817 (pid=12431) timed out. Killing it
+[1544403954] wproc: CHECK job 5817 from worker Core Worker 26766 timed out after 30.02s
+[1544403954] wproc:   host=router1; service=(null);
+[1544403954] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544403954] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1544403954] HOST NOTIFICATION: nagiosadmin;router1;DOWN;notify-host-by-email;(Host check timed out after 30.02 seconds)
+[1544403954] wproc: Core Worker 26766: job 5817 (pid=12431): Dormant child reaped
+[1544404254] wproc: Core Worker 26768: job 5822 (pid=12533) timed out. Killing it
+[1544404254] wproc: CHECK job 5822 from worker Core Worker 26768 timed out after 30.04s
+[1544404254] wproc:   host=router1; service=(null);
+[1544404254] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544404254] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1544404254] wproc: Core Worker 26768: job 5822 (pid=12533): Dormant child reaped
+[1544404554] wproc: Core Worker 26768: job 5828 (pid=12615) timed out. Killing it
+[1544404554] wproc: CHECK job 5828 from worker Core Worker 26768 timed out after 30.03s
+[1544404554] wproc:   host=router1; service=(null);
+[1544404554] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544404554] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544404554] wproc: Core Worker 26768: job 5828 (pid=12615): Dormant child reaped
+[1544404854] wproc: Core Worker 26765: job 5834 (pid=12710) timed out. Killing it
+[1544404854] wproc: CHECK job 5834 from worker Core Worker 26765 timed out after 30.04s
+[1544404854] wproc:   host=router1; service=(null);
+[1544404854] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544404854] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1544404854] wproc: Core Worker 26765: job 5834 (pid=12710): Dormant child reaped
+[1544405154] wproc: Core Worker 26765: job 5840 (pid=12792) timed out. Killing it
+[1544405154] wproc: CHECK job 5840 from worker Core Worker 26765 timed out after 30.03s
+[1544405154] wproc:   host=router1; service=(null);
+[1544405154] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544405154] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544405154] wproc: Core Worker 26765: job 5840 (pid=12792): Dormant child reaped
+[1544405454] wproc: Core Worker 26766: job 5845 (pid=12883) timed out. Killing it
+[1544405454] wproc: CHECK job 5845 from worker Core Worker 26766 timed out after 30.03s
+[1544405454] wproc:   host=router1; service=(null);
+[1544405454] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544405454] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544405454] wproc: Core Worker 26766: job 5845 (pid=12883): Dormant child reaped
+[1544405754] wproc: Core Worker 26766: job 5851 (pid=12993) timed out. Killing it
+[1544405754] wproc: CHECK job 5851 from worker Core Worker 26766 timed out after 30.01s
+[1544405754] wproc:   host=router1; service=(null);
+[1544405754] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544405754] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544405754] HOST NOTIFICATION: nagiosadmin;router1;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1544405754] wproc: Core Worker 26766: job 5851 (pid=12993): Dormant child reaped
+[1544406054] wproc: Core Worker 26768: job 5856 (pid=13094) timed out. Killing it
+[1544406054] wproc: CHECK job 5856 from worker Core Worker 26768 timed out after 30.03s
+[1544406054] wproc:   host=router1; service=(null);
+[1544406054] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544406054] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544406054] wproc: Core Worker 26768: job 5856 (pid=13094): Dormant child reaped
+[1544406354] wproc: Core Worker 26768: job 5862 (pid=13176) timed out. Killing it
+[1544406354] wproc: CHECK job 5862 from worker Core Worker 26768 timed out after 30.04s
+[1544406354] wproc:   host=router1; service=(null);
+[1544406354] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544406354] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1544406354] wproc: Core Worker 26768: job 5862 (pid=13176): Dormant child reaped
+[1544406654] wproc: Core Worker 26765: job 5868 (pid=13266) timed out. Killing it
+[1544406654] wproc: CHECK job 5868 from worker Core Worker 26765 timed out after 30.03s
+[1544406654] wproc:   host=router1; service=(null);
+[1544406654] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544406654] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544406654] wproc: Core Worker 26765: job 5868 (pid=13266): Dormant child reaped
+[1544406954] wproc: Core Worker 26765: job 5874 (pid=13348) timed out. Killing it
+[1544406954] wproc: CHECK job 5874 from worker Core Worker 26765 timed out after 30.01s
+[1544406954] wproc:   host=router1; service=(null);
+[1544406954] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544406954] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544406954] wproc: Core Worker 26765: job 5874 (pid=13348): Dormant child reaped
+[1544407254] wproc: Core Worker 26766: job 5879 (pid=13440) timed out. Killing it
+[1544407254] wproc: CHECK job 5879 from worker Core Worker 26766 timed out after 30.03s
+[1544407254] wproc:   host=router1; service=(null);
+[1544407254] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544407254] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1544407254] wproc: Core Worker 26766: job 5879 (pid=13440): Dormant child reaped
+[1544407338] Auto-save of retention data completed successfully.
+[1544407554] wproc: Core Worker 26766: job 5885 (pid=13522) timed out. Killing it
+[1544407554] wproc: CHECK job 5885 from worker Core Worker 26766 timed out after 30.00s
+[1544407554] wproc:   host=router1; service=(null);
+[1544407554] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544407554] Warning: Check of host 'router1' timed out after 30.00 seconds
+[1544407554] HOST NOTIFICATION: nagiosadmin;router1;DOWN;notify-host-by-email;(Host check timed out after 30.00 seconds)
+[1544407554] wproc: Core Worker 26766: job 5885 (pid=13522): Dormant child reaped
+[1544407854] wproc: Core Worker 26768: job 5890 (pid=13626) timed out. Killing it
+[1544407854] wproc: CHECK job 5890 from worker Core Worker 26768 timed out after 30.04s
+[1544407854] wproc:   host=router1; service=(null);
+[1544407854] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544407854] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1544407854] wproc: Core Worker 26768: job 5890 (pid=13626): Dormant child reaped
+[1544408154] wproc: Core Worker 26768: job 5896 (pid=13707) timed out. Killing it
+[1544408154] wproc: CHECK job 5896 from worker Core Worker 26768 timed out after 30.01s
+[1544408154] wproc:   host=router1; service=(null);
+[1544408154] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544408154] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544408154] wproc: Core Worker 26768: job 5896 (pid=13707): Dormant child reaped
+[1544408454] wproc: Core Worker 26765: job 5902 (pid=13803) timed out. Killing it
+[1544408454] wproc: CHECK job 5902 from worker Core Worker 26765 timed out after 30.00s
+[1544408454] wproc:   host=router1; service=(null);
+[1544408454] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544408454] Warning: Check of host 'router1' timed out after 30.00 seconds
+[1544408454] wproc: Core Worker 26765: job 5902 (pid=13803): Dormant child reaped
+[1544408754] wproc: Core Worker 26765: job 5908 (pid=13886) timed out. Killing it
+[1544408754] wproc: CHECK job 5908 from worker Core Worker 26765 timed out after 30.01s
+[1544408754] wproc:   host=router1; service=(null);
+[1544408754] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544408754] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544408754] wproc: Core Worker 26765: job 5908 (pid=13886): Dormant child reaped
+[1544409028] HOST NOTIFICATION: nagiosadmin;router1;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.62 ms
+[1544409028] HOST ALERT: router1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.62 ms
+[1544409235] SERVICE NOTIFICATION: nagiosadmin;router1;check-host-alive;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.64 ms
+[1544409235] SERVICE ALERT: router1;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.64 ms
+[1544410938] Auto-save of retention data completed successfully.
+[1544414538] Auto-save of retention data completed successfully.
+[1544418138] Auto-save of retention data completed successfully.
+[1544418890] Caught SIGTERM, shutting down...
+[1544418890] Successfully shutdown... (PID=26763)
+[1544418890] Nagios 4.4.2 starting... (PID=17046)
+[1544418890] Local time is Mon Dec 10 10:44:50 IST 2018
+[1544418890] LOG VERSION: 2.0
+[1544418890] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544418890] qh: core query handler registered
+[1544418890] qh: echo service query handler registered
+[1544418890] qh: help for the query handler registered
+[1544418890] wproc: Successfully registered manager as @wproc with query handler
+[1544418890] wproc: Registry request: name=Core Worker 17047;pid=17047
+[1544418890] wproc: Registry request: name=Core Worker 17048;pid=17048
+[1544418890] wproc: Registry request: name=Core Worker 17049;pid=17049
+[1544418890] wproc: Registry request: name=Core Worker 17050;pid=17050
+[1544418891] Successfully launched command file worker with pid 17053
+[1544418957] Caught SIGTERM, shutting down...
+[1544418957] Caught SIGTERM, shutting down...
+[1544418957] wproc: Socket to worker Core Worker 17047 broken, removing
+[1544418957] wproc: Socket to worker Core Worker 17048 broken, removing
+[1544418957] wproc: Socket to worker Core Worker 17049 broken, removing
+[1544418957] wproc: Socket to worker Core Worker 17050 broken, removing
+[1544418957] Successfully shutdown... (PID=17046)
+[1544419011] Nagios 4.4.2 starting... (PID=17131)
+[1544419011] Local time is Mon Dec 10 10:46:51 IST 2018
+[1544419011] LOG VERSION: 2.0
+[1544419011] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544419011] qh: core query handler registered
+[1544419011] qh: echo service query handler registered
+[1544419011] qh: help for the query handler registered
+[1544419011] wproc: Successfully registered manager as @wproc with query handler
+[1544419011] wproc: Registry request: name=Core Worker 17132;pid=17132
+[1544419011] wproc: Registry request: name=Core Worker 17133;pid=17133
+[1544419011] wproc: Registry request: name=Core Worker 17134;pid=17134
+[1544419011] wproc: Registry request: name=Core Worker 17135;pid=17135
+[1544419011] Successfully launched command file worker with pid 17138
+[1544420383] Caught SIGTERM, shutting down...
+[1544420383] Caught SIGTERM, shutting down...
+[1544420383] Caught SIGTERM, shutting down...
+[1544420383] Successfully shutdown... (PID=17131)
+[1544420383] Nagios 4.4.2 starting... (PID=17611)
+[1544420383] Local time is Mon Dec 10 11:09:43 IST 2018
+[1544420383] LOG VERSION: 2.0
+[1544420383] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544420383] qh: core query handler registered
+[1544420383] qh: echo service query handler registered
+[1544420383] qh: help for the query handler registered
+[1544420383] wproc: Successfully registered manager as @wproc with query handler
+[1544420383] wproc: Registry request: name=Core Worker 17613;pid=17613
+[1544420383] wproc: Registry request: name=Core Worker 17615;pid=17615
+[1544420383] wproc: Registry request: name=Core Worker 17612;pid=17612
+[1544420383] wproc: Registry request: name=Core Worker 17614;pid=17614
+[1544420383] Successfully launched command file worker with pid 17618
+[1544420385] Caught SIGTERM, shutting down...
+[1544420385] Caught SIGTERM, shutting down...
+[1544420385] wproc: Socket to worker Core Worker 17613 broken, removing
+[1544420385] wproc: Socket to worker Core Worker 17614 broken, removing
+[1544420385] Successfully shutdown... (PID=17611)
+[1544420385] Nagios 4.4.2 starting... (PID=17634)
+[1544420385] Local time is Mon Dec 10 11:09:45 IST 2018
+[1544420385] LOG VERSION: 2.0
+[1544420385] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544420385] qh: core query handler registered
+[1544420385] qh: echo service query handler registered
+[1544420385] qh: help for the query handler registered
+[1544420385] wproc: Successfully registered manager as @wproc with query handler
+[1544420385] wproc: Registry request: name=Core Worker 17635;pid=17635
+[1544420385] wproc: Registry request: name=Core Worker 17636;pid=17636
+[1544420385] wproc: Registry request: name=Core Worker 17637;pid=17637
+[1544420385] wproc: Registry request: name=Core Worker 17638;pid=17638
+[1544420385] Successfully launched command file worker with pid 17643
+[1544421556] Caught SIGTERM, shutting down...
+[1544421556] Caught SIGTERM, shutting down...
+[1544421556] wproc: Socket to worker Core Worker 17635 broken, removing
+[1544421556] wproc: Socket to worker Core Worker 17637 broken, removing
+[1544421556] wproc: Socket to worker Core Worker 17638 broken, removing
+[1544421556] wproc: Socket to worker Core Worker 17636 broken, removing
+[1544421556] Successfully shutdown... (PID=17634)
+[1544422328] Nagios 4.4.2 starting... (PID=18231)
+[1544422328] Local time is Mon Dec 10 11:42:08 IST 2018
+[1544422328] LOG VERSION: 2.0
+[1544422328] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544422328] qh: core query handler registered
+[1544422328] qh: echo service query handler registered
+[1544422328] qh: help for the query handler registered
+[1544422328] wproc: Successfully registered manager as @wproc with query handler
+[1544422328] wproc: Registry request: name=Core Worker 18232;pid=18232
+[1544422328] wproc: Registry request: name=Core Worker 18234;pid=18234
+[1544422328] wproc: Registry request: name=Core Worker 18233;pid=18233
+[1544422328] wproc: Registry request: name=Core Worker 18235;pid=18235
+[1544422328] Successfully launched command file worker with pid 18238
+[1544422330] Caught SIGTERM, shutting down...
+[1544422330] Caught SIGTERM, shutting down...
+[1544422330] Caught SIGTERM, shutting down...
+[1544422330] Successfully shutdown... (PID=18231)
+[1544422330] Nagios 4.4.2 starting... (PID=18256)
+[1544422330] Local time is Mon Dec 10 11:42:10 IST 2018
+[1544422330] LOG VERSION: 2.0
+[1544422330] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544422330] qh: core query handler registered
+[1544422330] qh: echo service query handler registered
+[1544422330] qh: help for the query handler registered
+[1544422330] wproc: Successfully registered manager as @wproc with query handler
+[1544422330] wproc: Registry request: name=Core Worker 18259;pid=18259
+[1544422330] wproc: Registry request: name=Core Worker 18258;pid=18258
+[1544422330] wproc: Registry request: name=Core Worker 18257;pid=18257
+[1544422330] wproc: Registry request: name=Core Worker 18260;pid=18260
+[1544422330] Successfully launched command file worker with pid 18262
+[1544422332] Caught SIGTERM, shutting down...
+[1544422332] Caught SIGTERM, shutting down...
+[1544422332] Caught SIGTERM, shutting down...
+[1544422332] Successfully shutdown... (PID=18256)
+[1544422332] Nagios 4.4.2 starting... (PID=18281)
+[1544422332] Local time is Mon Dec 10 11:42:12 IST 2018
+[1544422332] LOG VERSION: 2.0
+[1544422332] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544422332] qh: core query handler registered
+[1544422332] qh: echo service query handler registered
+[1544422332] qh: help for the query handler registered
+[1544422332] wproc: Successfully registered manager as @wproc with query handler
+[1544422332] wproc: Registry request: name=Core Worker 18283;pid=18283
+[1544422332] wproc: Registry request: name=Core Worker 18284;pid=18284
+[1544422332] wproc: Registry request: name=Core Worker 18282;pid=18282
+[1544422332] wproc: Registry request: name=Core Worker 18285;pid=18285
+[1544422332] Successfully launched command file worker with pid 18288
+[1544422464] HOST ALERT: esxi05;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.5.5.55)
+[1544422518] SERVICE ALERT: esxi05;PING;UNKNOWN;HARD;1;check_ping: %s: Warning threshold must be integer or percentage!
+[1544422558] SERVICE ALERT: esxi04;PING;UNKNOWN;SOFT;1;check_ping: %s: Warning threshold must be integer or percentage!
+[1544422578] SERVICE NOTIFICATION: nagiosadmin;esxi05;PING;UNKNOWN;notify-service-by-email;check_ping: %s: Warning threshold must be integer or percentage!
+[1544422618] SERVICE ALERT: esxi04;PING;UNKNOWN;SOFT;2;check_ping: %s: Warning threshold must be integer or percentage!
+[1544422678] SERVICE ALERT: esxi04;PING;UNKNOWN;SOFT;3;check_ping: %s: Warning threshold must be integer or percentage!
+[1544422738] SERVICE NOTIFICATION: nagiosadmin;esxi04;PING;UNKNOWN;notify-service-by-email;check_ping: %s: Warning threshold must be integer or percentage!
+[1544422738] SERVICE ALERT: esxi04;PING;UNKNOWN;HARD;4;check_ping: %s: Warning threshold must be integer or percentage!
+[1544422793] SERVICE ALERT: esxi05;ESXi Hardware Check;UNKNOWN;HARD;1;UNKNOWN: (0, 'Socket error: [Errno 113] No route to host')
+[1544422846] Caught SIGTERM, shutting down...
+[1544422846] Caught SIGTERM, shutting down...
+[1544422846] Caught SIGTERM, shutting down...
+[1544422846] Successfully shutdown... (PID=18281)
+[1544422846] Nagios 4.4.2 starting... (PID=18516)
+[1544422846] Local time is Mon Dec 10 11:50:46 IST 2018
+[1544422846] LOG VERSION: 2.0
+[1544422846] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544422846] qh: core query handler registered
+[1544422846] qh: echo service query handler registered
+[1544422846] qh: help for the query handler registered
+[1544422846] wproc: Successfully registered manager as @wproc with query handler
+[1544422846] wproc: Registry request: name=Core Worker 18517;pid=18517
+[1544422846] wproc: Registry request: name=Core Worker 18520;pid=18520
+[1544422846] wproc: Registry request: name=Core Worker 18518;pid=18518
+[1544422846] wproc: Registry request: name=Core Worker 18519;pid=18519
+[1544422846] Successfully launched command file worker with pid 18522
+[1544422847] Caught SIGTERM, shutting down...
+[1544422847] Caught SIGTERM, shutting down...
+[1544422847] Caught SIGTERM, shutting down...
+[1544422847] Successfully shutdown... (PID=18516)
+[1544422847] Nagios 4.4.2 starting... (PID=18542)
+[1544422847] Local time is Mon Dec 10 11:50:47 IST 2018
+[1544422847] LOG VERSION: 2.0
+[1544422847] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544422847] qh: core query handler registered
+[1544422847] qh: echo service query handler registered
+[1544422847] qh: help for the query handler registered
+[1544422847] wproc: Successfully registered manager as @wproc with query handler
+[1544422847] wproc: Registry request: name=Core Worker 18545;pid=18545
+[1544422847] wproc: Registry request: name=Core Worker 18544;pid=18544
+[1544422847] wproc: Registry request: name=Core Worker 18543;pid=18543
+[1544422847] wproc: Registry request: name=Core Worker 18546;pid=18546
+[1544422847] Successfully launched command file worker with pid 18549
+[1544422919] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 113] No route to host')
+[1544422979] SERVICE ALERT: esxi06;ESXi Haradware Check;UNKNOWN;SOFT;1;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544423031] HOST NOTIFICATION: nagiosadmin;esxi05;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.5.5.55)
+[1544423031] HOST ALERT: esxi05;DOWN;HARD;10;CRITICAL - Host Unreachable (10.5.5.55)
+[1544423099] SERVICE ALERT: esxi06;ESXi Haradware Check;UNKNOWN;SOFT;2;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544423112] SERVICE ALERT: esxi06;PING;UNKNOWN;SOFT;1;check_ping: %s: Warning threshold must be integer or percentage!
+[1544423131] Caught SIGTERM, shutting down...
+[1544423131] Caught SIGTERM, shutting down...
+[1544423131] Caught SIGTERM, shutting down...
+[1544423131] Successfully shutdown... (PID=18542)
+[1544423131] Nagios 4.4.2 starting... (PID=18691)
+[1544423131] Local time is Mon Dec 10 11:55:31 IST 2018
+[1544423131] LOG VERSION: 2.0
+[1544423131] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544423131] qh: core query handler registered
+[1544423131] qh: echo service query handler registered
+[1544423131] qh: help for the query handler registered
+[1544423131] wproc: Successfully registered manager as @wproc with query handler
+[1544423131] wproc: Registry request: name=Core Worker 18695;pid=18695
+[1544423131] wproc: Registry request: name=Core Worker 18692;pid=18692
+[1544423131] wproc: Registry request: name=Core Worker 18693;pid=18693
+[1544423131] wproc: Registry request: name=Core Worker 18694;pid=18694
+[1544423131] Successfully launched command file worker with pid 18698
+[1544423172] SERVICE ALERT: esxi06;PING;UNKNOWN;SOFT;2;check_ping: %s: Warning threshold must be integer or percentage!
+[1544423212] Caught SIGTERM, shutting down...
+[1544423212] Caught SIGTERM, shutting down...
+[1544423212] wproc: Socket to worker Core Worker 18692 broken, removing
+[1544423212] wproc: Socket to worker Core Worker 18693 broken, removing
+[1544423212] wproc: Socket to worker Core Worker 18694 broken, removing
+[1544423212] wproc: Socket to worker Core Worker 18695 broken, removing
+[1544423212] Successfully shutdown... (PID=18691)
+[1544423212] Nagios 4.4.2 starting... (PID=18748)
+[1544423212] Local time is Mon Dec 10 11:56:52 IST 2018
+[1544423212] LOG VERSION: 2.0
+[1544423212] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544423212] qh: core query handler registered
+[1544423212] qh: echo service query handler registered
+[1544423212] qh: help for the query handler registered
+[1544423212] wproc: Successfully registered manager as @wproc with query handler
+[1544423212] wproc: Registry request: name=Core Worker 18749;pid=18749
+[1544423212] wproc: Registry request: name=Core Worker 18750;pid=18750
+[1544423212] wproc: Registry request: name=Core Worker 18751;pid=18751
+[1544423212] wproc: Registry request: name=Core Worker 18752;pid=18752
+[1544423212] Successfully launched command file worker with pid 18755
+[1544423213] Caught SIGTERM, shutting down...
+[1544423213] Caught SIGTERM, shutting down...
+[1544423213] Caught SIGTERM, shutting down...
+[1544423213] Successfully shutdown... (PID=18748)
+[1544423213] Nagios 4.4.2 starting... (PID=18774)
+[1544423213] Local time is Mon Dec 10 11:56:53 IST 2018
+[1544423213] LOG VERSION: 2.0
+[1544423213] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544423213] qh: core query handler registered
+[1544423213] qh: echo service query handler registered
+[1544423213] qh: help for the query handler registered
+[1544423213] wproc: Successfully registered manager as @wproc with query handler
+[1544423213] wproc: Registry request: name=Core Worker 18775;pid=18775
+[1544423213] wproc: Registry request: name=Core Worker 18776;pid=18776
+[1544423213] wproc: Registry request: name=Core Worker 18777;pid=18777
+[1544423213] wproc: Registry request: name=Core Worker 18778;pid=18778
+[1544423213] Successfully launched command file worker with pid 18780
+[1544423230] SERVICE ALERT: esxi06;ESXi Haradware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.3.0.4a.0.0226182253 2018-02-26
+[1544423232] SERVICE ALERT: esxi06;PING;UNKNOWN;SOFT;3;check_ping: %s: Warning threshold must be integer or percentage!
+[1544423277] Caught SIGTERM, shutting down...
+[1544423277] Caught SIGTERM, shutting down...
+[1544423277] Caught SIGTERM, shutting down...
+[1544423277] Successfully shutdown... (PID=18774)
+[1544423277] Nagios 4.4.2 starting... (PID=18819)
+[1544423277] Local time is Mon Dec 10 11:57:57 IST 2018
+[1544423277] LOG VERSION: 2.0
+[1544423277] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544423277] qh: core query handler registered
+[1544423277] qh: echo service query handler registered
+[1544423277] qh: help for the query handler registered
+[1544423277] wproc: Successfully registered manager as @wproc with query handler
+[1544423277] wproc: Registry request: name=Core Worker 18822;pid=18822
+[1544423277] wproc: Registry request: name=Core Worker 18823;pid=18823
+[1544423277] wproc: Registry request: name=Core Worker 18820;pid=18820
+[1544423277] wproc: Registry request: name=Core Worker 18821;pid=18821
+[1544423277] Successfully launched command file worker with pid 18826
+[1544423296] SERVICE ALERT: esxi06;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1544423305] Caught SIGTERM, shutting down...
+[1544423305] Caught SIGTERM, shutting down...
+[1544423305] Caught SIGTERM, shutting down...
+[1544423305] Successfully shutdown... (PID=18819)
+[1544423305] Nagios 4.4.2 starting... (PID=18853)
+[1544423305] Local time is Mon Dec 10 11:58:25 IST 2018
+[1544423305] LOG VERSION: 2.0
+[1544423305] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544423305] qh: core query handler registered
+[1544423305] qh: echo service query handler registered
+[1544423305] qh: help for the query handler registered
+[1544423305] wproc: Successfully registered manager as @wproc with query handler
+[1544423305] wproc: Registry request: name=Core Worker 18854;pid=18854
+[1544423305] wproc: Registry request: name=Core Worker 18856;pid=18856
+[1544423305] wproc: Registry request: name=Core Worker 18857;pid=18857
+[1544423305] wproc: Registry request: name=Core Worker 18855;pid=18855
+[1544423305] Successfully launched command file worker with pid 18859
+[1544423342] SERVICE NOTIFICATION: nagiosadmin;esxi04;PING;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1544423342] SERVICE ALERT: esxi04;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1544423481] SERVICE ALERT: esxi05;PING;CRITICAL;HARD;4;CRITICAL - Host Unreachable (10.5.5.55)
+[1544424188] Caught SIGTERM, shutting down...
+[1544424188] Caught SIGTERM, shutting down...
+[1544424188] Caught SIGTERM, shutting down...
+[1544424188] Successfully shutdown... (PID=18853)
+[1544424188] Nagios 4.4.2 starting... (PID=19239)
+[1544424188] Local time is Mon Dec 10 12:13:08 IST 2018
+[1544424188] LOG VERSION: 2.0
+[1544424188] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544424188] qh: core query handler registered
+[1544424188] qh: echo service query handler registered
+[1544424188] qh: help for the query handler registered
+[1544424188] wproc: Successfully registered manager as @wproc with query handler
+[1544424188] wproc: Registry request: name=Core Worker 19241;pid=19241
+[1544424188] wproc: Registry request: name=Core Worker 19243;pid=19243
+[1544424188] wproc: Registry request: name=Core Worker 19242;pid=19242
+[1544424188] wproc: Registry request: name=Core Worker 19240;pid=19240
+[1544424188] Successfully launched command file worker with pid 19245
+[1544424190] Caught SIGTERM, shutting down...
+[1544424190] Caught SIGTERM, shutting down...
+[1544424190] Successfully shutdown... (PID=19239)
+[1544424190] Nagios 4.4.2 starting... (PID=19265)
+[1544424190] Local time is Mon Dec 10 12:13:10 IST 2018
+[1544424190] LOG VERSION: 2.0
+[1544424190] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544424190] qh: core query handler registered
+[1544424190] qh: echo service query handler registered
+[1544424190] qh: help for the query handler registered
+[1544424190] wproc: Successfully registered manager as @wproc with query handler
+[1544424190] wproc: Registry request: name=Core Worker 19267;pid=19267
+[1544424190] wproc: Registry request: name=Core Worker 19268;pid=19268
+[1544424190] wproc: Registry request: name=Core Worker 19269;pid=19269
+[1544424190] wproc: Registry request: name=Core Worker 19270;pid=19270
+[1544424190] Successfully launched command file worker with pid 19272
+[1544424197] SERVICE ALERT: esxi06;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.73 ms
+[1544424261] SERVICE ALERT: esxi06;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1544424327] SERVICE ALERT: esxi07;ESXi Hardware Check;UNKNOWN;SOFT;1;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544424447] SERVICE ALERT: esxi07;ESXi Hardware Check;UNKNOWN;SOFT;2;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544424567] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544424567] SERVICE ALERT: esxi07;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544424715] Caught SIGTERM, shutting down...
+[1544424715] Caught SIGTERM, shutting down...
+[1544424715] Caught SIGTERM, shutting down...
+[1544424715] Successfully shutdown... (PID=19265)
+[1544424715] Nagios 4.4.2 starting... (PID=19516)
+[1544424715] Local time is Mon Dec 10 12:21:55 IST 2018
+[1544424715] LOG VERSION: 2.0
+[1544424715] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544424715] qh: core query handler registered
+[1544424715] qh: echo service query handler registered
+[1544424715] qh: help for the query handler registered
+[1544424715] wproc: Successfully registered manager as @wproc with query handler
+[1544424715] wproc: Registry request: name=Core Worker 19517;pid=19517
+[1544424715] wproc: Registry request: name=Core Worker 19518;pid=19518
+[1544424715] wproc: Registry request: name=Core Worker 19519;pid=19519
+[1544424715] wproc: Registry request: name=Core Worker 19520;pid=19520
+[1544424715] Successfully launched command file worker with pid 19522
+[1544425447] SERVICE ALERT: esxi04;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.50 ms
+[1544425511] SERVICE ALERT: esxi04;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1544426651] SERVICE ALERT: esxi01;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 40%, RTA = 0.48 ms
+[1544426715] SERVICE ALERT: esxi01;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.49 ms
+[1544427120] Caught SIGTERM, shutting down...
+[1544427120] Caught SIGTERM, shutting down...
+[1544427120] wproc: Socket to worker Core Worker 19517 broken, removing
+[1544427120] wproc: Socket to worker Core Worker 19520 broken, removing
+[1544427120] wproc: Socket to worker Core Worker 19518 broken, removing
+[1544427120] wproc: Socket to worker Core Worker 19519 broken, removing
+[1544427120] Successfully shutdown... (PID=19516)
+[1544427164] Nagios 4.4.2 starting... (PID=20534)
+[1544427164] Local time is Mon Dec 10 13:02:44 IST 2018
+[1544427164] LOG VERSION: 2.0
+[1544427164] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544427164] qh: core query handler registered
+[1544427164] qh: echo service query handler registered
+[1544427164] qh: help for the query handler registered
+[1544427164] wproc: Successfully registered manager as @wproc with query handler
+[1544427164] wproc: Registry request: name=Core Worker 20538;pid=20538
+[1544427164] wproc: Registry request: name=Core Worker 20535;pid=20535
+[1544427164] wproc: Registry request: name=Core Worker 20536;pid=20536
+[1544427164] wproc: Registry request: name=Core Worker 20537;pid=20537
+[1544427164] Successfully launched command file worker with pid 20541
+[1544427165] Caught SIGTERM, shutting down...
+[1544427165] Caught SIGTERM, shutting down...
+[1544427165] Caught SIGTERM, shutting down...
+[1544427165] Successfully shutdown... (PID=20534)
+[1544427165] Nagios 4.4.2 starting... (PID=20562)
+[1544427165] Local time is Mon Dec 10 13:02:45 IST 2018
+[1544427165] LOG VERSION: 2.0
+[1544427165] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1544427165] qh: core query handler registered
+[1544427165] qh: echo service query handler registered
+[1544427165] qh: help for the query handler registered
+[1544427165] wproc: Successfully registered manager as @wproc with query handler
+[1544427165] wproc: Registry request: name=Core Worker 20563;pid=20563
+[1544427165] wproc: Registry request: name=Core Worker 20564;pid=20564
+[1544427165] wproc: Registry request: name=Core Worker 20565;pid=20565
+[1544427165] wproc: Registry request: name=Core Worker 20566;pid=20566
+[1544427165] Successfully launched command file worker with pid 20569
+[1544427300] SERVICE ALERT: esxi09;ESXi Hardware Check;UNKNOWN;SOFT;1;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544427316] SERVICE ALERT: esxi01;PING;WARNING;SOFT;1;PING WARNING - Packet loss = 20%, RTA = 0.50 ms
+[1544427380] SERVICE ALERT: esxi01;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1544427420] SERVICE ALERT: esxi09;ESXi Hardware Check;UNKNOWN;SOFT;2;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544427540] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544427540] SERVICE ALERT: esxi09;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544428167] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544430234] HOST NOTIFICATION: nagiosadmin;esxi05;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.5.5.55)
+[1544430765] Auto-save of retention data completed successfully.
+[1544431140] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544431561] wproc: Core Worker 20564: job 148 (pid=22491) timed out. Killing it
+[1544431561] wproc: CHECK job 148 from worker Core Worker 20564 timed out after 30.01s
+[1544431561] wproc:   host=router1; service=(null);
+[1544431561] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1544431561] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1544431561] HOST ALERT: router1;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1544431561] wproc: Core Worker 20564: job 148 (pid=22491): Dormant child reaped
+[1544431625] HOST ALERT: router1;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.71 ms
+[1544431767] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544434365] Auto-save of retention data completed successfully.
+[1544434740] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544435367] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544437434] HOST NOTIFICATION: nagiosadmin;esxi05;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.5.5.55)
+[1544437965] Auto-save of retention data completed successfully.
+[1544438340] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544438967] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544441565] Auto-save of retention data completed successfully.
+[1544441940] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544442567] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544445165] Auto-save of retention data completed successfully.
+[1544445540] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544446167] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544448765] Auto-save of retention data completed successfully.
+[1544449140] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544449767] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544452365] Auto-save of retention data completed successfully.
+[1544452740] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544453368] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544455965] Auto-save of retention data completed successfully.
+[1544456340] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544457567] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544459565] Auto-save of retention data completed successfully.
+[1544459940] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544461167] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544463165] Auto-save of retention data completed successfully.
+[1544463540] SERVICE NOTIFICATION: nagiosadmin;esxi09;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544464768] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1544596262] Caught SIGTERM, shutting down...

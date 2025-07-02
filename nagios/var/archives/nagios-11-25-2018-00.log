@@ -1,0 +1,72 @@
+[1542997800] LOG ROTATION: DAILY
+[1542997800] LOG VERSION: 2.0
+[1542997800] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1542997800] CURRENT HOST STATE: localhost.localdomain;DOWN;HARD;10;CRITICAL - Host Unreachable (10.5.5.15)
+[1542997800] CURRENT HOST STATE: router1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.63 ms
+[1542997800] CURRENT HOST STATE: router2;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.81 ms
+[1542997800] CURRENT HOST STATE: router3;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.80 ms
+[1542997800] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1542997800] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1542997800] CURRENT SERVICE STATE: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1542997800] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1542997800] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 45533 MB (88.97% inode=99%):
+[1542997800] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1542997800] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1542997800] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 80 processes with STATE = RSZDT
+[1542997800] CURRENT SERVICE STATE: localhost.localdomain;Current Load;OK;HARD;1;OK - load average: 0.00, 0.04, 0.20
+[1542997800] CURRENT SERVICE STATE: localhost.localdomain;Current Users;OK;HARD;1;USERS OK - 2 users currently logged in
+[1542997800] CURRENT SERVICE STATE: localhost.localdomain;HTTP;CRITICAL;HARD;4;connect to address 10.5.5.15 and port 80: No route to host
+[1542997800] CURRENT SERVICE STATE: localhost.localdomain;PING;CRITICAL;HARD;4;CRITICAL - Host Unreachable (10.5.5.15)
+[1542997800] CURRENT SERVICE STATE: localhost.localdomain;Root Partition;OK;HARD;1;DISK OK - free space: / 45533 MB (88.97% inode=99%):
+[1542997800] CURRENT SERVICE STATE: localhost.localdomain;SSH;CRITICAL;HARD;4;connect to address 10.5.5.15 and port 22: No route to host
+[1542997800] CURRENT SERVICE STATE: localhost.localdomain;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1542997800] CURRENT SERVICE STATE: localhost.localdomain;Total Processes;OK;HARD;1;PROCS OK: 79 processes with STATE = RSZDT
+[1542997800] CURRENT SERVICE STATE: router1;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.67 ms
+[1542997800] CURRENT SERVICE STATE: router2;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.84 ms
+[1542997800] CURRENT SERVICE STATE: router3;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.70 ms
+[1543000131] Auto-save of retention data completed successfully.
+[1543003731] Auto-save of retention data completed successfully.
+[1543007331] Auto-save of retention data completed successfully.
+[1543010931] Auto-save of retention data completed successfully.
+[1543014531] Auto-save of retention data completed successfully.
+[1543018131] Auto-save of retention data completed successfully.
+[1543021731] Auto-save of retention data completed successfully.
+[1543025331] Auto-save of retention data completed successfully.
+[1543026285] wproc: Core Worker 20817: job 28424 (pid=20516) timed out. Killing it
+[1543026285] wproc: CHECK job 28424 from worker Core Worker 20817 timed out after 30.02s
+[1543026285] wproc:   host=router3; service=(null);
+[1543026285] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1543026285] Warning: Check of host 'router3' timed out after 30.02 seconds
+[1543026285] HOST ALERT: router3;DOWN;SOFT;1;(Host check timed out after 30.02 seconds)
+[1543026285] wproc: Core Worker 20817: job 28424 (pid=20516): Dormant child reaped
+[1543026375] wproc: Core Worker 20819: job 28425 (pid=20533) timed out. Killing it
+[1543026375] wproc: CHECK job 28425 from worker Core Worker 20819 timed out after 30.01s
+[1543026375] wproc:   host=router3; service=(null);
+[1543026375] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1543026375] Warning: Check of host 'router3' timed out after 30.01 seconds
+[1543026375] wproc: Core Worker 20819: job 28425 (pid=20533): Dormant child reaped
+[1543026423] wproc: Core Worker 20816: job 28427 (pid=20551) timed out. Killing it
+[1543026423] wproc: CHECK job 28427 from worker Core Worker 20816 timed out after 30.03s
+[1543026423] wproc:   host=router1; service=(null);
+[1543026423] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1543026423] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1543026423] HOST ALERT: router1;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1543026423] wproc: Core Worker 20816: job 28427 (pid=20551): Dormant child reaped
+[1543026440] HOST ALERT: router3;UP;SOFT;1;PING OK - Packet loss = 20%, RTA = 0.75 ms
+[1543026487] HOST ALERT: router1;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.67 ms
+[1543028931] Auto-save of retention data completed successfully.
+[1543032531] Auto-save of retention data completed successfully.
+[1543036131] Auto-save of retention data completed successfully.
+[1543039731] Auto-save of retention data completed successfully.
+[1543043331] Auto-save of retention data completed successfully.
+[1543046931] Auto-save of retention data completed successfully.
+[1543050531] Auto-save of retention data completed successfully.
+[1543054131] Auto-save of retention data completed successfully.
+[1543057731] Auto-save of retention data completed successfully.
+[1543061331] Auto-save of retention data completed successfully.
+[1543064931] Auto-save of retention data completed successfully.
+[1543068531] Auto-save of retention data completed successfully.
+[1543072131] Auto-save of retention data completed successfully.
+[1543075731] Auto-save of retention data completed successfully.
+[1543079331] Auto-save of retention data completed successfully.
+[1543082931] Auto-save of retention data completed successfully.

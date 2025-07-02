@@ -1,0 +1,654 @@
+[1729794600] LOG ROTATION: DAILY
+[1729794600] LOG VERSION: 2.0
+[1729794600] CURRENT HOST STATE: AP_Main_Bldg;DOWN;HARD;10;CRITICAL - Host Unreachable (10.3.1.25)
+[1729794600] CURRENT HOST STATE: Director_Bldg;DOWN;HARD;10;CRITICAL - Host Unreachable (10.3.1.10)
+[1729794600] CURRENT HOST STATE: Director_Resident;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.28 ms
+[1729794600] CURRENT HOST STATE: Switch_29;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1729794600] CURRENT HOST STATE: Switch_30;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.70 ms
+[1729794600] CURRENT HOST STATE: Switch_31;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.29 ms
+[1729794600] CURRENT HOST STATE: Switch_32;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.31 ms
+[1729794600] CURRENT HOST STATE: Switch_33;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.70 ms
+[1729794600] CURRENT HOST STATE: Switch_34;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 2.41 ms
+[1729794600] CURRENT HOST STATE: esxi01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1729794600] CURRENT HOST STATE: esxi02;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1729794600] CURRENT HOST STATE: esxi03;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1729794600] CURRENT HOST STATE: esxi04;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.81 ms
+[1729794600] CURRENT HOST STATE: esxi05;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1729794600] CURRENT HOST STATE: esxi06;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1729794600] CURRENT HOST STATE: esxi07;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.45 ms
+[1729794600] CURRENT HOST STATE: esxi08;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1729794600] CURRENT HOST STATE: esxi09;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1729794600] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1729794600] CURRENT HOST STATE: vmware10gswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.29 ms
+[1729794600] CURRENT HOST STATE: vmwaremgmtswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.77 ms
+[1729794600] CURRENT SERVICE STATE: AP_Main_Bldg;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.3.1.25)
+[1729794600] CURRENT SERVICE STATE: Director_Bldg;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.3.1.10)
+[1729794600] CURRENT SERVICE STATE: Director_Resident;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.36 ms
+[1729794600] CURRENT SERVICE STATE: Switch_29;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1729794600] CURRENT SERVICE STATE: Switch_30;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 5.69 ms
+[1729794600] CURRENT SERVICE STATE: Switch_31;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.66 ms
+[1729794600] CURRENT SERVICE STATE: Switch_32;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.33 ms
+[1729794600] CURRENT SERVICE STATE: Switch_33;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 3.17 ms
+[1729794600] CURRENT SERVICE STATE: Switch_34;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.73 ms
+[1729794600] CURRENT SERVICE STATE: esxi01;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729794600] CURRENT SERVICE STATE: esxi01;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.31 ms
+[1729794600] CURRENT SERVICE STATE: esxi02;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1729794600] CURRENT SERVICE STATE: esxi02;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 3.82 ms
+[1729794600] CURRENT SERVICE STATE: esxi03;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1729794600] CURRENT SERVICE STATE: esxi03;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.70 ms
+[1729794600] CURRENT SERVICE STATE: esxi04;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH20177WVC Chassis S/N: FCH2018V06M  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1729794600] CURRENT SERVICE STATE: esxi04;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1729794600] CURRENT SERVICE STATE: esxi05;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EPD Chassis S/N: FCH2216V0Z0  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1729794600] CURRENT SERVICE STATE: esxi05;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1729794600] CURRENT SERVICE STATE: esxi06;ESXi Haradware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERW Chassis S/N: FCH2216V0X8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1729794600] CURRENT SERVICE STATE: esxi06;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.32 ms
+[1729794600] CURRENT SERVICE STATE: esxi07;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EV7 Chassis S/N: FCH2216V0Y8  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1729794600] CURRENT SERVICE STATE: esxi07;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1729794600] CURRENT SERVICE STATE: esxi08;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1729794600] CURRENT SERVICE STATE: esxi08;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1729794600] CURRENT SERVICE STATE: esxi09;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1729794600] CURRENT SERVICE STATE: esxi09;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.33 ms
+[1729794600] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.10, 0.10, 0.04
+[1729794600] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1729794600] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
+[1729794600] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 40351 MB (78.85% inode=99%):
+[1729794600] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1729794600] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1729794600] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 101 processes with STATE = RSZDT
+[1729794600] CURRENT SERVICE STATE: vmware10gswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.40 ms
+[1729794600] CURRENT SERVICE STATE: vmwaremgmtswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.94 ms
+[1729795332] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729796116] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729797132] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729797623] Auto-save of retention data completed successfully.
+[1729798932] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729799716] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729800732] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729801223] Auto-save of retention data completed successfully.
+[1729802532] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729803317] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729804332] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729804823] Auto-save of retention data completed successfully.
+[1729806132] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729807516] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729807932] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729808423] Auto-save of retention data completed successfully.
+[1729809732] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729811116] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729811532] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729812023] Auto-save of retention data completed successfully.
+[1729813332] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729814716] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729815132] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729815623] Auto-save of retention data completed successfully.
+[1729816932] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729818316] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729818732] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729819223] Auto-save of retention data completed successfully.
+[1729820532] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729821916] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729822332] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729822823] Auto-save of retention data completed successfully.
+[1729824132] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729825516] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729825932] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729826423] Auto-save of retention data completed successfully.
+[1729827732] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729829116] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729829532] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729830023] Auto-save of retention data completed successfully.
+[1729831332] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729832716] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729833132] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729833623] Auto-save of retention data completed successfully.
+[1729834932] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729836316] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729836732] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729837223] Auto-save of retention data completed successfully.
+[1729838532] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729839916] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729840332] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729840823] Auto-save of retention data completed successfully.
+[1729842132] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729842901] wproc: Core Worker 1325: job 1841851 (pid=3640) timed out. Killing it
+[1729842901] wproc: CHECK job 1841851 from worker Core Worker 1325 timed out after 30.01s
+[1729842901] wproc:   host=Switch_29; service=(null);
+[1729842901] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729842901] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1729842901] HOST ALERT: Switch_29;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1729842901] wproc: Core Worker 1325: job 1841851 (pid=3640): Dormant child reaped
+[1729842991] wproc: Core Worker 1326: job 1841858 (pid=3843) timed out. Killing it
+[1729842991] wproc: CHECK job 1841858 from worker Core Worker 1326 timed out after 30.01s
+[1729842991] wproc:   host=Switch_29; service=(null);
+[1729842991] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729842991] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1729842991] HOST ALERT: Switch_29;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1729842991] wproc: Core Worker 1326: job 1841858 (pid=3843): Dormant child reaped
+[1729843016] SERVICE ALERT: Switch_29;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1729843055] HOST ALERT: Switch_29;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.35 ms
+[1729843516] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729843589] SERVICE ALERT: Switch_29;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.33 ms
+[1729843932] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729844423] Auto-save of retention data completed successfully.
+[1729845733] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729847116] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729847547] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729848023] Auto-save of retention data completed successfully.
+[1729849347] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729850717] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729851147] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729851623] Auto-save of retention data completed successfully.
+[1729852016] SERVICE ALERT: Switch_29;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1729852046] wproc: Core Worker 1324: job 1842208 (pid=12218) timed out. Killing it
+[1729852046] wproc: CHECK job 1842208 from worker Core Worker 1324 timed out after 30.03s
+[1729852046] wproc:   host=Switch_29; service=(null);
+[1729852046] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729852046] Warning: Check of host 'Switch_29' timed out after 30.03 seconds
+[1729852046] HOST ALERT: Switch_29;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1729852046] wproc: Core Worker 1324: job 1842208 (pid=12218): Dormant child reaped
+[1729852109] HOST ALERT: Switch_29;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.29)
+[1729852139] SERVICE ALERT: Switch_29;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.1.1.29)
+[1729852172] HOST ALERT: Switch_29;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.29)
+[1729852235] HOST ALERT: Switch_29;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.29)
+[1729852259] wproc: Core Worker 1325: job 1842216 (pid=12461) timed out. Killing it
+[1729852259] wproc: CHECK job 1842216 from worker Core Worker 1325 timed out after 30.01s
+[1729852259] wproc:   host=Switch_34; service=(null);
+[1729852259] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729852259] Warning: Check of host 'Switch_34' timed out after 30.01 seconds
+[1729852259] HOST ALERT: Switch_34;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1729852259] wproc: Core Worker 1325: job 1842216 (pid=12461): Dormant child reaped
+[1729852298] HOST ALERT: Switch_29;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.29)
+[1729852349] wproc: Core Worker 1326: job 1842219 (pid=12530) timed out. Killing it
+[1729852349] wproc: CHECK job 1842219 from worker Core Worker 1326 timed out after 30.01s
+[1729852349] wproc:   host=Switch_34; service=(null);
+[1729852349] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729852349] Warning: Check of host 'Switch_34' timed out after 30.01 seconds
+[1729852349] HOST ALERT: Switch_34;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1729852349] wproc: Core Worker 1326: job 1842219 (pid=12530): Dormant child reaped
+[1729852361] HOST ALERT: Switch_29;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.29)
+[1729852412] HOST ALERT: Switch_34;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.34)
+[1729852424] HOST ALERT: Switch_29;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.29)
+[1729852475] HOST ALERT: Switch_34;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.34)
+[1729852487] HOST ALERT: Switch_29;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.29)
+[1729852538] HOST ALERT: Switch_34;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.34)
+[1729852550] HOST ALERT: Switch_29;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.29)
+[1729852554] wproc: Core Worker 1326: job 1842227 (pid=12757) timed out. Killing it
+[1729852554] wproc: CHECK job 1842227 from worker Core Worker 1326 timed out after 30.01s
+[1729852554] wproc:   host=Switch_32; service=(null);
+[1729852554] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729852554] Warning: Check of host 'Switch_32' timed out after 30.01 seconds
+[1729852554] HOST ALERT: Switch_32;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1729852554] wproc: Core Worker 1326: job 1842227 (pid=12757): Dormant child reaped
+[1729852601] HOST ALERT: Switch_34;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.34)
+[1729852613] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1729852613] HOST ALERT: Switch_29;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.29)
+[1729852644] wproc: Core Worker 1327: job 1842234 (pid=12823) timed out. Killing it
+[1729852644] wproc: CHECK job 1842234 from worker Core Worker 1327 timed out after 30.03s
+[1729852644] wproc:   host=Switch_32; service=(null);
+[1729852644] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729852644] Warning: Check of host 'Switch_32' timed out after 30.03 seconds
+[1729852644] HOST ALERT: Switch_32;DOWN;SOFT;2;(Host check timed out after 30.03 seconds)
+[1729852644] wproc: Core Worker 1327: job 1842234 (pid=12823): Dormant child reaped
+[1729852664] HOST ALERT: Switch_34;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.34)
+[1729852707] HOST ALERT: Switch_32;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.32)
+[1729852727] HOST ALERT: Switch_34;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.34)
+[1729852740] SERVICE ALERT: Switch_34;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.34)
+[1729852771] HOST ALERT: Switch_32;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.29 ms
+[1729852790] HOST ALERT: Switch_34;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.34)
+[1729852853] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1729852853] HOST ALERT: Switch_34;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.34)
+[1729852947] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729854058] HOST NOTIFICATION: nagiosadmin;Switch_34;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 4.95 ms
+[1729854058] HOST ALERT: Switch_34;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 4.95 ms
+[1729854297] wproc: Core Worker 1327: job 1842296 (pid=14262) timed out. Killing it
+[1729854297] wproc: CHECK job 1842296 from worker Core Worker 1327 timed out after 30.01s
+[1729854297] wproc:   host=Switch_32; service=(null);
+[1729854297] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729854297] Warning: Check of host 'Switch_32' timed out after 30.01 seconds
+[1729854297] HOST ALERT: Switch_32;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1729854297] wproc: Core Worker 1327: job 1842296 (pid=14262): Dormant child reaped
+[1729854326] wproc: Core Worker 1326: job 1842298 (pid=14290) timed out. Killing it
+[1729854326] wproc: CHECK job 1842298 from worker Core Worker 1326 timed out after 30.01s
+[1729854326] wproc:   host=Switch_31; service=(null);
+[1729854326] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729854326] Warning: Check of host 'Switch_31' timed out after 30.01 seconds
+[1729854326] HOST ALERT: Switch_31;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1729854326] wproc: Core Worker 1326: job 1842298 (pid=14290): Dormant child reaped
+[1729854350] SERVICE ALERT: Switch_33;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Host Unreachable (10.1.1.33)
+[1729854353] HOST ALERT: Switch_33;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.33)
+[1729854356] HOST ALERT: Switch_34;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.34)
+[1729854387] wproc: Core Worker 1326: job 1842302 (pid=14467) timed out. Killing it
+[1729854387] wproc: CHECK job 1842302 from worker Core Worker 1326 timed out after 30.02s
+[1729854387] wproc:   host=Switch_32; service=(null);
+[1729854387] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729854387] Warning: Check of host 'Switch_32' timed out after 30.02 seconds
+[1729854387] HOST ALERT: Switch_32;DOWN;SOFT;2;(Host check timed out after 30.02 seconds)
+[1729854388] wproc: Core Worker 1326: job 1842302 (pid=14467): Dormant child reaped
+[1729854390] wproc: Core Worker 1324: job 1842303 (pid=14469) timed out. Killing it
+[1729854390] wproc: CHECK job 1842303 from worker Core Worker 1324 timed out after 30.01s
+[1729854390] wproc:   host=Switch_30; service=(null);
+[1729854390] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729854390] Warning: Check of host 'Switch_30' timed out after 30.01 seconds
+[1729854390] HOST ALERT: Switch_30;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1729854390] wproc: Core Worker 1324: job 1842303 (pid=14469): Dormant child reaped
+[1729854416] wproc: Core Worker 1327: job 1842304 (pid=14477) timed out. Killing it
+[1729854416] wproc: CHECK job 1842304 from worker Core Worker 1327 timed out after 30.01s
+[1729854416] wproc:   host=Switch_31; service=(null);
+[1729854416] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729854416] Warning: Check of host 'Switch_31' timed out after 30.01 seconds
+[1729854416] HOST ALERT: Switch_31;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1729854416] HOST ALERT: Switch_33;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.33)
+[1729854416] wproc: Core Worker 1327: job 1842304 (pid=14477): Dormant child reaped
+[1729854419] HOST ALERT: Switch_34;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.34)
+[1729854433] SERVICE ALERT: Switch_31;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1729854438] SERVICE ALERT: Switch_30;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.30)
+[1729854443] wproc: Core Worker 1325: job 1842305 (pid=14495) timed out. Killing it
+[1729854443] wproc: CHECK job 1842305 from worker Core Worker 1325 timed out after 30.03s
+[1729854443] wproc:   host=Switch_29; service=(null);
+[1729854443] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729854443] Warning: Check of host 'Switch_29' timed out after 30.03 seconds
+[1729854443] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;(Host check timed out after 30.03 seconds)
+[1729854443] wproc: Core Worker 1325: job 1842305 (pid=14495): Dormant child reaped
+[1729854453] HOST ALERT: Switch_30;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.30)
+[1729854473] SERVICE ALERT: Switch_33;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.1.1.33)
+[1729854477] wproc: Core Worker 1325: job 1842307 (pid=14516) timed out. Killing it
+[1729854477] wproc: CHECK job 1842307 from worker Core Worker 1325 timed out after 30.01s
+[1729854477] wproc:   host=Switch_32; service=(null);
+[1729854477] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729854477] Warning: Check of host 'Switch_32' timed out after 30.01 seconds
+[1729854477] HOST ALERT: Switch_32;DOWN;SOFT;3;(Host check timed out after 30.01 seconds)
+[1729854478] wproc: Core Worker 1325: job 1842307 (pid=14516): Dormant child reaped
+[1729854479] HOST ALERT: Switch_31;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.31)
+[1729854479] HOST ALERT: Switch_33;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.33)
+[1729854482] HOST ALERT: Switch_34;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.34)
+[1729854516] HOST ALERT: Switch_30;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.30)
+[1729854540] SERVICE ALERT: Switch_29;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 4.20 ms
+[1729854540] HOST ALERT: Switch_32;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.32)
+[1729854542] HOST ALERT: Switch_31;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.31)
+[1729854544] HOST NOTIFICATION: nagiosadmin;Switch_29;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.39 ms
+[1729854544] HOST ALERT: Switch_29;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.39 ms
+[1729854547] HOST ALERT: Switch_34;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.34)
+[1729854569] wproc: Core Worker 1324: job 1842312 (pid=14567) timed out. Killing it
+[1729854569] wproc: CHECK job 1842312 from worker Core Worker 1324 timed out after 30.01s
+[1729854569] wproc:   host=Switch_33; service=(null);
+[1729854569] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729854569] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1729854569] HOST ALERT: Switch_33;DOWN;SOFT;4;(Host check timed out after 30.01 seconds)
+[1729854569] wproc: Core Worker 1324: job 1842312 (pid=14567): Dormant child reaped
+[1729854572] SERVICE ALERT: Switch_32;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.32)
+[1729854579] HOST ALERT: Switch_30;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.30)
+[1729854603] HOST ALERT: Switch_32;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.32)
+[1729854605] HOST ALERT: Switch_31;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.31)
+[1729854610] HOST ALERT: Switch_34;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.34)
+[1729854632] HOST ALERT: Switch_33;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.33)
+[1729854642] HOST ALERT: Switch_30;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.30)
+[1729854666] HOST ALERT: Switch_32;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.32)
+[1729854668] HOST ALERT: Switch_31;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.31)
+[1729854673] HOST ALERT: Switch_34;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.34)
+[1729854695] HOST ALERT: Switch_33;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.33)
+[1729854705] HOST ALERT: Switch_30;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.30)
+[1729854729] HOST ALERT: Switch_32;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.32)
+[1729854731] HOST ALERT: Switch_31;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.31)
+[1729854736] HOST ALERT: Switch_34;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.34)
+[1729854747] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729854758] HOST ALERT: Switch_33;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.33)
+[1729854770] HOST ALERT: Switch_30;UP;SOFT;1;PING OK - Packet loss = 20%, RTA = 37.47 ms
+[1729854793] HOST ALERT: Switch_32;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.32)
+[1729854794] HOST ALERT: Switch_31;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.31)
+[1729854799] HOST ALERT: Switch_34;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.34)
+[1729854821] HOST ALERT: Switch_33;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.33)
+[1729854856] HOST ALERT: Switch_32;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.32)
+[1729854857] HOST ALERT: Switch_31;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.31)
+[1729854862] HOST ALERT: Switch_34;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.34)
+[1729854870] wproc: Core Worker 1326: job 1842326 (pid=14881) timed out. Killing it
+[1729854870] wproc: CHECK job 1842326 from worker Core Worker 1326 timed out after 30.01s
+[1729854870] wproc:   host=Switch_29; service=(null);
+[1729854870] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729854870] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1729854870] HOST ALERT: Switch_29;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1729854870] wproc: Core Worker 1326: job 1842326 (pid=14881): Dormant child reaped
+[1729854884] HOST ALERT: Switch_33;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.33)
+[1729854916] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729854919] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1729854919] HOST ALERT: Switch_32;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.32)
+[1729854920] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1729854920] HOST ALERT: Switch_31;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.31)
+[1729854925] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1729854925] HOST ALERT: Switch_34;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.34)
+[1729854933] HOST ALERT: Switch_29;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.29)
+[1729854947] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1729854947] HOST ALERT: Switch_33;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.33)
+[1729854996] HOST ALERT: Switch_29;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.29)
+[1729855006] SERVICE ALERT: Switch_31;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.30 ms
+[1729855010] HOST NOTIFICATION: nagiosadmin;Switch_31;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.31 ms
+[1729855010] HOST ALERT: Switch_31;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.31 ms
+[1729855039] SERVICE ALERT: Switch_30;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 67.38 ms
+[1729855059] HOST ALERT: Switch_29;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.29)
+[1729855122] HOST ALERT: Switch_29;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.29)
+[1729855139] SERVICE FLAPPING ALERT: Switch_29;check-host-alive;STARTED; Service appears to have started flapping (21.7% change >= 20.0% threshold)
+[1729855139] SERVICE ALERT: Switch_29;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.29)
+[1729855185] HOST ALERT: Switch_29;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.29)
+[1729855223] Auto-save of retention data completed successfully.
+[1729855248] HOST ALERT: Switch_29;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.29)
+[1729855311] HOST ALERT: Switch_29;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.29)
+[1729855375] HOST ALERT: Switch_29;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.29)
+[1729855438] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1729855438] HOST ALERT: Switch_29;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.29)
+[1729855523] HOST NOTIFICATION: nagiosadmin;Switch_32;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.33 ms
+[1729855523] HOST ALERT: Switch_32;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.33 ms
+[1729855675] SERVICE ALERT: Switch_33;check-host-alive;OK;HARD;3;PING OK - Packet loss = 20%, RTA = 0.78 ms
+[1729855679] HOST NOTIFICATION: nagiosadmin;Switch_33;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 1.79 ms
+[1729855679] HOST ALERT: Switch_33;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.79 ms
+[1729855773] SERVICE ALERT: Switch_32;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.29 ms
+[1729855830] HOST NOTIFICATION: nagiosadmin;Switch_34;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 3.29 ms
+[1729855830] HOST ALERT: Switch_34;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 3.29 ms
+[1729856068] wproc: Core Worker 1325: job 1842378 (pid=16092) timed out. Killing it
+[1729856068] wproc: CHECK job 1842378 from worker Core Worker 1325 timed out after 30.03s
+[1729856068] wproc:   host=Switch_29; service=(null);
+[1729856068] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729856068] Warning: Check of host 'Switch_29' timed out after 30.03 seconds
+[1729856069] wproc: Core Worker 1325: job 1842378 (pid=16092): Dormant child reaped
+[1729856341] SERVICE ALERT: Switch_34;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 2.59 ms
+[1729856547] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729856728] HOST ALERT: Switch_34;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.34)
+[1729856749] wproc: Core Worker 1326: job 1842405 (pid=16832) timed out. Killing it
+[1729856749] wproc: CHECK job 1842405 from worker Core Worker 1326 timed out after 30.01s
+[1729856749] wproc:   host=Switch_32; service=(null);
+[1729856749] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729856749] Warning: Check of host 'Switch_32' timed out after 30.01 seconds
+[1729856749] HOST ALERT: Switch_32;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1729856749] wproc: Core Worker 1326: job 1842405 (pid=16832): Dormant child reaped
+[1729856791] HOST ALERT: Switch_34;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.34)
+[1729856833] SERVICE ALERT: Switch_31;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1729856836] wproc: Core Worker 1326: job 1842410 (pid=16881) timed out. Killing it
+[1729856836] wproc: CHECK job 1842410 from worker Core Worker 1326 timed out after 30.03s
+[1729856836] wproc:   host=Switch_31; service=(null);
+[1729856836] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729856836] Warning: Check of host 'Switch_31' timed out after 30.03 seconds
+[1729856836] HOST ALERT: Switch_31;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1729856836] wproc: Core Worker 1326: job 1842410 (pid=16881): Dormant child reaped
+[1729856839] wproc: Core Worker 1324: job 1842411 (pid=16883) timed out. Killing it
+[1729856839] wproc: CHECK job 1842411 from worker Core Worker 1324 timed out after 30.01s
+[1729856839] wproc:   host=Switch_32; service=(null);
+[1729856839] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729856839] Warning: Check of host 'Switch_32' timed out after 30.01 seconds
+[1729856839] HOST ALERT: Switch_32;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1729856839] wproc: Core Worker 1324: job 1842411 (pid=16883): Dormant child reaped
+[1729856855] HOST ALERT: Switch_34;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.34)
+[1729856866] SERVICE ALERT: Switch_30;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1729856873] SERVICE ALERT: Switch_33;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Host Unreachable (10.1.1.33)
+[1729856876] HOST ALERT: Switch_33;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.33)
+[1729856895] wproc: Core Worker 1326: job 1842413 (pid=16911) timed out. Killing it
+[1729856895] wproc: CHECK job 1842413 from worker Core Worker 1326 timed out after 30.03s
+[1729856895] wproc:   host=Switch_30; service=(null);
+[1729856895] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729856895] Warning: Check of host 'Switch_30' timed out after 30.03 seconds
+[1729856895] HOST ALERT: Switch_30;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1729856896] wproc: Core Worker 1326: job 1842413 (pid=16911): Dormant child reaped
+[1729856899] HOST ALERT: Switch_31;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.31)
+[1729856903] HOST ALERT: Switch_32;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.31 ms
+[1729856918] HOST ALERT: Switch_34;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.34)
+[1729856939] HOST ALERT: Switch_33;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.33)
+[1729856941] SERVICE ALERT: Switch_34;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.34)
+[1729856957] SERVICE ALERT: Switch_31;check-host-alive;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.35 ms
+[1729856958] HOST ALERT: Switch_30;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.30)
+[1729856961] HOST ALERT: Switch_31;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.35 ms
+[1729856981] HOST ALERT: Switch_34;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.34)
+[1729856989] SERVICE ALERT: Switch_30;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.1.1.30)
+[1729856998] SERVICE ALERT: Switch_33;check-host-alive;OK;SOFT;2;PING OK - Packet loss = 20%, RTA = 0.74 ms
+[1729857002] HOST ALERT: Switch_33;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 1.80 ms
+[1729857021] HOST ALERT: Switch_30;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.30)
+[1729857045] HOST ALERT: Switch_34;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 1.10 ms
+[1729857084] HOST ALERT: Switch_30;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.30)
+[1729857150] HOST ALERT: Switch_30;UP;SOFT;1;PING OK - Packet loss = 20%, RTA = 0.92 ms
+[1729857241] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1729857328] wproc: Core Worker 1326: job 1842432 (pid=17276) timed out. Killing it
+[1729857328] wproc: CHECK job 1842432 from worker Core Worker 1326 timed out after 30.01s
+[1729857328] wproc:   host=Switch_33; service=(null);
+[1729857328] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729857328] Warning: Check of host 'Switch_33' timed out after 30.01 seconds
+[1729857328] HOST FLAPPING ALERT: Switch_33;STARTED; Host appears to have started flapping (22.6% change > 20.0% threshold)
+[1729857328] HOST ALERT: Switch_33;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1729857328] wproc: Core Worker 1326: job 1842432 (pid=17276): Dormant child reaped
+[1729857418] wproc: Core Worker 1324: job 1842437 (pid=17450) timed out. Killing it
+[1729857418] wproc: CHECK job 1842437 from worker Core Worker 1324 timed out after 30.02s
+[1729857418] wproc:   host=Switch_33; service=(null);
+[1729857418] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729857418] Warning: Check of host 'Switch_33' timed out after 30.02 seconds
+[1729857418] HOST ALERT: Switch_33;DOWN;SOFT;2;(Host check timed out after 30.02 seconds)
+[1729857418] wproc: Core Worker 1324: job 1842437 (pid=17450): Dormant child reaped
+[1729857481] HOST ALERT: Switch_33;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.33)
+[1729857541] SERVICE FLAPPING ALERT: Switch_34;check-host-alive;STARTED; Service appears to have started flapping (23.6% change >= 20.0% threshold)
+[1729857541] SERVICE ALERT: Switch_34;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.78 ms
+[1729857544] HOST ALERT: Switch_33;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.33)
+[1729857590] SERVICE FLAPPING ALERT: Switch_30;check-host-alive;STARTED; Service appears to have started flapping (23.7% change >= 20.0% threshold)
+[1729857590] SERVICE ALERT: Switch_30;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.75 ms
+[1729857607] HOST ALERT: Switch_33;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.33)
+[1729857670] HOST ALERT: Switch_33;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.33)
+[1729857721] SERVICE ALERT: Switch_33;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.33)
+[1729857733] HOST ALERT: Switch_33;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.33)
+[1729857796] HOST ALERT: Switch_33;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.33)
+[1729857859] HOST ALERT: Switch_33;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.33)
+[1729857923] HOST ALERT: Switch_33;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.33)
+[1729858168] SERVICE ALERT: Switch_34;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1729858187] wproc: Core Worker 1325: job 1842466 (pid=18073) timed out. Killing it
+[1729858187] wproc: CHECK job 1842466 from worker Core Worker 1325 timed out after 30.01s
+[1729858187] wproc:   host=Switch_31; service=(null);
+[1729858187] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729858187] Warning: Check of host 'Switch_31' timed out after 30.01 seconds
+[1729858187] HOST FLAPPING ALERT: Switch_31;STARTED; Host appears to have started flapping (20.7% change > 20.0% threshold)
+[1729858187] HOST ALERT: Switch_31;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1729858187] wproc: Core Worker 1325: job 1842466 (pid=18073): Dormant child reaped
+[1729858198] wproc: Core Worker 1327: job 1842467 (pid=18079) timed out. Killing it
+[1729858198] wproc: CHECK job 1842467 from worker Core Worker 1327 timed out after 30.01s
+[1729858198] wproc:   host=Switch_34; service=(null);
+[1729858198] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729858198] Warning: Check of host 'Switch_34' timed out after 30.01 seconds
+[1729858198] HOST FLAPPING ALERT: Switch_34;STARTED; Host appears to have started flapping (20.5% change > 20.0% threshold)
+[1729858198] HOST ALERT: Switch_34;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1729858198] wproc: Core Worker 1327: job 1842467 (pid=18079): Dormant child reaped
+[1729858200] SERVICE ALERT: Switch_32;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1729858221] SERVICE ALERT: Switch_30;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1729858230] wproc: Core Worker 1325: job 1842470 (pid=18113) timed out. Killing it
+[1729858230] wproc: CHECK job 1842470 from worker Core Worker 1325 timed out after 30.01s
+[1729858230] wproc:   host=Switch_32; service=(null);
+[1729858230] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729858230] Warning: Check of host 'Switch_32' timed out after 30.01 seconds
+[1729858230] HOST FLAPPING ALERT: Switch_32;STARTED; Host appears to have started flapping (20.5% change > 20.0% threshold)
+[1729858230] HOST ALERT: Switch_32;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1729858231] wproc: Core Worker 1325: job 1842470 (pid=18113): Dormant child reaped
+[1729858251] wproc: Core Worker 1326: job 1842470 (pid=18267) timed out. Killing it
+[1729858251] wproc: CHECK job 1842470 from worker Core Worker 1326 timed out after 30.01s
+[1729858251] wproc:   host=Switch_30; service=(null);
+[1729858251] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729858251] Warning: Check of host 'Switch_30' timed out after 30.01 seconds
+[1729858251] HOST ALERT: Switch_30;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1729858251] wproc: Core Worker 1326: job 1842470 (pid=18267): Dormant child reaped
+[1729858261] HOST ALERT: Switch_34;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.34)
+[1729858277] wproc: Core Worker 1327: job 1842472 (pid=18286) timed out. Killing it
+[1729858277] wproc: CHECK job 1842472 from worker Core Worker 1327 timed out after 30.03s
+[1729858277] wproc:   host=Switch_31; service=(null);
+[1729858277] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729858277] Warning: Check of host 'Switch_31' timed out after 30.03 seconds
+[1729858277] HOST ALERT: Switch_31;DOWN;SOFT;2;(Host check timed out after 30.03 seconds)
+[1729858277] wproc: Core Worker 1327: job 1842472 (pid=18286): Dormant child reaped
+[1729858291] SERVICE ALERT: Switch_34;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.1.1.34)
+[1729858308] SERVICE ALERT: Switch_31;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1729858320] wproc: Core Worker 1324: job 1842474 (pid=18300) timed out. Killing it
+[1729858320] wproc: CHECK job 1842474 from worker Core Worker 1324 timed out after 30.01s
+[1729858320] wproc:   host=Switch_32; service=(null);
+[1729858320] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729858320] Warning: Check of host 'Switch_32' timed out after 30.01 seconds
+[1729858320] HOST ALERT: Switch_32;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1729858321] wproc: Core Worker 1324: job 1842474 (pid=18300): Dormant child reaped
+[1729858324] HOST ALERT: Switch_34;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.34)
+[1729858341] wproc: Core Worker 1326: job 1842474 (pid=18314) timed out. Killing it
+[1729858341] wproc: CHECK job 1842474 from worker Core Worker 1326 timed out after 30.02s
+[1729858341] wproc:   host=Switch_30; service=(null);
+[1729858341] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729858341] Warning: Check of host 'Switch_30' timed out after 30.02 seconds
+[1729858341] HOST ALERT: Switch_30;DOWN;SOFT;2;(Host check timed out after 30.02 seconds)
+[1729858341] wproc: Core Worker 1326: job 1842474 (pid=18314): Dormant child reaped
+[1729858348] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729858351] SERVICE ALERT: Switch_32;check-host-alive;CRITICAL;HARD;3;CRITICAL - Plugin timed out
+[1729858367] wproc: Core Worker 1327: job 1842476 (pid=18326) timed out. Killing it
+[1729858367] wproc: CHECK job 1842476 from worker Core Worker 1327 timed out after 30.01s
+[1729858367] wproc:   host=Switch_31; service=(null);
+[1729858367] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729858367] Warning: Check of host 'Switch_31' timed out after 30.01 seconds
+[1729858367] HOST ALERT: Switch_31;DOWN;SOFT;3;(Host check timed out after 30.01 seconds)
+[1729858367] wproc: Core Worker 1327: job 1842476 (pid=18326): Dormant child reaped
+[1729858372] SERVICE ALERT: Switch_30;check-host-alive;CRITICAL;HARD;3;CRITICAL - Plugin timed out
+[1729858387] HOST ALERT: Switch_34;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.34)
+[1729858404] HOST ALERT: Switch_30;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.30)
+[1729858410] wproc: Core Worker 1324: job 1842479 (pid=18360) timed out. Killing it
+[1729858410] wproc: CHECK job 1842479 from worker Core Worker 1324 timed out after 30.03s
+[1729858410] wproc:   host=Switch_32; service=(null);
+[1729858410] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729858410] Warning: Check of host 'Switch_32' timed out after 30.03 seconds
+[1729858410] HOST ALERT: Switch_32;DOWN;SOFT;3;(Host check timed out after 30.03 seconds)
+[1729858411] wproc: Core Worker 1324: job 1842479 (pid=18360): Dormant child reaped
+[1729858430] HOST ALERT: Switch_31;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.31)
+[1729858450] HOST ALERT: Switch_34;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.34)
+[1729858467] HOST ALERT: Switch_30;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.30)
+[1729858473] HOST ALERT: Switch_32;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.32)
+[1729858493] HOST ALERT: Switch_31;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.31)
+[1729858513] HOST ALERT: Switch_34;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.34)
+[1729858516] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729858530] HOST ALERT: Switch_30;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.30)
+[1729858537] HOST ALERT: Switch_32;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.32)
+[1729858556] HOST ALERT: Switch_31;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.31)
+[1729858576] HOST ALERT: Switch_34;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.34)
+[1729858593] HOST ALERT: Switch_30;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.30)
+[1729858600] HOST ALERT: Switch_32;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.32)
+[1729858619] HOST ALERT: Switch_31;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.31)
+[1729858639] HOST ALERT: Switch_34;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.34)
+[1729858658] HOST FLAPPING ALERT: Switch_30;STARTED; Host appears to have started flapping (20.0% change > 20.0% threshold)
+[1729858658] HOST ALERT: Switch_30;UP;SOFT;1;PING OK - Packet loss = 20%, RTA = 0.79 ms
+[1729858663] HOST ALERT: Switch_32;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.32)
+[1729858682] HOST ALERT: Switch_31;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.31)
+[1729858702] HOST ALERT: Switch_34;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.34)
+[1729858726] HOST ALERT: Switch_32;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.32)
+[1729858745] HOST ALERT: Switch_31;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.31)
+[1729858765] HOST ALERT: Switch_34;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.34)
+[1729858809] HOST ALERT: Switch_31;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.37 ms
+[1729858816] wproc: Core Worker 1324: job 1842499 (pid=18714) timed out. Killing it
+[1729858816] wproc: CHECK job 1842499 from worker Core Worker 1324 timed out after 30.02s
+[1729858816] wproc:   host=Switch_32; service=(null);
+[1729858816] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729858816] Warning: Check of host 'Switch_32' timed out after 30.02 seconds
+[1729858816] HOST ALERT: Switch_32;DOWN;SOFT;9;(Host check timed out after 30.02 seconds)
+[1729858816] wproc: Core Worker 1324: job 1842499 (pid=18714): Dormant child reaped
+[1729858823] Auto-save of retention data completed successfully.
+[1729858882] SERVICE FLAPPING ALERT: Switch_31;check-host-alive;STARTED; Service appears to have started flapping (22.9% change >= 20.0% threshold)
+[1729858882] SERVICE ALERT: Switch_31;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1729858906] wproc: Core Worker 1327: job 1842502 (pid=18901) timed out. Killing it
+[1729858906] wproc: CHECK job 1842502 from worker Core Worker 1327 timed out after 30.01s
+[1729858906] wproc:   host=Switch_32; service=(null);
+[1729858906] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729858906] Warning: Check of host 'Switch_32' timed out after 30.01 seconds
+[1729858906] HOST ALERT: Switch_32;DOWN;HARD;10;(Host check timed out after 30.01 seconds)
+[1729858906] wproc: Core Worker 1327: job 1842502 (pid=18901): Dormant child reaped
+[1729858945] SERVICE ALERT: Switch_30;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.79 ms
+[1729859042] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1729859209] HOST FLAPPING ALERT: Switch_32;STOPPED; Host appears to have stopped flapping (4.7% change < 5.0% threshold)
+[1729859209] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1729859491] HOST FLAPPING ALERT: Switch_34;STOPPED; Host appears to have stopped flapping (4.4% change < 5.0% threshold)
+[1729859521] HOST FLAPPING ALERT: Switch_33;STOPPED; Host appears to have stopped flapping (3.9% change < 5.0% threshold)
+[1729859668] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1729859726] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1729860080] SERVICE ALERT: Switch_31;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Host Unreachable (10.1.1.31)
+[1729860083] HOST ALERT: Switch_31;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.31)
+[1729860146] HOST ALERT: Switch_31;DOWN;SOFT;2;CRITICAL - Host Unreachable (10.1.1.31)
+[1729860148] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729860176] SERVICE ALERT: Switch_30;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1729860184] wproc: Core Worker 1325: job 1842553 (pid=20094) timed out. Killing it
+[1729860184] wproc: CHECK job 1842553 from worker Core Worker 1325 timed out after 30.01s
+[1729860184] wproc:   host=Switch_30; service=(null);
+[1729860184] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729860184] Warning: Check of host 'Switch_30' timed out after 30.01 seconds
+[1729860184] HOST ALERT: Switch_30;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1729860184] wproc: Core Worker 1325: job 1842553 (pid=20094): Dormant child reaped
+[1729860203] SERVICE ALERT: Switch_31;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.1.1.31)
+[1729860209] HOST ALERT: Switch_31;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.31)
+[1729860242] HOST NOTIFICATION: nagiosadmin;Switch_29;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.33 ms
+[1729860242] HOST ALERT: Switch_29;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.33 ms
+[1729860272] HOST ALERT: Switch_31;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.31)
+[1729860274] wproc: Core Worker 1327: job 1842556 (pid=20134) timed out. Killing it
+[1729860274] wproc: CHECK job 1842556 from worker Core Worker 1327 timed out after 30.01s
+[1729860274] wproc:   host=Switch_30; service=(null);
+[1729860274] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1729860274] Warning: Check of host 'Switch_30' timed out after 30.01 seconds
+[1729860274] HOST ALERT: Switch_30;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1729860274] wproc: Core Worker 1327: job 1842556 (pid=20134): Dormant child reaped
+[1729860327] SERVICE ALERT: Switch_30;check-host-alive;CRITICAL;HARD;3;CRITICAL - Plugin timed out
+[1729860335] HOST ALERT: Switch_31;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.31)
+[1729860337] HOST ALERT: Switch_30;DOWN;SOFT;3;CRITICAL - Host Unreachable (10.1.1.30)
+[1729860398] HOST ALERT: Switch_31;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.31)
+[1729860400] HOST ALERT: Switch_30;DOWN;SOFT;4;CRITICAL - Host Unreachable (10.1.1.30)
+[1729860461] HOST ALERT: Switch_31;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.31)
+[1729860463] HOST ALERT: Switch_30;DOWN;SOFT;5;CRITICAL - Host Unreachable (10.1.1.30)
+[1729860524] HOST ALERT: Switch_31;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.31)
+[1729860526] HOST ALERT: Switch_30;DOWN;SOFT;6;CRITICAL - Host Unreachable (10.1.1.30)
+[1729860540] SERVICE ALERT: Switch_29;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.30 ms
+[1729860587] HOST ALERT: Switch_31;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.31)
+[1729860589] HOST ALERT: Switch_30;DOWN;SOFT;7;CRITICAL - Host Unreachable (10.1.1.30)
+[1729860650] HOST ALERT: Switch_31;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.31)
+[1729860652] HOST ALERT: Switch_30;DOWN;SOFT;8;CRITICAL - Host Unreachable (10.1.1.30)
+[1729860715] HOST ALERT: Switch_30;DOWN;SOFT;9;CRITICAL - Host Unreachable (10.1.1.30)
+[1729860778] HOST ALERT: Switch_30;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.30)
+[1729860953] HOST FLAPPING ALERT: Switch_31;STOPPED; Host appears to have stopped flapping (4.7% change < 5.0% threshold)
+[1729860953] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1729861009] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1729861081] HOST FLAPPING ALERT: Switch_30;STOPPED; Host appears to have stopped flapping (4.7% change < 5.0% threshold)
+[1729861081] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1729861468] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1729861501] SERVICE ALERT: Switch_30;check-host-alive;OK;HARD;3;PING OK - Packet loss = 20%, RTA = 5.03 ms
+[1729861505] HOST NOTIFICATION: nagiosadmin;Switch_30;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 1.88 ms
+[1729861505] HOST ALERT: Switch_30;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.88 ms
+[1729861526] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1729861554] HOST NOTIFICATION: nagiosadmin;Switch_31;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.42 ms
+[1729861554] HOST ALERT: Switch_31;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.42 ms
+[1729861610] HOST NOTIFICATION: nagiosadmin;Switch_32;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.34 ms
+[1729861610] HOST ALERT: Switch_32;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.34 ms
+[1729861770] HOST NOTIFICATION: nagiosadmin;Switch_34;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 4.19 ms
+[1729861770] HOST ALERT: Switch_34;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 4.19 ms
+[1729861828] HOST NOTIFICATION: nagiosadmin;Switch_33;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 2.04 ms
+[1729861828] HOST ALERT: Switch_33;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 2.04 ms
+[1729861892] SERVICE ALERT: Switch_34;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.72 ms
+[1729861922] SERVICE FLAPPING ALERT: Switch_33;check-host-alive;STARTED; Service appears to have started flapping (20.9% change >= 20.0% threshold)
+[1729861922] SERVICE ALERT: Switch_33;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 3.38 ms
+[1729861924] SERVICE FLAPPING ALERT: Switch_32;check-host-alive;STARTED; Service appears to have started flapping (21.3% change >= 20.0% threshold)
+[1729861924] SERVICE ALERT: Switch_32;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.31 ms
+[1729861948] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729862004] SERVICE ALERT: Switch_31;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.32 ms
+[1729862116] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729862423] Auto-save of retention data completed successfully.
+[1729863748] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729865548] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729865716] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729866023] Auto-save of retention data completed successfully.
+[1729867140] SERVICE FLAPPING ALERT: Switch_29;check-host-alive;STOPPED; Service appears to have stopped flapping (4.8% change < 5.0% threshold)
+[1729867348] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729867719] HOST ALERT: vmwaremgmtswitch;DOWN;SOFT;1;CRITICAL - Host Unreachable (10.1.1.39)
+[1729867784] HOST ALERT: vmwaremgmtswitch;UP;SOFT;1;PING OK - Packet loss = 20%, RTA = 0.81 ms
+[1729869148] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729869316] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729869623] Auto-save of retention data completed successfully.
+[1729869722] SERVICE FLAPPING ALERT: Switch_33;check-host-alive;STOPPED; Service appears to have stopped flapping (4.5% change < 5.0% threshold)
+[1729870296] SERVICE FLAPPING ALERT: Switch_34;check-host-alive;STOPPED; Service appears to have stopped flapping (4.4% change < 5.0% threshold)
+[1729870328] SERVICE FLAPPING ALERT: Switch_32;check-host-alive;STOPPED; Service appears to have stopped flapping (4.4% change < 5.0% threshold)
+[1729870948] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729872208] SERVICE FLAPPING ALERT: Switch_31;check-host-alive;STOPPED; Service appears to have stopped flapping (4.0% change < 5.0% threshold)
+[1729872300] SERVICE FLAPPING ALERT: Switch_30;check-host-alive;STOPPED; Service appears to have stopped flapping (3.9% change < 5.0% threshold)
+[1729872748] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729872916] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729873223] Auto-save of retention data completed successfully.
+[1729874548] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729876348] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729876517] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1729876823] Auto-save of retention data completed successfully.
+[1729878148] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729879948] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1729880423] Auto-save of retention data completed successfully.
+[1729880716] SERVICE NOTIFICATION: nagiosadmin;esxi01;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')

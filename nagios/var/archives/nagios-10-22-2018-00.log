@@ -1,0 +1,375 @@
+[1540060200] LOG ROTATION: DAILY
+[1540060200] LOG VERSION: 2.0
+[1540060200] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.02 ms
+[1540060200] CURRENT HOST STATE: localhost.localdomain;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.55 ms
+[1540060200] CURRENT HOST STATE: router1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 2.22 ms
+[1540060200] CURRENT HOST STATE: router2;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.80 ms
+[1540060200] CURRENT HOST STATE: router3;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.94 ms
+[1540060200] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.05, 0.03, 0.11
+[1540060200] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 3 users currently logged in
+[1540060200] CURRENT SERVICE STATE: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1540060200] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.02 ms
+[1540060200] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 46805 MB (91.46% inode=99%):
+[1540060200] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1540060200] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1540060200] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 82 processes with STATE = RSZDT
+[1540060200] CURRENT SERVICE STATE: localhost.localdomain;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.09
+[1540060200] CURRENT SERVICE STATE: localhost.localdomain;Current Users;OK;HARD;1;USERS OK - 3 users currently logged in
+[1540060200] CURRENT SERVICE STATE: localhost.localdomain;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 285 bytes in 0.003 second response time
+[1540060200] CURRENT SERVICE STATE: localhost.localdomain;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.60 ms
+[1540060200] CURRENT SERVICE STATE: localhost.localdomain;Root Partition;OK;HARD;1;DISK OK - free space: / 46805 MB (91.46% inode=99%):
+[1540060200] CURRENT SERVICE STATE: localhost.localdomain;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1540060200] CURRENT SERVICE STATE: localhost.localdomain;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1540060200] CURRENT SERVICE STATE: localhost.localdomain;Total Processes;OK;HARD;1;PROCS OK: 82 processes with STATE = RSZDT
+[1540060200] CURRENT SERVICE STATE: router1;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 2.09 ms
+[1540060200] CURRENT SERVICE STATE: router2;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.70 ms
+[1540060200] CURRENT SERVICE STATE: router3;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.93 ms
+[1540060652] Auto-save of retention data completed successfully.
+[1540064252] Auto-save of retention data completed successfully.
+[1540067852] Auto-save of retention data completed successfully.
+[1540071452] Auto-save of retention data completed successfully.
+[1540075052] Auto-save of retention data completed successfully.
+[1540078652] Auto-save of retention data completed successfully.
+[1540078733] wproc: Core Worker 4969: job 4201 (pid=4535) timed out. Killing it
+[1540078733] wproc: CHECK job 4201 from worker Core Worker 4969 timed out after 30.01s
+[1540078733] wproc:   host=router3; service=(null);
+[1540078733] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540078733] Warning: Check of host 'router3' timed out after 30.01 seconds
+[1540078733] HOST ALERT: router3;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1540078733] wproc: Core Worker 4969: job 4201 (pid=4535): Dormant child reaped
+[1540078764] SERVICE ALERT: router3;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1540078823] wproc: Core Worker 4967: job 4203 (pid=4559) timed out. Killing it
+[1540078823] wproc: CHECK job 4203 from worker Core Worker 4967 timed out after 30.03s
+[1540078823] wproc:   host=router3; service=(null);
+[1540078823] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540078823] Warning: Check of host 'router3' timed out after 30.03 seconds
+[1540078823] wproc: Core Worker 4967: job 4203 (pid=4559): Dormant child reaped
+[1540078913] wproc: Core Worker 4969: job 4204 (pid=4587) timed out. Killing it
+[1540078913] wproc: CHECK job 4204 from worker Core Worker 4969 timed out after 30.02s
+[1540078913] wproc:   host=router3; service=(null);
+[1540078913] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540078913] Warning: Check of host 'router3' timed out after 30.02 seconds
+[1540078913] wproc: Core Worker 4969: job 4204 (pid=4587): Dormant child reaped
+[1540078915] SERVICE NOTIFICATION: nagiosadmin;router3;check-host-alive;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out
+[1540078973] wproc: Core Worker 4967: job 4206 (pid=4616) timed out. Killing it
+[1540078973] wproc: CHECK job 4206 from worker Core Worker 4967 timed out after 30.01s
+[1540078973] wproc:   host=router1; service=(null);
+[1540078973] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540078973] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1540078973] HOST ALERT: router1;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1540078973] wproc: Core Worker 4967: job 4206 (pid=4616): Dormant child reaped
+[1540079003] wproc: Core Worker 4968: job 4207 (pid=4619) timed out. Killing it
+[1540079003] wproc: CHECK job 4207 from worker Core Worker 4968 timed out after 30.02s
+[1540079003] wproc:   host=router3; service=(null);
+[1540079003] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540079003] Warning: Check of host 'router3' timed out after 30.02 seconds
+[1540079003] wproc: Core Worker 4968: job 4207 (pid=4619): Dormant child reaped
+[1540079024] SERVICE ALERT: router1;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1540079063] wproc: Core Worker 4967: job 4208 (pid=4638) timed out. Killing it
+[1540079063] wproc: CHECK job 4208 from worker Core Worker 4967 timed out after 30.03s
+[1540079063] wproc:   host=router1; service=(null);
+[1540079063] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540079063] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1540079063] wproc: Core Worker 4967: job 4208 (pid=4638): Dormant child reaped
+[1540079093] wproc: Core Worker 4969: job 4209 (pid=4652) timed out. Killing it
+[1540079093] wproc: CHECK job 4209 from worker Core Worker 4969 timed out after 30.01s
+[1540079093] wproc:   host=router3; service=(null);
+[1540079093] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540079093] Warning: Check of host 'router3' timed out after 30.01 seconds
+[1540079093] wproc: Core Worker 4969: job 4209 (pid=4652): Dormant child reaped
+[1540079153] wproc: Core Worker 4967: job 4210 (pid=4669) timed out. Killing it
+[1540079153] wproc: CHECK job 4210 from worker Core Worker 4967 timed out after 30.03s
+[1540079153] wproc:   host=router1; service=(null);
+[1540079153] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540079153] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1540079153] wproc: Core Worker 4967: job 4210 (pid=4669): Dormant child reaped
+[1540079175] SERVICE NOTIFICATION: nagiosadmin;router1;check-host-alive;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out
+[1540079183] wproc: Core Worker 4968: job 4211 (pid=4673) timed out. Killing it
+[1540079183] wproc: CHECK job 4211 from worker Core Worker 4968 timed out after 30.03s
+[1540079183] wproc:   host=router3; service=(null);
+[1540079183] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540079183] Warning: Check of host 'router3' timed out after 30.03 seconds
+[1540079183] wproc: Core Worker 4968: job 4211 (pid=4673): Dormant child reaped
+[1540079243] wproc: Core Worker 4968: job 4213 (pid=4701) timed out. Killing it
+[1540079243] wproc: CHECK job 4213 from worker Core Worker 4968 timed out after 30.03s
+[1540079243] wproc:   host=router1; service=(null);
+[1540079243] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540079243] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1540079243] wproc: Core Worker 4968: job 4213 (pid=4701): Dormant child reaped
+[1540079273] wproc: Core Worker 4970: job 4213 (pid=4714) timed out. Killing it
+[1540079273] wproc: CHECK job 4213 from worker Core Worker 4970 timed out after 30.01s
+[1540079273] wproc:   host=router3; service=(null);
+[1540079273] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540079273] Warning: Check of host 'router3' timed out after 30.01 seconds
+[1540079273] wproc: Core Worker 4970: job 4213 (pid=4714): Dormant child reaped
+[1540079333] wproc: Core Worker 4970: job 4214 (pid=4728) timed out. Killing it
+[1540079333] wproc: CHECK job 4214 from worker Core Worker 4970 timed out after 30.03s
+[1540079333] wproc:   host=router1; service=(null);
+[1540079333] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540079333] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1540079333] wproc: Core Worker 4970: job 4214 (pid=4728): Dormant child reaped
+[1540079363] wproc: Core Worker 4967: job 4215 (pid=4734) timed out. Killing it
+[1540079363] wproc: CHECK job 4215 from worker Core Worker 4967 timed out after 30.01s
+[1540079363] wproc:   host=router3; service=(null);
+[1540079363] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540079363] Warning: Check of host 'router3' timed out after 30.01 seconds
+[1540079363] wproc: Core Worker 4967: job 4215 (pid=4734): Dormant child reaped
+[1540079423] wproc: Core Worker 4968: job 4217 (pid=4752) timed out. Killing it
+[1540079423] wproc: CHECK job 4217 from worker Core Worker 4968 timed out after 30.03s
+[1540079423] wproc:   host=router1; service=(null);
+[1540079423] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540079423] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1540079423] wproc: Core Worker 4968: job 4217 (pid=4752): Dormant child reaped
+[1540079453] wproc: Core Worker 4969: job 4217 (pid=4767) timed out. Killing it
+[1540079453] wproc: CHECK job 4217 from worker Core Worker 4969 timed out after 30.03s
+[1540079453] wproc:   host=router3; service=(null);
+[1540079453] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540079453] Warning: Check of host 'router3' timed out after 30.03 seconds
+[1540079453] wproc: Core Worker 4969: job 4217 (pid=4767): Dormant child reaped
+[1540079513] wproc: Core Worker 4968: job 4218 (pid=4782) timed out. Killing it
+[1540079513] wproc: CHECK job 4218 from worker Core Worker 4968 timed out after 30.01s
+[1540079513] wproc:   host=router1; service=(null);
+[1540079513] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540079513] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1540079513] wproc: Core Worker 4968: job 4218 (pid=4782): Dormant child reaped
+[1540079543] wproc: Core Worker 4967: job 4219 (pid=4792) timed out. Killing it
+[1540079543] wproc: CHECK job 4219 from worker Core Worker 4967 timed out after 30.03s
+[1540079543] wproc:   host=router3; service=(null);
+[1540079543] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540079543] Warning: Check of host 'router3' timed out after 30.03 seconds
+[1540079543] HOST NOTIFICATION: nagiosadmin;router3;DOWN;notify-host-by-email;(Host check timed out after 30.03 seconds)
+[1540079543] HOST ALERT: router3;DOWN;HARD;10;(Host check timed out after 30.03 seconds)
+[1540079543] wproc: Core Worker 4967: job 4219 (pid=4792): Dormant child reaped
+[1540079603] wproc: Core Worker 4970: job 4220 (pid=4814) timed out. Killing it
+[1540079603] wproc: CHECK job 4220 from worker Core Worker 4970 timed out after 30.04s
+[1540079603] wproc:   host=router1; service=(null);
+[1540079603] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540079603] Warning: Check of host 'router1' timed out after 30.04 seconds
+[1540079603] wproc: Core Worker 4970: job 4220 (pid=4814): Dormant child reaped
+[1540079693] wproc: Core Worker 4967: job 4222 (pid=4843) timed out. Killing it
+[1540079693] wproc: CHECK job 4222 from worker Core Worker 4967 timed out after 30.01s
+[1540079693] wproc:   host=router1; service=(null);
+[1540079693] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540079693] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1540079693] wproc: Core Worker 4967: job 4222 (pid=4843): Dormant child reaped
+[1540079783] wproc: Core Worker 4968: job 4224 (pid=4862) timed out. Killing it
+[1540079783] wproc: CHECK job 4224 from worker Core Worker 4968 timed out after 30.01s
+[1540079783] wproc:   host=router1; service=(null);
+[1540079783] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540079783] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1540079783] HOST NOTIFICATION: nagiosadmin;router1;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1540079783] HOST ALERT: router1;DOWN;HARD;10;(Host check timed out after 30.01 seconds)
+[1540079783] wproc: Core Worker 4968: job 4224 (pid=4862): Dormant child reaped
+[1540079873] wproc: Core Worker 4967: job 4226 (pid=4902) timed out. Killing it
+[1540079873] wproc: CHECK job 4226 from worker Core Worker 4967 timed out after 30.03s
+[1540079873] wproc:   host=router3; service=(null);
+[1540079873] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540079873] Warning: Check of host 'router3' timed out after 30.03 seconds
+[1540079873] wproc: Core Worker 4967: job 4226 (pid=4902): Dormant child reaped
+[1540080113] wproc: Core Worker 4970: job 4229 (pid=4961) timed out. Killing it
+[1540080113] wproc: CHECK job 4229 from worker Core Worker 4970 timed out after 30.02s
+[1540080113] wproc:   host=router1; service=(null);
+[1540080113] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540080113] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1540080113] wproc: Core Worker 4970: job 4229 (pid=4961): Dormant child reaped
+[1540080173] wproc: Core Worker 4970: job 4231 (pid=4988) timed out. Killing it
+[1540080173] wproc: CHECK job 4231 from worker Core Worker 4970 timed out after 30.02s
+[1540080173] wproc:   host=router3; service=(null);
+[1540080173] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540080173] Warning: Check of host 'router3' timed out after 30.02 seconds
+[1540080173] wproc: Core Worker 4970: job 4231 (pid=4988): Dormant child reaped
+[1540080413] wproc: Core Worker 4967: job 4235 (pid=5047) timed out. Killing it
+[1540080413] wproc: CHECK job 4235 from worker Core Worker 4967 timed out after 30.02s
+[1540080413] wproc:   host=router1; service=(null);
+[1540080413] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540080413] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1540080413] wproc: Core Worker 4967: job 4235 (pid=5047): Dormant child reaped
+[1540080473] wproc: Core Worker 4969: job 4237 (pid=5067) timed out. Killing it
+[1540080473] wproc: CHECK job 4237 from worker Core Worker 4969 timed out after 30.03s
+[1540080473] wproc:   host=router3; service=(null);
+[1540080473] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540080473] Warning: Check of host 'router3' timed out after 30.03 seconds
+[1540080473] wproc: Core Worker 4969: job 4237 (pid=5067): Dormant child reaped
+[1540080713] wproc: Core Worker 4967: job 4240 (pid=5126) timed out. Killing it
+[1540080713] wproc: CHECK job 4240 from worker Core Worker 4967 timed out after 30.01s
+[1540080713] wproc:   host=router1; service=(null);
+[1540080713] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540080713] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1540080713] wproc: Core Worker 4967: job 4240 (pid=5126): Dormant child reaped
+[1540080773] wproc: Core Worker 4967: job 4242 (pid=5147) timed out. Killing it
+[1540080773] wproc: CHECK job 4242 from worker Core Worker 4967 timed out after 30.03s
+[1540080773] wproc:   host=router3; service=(null);
+[1540080773] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540080773] Warning: Check of host 'router3' timed out after 30.03 seconds
+[1540080773] wproc: Core Worker 4967: job 4242 (pid=5147): Dormant child reaped
+[1540081013] wproc: Core Worker 4969: job 4246 (pid=5207) timed out. Killing it
+[1540081013] wproc: CHECK job 4246 from worker Core Worker 4969 timed out after 30.01s
+[1540081013] wproc:   host=router1; service=(null);
+[1540081013] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540081013] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1540081013] wproc: Core Worker 4969: job 4246 (pid=5207): Dormant child reaped
+[1540081073] wproc: Core Worker 4968: job 4248 (pid=5226) timed out. Killing it
+[1540081073] wproc: CHECK job 4248 from worker Core Worker 4968 timed out after 30.02s
+[1540081073] wproc:   host=router3; service=(null);
+[1540081073] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540081073] Warning: Check of host 'router3' timed out after 30.02 seconds
+[1540081073] wproc: Core Worker 4968: job 4248 (pid=5226): Dormant child reaped
+[1540081313] wproc: Core Worker 4969: job 4251 (pid=5286) timed out. Killing it
+[1540081313] wproc: CHECK job 4251 from worker Core Worker 4969 timed out after 30.01s
+[1540081313] wproc:   host=router1; service=(null);
+[1540081313] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540081313] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1540081313] wproc: Core Worker 4969: job 4251 (pid=5286): Dormant child reaped
+[1540081373] wproc: Core Worker 4969: job 4253 (pid=5307) timed out. Killing it
+[1540081373] wproc: CHECK job 4253 from worker Core Worker 4969 timed out after 30.03s
+[1540081373] wproc:   host=router3; service=(null);
+[1540081373] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540081373] Warning: Check of host 'router3' timed out after 30.03 seconds
+[1540081373] HOST NOTIFICATION: nagiosadmin;router3;DOWN;notify-host-by-email;(Host check timed out after 30.03 seconds)
+[1540081373] wproc: Core Worker 4969: job 4253 (pid=5307): Dormant child reaped
+[1540081613] wproc: Core Worker 4969: job 4257 (pid=5375) timed out. Killing it
+[1540081613] wproc: CHECK job 4257 from worker Core Worker 4969 timed out after 30.02s
+[1540081613] wproc:   host=router1; service=(null);
+[1540081613] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540081613] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1540081613] HOST NOTIFICATION: nagiosadmin;router1;DOWN;notify-host-by-email;(Host check timed out after 30.02 seconds)
+[1540081613] wproc: Core Worker 4969: job 4257 (pid=5375): Dormant child reaped
+[1540081673] wproc: Core Worker 4969: job 4259 (pid=5402) timed out. Killing it
+[1540081673] wproc: CHECK job 4259 from worker Core Worker 4969 timed out after 30.03s
+[1540081673] wproc:   host=router3; service=(null);
+[1540081673] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540081673] Warning: Check of host 'router3' timed out after 30.03 seconds
+[1540081673] wproc: Core Worker 4969: job 4259 (pid=5402): Dormant child reaped
+[1540081913] wproc: Core Worker 4967: job 4262 (pid=5480) timed out. Killing it
+[1540081913] wproc: CHECK job 4262 from worker Core Worker 4967 timed out after 30.02s
+[1540081913] wproc:   host=router1; service=(null);
+[1540081913] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540081913] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1540081913] wproc: Core Worker 4967: job 4262 (pid=5480): Dormant child reaped
+[1540081948] HOST NOTIFICATION: nagiosadmin;router3;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 4.24 ms
+[1540081948] HOST ALERT: router3;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 4.24 ms
+[1540082148] SERVICE NOTIFICATION: nagiosadmin;router1;check-host-alive;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 1.67 ms
+[1540082148] SERVICE ALERT: router1;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.67 ms
+[1540082152] HOST NOTIFICATION: nagiosadmin;router1;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 1.64 ms
+[1540082152] HOST ALERT: router1;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.64 ms
+[1540082252] Auto-save of retention data completed successfully.
+[1540082488] SERVICE NOTIFICATION: nagiosadmin;router3;check-host-alive;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 1.73 ms
+[1540082488] SERVICE ALERT: router3;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.73 ms
+[1540085852] Auto-save of retention data completed successfully.
+[1540089452] Auto-save of retention data completed successfully.
+[1540093052] Auto-save of retention data completed successfully.
+[1540096652] Auto-save of retention data completed successfully.
+[1540100252] Auto-save of retention data completed successfully.
+[1540103852] Auto-save of retention data completed successfully.
+[1540105278] wproc: Core Worker 4969: job 4682 (pid=11900) timed out. Killing it
+[1540105278] wproc: CHECK job 4682 from worker Core Worker 4969 timed out after 30.03s
+[1540105278] wproc:   host=router1; service=(null);
+[1540105278] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540105278] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1540105278] HOST ALERT: router1;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1540105279] wproc: Core Worker 4969: job 4682 (pid=11900): Dormant child reaped
+[1540105315] SERVICE ALERT: router3;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1540105345] wproc: Core Worker 4969: job 4684 (pid=11922) timed out. Killing it
+[1540105345] wproc: CHECK job 4684 from worker Core Worker 4969 timed out after 30.01s
+[1540105345] wproc:   host=router3; service=(null);
+[1540105345] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540105345] Warning: Check of host 'router3' timed out after 30.01 seconds
+[1540105345] HOST ALERT: router3;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1540105345] wproc: Core Worker 4969: job 4684 (pid=11922): Dormant child reaped
+[1540105368] wproc: Core Worker 4968: job 4685 (pid=11927) timed out. Killing it
+[1540105368] wproc: CHECK job 4685 from worker Core Worker 4968 timed out after 30.03s
+[1540105368] wproc:   host=router1; service=(null);
+[1540105368] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540105368] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1540105369] wproc: Core Worker 4968: job 4685 (pid=11927): Dormant child reaped
+[1540105435] wproc: Core Worker 4968: job 4686 (pid=11946) timed out. Killing it
+[1540105435] wproc: CHECK job 4686 from worker Core Worker 4968 timed out after 30.01s
+[1540105435] wproc:   host=router3; service=(null);
+[1540105435] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540105435] Warning: Check of host 'router3' timed out after 30.01 seconds
+[1540105435] wproc: Core Worker 4968: job 4686 (pid=11946): Dormant child reaped
+[1540105458] wproc: Core Worker 4967: job 4686 (pid=11953) timed out. Killing it
+[1540105458] wproc: CHECK job 4686 from worker Core Worker 4967 timed out after 30.01s
+[1540105458] wproc:   host=router1; service=(null);
+[1540105458] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540105458] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1540105459] wproc: Core Worker 4967: job 4686 (pid=11953): Dormant child reaped
+[1540105466] SERVICE NOTIFICATION: nagiosadmin;router3;check-host-alive;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out
+[1540105466] SERVICE ALERT: router3;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1540105525] wproc: Core Worker 4968: job 4689 (pid=11987) timed out. Killing it
+[1540105525] wproc: CHECK job 4689 from worker Core Worker 4968 timed out after 30.03s
+[1540105525] wproc:   host=router3; service=(null);
+[1540105525] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540105525] Warning: Check of host 'router3' timed out after 30.03 seconds
+[1540105525] wproc: Core Worker 4968: job 4689 (pid=11987): Dormant child reaped
+[1540105548] wproc: Core Worker 4969: job 4689 (pid=11989) timed out. Killing it
+[1540105548] wproc: CHECK job 4689 from worker Core Worker 4969 timed out after 30.03s
+[1540105548] wproc:   host=router1; service=(null);
+[1540105548] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540105548] Warning: Check of host 'router1' timed out after 30.03 seconds
+[1540105549] wproc: Core Worker 4969: job 4689 (pid=11989): Dormant child reaped
+[1540105575] SERVICE ALERT: router1;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1540105615] wproc: Core Worker 4967: job 4690 (pid=12010) timed out. Killing it
+[1540105615] wproc: CHECK job 4690 from worker Core Worker 4967 timed out after 30.01s
+[1540105615] wproc:   host=router3; service=(null);
+[1540105615] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540105615] Warning: Check of host 'router3' timed out after 30.01 seconds
+[1540105615] wproc: Core Worker 4967: job 4690 (pid=12010): Dormant child reaped
+[1540105638] wproc: Core Worker 4967: job 4691 (pid=12021) timed out. Killing it
+[1540105638] wproc: CHECK job 4691 from worker Core Worker 4967 timed out after 30.02s
+[1540105638] wproc:   host=router1; service=(null);
+[1540105638] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540105638] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1540105639] wproc: Core Worker 4967: job 4691 (pid=12021): Dormant child reaped
+[1540105705] wproc: Core Worker 4970: job 4692 (pid=12037) timed out. Killing it
+[1540105705] wproc: CHECK job 4692 from worker Core Worker 4970 timed out after 30.01s
+[1540105705] wproc:   host=router3; service=(null);
+[1540105705] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540105705] Warning: Check of host 'router3' timed out after 30.01 seconds
+[1540105705] wproc: Core Worker 4970: job 4692 (pid=12037): Dormant child reaped
+[1540105726] SERVICE NOTIFICATION: nagiosadmin;router1;check-host-alive;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out
+[1540105728] wproc: Core Worker 4967: job 4693 (pid=12042) timed out. Killing it
+[1540105728] wproc: CHECK job 4693 from worker Core Worker 4967 timed out after 30.02s
+[1540105728] wproc:   host=router1; service=(null);
+[1540105728] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540105728] Warning: Check of host 'router1' timed out after 30.02 seconds
+[1540105728] wproc: Core Worker 4967: job 4693 (pid=12042): Dormant child reaped
+[1540105795] wproc: Core Worker 4968: job 4695 (pid=12067) timed out. Killing it
+[1540105795] wproc: CHECK job 4695 from worker Core Worker 4968 timed out after 30.01s
+[1540105795] wproc:   host=router3; service=(null);
+[1540105795] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540105795] Warning: Check of host 'router3' timed out after 30.01 seconds
+[1540105795] wproc: Core Worker 4968: job 4695 (pid=12067): Dormant child reaped
+[1540105818] wproc: Core Worker 4970: job 4695 (pid=12081) timed out. Killing it
+[1540105818] wproc: CHECK job 4695 from worker Core Worker 4970 timed out after 30.01s
+[1540105818] wproc:   host=router1; service=(null);
+[1540105818] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540105818] Warning: Check of host 'router1' timed out after 30.01 seconds
+[1540105818] wproc: Core Worker 4970: job 4695 (pid=12081): Dormant child reaped
+[1540105860] HOST ALERT: router3;UP;SOFT;1;PING OK - Packet loss = 20%, RTA = 1.73 ms
+[1540105882] HOST ALERT: router1;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 2.02 ms
+[1540106039] SERVICE NOTIFICATION: nagiosadmin;router3;check-host-alive;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 1.67 ms
+[1540106039] SERVICE ALERT: router3;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.67 ms
+[1540106299] SERVICE NOTIFICATION: nagiosadmin;router1;check-host-alive;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 1.67 ms
+[1540106299] SERVICE ALERT: router1;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.67 ms
+[1540107452] Auto-save of retention data completed successfully.
+[1540109066] SERVICE ALERT: router3;check-host-alive;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1540109096] wproc: Core Worker 4968: job 4755 (pid=13002) timed out. Killing it
+[1540109096] wproc: CHECK job 4755 from worker Core Worker 4968 timed out after 30.01s
+[1540109096] wproc:   host=router3; service=(null);
+[1540109096] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1540109096] Warning: Check of host 'router3' timed out after 30.01 seconds
+[1540109096] HOST ALERT: router3;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1540109096] wproc: Core Worker 4968: job 4755 (pid=13002): Dormant child reaped
+[1540109161] HOST ALERT: router3;UP;SOFT;1;PING OK - Packet loss = 20%, RTA = 1.72 ms
+[1540109190] SERVICE ALERT: router3;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.79 ms
+[1540111052] Auto-save of retention data completed successfully.
+[1540114652] Auto-save of retention data completed successfully.
+[1540118252] Auto-save of retention data completed successfully.
+[1540121852] Auto-save of retention data completed successfully.
+[1540125452] Auto-save of retention data completed successfully.
+[1540129052] Auto-save of retention data completed successfully.
+[1540132652] Auto-save of retention data completed successfully.
+[1540136252] Auto-save of retention data completed successfully.
+[1540139852] Auto-save of retention data completed successfully.
+[1540143452] Auto-save of retention data completed successfully.

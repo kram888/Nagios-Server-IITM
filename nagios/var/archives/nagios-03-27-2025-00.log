@@ -1,0 +1,923 @@
+[1742927400] LOG ROTATION: DAILY
+[1742927400] LOG VERSION: 2.0
+[1742927400] CURRENT HOST STATE: AP_Main_Bldg;DOWN;HARD;10;CRITICAL - Host Unreachable (10.3.1.25)
+[1742927400] CURRENT HOST STATE: Director_Bldg;DOWN;HARD;10;CRITICAL - Host Unreachable (10.3.1.10)
+[1742927400] CURRENT HOST STATE: Director_Resident;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.47 ms
+[1742927400] CURRENT HOST STATE: Switch_29;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.29)
+[1742927400] CURRENT HOST STATE: Switch_30;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.30)
+[1742927400] CURRENT HOST STATE: Switch_31;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.31)
+[1742927400] CURRENT HOST STATE: Switch_32;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.32)
+[1742927400] CURRENT HOST STATE: Switch_33;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.33)
+[1742927400] CURRENT HOST STATE: Switch_34;DOWN;HARD;10;CRITICAL - Host Unreachable (10.1.1.34)
+[1742927400] CURRENT HOST STATE: esxi01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1742927400] CURRENT HOST STATE: esxi02;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.43 ms
+[1742927400] CURRENT HOST STATE: esxi03;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.45 ms
+[1742927400] CURRENT HOST STATE: esxi04;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1742927400] CURRENT HOST STATE: esxi05;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1742927400] CURRENT HOST STATE: esxi06;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.42 ms
+[1742927400] CURRENT HOST STATE: esxi07;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.36 ms
+[1742927400] CURRENT HOST STATE: esxi08;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.41 ms
+[1742927400] CURRENT HOST STATE: esxi09;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.49 ms
+[1742927400] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+[1742927400] CURRENT HOST STATE: vmware10gswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.34 ms
+[1742927400] CURRENT HOST STATE: vmwaremgmtswitch;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.85 ms
+[1742927400] CURRENT SERVICE STATE: AP_Main_Bldg;check-host-alive;CRITICAL;HARD;3;CRITICAL - Host Unreachable (10.3.1.25)
+[1742927400] CURRENT SERVICE STATE: Director_Bldg;check-host-alive;CRITICAL;HARD;3;CRITICAL - Plugin timed out
+[1742927400] CURRENT SERVICE STATE: Director_Resident;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 4.27 ms
+[1742927400] CURRENT SERVICE STATE: Switch_29;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1742927400] CURRENT SERVICE STATE: Switch_30;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.30)
+[1742927400] CURRENT SERVICE STATE: Switch_31;check-host-alive;CRITICAL;HARD;1;CRITICAL - Plugin timed out
+[1742927400] CURRENT SERVICE STATE: Switch_32;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.32)
+[1742927400] CURRENT SERVICE STATE: Switch_33;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.33)
+[1742927400] CURRENT SERVICE STATE: Switch_34;check-host-alive;CRITICAL;HARD;1;CRITICAL - Host Unreachable (10.1.1.34)
+[1742927400] CURRENT SERVICE STATE: esxi01;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157EQH Chassis S/N: FCH2216V0WN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1742927400] CURRENT SERVICE STATE: esxi01;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.48 ms
+[1742927400] CURRENT SERVICE STATE: esxi02;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157E1D Chassis S/N: FCH2216V0Y6  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1742927400] CURRENT SERVICE STATE: esxi02;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1742927400] CURRENT SERVICE STATE: esxi03;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ESB Chassis S/N: FCH2216V0TW  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1742927400] CURRENT SERVICE STATE: esxi03;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1742927400] CURRENT SERVICE STATE: esxi04;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH20177WVC Chassis S/N: FCH2018V06M  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1742927400] CURRENT SERVICE STATE: esxi04;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.58 ms
+[1742927400] CURRENT SERVICE STATE: esxi05;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742927400] CURRENT SERVICE STATE: esxi05;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1742927400] CURRENT SERVICE STATE: esxi06;ESXi Haradware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742927400] CURRENT SERVICE STATE: esxi06;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.49 ms
+[1742927400] CURRENT SERVICE STATE: esxi07;ESXi Hardware Check;UNKNOWN;HARD;3;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742927400] CURRENT SERVICE STATE: esxi07;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.46 ms
+[1742927400] CURRENT SERVICE STATE: esxi08;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22137QJN Chassis S/N: FCH2216V0YV  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1742927400] CURRENT SERVICE STATE: esxi08;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.67 ms
+[1742927400] CURRENT SERVICE STATE: esxi09;ESXi Hardware Check;OK;HARD;1;OK - Server: Cisco Systems Inc UCSC-C220-M4S s/n: FCH22157ERY Chassis S/N: FCH2216V0YN  System BIOS: C220M4.4.1.2c.0.0202211901 2021-02-02
+[1742927400] CURRENT SERVICE STATE: esxi09;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.40 ms
+[1742927400] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.02, 0.05, 0.02
+[1742927400] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1742927400] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.07 ms
+[1742927400] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 40342 MB (78.83% inode=99%):
+[1742927400] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1742927400] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1742927400] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 125 processes with STATE = RSZDT
+[1742927400] CURRENT SERVICE STATE: vmware10gswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 17.81 ms
+[1742927400] CURRENT SERVICE STATE: vmwaremgmtswitch;check-host-alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.57 ms
+[1742927632] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742927632] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742927639] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742927649] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742927662] wproc: Core Worker 1368: job 44425 (pid=8887) timed out. Killing it
+[1742927662] wproc: CHECK job 44425 from worker Core Worker 1368 timed out after 30.02s
+[1742927662] wproc:   host=Switch_29; service=(null);
+[1742927662] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742927662] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742927662] wproc: Core Worker 1366: job 44426 (pid=8893) timed out. Killing it
+[1742927662] wproc: CHECK job 44426 from worker Core Worker 1366 timed out after 30.03s
+[1742927662] wproc:   host=Director_Bldg; service=(null);
+[1742927662] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742927662] Warning: Check of host 'Director_Bldg' timed out after 30.03 seconds
+[1742927663] wproc: Core Worker 1368: job 44425 (pid=8887): Dormant child reaped
+[1742927663] wproc: Core Worker 1366: job 44426 (pid=8893): Dormant child reaped
+[1742927664] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742927679] wproc: Core Worker 1369: job 44432 (pid=8942) timed out. Killing it
+[1742927679] wproc: Core Worker 1369: job 26684608 with pid 8942 reaped at timeout. timeouts=57; started=44433
+[1742927696] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742927936] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742928230] Auto-save of retention data completed successfully.
+[1742928308] wproc: Core Worker 1367: job 44456 (pid=9512) timed out. Killing it
+[1742928308] wproc: Core Worker 1367: job 31677728 with pid 9512 reaped at timeout. timeouts=42; started=44457
+[1742928535] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742928909] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742929440] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742929449] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742929462] wproc: Core Worker 1366: job 44493 (pid=10554) timed out. Killing it
+[1742929462] wproc: CHECK job 44493 from worker Core Worker 1366 timed out after 30.02s
+[1742929462] wproc:   host=Switch_29; service=(null);
+[1742929462] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742929462] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742929462] wproc: Core Worker 1366: job 44493 (pid=10554): Dormant child reaped
+[1742929464] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742929496] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742930032] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742930035] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742930062] wproc: Core Worker 1369: job 44518 (pid=11123) timed out. Killing it
+[1742930062] wproc: CHECK job 44518 from worker Core Worker 1369 timed out after 30.01s
+[1742930062] wproc:   host=Switch_29; service=(null);
+[1742930062] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742930062] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1742930062] wproc: Core Worker 1369: job 44518 (pid=11123): Dormant child reaped
+[1742930335] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742930662] wproc: Core Worker 1368: job 44541 (pid=11689) timed out. Killing it
+[1742930662] wproc: CHECK job 44541 from worker Core Worker 1368 timed out after 30.02s
+[1742930662] wproc:   host=Director_Bldg; service=(null);
+[1742930662] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742930662] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742930662] wproc: Core Worker 1368: job 44541 (pid=11689): Dormant child reaped
+[1742930709] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742931232] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742931232] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742931249] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742931262] wproc: Core Worker 1369: job 44566 (pid=12284) timed out. Killing it
+[1742931262] wproc: CHECK job 44566 from worker Core Worker 1369 timed out after 30.02s
+[1742931262] wproc:   host=Director_Bldg; service=(null);
+[1742931262] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742931262] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742931262] wproc: Core Worker 1369: job 44566 (pid=12284): Dormant child reaped
+[1742931264] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742931264] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742931296] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742931830] Auto-save of retention data completed successfully.
+[1742931835] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742931862] wproc: Core Worker 1366: job 44590 (pid=12860) timed out. Killing it
+[1742931862] wproc: CHECK job 44590 from worker Core Worker 1366 timed out after 30.01s
+[1742931862] wproc:   host=Switch_29; service=(null);
+[1742931862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742931862] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1742931862] wproc: Core Worker 1366: job 44590 (pid=12860): Dormant child reaped
+[1742932135] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742932462] wproc: Core Worker 1369: job 44615 (pid=13427) timed out. Killing it
+[1742932462] wproc: CHECK job 44615 from worker Core Worker 1369 timed out after 30.02s
+[1742932462] wproc:   host=Director_Bldg; service=(null);
+[1742932462] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742932462] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742932462] wproc: Core Worker 1369: job 44615 (pid=13427): Dormant child reaped
+[1742932508] wproc: Core Worker 1368: job 44621 (pid=13482) timed out. Killing it
+[1742932508] wproc: Core Worker 1368: job 32408800 with pid 13482 reaped at timeout. timeouts=52; started=44622
+[1742932509] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742933049] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742933062] wproc: Core Worker 1368: job 44638 (pid=13988) timed out. Killing it
+[1742933062] wproc: CHECK job 44638 from worker Core Worker 1368 timed out after 30.02s
+[1742933062] wproc:   host=Director_Bldg; service=(null);
+[1742933062] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742933062] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742933063] wproc: Core Worker 1368: job 44638 (pid=13988): Dormant child reaped
+[1742933064] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742933064] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742933096] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742933632] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742933662] wproc: Core Worker 1366: job 44663 (pid=14570) timed out. Killing it
+[1742933662] wproc: CHECK job 44663 from worker Core Worker 1366 timed out after 30.02s
+[1742933662] wproc:   host=Director_Bldg; service=(null);
+[1742933662] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742933662] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742933662] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;(Host check timed out after 30.02 seconds)
+[1742933663] wproc: Core Worker 1366: job 44663 (pid=14570): Dormant child reaped
+[1742933935] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742934262] wproc: Core Worker 1369: job 44687 (pid=15128) timed out. Killing it
+[1742934262] wproc: CHECK job 44687 from worker Core Worker 1369 timed out after 30.02s
+[1742934262] wproc:   host=Director_Bldg; service=(null);
+[1742934262] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742934262] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742934262] wproc: Core Worker 1367: job 44687 (pid=15130) timed out. Killing it
+[1742934262] wproc: CHECK job 44687 from worker Core Worker 1367 timed out after 30.02s
+[1742934262] wproc:   host=Switch_29; service=(null);
+[1742934262] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742934262] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742934263] wproc: Core Worker 1369: job 44687 (pid=15128): Dormant child reaped
+[1742934263] wproc: Core Worker 1367: job 44687 (pid=15130): Dormant child reaped
+[1742934309] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742934832] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742934832] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742934849] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742934862] wproc: Core Worker 1366: job 44710 (pid=15714) timed out. Killing it
+[1742934862] wproc: CHECK job 44710 from worker Core Worker 1366 timed out after 30.01s
+[1742934862] wproc:   host=Director_Bldg; service=(null);
+[1742934862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742934862] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1742934862] wproc: Core Worker 1369: job 44711 (pid=15718) timed out. Killing it
+[1742934862] wproc: CHECK job 44711 from worker Core Worker 1369 timed out after 30.02s
+[1742934862] wproc:   host=Switch_29; service=(null);
+[1742934862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742934862] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742934863] wproc: Core Worker 1366: job 44710 (pid=15714): Dormant child reaped
+[1742934863] wproc: Core Worker 1369: job 44711 (pid=15718): Dormant child reaped
+[1742934864] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742934881] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742934896] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742935430] Auto-save of retention data completed successfully.
+[1742935463] wproc: Core Worker 1368: job 44734 (pid=16285) timed out. Killing it
+[1742935463] wproc: CHECK job 44734 from worker Core Worker 1368 timed out after 30.02s
+[1742935463] wproc:   host=Director_Bldg; service=(null);
+[1742935463] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742935463] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742935463] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;(Host check timed out after 30.02 seconds)
+[1742935463] wproc: Core Worker 1368: job 44734 (pid=16285): Dormant child reaped
+[1742935735] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742936109] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742936649] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742936662] wproc: Core Worker 1367: job 44779 (pid=17387) timed out. Killing it
+[1742936662] wproc: CHECK job 44779 from worker Core Worker 1367 timed out after 30.01s
+[1742936662] wproc:   host=Switch_29; service=(null);
+[1742936662] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742936662] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1742936662] wproc: Core Worker 1367: job 44779 (pid=17387): Dormant child reaped
+[1742936664] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742936681] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742936697] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742937233] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742937535] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742937535] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742937862] wproc: Core Worker 1368: job 44827 (pid=18523) timed out. Killing it
+[1742937862] wproc: CHECK job 44827 from worker Core Worker 1368 timed out after 30.01s
+[1742937862] wproc:   host=Switch_29; service=(null);
+[1742937862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742937862] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1742937862] wproc: Core Worker 1368: job 44827 (pid=18523): Dormant child reaped
+[1742937909] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742938432] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742938432] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742938449] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742938462] wproc: Core Worker 1369: job 44851 (pid=19105) timed out. Killing it
+[1742938462] wproc: CHECK job 44851 from worker Core Worker 1369 timed out after 30.02s
+[1742938462] wproc:   host=Switch_29; service=(null);
+[1742938462] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742938462] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742938462] wproc: Core Worker 1369: job 44851 (pid=19105): Dormant child reaped
+[1742938464] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742938482] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742938497] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742939030] Auto-save of retention data completed successfully.
+[1742939062] wproc: Core Worker 1367: job 44875 (pid=19676) timed out. Killing it
+[1742939062] wproc: CHECK job 44875 from worker Core Worker 1367 timed out after 30.01s
+[1742939062] wproc:   host=Switch_29; service=(null);
+[1742939062] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742939062] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1742939062] wproc: Core Worker 1367: job 44875 (pid=19676): Dormant child reaped
+[1742939335] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742939335] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742939662] wproc: Core Worker 1368: job 44898 (pid=20226) timed out. Killing it
+[1742939662] wproc: CHECK job 44898 from worker Core Worker 1368 timed out after 30.01s
+[1742939662] wproc:   host=Director_Bldg; service=(null);
+[1742939662] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742939662] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1742939662] wproc: Core Worker 1368: job 44898 (pid=20226): Dormant child reaped
+[1742939710] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742940249] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742940262] wproc: Core Worker 1369: job 44922 (pid=20819) timed out. Killing it
+[1742940262] wproc: CHECK job 44922 from worker Core Worker 1369 timed out after 30.02s
+[1742940262] wproc:   host=Switch_29; service=(null);
+[1742940262] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742940262] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742940262] wproc: Core Worker 1369: job 44922 (pid=20819): Dormant child reaped
+[1742940264] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742940282] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742940297] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742940862] wproc: Core Worker 1367: job 44947 (pid=21401) timed out. Killing it
+[1742940862] wproc: CHECK job 44947 from worker Core Worker 1367 timed out after 30.01s
+[1742940862] wproc:   host=Director_Bldg; service=(null);
+[1742940862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742940862] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1742940863] wproc: Core Worker 1367: job 44947 (pid=21401): Dormant child reaped
+[1742941135] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742941135] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742941432] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742941462] wproc: Core Worker 1367: job 44970 (pid=21959) timed out. Killing it
+[1742941462] wproc: CHECK job 44970 from worker Core Worker 1367 timed out after 30.03s
+[1742941462] wproc:   host=Director_Bldg; service=(null);
+[1742941462] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742941462] Warning: Check of host 'Director_Bldg' timed out after 30.03 seconds
+[1742941462] wproc: Core Worker 1368: job 44970 (pid=21962) timed out. Killing it
+[1742941462] wproc: CHECK job 44970 from worker Core Worker 1368 timed out after 30.02s
+[1742941462] wproc:   host=Switch_29; service=(null);
+[1742941462] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742941462] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742941463] wproc: Core Worker 1367: job 44970 (pid=21959): Dormant child reaped
+[1742941463] wproc: Core Worker 1368: job 44970 (pid=21962): Dormant child reaped
+[1742941809] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742942032] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742942033] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742942049] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742942062] wproc: Core Worker 1368: job 44994 (pid=22563) timed out. Killing it
+[1742942062] wproc: CHECK job 44994 from worker Core Worker 1368 timed out after 30.02s
+[1742942062] wproc:   host=Director_Bldg; service=(null);
+[1742942062] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742942062] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742942062] wproc: Core Worker 1369: job 44995 (pid=22565) timed out. Killing it
+[1742942062] wproc: CHECK job 44995 from worker Core Worker 1369 timed out after 30.01s
+[1742942062] wproc:   host=Switch_29; service=(null);
+[1742942062] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742942062] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1742942063] wproc: Core Worker 1368: job 44994 (pid=22563): Dormant child reaped
+[1742942063] wproc: Core Worker 1369: job 44995 (pid=22565): Dormant child reaped
+[1742942064] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742942082] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742942097] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742942630] Auto-save of retention data completed successfully.
+[1742942662] wproc: Core Worker 1366: job 45019 (pid=23136) timed out. Killing it
+[1742942662] wproc: CHECK job 45019 from worker Core Worker 1366 timed out after 30.02s
+[1742942662] wproc:   host=Director_Bldg; service=(null);
+[1742942662] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742942662] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742942662] wproc: Core Worker 1368: job 45019 (pid=23138) timed out. Killing it
+[1742942662] wproc: CHECK job 45019 from worker Core Worker 1368 timed out after 30.01s
+[1742942662] wproc:   host=Switch_29; service=(null);
+[1742942662] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742942662] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1742942663] wproc: Core Worker 1366: job 45019 (pid=23136): Dormant child reaped
+[1742942663] wproc: Core Worker 1368: job 45019 (pid=23138): Dormant child reaped
+[1742942935] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742942936] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742943609] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742943849] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742943864] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742943882] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742943897] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742944735] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742945032] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742945035] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742945062] wproc: Core Worker 1369: job 45111 (pid=25358) timed out. Killing it
+[1742945062] wproc: CHECK job 45111 from worker Core Worker 1369 timed out after 30.01s
+[1742945062] wproc:   host=Director_Bldg; service=(null);
+[1742945062] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742945062] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1742945062] wproc: Core Worker 1369: job 45111 (pid=25358): Dormant child reaped
+[1742945109] wproc: Core Worker 1366: job 45119 (pid=25435) timed out. Killing it
+[1742945109] wproc: Core Worker 1366: job 34878688 with pid 25435 reaped at timeout. timeouts=48; started=45120
+[1742945409] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742945632] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742945649] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742945664] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742945682] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742945697] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742946230] Auto-save of retention data completed successfully.
+[1742946232] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742946262] wproc: Core Worker 1367: job 45159 (pid=26526) timed out. Killing it
+[1742946262] wproc: CHECK job 45159 from worker Core Worker 1367 timed out after 30.02s
+[1742946262] wproc:   host=Director_Bldg; service=(null);
+[1742946262] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742946262] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742946262] wproc: Core Worker 1367: job 45159 (pid=26526): Dormant child reaped
+[1742946535] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742946835] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742946862] wproc: Core Worker 1367: job 45183 (pid=27091) timed out. Killing it
+[1742946862] wproc: CHECK job 45183 from worker Core Worker 1367 timed out after 30.01s
+[1742946862] wproc:   host=Director_Bldg; service=(null);
+[1742946862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742946862] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1742946862] wproc: Core Worker 1367: job 45183 (pid=27091): Dormant child reaped
+[1742946909] wproc: Core Worker 1368: job 45190 (pid=27157) timed out. Killing it
+[1742946909] wproc: Core Worker 1368: job 32391472 with pid 27157 reaped at timeout. timeouts=53; started=45191
+[1742947209] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742947449] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742947462] wproc: Core Worker 1366: job 45207 (pid=27651) timed out. Killing it
+[1742947462] wproc: CHECK job 45207 from worker Core Worker 1366 timed out after 30.02s
+[1742947462] wproc:   host=Switch_29; service=(null);
+[1742947462] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742947462] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742947462] wproc: Core Worker 1366: job 45207 (pid=27651): Dormant child reaped
+[1742947464] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742947482] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742947497] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742948062] wproc: Core Worker 1367: job 45231 (pid=28216) timed out. Killing it
+[1742948062] wproc: CHECK job 45231 from worker Core Worker 1367 timed out after 30.02s
+[1742948062] wproc:   host=Director_Bldg; service=(null);
+[1742948062] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742948062] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742948063] wproc: Core Worker 1367: job 45231 (pid=28216): Dormant child reaped
+[1742948335] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742948632] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742948662] wproc: Core Worker 1367: job 45255 (pid=28779) timed out. Killing it
+[1742948662] wproc: CHECK job 45255 from worker Core Worker 1367 timed out after 30.01s
+[1742948662] wproc:   host=Switch_29; service=(null);
+[1742948662] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742948662] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1742948662] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1742948663] wproc: Core Worker 1367: job 45255 (pid=28779): Dormant child reaped
+[1742949009] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742949232] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742949249] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742949262] wproc: Core Worker 1367: job 45279 (pid=29375) timed out. Killing it
+[1742949262] wproc: CHECK job 45279 from worker Core Worker 1367 timed out after 30.01s
+[1742949262] wproc:   host=Director_Bldg; service=(null);
+[1742949262] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742949262] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1742949263] wproc: Core Worker 1367: job 45279 (pid=29375): Dormant child reaped
+[1742949264] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742949282] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742949297] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742949830] Auto-save of retention data completed successfully.
+[1742949832] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742949862] wproc: Core Worker 1367: job 45304 (pid=29957) timed out. Killing it
+[1742949862] wproc: CHECK job 45304 from worker Core Worker 1367 timed out after 30.01s
+[1742949862] wproc:   host=Switch_29; service=(null);
+[1742949862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742949862] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1742949862] wproc: Core Worker 1368: job 45303 (pid=29953) timed out. Killing it
+[1742949862] wproc: CHECK job 45303 from worker Core Worker 1368 timed out after 30.02s
+[1742949862] wproc:   host=Director_Bldg; service=(null);
+[1742949862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742949862] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742949863] wproc: Core Worker 1367: job 45304 (pid=29957): Dormant child reaped
+[1742949863] wproc: Core Worker 1368: job 45303 (pid=29953): Dormant child reaped
+[1742950136] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742950462] wproc: Core Worker 1367: job 45323 (pid=30478) timed out. Killing it
+[1742950462] wproc: CHECK job 45323 from worker Core Worker 1367 timed out after 30.02s
+[1742950462] wproc:   host=Director_Bldg; service=(null);
+[1742950462] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742950462] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742950462] wproc: Core Worker 1367: job 45323 (pid=30478): Dormant child reaped
+[1742950735] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742950809] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742951049] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742951062] wproc: Core Worker 1369: job 45347 (pid=31039) timed out. Killing it
+[1742951062] wproc: CHECK job 45347 from worker Core Worker 1369 timed out after 30.02s
+[1742951062] wproc:   host=Switch_29; service=(null);
+[1742951062] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742951062] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742951062] wproc: Core Worker 1369: job 45347 (pid=31039): Dormant child reaped
+[1742951064] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742951082] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742951097] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742951662] wproc: Core Worker 1366: job 45371 (pid=31617) timed out. Killing it
+[1742951662] wproc: CHECK job 45371 from worker Core Worker 1366 timed out after 30.02s
+[1742951662] wproc:   host=Switch_29; service=(null);
+[1742951662] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742951662] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742951662] wproc: Core Worker 1366: job 45371 (pid=31617): Dormant child reaped
+[1742952233] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742952239] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742952262] wproc: Core Worker 1367: job 45395 (pid=32173) timed out. Killing it
+[1742952262] wproc: CHECK job 45395 from worker Core Worker 1367 timed out after 30.02s
+[1742952262] wproc:   host=Director_Bldg; service=(null);
+[1742952262] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742952262] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742952262] wproc: Core Worker 1367: job 45395 (pid=32173): Dormant child reaped
+[1742952535] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742952609] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742952832] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742952849] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742952862] wproc: Core Worker 1369: job 45420 (pid=319) timed out. Killing it
+[1742952862] wproc: CHECK job 45420 from worker Core Worker 1369 timed out after 30.02s
+[1742952862] wproc:   host=Switch_29; service=(null);
+[1742952862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742952862] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742952862] wproc: Core Worker 1369: job 45420 (pid=319): Dormant child reaped
+[1742952864] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742952882] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742952897] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742953430] Auto-save of retention data completed successfully.
+[1742953433] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742954062] wproc: Core Worker 1368: job 45467 (pid=1624) timed out. Killing it
+[1742954062] wproc: CHECK job 45467 from worker Core Worker 1368 timed out after 30.02s
+[1742954062] wproc:   host=Switch_29; service=(null);
+[1742954062] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742954062] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742954062] wproc: Core Worker 1367: job 45468 (pid=1628) timed out. Killing it
+[1742954062] wproc: CHECK job 45468 from worker Core Worker 1367 timed out after 30.02s
+[1742954062] wproc:   host=Director_Bldg; service=(null);
+[1742954062] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742954062] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742954062] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;(Host check timed out after 30.02 seconds)
+[1742954062] wproc: Core Worker 1368: job 45467 (pid=1624): Dormant child reaped
+[1742954062] wproc: Core Worker 1367: job 45468 (pid=1628): Dormant child reaped
+[1742954335] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742954409] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742954649] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742954662] wproc: Core Worker 1368: job 45491 (pid=2327) timed out. Killing it
+[1742954662] wproc: CHECK job 45491 from worker Core Worker 1368 timed out after 30.02s
+[1742954662] wproc:   host=Switch_29; service=(null);
+[1742954662] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742954662] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742954662] wproc: Core Worker 1367: job 45492 (pid=2331) timed out. Killing it
+[1742954662] wproc: CHECK job 45492 from worker Core Worker 1367 timed out after 30.02s
+[1742954662] wproc:   host=Director_Bldg; service=(null);
+[1742954662] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742954662] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742954662] wproc: Core Worker 1368: job 45491 (pid=2327): Dormant child reaped
+[1742954662] wproc: Core Worker 1367: job 45492 (pid=2331): Dormant child reaped
+[1742954664] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742954682] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742954697] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742955262] wproc: Core Worker 1367: job 45516 (pid=2900) timed out. Killing it
+[1742955262] wproc: CHECK job 45516 from worker Core Worker 1367 timed out after 30.01s
+[1742955262] wproc:   host=Switch_29; service=(null);
+[1742955262] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742955262] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1742955262] wproc: Core Worker 1369: job 45517 (pid=2905) timed out. Killing it
+[1742955262] wproc: CHECK job 45517 from worker Core Worker 1369 timed out after 30.01s
+[1742955262] wproc:   host=Director_Bldg; service=(null);
+[1742955262] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742955262] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1742955262] wproc: Core Worker 1367: job 45516 (pid=2900): Dormant child reaped
+[1742955262] wproc: Core Worker 1369: job 45517 (pid=2905): Dormant child reaped
+[1742955862] wproc: Core Worker 1366: job 45538 (pid=3443) timed out. Killing it
+[1742955862] wproc: CHECK job 45538 from worker Core Worker 1366 timed out after 30.01s
+[1742955862] wproc:   host=Switch_29; service=(null);
+[1742955862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742955862] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1742955862] wproc: Core Worker 1366: job 45539 (pid=3449) timed out. Killing it
+[1742955862] wproc: CHECK job 45539 from worker Core Worker 1366 timed out after 30.00s
+[1742955862] wproc:   host=Director_Bldg; service=(null);
+[1742955862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742955862] Warning: Check of host 'Director_Bldg' timed out after 30.00 seconds
+[1742955862] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;(Host check timed out after 30.00 seconds)
+[1742955863] wproc: Core Worker 1366: job 45539 (pid=3449): Dormant child reaped
+[1742956135] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742956209] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742956432] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742956433] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742956449] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742956462] wproc: Core Worker 1366: job 45562 (pid=4042) timed out. Killing it
+[1742956462] wproc: CHECK job 45562 from worker Core Worker 1366 timed out after 30.01s
+[1742956462] wproc:   host=Switch_29; service=(null);
+[1742956462] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742956462] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1742956462] wproc: Core Worker 1367: job 45563 (pid=4048) timed out. Killing it
+[1742956462] wproc: CHECK job 45563 from worker Core Worker 1367 timed out after 30.02s
+[1742956462] wproc:   host=Director_Bldg; service=(null);
+[1742956462] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742956462] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742956462] wproc: Core Worker 1366: job 45562 (pid=4042): Dormant child reaped
+[1742956463] wproc: Core Worker 1367: job 45563 (pid=4048): Dormant child reaped
+[1742956464] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742956482] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742956498] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742957030] Auto-save of retention data completed successfully.
+[1742957062] wproc: Core Worker 1369: job 45587 (pid=4621) timed out. Killing it
+[1742957062] wproc: CHECK job 45587 from worker Core Worker 1369 timed out after 30.02s
+[1742957062] wproc:   host=Switch_29; service=(null);
+[1742957062] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742957062] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742957062] wproc: Core Worker 1369: job 45588 (pid=4627) timed out. Killing it
+[1742957062] wproc: CHECK job 45588 from worker Core Worker 1369 timed out after 30.00s
+[1742957062] wproc:   host=Director_Bldg; service=(null);
+[1742957062] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742957062] Warning: Check of host 'Director_Bldg' timed out after 30.00 seconds
+[1742957063] wproc: Core Worker 1369: job 45588 (pid=4627): Dormant child reaped
+[1742957632] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742957662] wproc: Core Worker 1366: job 45610 (pid=5172) timed out. Killing it
+[1742957662] wproc: CHECK job 45610 from worker Core Worker 1366 timed out after 30.02s
+[1742957662] wproc:   host=Switch_29; service=(null);
+[1742957662] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742957662] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742957662] wproc: Core Worker 1368: job 45611 (pid=5187) timed out. Killing it
+[1742957662] wproc: CHECK job 45611 from worker Core Worker 1368 timed out after 30.01s
+[1742957662] wproc:   host=Director_Bldg; service=(null);
+[1742957662] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742957662] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1742957662] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1742957663] wproc: Core Worker 1366: job 45610 (pid=5172): Dormant child reaped
+[1742957663] wproc: Core Worker 1368: job 45611 (pid=5187): Dormant child reaped
+[1742957935] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742958009] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742958249] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742958264] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742958282] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742958597] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742958862] wproc: Core Worker 1367: job 45656 (pid=6307) timed out. Killing it
+[1742958862] wproc: CHECK job 45656 from worker Core Worker 1367 timed out after 30.02s
+[1742958862] wproc:   host=Switch_29; service=(null);
+[1742958862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742958862] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742958862] wproc: Core Worker 1367: job 45656 (pid=6307): Dormant child reaped
+[1742959464] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742959735] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742959809] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742960032] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742960049] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742960062] wproc: Core Worker 1367: job 45702 (pid=7441) timed out. Killing it
+[1742960062] wproc: CHECK job 45702 from worker Core Worker 1367 timed out after 30.02s
+[1742960062] wproc:   host=Switch_29; service=(null);
+[1742960062] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742960062] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742960062] wproc: Core Worker 1367: job 45702 (pid=7441): Dormant child reaped
+[1742960064] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742960082] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742960397] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742960630] Auto-save of retention data completed successfully.
+[1742960632] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742960662] wproc: Core Worker 1368: job 45726 (pid=8019) timed out. Killing it
+[1742960662] wproc: CHECK job 45726 from worker Core Worker 1368 timed out after 30.01s
+[1742960662] wproc:   host=Director_Bldg; service=(null);
+[1742960662] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742960662] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1742960662] wproc: Core Worker 1368: job 45726 (pid=8019): Dormant child reaped
+[1742961232] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742961262] wproc: Core Worker 1369: job 45750 (pid=8585) timed out. Killing it
+[1742961262] wproc: CHECK job 45750 from worker Core Worker 1369 timed out after 30.01s
+[1742961262] wproc:   host=Switch_29; service=(null);
+[1742961262] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742961262] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1742961262] wproc: Core Worker 1369: job 45750 (pid=8585): Dormant child reaped
+[1742961535] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742961535] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742961609] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742961849] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742961862] wproc: Core Worker 1369: job 45775 (pid=9161) timed out. Killing it
+[1742961862] wproc: CHECK job 45775 from worker Core Worker 1369 timed out after 30.01s
+[1742961862] wproc:   host=Director_Bldg; service=(null);
+[1742961862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742961862] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1742961862] wproc: Core Worker 1369: job 45775 (pid=9161): Dormant child reaped
+[1742961864] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742961882] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742962197] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742962462] wproc: Core Worker 1368: job 45798 (pid=9730) timed out. Killing it
+[1742962462] wproc: CHECK job 45798 from worker Core Worker 1368 timed out after 30.01s
+[1742962462] wproc:   host=Switch_29; service=(null);
+[1742962462] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742962462] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1742962462] wproc: Core Worker 1368: job 45798 (pid=9730): Dormant child reaped
+[1742963062] wproc: Core Worker 1367: job 45823 (pid=10290) timed out. Killing it
+[1742963062] wproc: CHECK job 45823 from worker Core Worker 1367 timed out after 30.01s
+[1742963062] wproc:   host=Director_Bldg; service=(null);
+[1742963062] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742963062] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1742963062] wproc: Core Worker 1367: job 45823 (pid=10290): Dormant child reaped
+[1742963335] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742963335] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742963409] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742963632] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742963650] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742963662] wproc: Core Worker 1368: job 45847 (pid=10898) timed out. Killing it
+[1742963662] wproc: CHECK job 45847 from worker Core Worker 1368 timed out after 30.02s
+[1742963662] wproc:   host=Switch_29; service=(null);
+[1742963662] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742963662] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742963662] wproc: Core Worker 1368: job 45847 (pid=10898): Dormant child reaped
+[1742963664] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742963682] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742963997] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742964230] Auto-save of retention data completed successfully.
+[1742964232] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742964262] wproc: Core Worker 1366: job 45872 (pid=11475) timed out. Killing it
+[1742964262] wproc: CHECK job 45872 from worker Core Worker 1366 timed out after 30.02s
+[1742964262] wproc:   host=Director_Bldg; service=(null);
+[1742964262] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742964262] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742964263] wproc: Core Worker 1366: job 45872 (pid=11475): Dormant child reaped
+[1742964832] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742964862] wproc: Core Worker 1369: job 45896 (pid=12025) timed out. Killing it
+[1742964862] wproc: CHECK job 45896 from worker Core Worker 1369 timed out after 30.02s
+[1742964862] wproc:   host=Director_Bldg; service=(null);
+[1742964862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742964862] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742964862] wproc: Core Worker 1367: job 45896 (pid=12027) timed out. Killing it
+[1742964862] wproc: CHECK job 45896 from worker Core Worker 1367 timed out after 30.01s
+[1742964862] wproc:   host=Switch_29; service=(null);
+[1742964862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742964862] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1742964863] wproc: Core Worker 1369: job 45896 (pid=12025): Dormant child reaped
+[1742964863] wproc: Core Worker 1367: job 45896 (pid=12027): Dormant child reaped
+[1742965135] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742965135] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742965209] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742965462] wproc: Core Worker 1368: job 45919 (pid=12588) timed out. Killing it
+[1742965462] wproc: CHECK job 45919 from worker Core Worker 1368 timed out after 30.01s
+[1742965462] wproc:   host=Director_Bldg; service=(null);
+[1742965462] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742965462] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1742965462] wproc: Core Worker 1369: job 45920 (pid=12590) timed out. Killing it
+[1742965462] wproc: CHECK job 45920 from worker Core Worker 1369 timed out after 30.01s
+[1742965462] wproc:   host=Switch_29; service=(null);
+[1742965462] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742965462] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1742965463] wproc: Core Worker 1368: job 45919 (pid=12588): Dormant child reaped
+[1742965463] wproc: Core Worker 1369: job 45920 (pid=12590): Dormant child reaped
+[1742965464] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742965482] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742965749] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742965797] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742966935] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742966935] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742967009] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742967232] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742967262] wproc: Core Worker 1366: job 45986 (pid=14288) timed out. Killing it
+[1742967262] wproc: CHECK job 45986 from worker Core Worker 1366 timed out after 30.02s
+[1742967262] wproc:   host=Switch_29; service=(null);
+[1742967262] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742967262] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742967262] wproc: Core Worker 1366: job 45986 (pid=14288): Dormant child reaped
+[1742967264] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742967282] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742967549] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742967597] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742967830] Auto-save of retention data completed successfully.
+[1742967833] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742967862] wproc: Core Worker 1369: job 46012 (pid=14873) timed out. Killing it
+[1742967862] wproc: CHECK job 46012 from worker Core Worker 1369 timed out after 30.02s
+[1742967862] wproc:   host=Director_Bldg; service=(null);
+[1742967862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742967862] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742967862] wproc: Core Worker 1369: job 46012 (pid=14873): Dormant child reaped
+[1742968432] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742968735] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742968735] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742968809] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742969062] wproc: Core Worker 1368: job 46060 (pid=16006) timed out. Killing it
+[1742969062] wproc: CHECK job 46060 from worker Core Worker 1368 timed out after 30.02s
+[1742969062] wproc:   host=Director_Bldg; service=(null);
+[1742969062] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742969062] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742969062] wproc: Core Worker 1368: job 46060 (pid=16006): Dormant child reaped
+[1742969064] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742969082] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742969349] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742969397] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742969662] wproc: Core Worker 1367: job 46084 (pid=16571) timed out. Killing it
+[1742969662] wproc: CHECK job 46084 from worker Core Worker 1367 timed out after 30.01s
+[1742969662] wproc:   host=Director_Bldg; service=(null);
+[1742969662] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742969662] Warning: Check of host 'Director_Bldg' timed out after 30.01 seconds
+[1742969662] wproc: Core Worker 1367: job 46084 (pid=16571): Dormant child reaped
+[1742970262] wproc: Core Worker 1367: job 46107 (pid=17117) timed out. Killing it
+[1742970262] wproc: CHECK job 46107 from worker Core Worker 1367 timed out after 30.01s
+[1742970262] wproc:   host=Switch_29; service=(null);
+[1742970262] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742970262] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1742970262] wproc: Core Worker 1367: job 46107 (pid=17117): Dormant child reaped
+[1742970535] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742970535] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742970609] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742970832] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742970862] wproc: Core Worker 1369: job 46132 (pid=17719) timed out. Killing it
+[1742970862] wproc: CHECK job 46132 from worker Core Worker 1369 timed out after 30.02s
+[1742970862] wproc:   host=Director_Bldg; service=(null);
+[1742970862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742970862] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742970863] wproc: Core Worker 1369: job 46132 (pid=17719): Dormant child reaped
+[1742970864] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742970882] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742971149] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742971197] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742971430] Auto-save of retention data completed successfully.
+[1742971462] wproc: Core Worker 1369: job 46156 (pid=18281) timed out. Killing it
+[1742971462] wproc: CHECK job 46156 from worker Core Worker 1369 timed out after 30.02s
+[1742971462] wproc:   host=Switch_29; service=(null);
+[1742971462] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742971462] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742971463] wproc: Core Worker 1369: job 46156 (pid=18281): Dormant child reaped
+[1742972032] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742972032] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742972062] wproc: Core Worker 1369: job 46180 (pid=18847) timed out. Killing it
+[1742972062] wproc: CHECK job 46180 from worker Core Worker 1369 timed out after 30.02s
+[1742972062] wproc:   host=Director_Bldg; service=(null);
+[1742972062] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742972062] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742972063] wproc: Core Worker 1369: job 46180 (pid=18847): Dormant child reaped
+[1742972335] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742972335] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742972376] wproc: Core Worker 1369: job 46195 (pid=19152) timed out. Killing it
+[1742972376] wproc: Core Worker 1369: job 26685216 with pid 19152 reaped at timeout. timeouts=58; started=46196
+[1742972409] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742972663] wproc: Core Worker 1368: job 46203 (pid=19410) timed out. Killing it
+[1742972663] wproc: CHECK job 46203 from worker Core Worker 1368 timed out after 30.03s
+[1742972663] wproc:   host=Switch_29; service=(null);
+[1742972663] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742972663] Warning: Check of host 'Switch_29' timed out after 30.03 seconds
+[1742972663] wproc: Core Worker 1369: job 46204 (pid=19412) timed out. Killing it
+[1742972663] wproc: CHECK job 46204 from worker Core Worker 1369 timed out after 30.02s
+[1742972663] wproc:   host=Director_Bldg; service=(null);
+[1742972663] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742972663] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742972663] wproc: Core Worker 1368: job 46203 (pid=19410): Dormant child reaped
+[1742972663] wproc: Core Worker 1369: job 46204 (pid=19412): Dormant child reaped
+[1742972664] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742972682] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742972949] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742972997] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742973262] wproc: Core Worker 1369: job 46225 (pid=19963) timed out. Killing it
+[1742973262] wproc: CHECK job 46225 from worker Core Worker 1369 timed out after 30.02s
+[1742973262] wproc:   host=Switch_29; service=(null);
+[1742973262] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742973262] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742973262] wproc: Core Worker 1369: job 46225 (pid=19963): Dormant child reaped
+[1742973862] wproc: Core Worker 1367: job 46248 (pid=20507) timed out. Killing it
+[1742973862] wproc: CHECK job 46248 from worker Core Worker 1367 timed out after 30.02s
+[1742973862] wproc:   host=Director_Bldg; service=(null);
+[1742973862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742973862] Warning: Check of host 'Director_Bldg' timed out after 30.02 seconds
+[1742973862] wproc: Core Worker 1367: job 46248 (pid=20507): Dormant child reaped
+[1742974135] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742974135] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742974210] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742974432] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742974462] wproc: Core Worker 1368: job 46271 (pid=21095) timed out. Killing it
+[1742974462] wproc: CHECK job 46271 from worker Core Worker 1368 timed out after 30.01s
+[1742974462] wproc:   host=Switch_29; service=(null);
+[1742974462] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742974462] Warning: Check of host 'Switch_29' timed out after 30.01 seconds
+[1742974462] wproc: Core Worker 1368: job 46271 (pid=21095): Dormant child reaped
+[1742974464] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742974482] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742974749] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742974797] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742975030] Auto-save of retention data completed successfully.
+[1742975062] wproc: Core Worker 1369: job 46296 (pid=21670) timed out. Killing it
+[1742975062] wproc: CHECK job 46296 from worker Core Worker 1369 timed out after 30.02s
+[1742975062] wproc:   host=Switch_29; service=(null);
+[1742975062] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742975062] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742975062] wproc: Core Worker 1369: job 46296 (pid=21670): Dormant child reaped
+[1742975632] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742975632] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742975935] HOST NOTIFICATION: nagiosadmin;Switch_29;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.29)
+[1742975935] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742976237] HOST NOTIFICATION: nagiosadmin;Switch_34;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.34)
+[1742976262] wproc: Core Worker 1368: job 46343 (pid=22790) timed out. Killing it
+[1742976262] wproc: CHECK job 46343 from worker Core Worker 1368 timed out after 30.00s
+[1742976262] wproc:   host=Director_Bldg; service=(null);
+[1742976262] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742976262] Warning: Check of host 'Director_Bldg' timed out after 30.00 seconds
+[1742976262] wproc: Core Worker 1368: job 46343 (pid=22790): Dormant child reaped
+[1742976264] HOST NOTIFICATION: nagiosadmin;Switch_31;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.31)
+[1742976282] HOST NOTIFICATION: nagiosadmin;Switch_32;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.32)
+[1742976549] HOST NOTIFICATION: nagiosadmin;Switch_30;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.30)
+[1742976597] HOST NOTIFICATION: nagiosadmin;Switch_33;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.1.1.33)
+[1742976837] SERVICE ALERT: Switch_31;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 1047.01 ms
+[1742976837] SERVICE ALERT: Switch_32;check-host-alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 2.36 ms
+[1742976841] HOST NOTIFICATION: nagiosadmin;Switch_31;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 2.83 ms
+[1742976841] HOST ALERT: Switch_31;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 2.83 ms
+[1742976842] HOST NOTIFICATION: nagiosadmin;Switch_32;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 1.46 ms
+[1742976842] HOST ALERT: Switch_32;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.46 ms
+[1742976852] HOST NOTIFICATION: nagiosadmin;Switch_30;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 3.24 ms
+[1742976852] HOST ALERT: Switch_30;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 3.24 ms
+[1742976862] wproc: Core Worker 1366: job 46368 (pid=23365) timed out. Killing it
+[1742976862] wproc: CHECK job 46368 from worker Core Worker 1366 timed out after 30.02s
+[1742976862] wproc:   host=Switch_29; service=(null);
+[1742976862] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1742976862] Warning: Check of host 'Switch_29' timed out after 30.02 seconds
+[1742976862] wproc: Core Worker 1366: job 46368 (pid=23365): Dormant child reaped
+[1742976899] HOST NOTIFICATION: nagiosadmin;Switch_33;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 0.77 ms
+[1742976899] HOST ALERT: Switch_33;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 0.77 ms
+[1742976911] HOST NOTIFICATION: nagiosadmin;Switch_34;UP;notify-host-by-email;PING OK - Packet loss = 20%, RTA = 0.85 ms
+[1742976911] HOST ALERT: Switch_34;UP;HARD;1;PING OK - Packet loss = 20%, RTA = 0.85 ms
+[1742977136] HOST NOTIFICATION: nagiosadmin;Switch_29;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.32 ms
+[1742977136] HOST ALERT: Switch_29;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.32 ms
+[1742977436] SERVICE ALERT: Switch_33;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 1.62 ms
+[1742977437] SERVICE ALERT: Switch_30;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 4.16 ms
+[1742977437] SERVICE ALERT: Switch_29;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.97 ms
+[1742977438] SERVICE ALERT: Switch_34;check-host-alive;OK;SOFT;1;PING OK - Packet loss = 0%, RTA = 2.78 ms
+[1742977735] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742978032] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742978630] Auto-save of retention data completed successfully.
+[1742979232] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742979232] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742979535] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742981335] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742981632] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742982230] Auto-save of retention data completed successfully.
+[1742982832] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742982832] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742982867] wproc: Core Worker 1369: job 46609 (pid=29039) timed out. Killing it
+[1742982867] wproc: Core Worker 1369: job 26691296 with pid 29039 reaped at timeout. timeouts=59; started=46610
+[1742983135] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742984935] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742985232] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742985830] Auto-save of retention data completed successfully.
+[1742986432] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742986433] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742986735] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742988276] wproc: Core Worker 1367: job 46818 (pid=1773) timed out. Killing it
+[1742988276] wproc: Core Worker 1367: job 31678544 with pid 1773 reaped at timeout. timeouts=43; started=46819
+[1742988535] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742988832] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742989430] Auto-save of retention data completed successfully.
+[1742990032] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742990335] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742990632] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742991267] wproc: Core Worker 1367: job 46934 (pid=4678) timed out. Killing it
+[1742991267] wproc: Core Worker 1367: job 31682816 with pid 4678 reaped at timeout. timeouts=44; started=46935
+[1742992135] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742992433] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742993030] Auto-save of retention data completed successfully.
+[1742993067] wproc: Core Worker 1366: job 47003 (pid=6362) timed out. Killing it
+[1742993067] wproc: Core Worker 1366: job 34882336 with pid 6362 reaped at timeout. timeouts=49; started=47004
+[1742993632] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742993935] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742994232] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742995735] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742996630] Auto-save of retention data completed successfully.
+[1742996632] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742997232] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742997277] wproc: Core Worker 1366: job 47166 (pid=10256) timed out. Killing it
+[1742997277] wproc: Core Worker 1366: job 34861424 with pid 10256 reaped at timeout. timeouts=50; started=47167
+[1742997535] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1742997832] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1742997867] wproc: Core Worker 1368: job 47189 (pid=10818) timed out. Killing it
+[1742997867] wproc: Core Worker 1368: job 32417072 with pid 10818 reaped at timeout. timeouts=54; started=47190
+[1742999335] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1743000230] Auto-save of retention data completed successfully.
+[1743000232] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1743000832] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1743001135] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1743001433] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1743002935] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1743003830] Auto-save of retention data completed successfully.
+[1743003832] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1743003867] wproc: Core Worker 1367: job 47421 (pid=16407) timed out. Killing it
+[1743003867] wproc: Core Worker 1367: job 31679936 with pid 16407 reaped at timeout. timeouts=45; started=47422
+[1743004432] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1743004467] wproc: Core Worker 1368: job 47444 (pid=16963) timed out. Killing it
+[1743004467] wproc: Core Worker 1368: job 32410944 with pid 16963 reaped at timeout. timeouts=55; started=47445
+[1743004735] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1743005632] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1743005667] wproc: Core Worker 1367: job 47491 (pid=18067) timed out. Killing it
+[1743005667] wproc: Core Worker 1367: job 31680304 with pid 18067 reaped at timeout. timeouts=46; started=47492
+[1743006535] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1743007430] Auto-save of retention data completed successfully.
+[1743007432] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1743008032] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1743008336] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1743009232] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1743010435] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1743011030] Auto-save of retention data completed successfully.
+[1743011032] SERVICE NOTIFICATION: nagiosadmin;esxi07;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1743011632] SERVICE NOTIFICATION: nagiosadmin;esxi05;ESXi Hardware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')
+[1743012235] HOST NOTIFICATION: nagiosadmin;Director_Bldg;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (10.3.1.10)
+[1743012832] SERVICE NOTIFICATION: nagiosadmin;esxi06;ESXi Haradware Check;UNKNOWN;notify-service-by-email;UNKNOWN: (0, 'Socket error: [Errno 111] Connection refused')

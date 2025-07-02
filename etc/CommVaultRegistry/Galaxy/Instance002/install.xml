@@ -1,0 +1,73 @@
+<UnixInstall mode="CLI">
+	<Phase Id="Welcome">
+		<oem Id="oemId" action="installui.OEMController" showToUser="True" stepComplete="True" userAnswer="1" />
+		<welcome Id="welcome" action="installui.WelcomeController" showToUser="True" stepComplete="True" />
+		<createCustom Id="createCustom" action="installui.createCustomPageController" showToUser="True" stepComplete="True" userAnswer="False" />
+	</Phase>
+	<Phase Id="PreInstall">
+		<instance Id="instance" action="installui.InstancePageController" existing="False" showToUser="True" stepComplete="True" userAnswer="Instance002">
+			<checkunfinished Id="checkunfinished" action="installui.CheckUnfinishedInstallController" showToUser="True" stepComplete="True" userAnswer="" />
+			<ConfirmNonCurrentSilShareController Id="isNonCurrentSilShare" action="installui.ConfirmNonCurrentSilShareController" showToUser="True" stepComplete="True" userAnswer="" />
+			<choiceForSPorAddPkg Id="installOnlySP" action="installui.ChoiceForSPOrAddPkg" showToUser="True" stepComplete="True" userAnswer="False" />
+			<interfaceName Id="interfaceName" action="installui.InterfacesController" showToUser="True" stepComplete="True" userAnswer="" />
+			<DecideIfSILInstanceForRecording Id="isSILInstance" action="installui.DecideIfSILInstanceForRecording" showToUser="True" stepComplete="True" userAnswer="" />
+			<DecideSILTypeForRecording Id="DecideSILType" action="installui.DecideSILTypeForRecording" showToUser="True" stepComplete="True" userAnswer="" />			
+			<silMountDirectory Id="silMountDir" action="installui.MountPathLocationController" showToUser="True" stepComplete="True" userAnswer="" />
+			<pkgSelection Id="userSelectedPackages" action="installui.PackageSelectionController" showToUser="True" stepComplete="True" userAnswer="1002" />
+			<installDirectory Id="installDir" action="installui.InstallationDirectoryController" showToUser="True" stepComplete="True" userAnswer="/opt/commvault2" />
+			<appDataDirectory Id="appDataDir" action="installui.AppDataDirectoryController" showToUser="True" stepComplete="True" userAnswer="" />
+			<logDirectory Id="logDir" action="installui.LogDirectoryController" showToUser="True" stepComplete="True" userAnswer="/var/log/commvault2/Log_Files" />
+			<configLaptop Id="configLaptop" action="installui.LaptopandDesktopBackup" showToUser="True" stepComplete="True" userAnswer="N" />
+			<decideNewGroup Id="newUnixGroup" action="installui.DecideNewUnixGroupController" showToUser="True" stepComplete="True" userAnswer="1" />
+			<unixGroup Id="unixChoiceGroup" action="installui.ChoiceUserGroupSelection" showToUser="True" stepComplete="True" userAnswer="1" />
+			<unixGroupSelection Id="unixInputGroup" action="installui.InputUserGroupSelection" showToUser="True" stepComplete="True" userAnswer="None" />
+			<unixPermissions Id="userPermissions" action="installui.SettingPermissionController" showToUser="True" stepComplete="True" userAnswer="777" />
+			<clientHostName Id="clientHostName" action="installui.ClientHostNameController" showToUser="True" stepComplete="True" userAnswer="nagios.tropmet.res.in" />
+			<clientName Id="clientName" action="installui.ClientNameController" showToUser="True" stepComplete="True" userAnswer="nagios_2" />	
+		<PkgAnswers><pkg Id="1003"><restoreOnlyAgents Id="agentsForRestoreOnly" action="installui.AgentsForRestoreOnly" showToUser="True" stepComplete="True" userAnswer="False" /><cvdPort Id="cvdPort" action="installui.CVDPortSelection" showToUser="True" stepComplete="True" userAnswer="8410" /></pkg></PkgAnswers></instance>
+	</Phase>
+	<Phase Id="Install">
+		<summary Id="summary" action="installui.SummaryController" showToUser="True" stepComplete="True" />
+		<installBinaries Id="installBinaries" action="installui.ShowInstallation" showToUser="True" stepComplete="True"><copyPkg Id="1003,1002" stepComplete="True" /><createSymLink stepComplete="True" /><setPermissions stepComplete="True" /><registry Id="1003" stepComplete="True" /><registry Id="1002" stepComplete="True" /><pkgpostinstall Id="1003" stepComplete="True" /><pkgpostinstall Id="1002" stepComplete="True" /></installBinaries>
+	</Phase>
+	<Phase Id="Configure">
+		<configure Id="configure" action="installui.DecideToConfigure" existing="False" showToUser="True" stepComplete="False" userAnswer="">
+			<FirewallConfig Id="isFwConfig" action="installui.DecideFwConfig" showToUser="True" stepComplete="True" userAnswer="1">				
+				<fwConnectionType Id="fwConnectionType" action="installui.fwConnectionTypeController" showToUser="True" stepComplete="True" userAnswer="" />
+				<fwCSClientName Id="csClientName" action="installui.fwCSClientNameController" showToUser="True" stepComplete="True" userAnswer="" />				
+				<fwCommServerSelection Id="fwCommServerSelection" action="installui.fwCommServerSelectionController" showToUser="True" stepComplete="True" userAnswer="" />
+				<fwCSTunnelPort Id="csTunnelPort" action="installui.fwCSTunnelPortController" showToUser="True" stepComplete="True" userAnswer="" />
+				<fwClientTunnelPort Id="clientTunnelPort" action="installui.fwClientTunnelPortController" showToUser="True" stepComplete="True" userAnswer="" />
+				<fwProxy Id="fwProxy" action="installui.fwProxyController" inputidlist="proxyHost|proxyClientName|proxyTunnelPortNumber" showToUser="True" stepComplete="True" userAnswer="" />
+				<fwHttpProxyConfig Id="isFWHttpProxyConfig" action="installui.DecideFWHttpProxyConfig" showToUser="True" stepComplete="True" userAnswer="">
+					<fwHttpProxy Id="fwHttpProxy" action="installui.fwHttpProxyController" inputidlist="fwHttpProxyHostName|fwHttpProxyTunnelPortNumber" showToUser="True" stepComplete="True" userAnswer="" />
+				</fwHttpProxyConfig>
+				<fwCommserverPreClientCertificate Id="_isfwCommserverPreClientCertificate" action="installui.fwCommservePerClientCertificate" showToUser="True" stepComplete="True" userAnswer="">
+						<fwPerClientCertLoc Id="certificatePath" action="installui.fwPerClientCertLocation" showToUser="True" stepComplete="True" userAnswer="" />
+				</fwCommserverPreClientCertificate>
+				<processFwConfig Id="processFwConfig" action="installui.processFwConfigController" showToUser="True" stepComplete="True" userAnswer="" />
+			</FirewallConfig>
+			<processFwConfigAp Id="processFwConfigAp" action="installui.processFwConfigControllerAp" showToUser="True" stepComplete="True" userAnswer="" />
+			<CommServerSelection Id="CommServerSelection" action="installui.CommServerSelection" showToUser="True" stepComplete="False" userAnswer="" />
+			<decoupledInstall Id="decoupledInstall" action="installui.DecoupledInstall" showToUser="True" stepComplete="False" userAnswer="" />
+			<commserverPreClientCertificate Id="commserverPreClientCertificate" action="installui.commservePerClientCertificate" showToUser="True" stepComplete="False" userAnswer="">
+						<perClientCertLoc Id="certificatePath" action="installui.PerClientCertLocation" showToUser="True" stepComplete="False" userAnswer="" />
+			</commserverPreClientCertificate>
+			<authCodeSelection Id="authCodeSelection" action="installui.authCodeSelection" showToUser="True" stepComplete="False" userAnswer="" />
+			<sim Id="RR" action="installui.SimReadRequest" showToUser="True" stepComplete="False">
+				<CommcellAuthInput Id="CommcellAuthInput" action="installui.CommcellAuthInputController" inputidlist="commcellUserName|commcellPasswd" showToUser="True" stepComplete="False" userAnswer="" />
+				<ConfigurePlan Id="ConfigurePlan" action="installui.ConfigurePlan" showToUser="True" stepComplete="False" userAnswer="" />
+				<ConfigureClientGroup Id="ConfigureClientGroup" action="installui.ConfigureClientGroup" showToUser="True" stepComplete="False" userAnswer="" />
+				<ConfigureSubClientPolicy Id="ConfigureSubClientPolicy" action="installui.ConfigureSubClientPolicy" showToUser="True" stepComplete="False" userAnswer="" />
+				<ConfigureStoragePolicy Id="ConfigureStoragePolicy" action="installui.ConfigureStoragePolicy" showToUser="True" stepComplete="False" userAnswer="" />
+				<InstallReq Id="IR" action="installui.SimInstallRequirements" showToUser="True" stepComplete="False" />
+				<decideNameConflict Id="DNC" action="installui.DecideNameConflictController" showToUser="True" stepComplete="False" userAnswer="" />
+				<ChangeClientName Id="editClientName" action="installui.ChangeClientNameController" showToUser="True" stepComplete="False" userAnswer="" />
+				<RegisterToCommserve Id="RegisterToCommserve" action="installui.RegisterToCommserve" showToUser="True" stepComplete="False" userAnswer="" />
+			</sim>
+			<CreateLibrary Id="CreateLibraryController" action="installui.CreateLibraryController" showToUser="True" stepComplete="False" userAnswer="" />
+			<ProcessCustomPkg Id="ProcessCustomPkg" action="installui.ProcessCustomPkgController" showToUser="True" stepComplete="False" userAnswer="" />
+		</configure>
+		<installationcomplete Id="InstallationComplete" action="installui.InstallationCompleteController" showToUser="True" stepComplete="False" useranswer="" />
+	</Phase>
+</UnixInstall>

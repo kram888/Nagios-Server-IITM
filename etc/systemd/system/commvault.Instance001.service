@@ -1,0 +1,15 @@
+[Unit]
+Description=commvault Service
+After=network.target
+ 
+[Service]
+EnvironmentFile=/opt/commvault/Base/Temp/Galaxy.env
+Type=forking
+ExecStart=/opt/commvault/Base/Galaxy start direct -focus Instance001
+ExecStop=/opt/commvault/Base/Galaxy stop direct -focus Instance001
+RemainAfterExit=yes
+KillMode=none
+ 
+[Install]
+WantedBy=multi-user.target
+Alias=commvault.service
